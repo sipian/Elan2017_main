@@ -217,11 +217,14 @@ var symbols = {
    build: "1.5.0.217",
    baseState: "Base State",
    initialState: "Base State",
+   
    gpuAccelerate: false,
-   resizeInstances: false,
+   resizeInstances: true,
+  // bScaleToParent: true,
    content: {
    dom: [
    {
+
       id: 'hospiCoord1',
       type: 'image',
       rect: ['0px','0px','98.6%','83.9%','auto','auto'],
