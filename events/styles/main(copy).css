@@ -443,7 +443,11 @@ width: 184px;
         display: block
     }
 }
-
+@include keyframes(bounce) {
+     0%       { bottom:5px; }
+  50% { bottom:20px; }
+  100% { bottom:5px; }
+ }
 .section__home .home__bg-container-right2 {
     position: absolute;
     left: 160%;
@@ -470,6 +474,7 @@ width: 184px;
 width: 258px;
     height: 264px;
     top: calc(50% - 115px - 65px);
+      @include animation(bounce 4s infinite);
 
 }
 .section__home .home__bg-island-smith,
@@ -834,69 +839,24 @@ width: 258px;
 }
 @media (min-width: 641px) {
     .animation__float_01 {
-        animation: keyframes__float 1s ease-in-out infinite alternate
+        animation: keyframes__float 4s ease-in-out infinite alternate
     }
 }
 @media (min-width: 1025px) {
     .animation__float_01 {
-        animation: keyframes__float 1s ease-in-out infinite alternate
+        animation: keyframes__float 3s ease-in-out infinite alternate
     }
 }
 @media (min-width: 641px) {
     .animation__float_02 {
-        animation: keyframes__float_02 1s ease-in-out infinite alternate
+        animation: keyframes__float_02 3.5s ease-in-out infinite alternate
     }
 }
 @media (min-width: 1025px) {
     .animation__float_02 {
-        animation: keyframes__float_02 1s ease-in-out infinite alternate
+        animation: keyframes__float_02 2.5s ease-in-out infinite alternate
     }
 }
-
-@media (min-width: 641px) {
-    .animation__float_03 {
-        animation: keyframes__float 1s ease-in-out infinite alternate
-    }
-}
-@media (min-width: 1025px) {
-    .animation__float_03 {
-        animation: keyframes__float 1s ease-in-out infinite alternate
-    }
-}
-
-@media (min-width: 641px) {
-    .animation__float_04 {
-        animation: keyframes__float_02 1s ease-in-out infinite alternate
-    }
-}
-@media (min-width: 1025px) {
-    .animation__float_04 {
-        animation: keyframes__float_02 1s ease-in-out infinite alternate
-    }
-}
-
-@media (min-width: 641px) {
-    .animation__float_05 {
-        animation: keyframes__float 1s ease-in-out infinite alternate
-    }
-}
-@media (min-width: 1025px) {
-    .animation__float_05 {
-        animation: keyframes__float 1s ease-in-out infinite alternate
-    }
-}
-
-@media (min-width: 641px) {
-    .animation__float_06 {
-        animation: keyframes__float_02 1s ease-in-out infinite alternate
-    }
-}
-@media (min-width: 1025px) {
-    .animation__float_06 {
-        animation: keyframes__float_02 1s ease-in-out infinite alternate
-    }
-}
-
 @keyframes keyframes__float {
     from {
         transform: translate3d(0, 10px, 0)

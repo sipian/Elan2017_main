@@ -77,17 +77,7 @@ function updateTranslations(html) {
 
 }
 
-/*jshint devel:true */
-/*jshint camelcase: false */
-/*global Backbone */
-/*
-weatherRequestDE.then(function (data) {
-    
-    return $('.js-weather-info').html('<p>'+ data.location.city +', '+ data.location.country_name +': '+ data.current_observation.weather +', '+ data.current_observation.temp_c +'°C'+'</p>').addClass("show--weather");
-});
-/*jshint devel:true */
-/*jshint camelcase: false */
-/*global Backbone */
+
 
 var Category = Backbone.Model.extend();
 
@@ -572,7 +562,18 @@ this.MMS = this.MMS || {};
     var _$window = $(window);
     var _$closeButton = $(".js-close-portfolio");
     var _$intro = $(".section__who-we-are");
- 
+
+
+    if(server_render) {
+      _$closeButton.on('click touchstart', function(event) {
+         _$closeButton.off('click touchstart');
+          event.preventDefault();
+          event.stopPropagation();
+          window.handleClosePortfolio();
+
+      });
+    }
+
     var animations_ = {
 
         _$currentScrollElement: null,
@@ -1145,7 +1146,7 @@ this.MMS = this.MMS || {};
                 urls: ["./sounds/island_click.mp3", "./sounds/island_click.ogg", "./sounds/island_click.aac"],
                 autoplay: false,
                 loop: false,
-                volume: 0.5,
+                volume: 0.4,
                 preload: true
             });
 
@@ -1153,7 +1154,7 @@ this.MMS = this.MMS || {};
                 urls: ["./sounds/swoosh.mp3", "./sounds/swoosh.ogg", "./sounds/swoosh.aac"],
                 autoplay: false,
                 loop: false,
-                volume: 0.5,
+                volume: 0.4,
                 preload: true
 
             });
@@ -1379,7 +1380,7 @@ var $root = $('html, body'),
 
 
 var projects;
-var portfolioOpen = false ;
+var portfolioOpen = false || server_render;
 var $projectsGrid;
 
 var Router = Backbone.Router.extend({
@@ -1401,7 +1402,7 @@ var Router = Backbone.Router.extend({
             return false;
         }
 
-        if( server_initial_load) {
+        if(server_render && server_initial_load) {
           server_initial_load = false;
           return false;
         }
@@ -1616,7 +1617,14 @@ $(document).ready(function() {
     Backbone.history.start({pushState: true});
     console.log('pushState');
 
- 
+
+    if(server_render) {
+      // var currentProjectView = new ProjectView();
+      // currentProjectView.addScrollMagic()
+      router.project("atomic-custom-studio", {render: false});
+    }
+
+
     if (typeof window.HTMLTemplateElement === 'undefined') {
         $('html').addClass('noTemplates');
     }
@@ -1792,7 +1800,7 @@ $(document).ready(function() {
 /*global Backbone */
 
 window.weatherRequestDE = $.getJSON('http://api.wunderground.com/api/be0f277024a01b1f/geolookup/conditions/lang:DL/q/Germany/Berlin.json');
-/*
+
 var app = {};
 
 window.App = {
@@ -2362,7 +2370,17 @@ this.MMS = this.MMS || {};
     var _$window = $(window);
     var _$closeButton = $(".js-close-portfolio");
     var _$intro = $(".section__who-we-are");
- 
+
+
+    if(server_render) {
+      _$closeButton.on('click touchstart', function(event) {
+         _$closeButton.off('click touchstart');
+          event.preventDefault();
+          event.stopPropagation();
+          window.handleClosePortfolio();
+
+      });
+    }
 
     var animations_ = {
 
@@ -3170,7 +3188,7 @@ var $root = $('html, body'),
 
 
 var projects;
-var portfolioOpen = false ;
+var portfolioOpen = false || server_render;
 var $projectsGrid;
 
 var Router = Backbone.Router.extend({
@@ -3192,7 +3210,7 @@ var Router = Backbone.Router.extend({
             return false;
         }
 
-        if( server_initial_load) {
+        if(server_render && server_initial_load) {
           server_initial_load = false;
           return false;
         }
@@ -3224,7 +3242,18 @@ var Router = Backbone.Router.extend({
 
 
         // mmsDataRequest.then(function(response) {
-        
+        var response = bootstrap_data;
+            _this.projects = new ProjectList(response, { parse: true });
+            var categories = new CategoryList(response, { parse: true });
+
+            var categoryViewWhoWeAreTemp = new CategoryViewWhoWeAreTemp({ collection: categories });
+            categoryViewWhoWeAreTemp.render();
+
+            var categoryView = new CategoryView({ collection: categories });
+            categoryView.render();
+
+            var categoryViewNotMake = new CategoryViewNotMake({ collection: categories });
+            categoryViewNotMake.render();
 
             $('.js-masonry-projects-block-a').imagesLoaded(function() {
                 var pgrid = $('.js-masonry-projects-block-a .grid').masonry({
@@ -3268,7 +3297,8 @@ var Router = Backbone.Router.extend({
             // $('#what-we-did-not-make')
             // .prepend('<p data-translate="navigation.what_we_did_not_do" class="tagline bold">Was wir nicht gemacht haben</p>');
 
- 
+            updateTranslations();
+
         // });
 
 
@@ -3289,7 +3319,10 @@ var Router = Backbone.Router.extend({
             .siblings()
             .find('a')
             .removeClass('selected');
- 
+
+        handleLocales().then(function() {
+            updateTranslations();
+        });
 
         //MMS.animations.scrollMagicToggleNav();
 
@@ -3391,7 +3424,15 @@ $(document).ready(function() {
     window.router = new Router();
     Backbone.history.start({pushState: true});
     console.log('pushState');
- 
+
+
+    if(server_render) {
+      // var currentProjectView = new ProjectView();
+      // currentProjectView.addScrollMagic()
+      router.project("atomic-custom-studio", {render: false});
+    }
+
+
     if (typeof window.HTMLTemplateElement === 'undefined') {
         $('html').addClass('noTemplates');
     }
