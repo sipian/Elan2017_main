@@ -12,14 +12,18 @@
   function handler() {
     if (!open) {
       this.innerHTML = "<span><br>Close</span>";
-       $(".magazine-viewport").css("z-index","-1");
+       $(".magazine-viewport").css({"z-index":"-1","opacity":"0.5"});
        classie.add(wrapper, 'opened-nav');
-        $("#canvas").fadeOut("slow");
+
+        /*$("#canvas").fadeOut("slow");*/
     } else {
-     $(".magazine-viewport").css("z-index","1");
       this.innerHTML = "<span><br>Menu</span>";
       classie.remove(wrapper, 'opened-nav');
-      $("#canvas").fadeIn("slow");
+      setTimeout(function(){
+        $(".magazine-viewport").css("opacity","1");
+      $(".magazine-viewport").css("z-index","1");
+      },500);
+      /*$("#canvas").fadeIn("slow");*/
     }
     open = !open;
   }
