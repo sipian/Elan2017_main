@@ -2,29 +2,609 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="frankcss.css">
-	<link rel="stylesheet" type="text/css" href="junk.css">
-		<link rel="stylesheet" type="text/css" href="killer.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+    <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico"> 
+<!--     <link rel="stylesheet" type="text/css" href="css/default.css" />
+ -->    
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/animations.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/frankcss.css">
+	<link rel="stylesheet" type="text/css" href="css/junk.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/killer.css">
+ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
 
-</head>
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
+
+
+   <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+
+ </head>
+
+
+<style>
+span ,h2,p {
+  font: 200 40px/1em Amatic SC;
+  text-align: center;
+ }
+
+span {
+  animation: jitter 200ms linear infinite;
+  color: #f06d06;
+  display: inline-block
+}
+
+@keyframes jitter {
+  50% {
+    transform: skewY(0.7deg) skewX(-0.7deg) scale(1.006);
+  }
+}
+.contest{
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:18px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+}
+ 
+</style>
+
 <body>
-<ul id="nav">
+<div id="pt-main" class="pt-perspective container-fluid">
+      <div class="pt-page pt-page-1">
 
-  <li><a href="#"><div class="morph pic"><img src="images/biggies.png"></div></a><p>Biggie</p></li>
-  <li><a href="#"><div class="morph pic"><img src="images/online.png"></div></a><p>Online</p></li>
-  <li><a href="#"><div class="morph pic"><img src="images/culti.png"></div></a>
-  <p>Culti</p></li>
-  <li><a href="#"><div class="morph pic"><img src="images/techy.png"></div></a>
-  <p>Techy</p></li>
-  <li><a href="#"><div class="morph pic"><img src="images/infi.png"></div></a>
-  <p>Infi</p></li>
-  <li><a href="#"><div class="morph pic"><img src="images/litr.png"></div></a>
-  <p>Litr</p></li>
+<div class="container competitionArea" style="margin-left:22%;" >
+<br><br><br><br>
+<br><br><br><br>
+
+         <br><br><h2>BIGGIES<br><br></h2>
+  <p >ENTER INTO THE WORLD OF BIGGES<br><br></p>
+  <div class="table-responsive"  style="overflow-y: hidden;">    
+  <table class="table" >
+    <tbody>
+      <tr>
+      <div class="row">
+      <td class="col-lg-4" style="padding-left: 0%;d" id="elan-e-jung">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <div class="morph pic">
+            <img class="img-circle img-responsive" src="images/biggies/elan-e-jung.jpg" width="180px;">
+          </div>
+        </div>
+      </td>
+
+      <td class="col-lg-4" style="padding-left: 0%;" id="manthan">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <div class="morph pic">
+            <img class="img-circle img-responsive" src="images/biggies/manthan.jpg" width="180px;">
+          </div>
+        </div>
+      </td>
+
+      <td class="col-lg-4" style="padding-left: 0%;" id="fmi">
+        <div  class="animated bounceInUp col-sm-8 text-center">
+          <div class="morph pic">
+            <img class="img-circle img-responsive" src="images/biggies/fmi.jpg" width="180px;">
+          </div>
+        </div>
+      </td>
+        </div>
+      </tr>
+
+      <tr>
+      <div class="row">
+
+        <td class="col-lg-4" id="elan-e-jung_TEXT">
+        <div  class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery1"> ELAN-E-JUNG </span>
+        </div>
+        </td>
+
+        <td class="col-lg-4" id="manthan_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery2"> MANTHAN </span>
+        </div>
+        </td>
+
+        <td class="col-lg-4" id="fmi_TEXT">
+        <div  class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery3"  style="margin-left: -10%;"> CAMPUS&nbsp;PRINCESS&nbsp;AUDITION </span>
+        </div>
+        </td>
+        </div>
+      </tr>
+
+       <tr>
+
+      <div class="row">
+        <td class="col-lg-4"></td>
+        
+        <td class="col-lg-4" style="padding-left: 0%;" id="attakkalariposter">
+          <div  class="animated bounceInUp col-sm-8 text-center">
+            <div class="morph pic">
+              <img class="img-circle img-responsive" src="images/biggies/attakkalariposter.jpg" width="180px;">
+            </div>
+          </div>
+        </td>
+
+        <td class="col-lg-4"></td>
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-4" ></td>
+
+        <td class="col-lg-4"  id="attakkalariposter_TEXT">
+           <div  class="animated bounceInUp col-sm-8 text-center">
+           <span class="jittery" id="jittery4"> ANGASUTRA </span>
+           </div>
+        </td>
+        <td class="col-lg-4" ></td>
+        </div>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+      </div>
+      <div class="pt-page pt-page-2">
+
+<div class="container competitionArea" style="margin-left:22%;">
+<br><br><br><br>
+<br><br><br><br>
+
+         <br><br><h2>CULTI<br><br></h2>
+  <p >ENTER INTO THE WORLD OF CULTI<br><br></p>
+  <div class="table-responsive">
+  <table class="table">
+    <tbody>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" style="padding-left: 0%;" id="breakfree">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/breakfree.jpg" width="180px;">
+        </div></div></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="looseyourfeet">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/looseyourfeet.jpg" width="180px;">
+        </div></div></td>
+
+       <td class="col-lg-3" style="padding-left: 0%;" id="nrityanjali">
+       <div class="animated bounceInUp col-sm-8 text-center">
+        <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/nrityanjali.jpg" width="180px;">
+        </div></div></td>
+
+        <td class="col-lg-3" style="padding-left: 0%;" id="just-duet">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/just-duet.jpg" width="180px;">
+        <div></div></td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" id="breakfree_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery5" > BREAKFREE </span></div></td>
+        <td class="col-lg-3" id="looseyourfeet_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery6" > LOOSE&nbsp;YOUR&nbsp;FEET </span></div></td>
+        <td class="col-lg-3" id="nrityanjali_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery7" > NRITYANJALI </span></div></td>
+        <td class="col-lg-3" id="just-duet_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery8" > JUST&nbsp;DUET </span></div></td>
+        </div>
+      </tr>
+
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" style="padding-left: 0%;" id="vibrazione">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/vibrazione.jpg" width="180px;">
+        </div></div></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="octaves">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/octaves.jpg" width="180px;">
+        </div></div></td>
+
+        <td class="col-lg-3" style="padding-left: 0%;" id="andaazapnapna">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/andaazapnapna.jpg" width="180px;">
+        </div></div></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="filmfarefiesta">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/filmfarefiesta.jpg" width="180px;">
+        </div></div></td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" id="vibrazione_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery9" > VIBRAZIONE </span></div></td>
+        <td class="col-lg-3" id="octaves_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery10" > OCTAVES </span></div></td>
+        <td class="col-lg-3" id="andaazapnapna_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery11" > ANDAZ&nbsp;APNA&nbsp;APNA </span></div></td>
+        <td class="col-lg-3" id="filmfarefiesta_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery12" > FILM&nbsp;FARE&nbsp;FIESTA </span></div></td>
+        </div>
+      </tr>
+
+            <tr>
+      <div class="row">
+        <td class="col-lg-3" style="padding-left: 0%;" id="picelectic">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/picelectic.jpg" width="180px;">
+        </div></div></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="lightscamera">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/lightscamera.jpg" width="180px;">
+        </div></div></td>
+
+        <td class="col-lg-3" style="padding-left: 0%;" id="facepainting">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/facepainting.jpg" width="180px;">
+        </div></div></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="nailart">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/culti/nailart.jpg" width="180px;">
+        </div></div></td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" id="picelectic_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery13" > PICELECTIC </span></div></td>
+        <td class="col-lg-3" id="lightscamera_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery14" > LIGHTS&nbsp;CAMERA&nbsp;ELAN </span></div></td>
+        <td class="col-lg-3" id="facepainting_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery15" > FACE&nbsp;PAINTING </span></div></td>
+        <td class="col-lg-3" id="nailart_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery16" > NAIL&nbsp;ART </span></div></td>
+        </div>
+      </tr>
+
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" style="padding-left: 0%;" id="mehendi">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/mehendi.jpg" width="180px;">
+        </div></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="claymodelling">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/claymodelling.jpg" width="180px;">
+        </div></td>
+
+       <td class="col-lg-3" style="padding-left: 0%;" id="blindart">
+       <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/blindart.jpg" width="180px;">
+        </div></td>
+
+        <td class="col-lg-3" style="padding-left: 0%;" id="artexhibition">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/artexhibition.jpg" width="180px;">
+        </div></td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" id="mehendi_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery17" > MEHENDI </span></div></td>
+        <td class="col-lg-3" id="claymodelling_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery18" > CLAY&nbsp;MODELING </span></div></td>
+        <td class="col-lg-3" id="blindart_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery19" > BLIND&nbsp;ART </span></div></td>
+        <td class="col-lg-3" id="artexhibition_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery20" > ART&nbsp;EXHIBITION </span></div></td>
+        </div>
+      </tr>
+
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" >
+        </td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="djwars">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/djwars.jpg" width="180px;">
+        </div></td>
+
+       <td class="col-lg-3" style="padding-left: 0%;" id="rjhunt">
+       <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/rjhunt.jpg" width="180px;">
+        </div></td>
+
+        <td class="col-lg-3" >
+        </td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" ></td>
+        <td class="col-lg-3" id="djwars_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery21" > DJ&nbsp;WARS </span></div></td>
+        <td class="col-lg-3" id="rjhunt_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery22" > RJ&nbsp;HUNT </span></div></td>
+        <td class="col-lg-3" ></td>
+        </div>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="table-responsive">
+  <table class="table">
+    <tbody>
+      <tr>
+      <div class="row">
+        <td class="col-lg-4" style="padding-left: 0%;">
+        </td>
+
+        <td class="col-lg-4" style="padding-left: 3%;" id="lendmeurvoice">
+        <div class="animated bounceInUp col-sm-8 text-center">
+          <img class="img-circle img-responsive" src="images/culti/lendmeurvoice.jpg" width="180px;">
+        </div></td>
+        
+        <td class="col-lg-4" style="padding-left: 0%;">
+        </td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-4" ></td>
+        <td class="col-lg-4" style="padding-left: 3%;" id="lendmeurvoice_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery23" > LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE </span></div></td>
+        <td class="col-lg-4" ></td>
+        </div>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+  </div>
 
 
-</ul>
+      </div>
+      <div class="pt-page pt-page-3">
+
+<div class="container competitionArea" style="margin-left:22%;">
+<br><br><br><br>
+<br><br><br><br>
+ 
+         <br><br><h2>INFI<br><br></h2>
+  <p >ENTER INTO THE WORLD OF INFI<br><br></p>
+  <div class="table-responsive">
+  <table class="table">
+    <tbody>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" style="padding-left: 0%;" id="walktheramp">
+          <img class="img-rounded img-responsive" src="images/infi/walktheramp.png" width="180px;">
+        </td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="minutetowinit">
+          <img class="img-rounded img-responsive" src="images/infi/minutetowinit.jpg" width="180px;">
+        </td>
+
+       <td class="col-lg-3" style="padding-left: 0%;" id="fieldkings">
+          <img class="img-rounded img-responsive" src="images/infi/fieldkings.jpg" width="180px;">
+        </td>
+
+        <td class="col-lg-3" style="padding-left: 0%;" id="langaming">
+          <img class="img-rounded img-responsive" src="images/infi/langaming.png" width="180px;">
+        </td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" id="walktheramp_TEXT"><span class="jittery" id="jittery24" > WALK&nbsp;THE&nbsp;RAMP </span></td>
+        <td class="col-lg-3" id="minutetowinit_TEXT" ><span class="jittery" id="jittery25" > MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT </span></td>
+        <td class="col-lg-3" id="fieldkings_TEXT" ><span class="jittery" id="jittery26" > FIELD&nbsp;KINGS </span></td>
+        <td class="col-lg-3" id="langaming_TEXT"><span class="jittery" id="jittery27" > LAN&nbsp;GAMING </span></td>
+        </div>
+      </tr>
+
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" ></td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="finaldestination">
+          <img class="img-rounded img-responsive" src="images/infi/finaldestination.jpg" width="180px;">
+        </td>
+
+       <td class="col-lg-3" style="padding-left: 0%;" id="madads">
+          <img class="img-rounded img-responsive" src="images/infi/madads.png" width="180px;">
+        </td>
+
+        <td class="col-lg-3" ></td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" ></td>
+        <td class="col-lg-3" id="finaldestination_TEXT" ><span class="jittery" id="jittery28" > FINAL&nbsp;DESTINATION </span></td>
+        <td class="col-lg-3" id="madads_TEXT"><span class="jittery" id="jittery29" > MAD&nbsp;ADS </span></td>
+        <td class="col-lg-3" ></td>
+        </div>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="table-responsive">
+  <table class="table">
+    <tbody>
+      <tr>
+      <div class="row">
+        <td class="col-lg-4" style="padding-left: 0%;">
+        </td>
+
+        <td class="col-lg-4" style="padding-left: 9%;" id="convcoffee">
+          <img class="img-rounded img-responsive" src="images/infi/convcoffee.png" width="180px;">
+        </td>
+        
+        <td class="col-lg-4" style="padding-left: 0%;">
+        </td>
+
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-4" ></td>
+        <td class="col-lg-4" id="convcoffee_TEXT">
+        <span class="jittery" id="jittery30" style="margin-left: 20%;"> CONVERSATION&nbsp;COFFEE </span></td>
+        <td class="col-lg-4" ></td>
+        </div>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+      </div>
+      </div>
 
 
 
+
+      <div class="pt-page pt-page-4">
+        <h1>
+          <span>ONLINE</span>
+        </h1>
+      </div>
+      <div class="pt-page pt-page-5">
+        <h1>
+          <span>LITR</span>
+        </h1>
+      </div>
+</div>
+
+  <div class="pt-message">
+    <p>Your browser does not support CSS animations.</p>
+  </div>
 </body>
+<script src="js/modernizr.custom.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>   
+  <script type="text/javascript">
+    $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5").prepend(`
+      <ul id="nav">
+ <li class="biggies">
+    <a href="#">
+      <div class="morph pic">
+         <img class="img-circle" src="images/biggies.png">
+      </div>
+     </a>
+    <p>BIGGIES</p>
+  </li>
+
+<li class="culti">
+    <a href="#">
+      <div class="morph pic">
+       <img class="img-circle" src="images/culti.png">
+       </div>
+     </a>
+    <p>CULTI</p>
+  </li>
+
+
+    <li class="infi">
+    <a href="#">
+      <div class="morph pic">
+       <img class="img-circle" src="images/infi.png">
+       </div>
+     </a>
+    <p>INFI</p>
+  </li>
+
+  <li class="online">
+    <a href="#">
+      <div class="morph pic">
+       <img class="img-circle" src="images/online.png">
+       </div>
+     </a>
+    <p>ONLINE</p>
+  </li>  
+
+    <li class="litr">
+    <a href="#">
+      <div class="morph pic">
+       <img class="img-circle" src="images/litr.png">
+      </div>
+     </a>
+    <p>LITR</p>
+  </li>
+</ul>
+`);
+  </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="js/animate.js"></script>
+   <script src="js/pagetransitions.js"></script>
+
+<script type="text/javascript">
+   function jitterEffect(start , stop){
+    for (var num = start; num <= stop; num++) {
+     let id='#jiterry'+num.toString();
+    var $jittery = $("#jittery"+num),
+    aText = $jittery.text().split(''),
+    letters = '';
+    for (var i = 0; i < aText.length; i++) {
+    letters += '<span>' + aText[i] + '</span>';
+   }
+
+  $jittery.empty().append(letters);
+
+  $.each($('span', $jittery), function(i) {
+    $(this).css('animation-delay', '-' + i + '70ms');
+  }); 
+  }
+}
+jitterEffect(1,4);
+</script>
 </html>
+ 
