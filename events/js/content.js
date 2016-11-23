@@ -254,23 +254,27 @@ $(document).ready(function(){
       <div class="row">
         <td class="col-lg-3" style="padding-left: 0%;" id="mehendi">
         <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/mehendi.jpg" width="180px;">
-        </div></td>
+        </div></div></td>
         
         <td class="col-lg-3" style="padding-left: 0%;" id="claymodelling">
         <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/claymodelling.jpg" width="180px;">
-        </div></td>
+        </div></div></td>
 
        <td class="col-lg-3" style="padding-left: 0%;" id="blindart">
        <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/blindart.jpg" width="180px;">
-        </div></td>
+      </div>  </div></td>
 
         <td class="col-lg-3" style="padding-left: 0%;" id="artexhibition">
         <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/artexhibition.jpg" width="180px;">
-        </div></td>
+        </div></div></td>
 
         </div>
       </tr>
@@ -298,13 +302,15 @@ $(document).ready(function(){
         
         <td class="col-lg-3" style="padding-left: 0%;" id="djwars">
         <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/djwars.jpg" width="180px;">
-        </div></td>
+        </div></div></td>
 
        <td class="col-lg-3" style="padding-left: 0%;" id="rjhunt">
        <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/rjhunt.jpg" width="180px;">
-        </div></td>
+        </div></div></td>
 
         <td class="col-lg-3" >
         </td>
@@ -336,8 +342,9 @@ $(document).ready(function(){
 
         <td class="col-lg-4" style="padding-left: 3%;" id="lendmeurvoice">
         <div class="animated bounceInUp col-sm-8 text-center">
+<div class="morph pic">
           <img class="img-circle img-responsive" src="images/culti/lendmeurvoice.jpg" width="180px;">
-        </div></td>
+        </div></div></td>
         
         <td class="col-lg-4" style="padding-left: 0%;">
         </td>
@@ -346,11 +353,14 @@ $(document).ready(function(){
       </tr>
       <tr>
       <div class="row">
+
         <td class="col-lg-4" ></td>
+
         <td class="col-lg-4" style="padding-left: 3%;" id="lendmeurvoice_TEXT">
-        <div class="animated bounceInUp col-sm-8 text-center">
-        <span class="jittery" id="jittery23" > LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE </span></div></td>
+        <span class="jittery" id="jittery23" > LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE </span></td>
+
         <td class="col-lg-4" ></td>
+
         </div>
       </tr>
     </tbody>
@@ -366,7 +376,7 @@ $(document).ready(function(){
     $("#infi").click(function(){
       $(".competitionArea").fadeOut("slow",function(){
       $(".competitionArea").html(`
-        <br><br>  <h2 >INFI<br><br></h2>
+    <br><br><h2>INFI<br><br></h2>
   <p >ENTER INTO THE WORLD OF INFI<br><br></p>
   <div class="table-responsive">
   <table class="table">
@@ -374,87 +384,99 @@ $(document).ready(function(){
       <tr>
       <div class="row">
         <td class="col-lg-3" style="padding-left: 0%;" id="walktheramp">
-          <img class="img-rounded img-responsive" src="images/infi/walktheramp.png" width="180px;">
-        </td>
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/walktheramp.png" width="180px;">
+        </div></div></td>
         
         <td class="col-lg-3" style="padding-left: 0%;" id="minutetowinit">
-          <img class="img-rounded img-responsive" src="images/infi/minutetowinit.jpg" width="180px;">
-        </td>
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/minutetowinit.jpg" width="180px;">
+        </div></div></td>
 
        <td class="col-lg-3" style="padding-left: 0%;" id="fieldkings">
-          <img class="img-rounded img-responsive" src="images/infi/fieldkings.jpg" width="180px;">
-        </td>
+       <div class="animated bounceInUp col-sm-8 text-center">
+        <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/fieldkings.jpg" width="180px;">
+        </div></div></td>
 
         <td class="col-lg-3" style="padding-left: 0%;" id="langaming">
-          <img class="img-rounded img-responsive" src="images/infi/langaming.png" width="180px;">
-        </td>
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/langaming.png" width="180px;">
+        <div></div></td>
 
         </div>
       </tr>
       <tr>
       <div class="row">
-        <td class="col-lg-3" id="walktheramp_TEXT"><span class="jittery" id="jittery24" > WALK&nbsp;THE&nbsp;RAMP </span></td>
-        <td class="col-lg-3" id="minutetowinit_TEXT" ><span class="jittery" id="jittery25" > MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT </span></td>
-        <td class="col-lg-3" id="fieldkings_TEXT" ><span class="jittery" id="jittery26" > FIELD&nbsp;KINGS </span></td>
-        <td class="col-lg-3" id="langaming_TEXT"><span class="jittery" id="jittery27" > LAN&nbsp;GAMING </span></td>
-        </div>
-      </tr>
-
-      <tr>
-      <div class="row">
-        <td class="col-lg-3" ></td>
+        <td class="col-lg-3" id="walktheramp_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery5" > WALK&nbsp;THE&nbsp;RAMP </span></div></td>
         
+<td class="col-lg-3" id="minutetowinit_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery6" >MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT</span></div></td>
+
+        <td class="col-lg-3" id="fieldkings_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery7" >FIELD&nbsp;KINGS</span></div></td>
+
+        <td class="col-lg-3" id="langaming_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery8" > LAN&nbsp;GAMING </span></div></td>
+
+        </div>
+      </tr>
+
+      <tr>
+      <div class="row">
         <td class="col-lg-3" style="padding-left: 0%;" id="finaldestination">
-          <img class="img-rounded img-responsive" src="images/infi/finaldestination.jpg" width="180px;">
-        </td>
-
-       <td class="col-lg-3" style="padding-left: 0%;" id="madads">
-          <img class="img-rounded img-responsive" src="images/infi/madads.png" width="180px;">
-        </td>
-
-        <td class="col-lg-3" ></td>
-
-        </div>
-      </tr>
-      <tr>
-      <div class="row">
-        <td class="col-lg-3" ></td>
-        <td class="col-lg-3" id="finaldestination_TEXT" ><span class="jittery" id="jittery28" > FINAL&nbsp;DESTINATION </span></td>
-        <td class="col-lg-3" id="madads_TEXT"><span class="jittery" id="jittery29" > MAD&nbsp;ADS </span></td>
-        <td class="col-lg-3" ></td>
-        </div>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  <div class="table-responsive">
-  <table class="table">
-    <tbody>
-      <tr>
-      <div class="row">
-        <td class="col-lg-4" style="padding-left: 0%;">
-        </td>
-
-        <td class="col-lg-4" style="padding-left: 9%;" id="convcoffee">
-          <img class="img-rounded img-responsive" src="images/infi/convcoffee.png" width="180px;">
-        </td>
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/finaldestination.jpg" width="180px;">
+        </div></div></td>
         
-        <td class="col-lg-4" style="padding-left: 0%;">
-        </td>
+        <td class="col-lg-3" style="padding-left: 0%;" id="madads">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/madads.png" width="180px;">
+        </div></div></td>
 
+        <td class="col-lg-3" style="padding-left: 0%;" id="convcoffee">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/infi/convcoffee.png" width="180px;">
+        </div></div></td>
+        
         </div>
       </tr>
       <tr>
       <div class="row">
-        <td class="col-lg-4" ></td>
-        <td class="col-lg-4" id="convcoffee_TEXT">
-        <span class="jittery" id="jittery30" style="margin-left: 20%;"> CONVERSATION&nbsp;COFFEE </span></td>
-        <td class="col-lg-4" ></td>
+        <td class="col-lg-3" id="finaldestination_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery9" >FINAL&nbsp;DESTINATION </span></div></td>
+
+        <td class="col-lg-3" id="madads_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery10" > MAD&nbsp;ADS </span></div></td>
+
+        <td class="col-lg-3" id="convcoffee_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery11" > CONVERSATION&nbsp;COFFEE </span></div></td>
+
         </div>
       </tr>
+
+          
+ 
     </tbody>
   </table>
   </div>
+
+
+
         `);
      $(".competitionArea").show("bounce",{times:4,distance:60},1000);
     jitterEffect(24 , 30);
@@ -466,70 +488,108 @@ $(document).ready(function(){
       $(".competitionArea").fadeOut("fast",function(){
 
       $(".competitionArea").html(`
-          <br><br><h2 >LITR<br><br></h2>
+         
+
+
+  <br><br><h2>LITR<br><br></h2>
   <p >ENTER INTO THE WORLD OF LITR<br><br></p>
   <div class="table-responsive">
   <table class="table">
     <tbody>
       <tr>
       <div class="row">
-        <td class="col-lg-4" style="padding-left: 0%;" id="mrdetective">
-
+        <td class="col-lg-3" style="padding-left: 0%;" id="mrdetective">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/litr/mrdetective.jpg" width="180px;">
-        </td>
+        </div></div></td>
         
-        <td class="col-lg-4" style="padding-left: 0%;" id="wheel-of-fortune">
+        <td class="col-lg-3" style="padding-left: 0%;" id="wheel-of-fortune">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/litr/wheel-of-fortune.jpg" width="180px;">
-        </td>
+        </div></div></td>
 
-       <td class="col-lg-4" style="padding-left: 0%;" id="quizzes">
+       <td class="col-lg-3" style="padding-left: 0%;" id="quizzes">
+       <div class="animated bounceInUp col-sm-8 text-center">
+        <div class="morph pic">
           <img class="img-circle img-responsive" src="images/litr/quizzes.jpg" width="180px;">
-        </td>
-        </div>
-      </tr>
-      <tr>
-      <div class="row">
-        <td class="col-lg-4" id="mrdetective_TEXT"><span class="jittery" id="jittery31" > MR&nbsp;DETECTIVE </span></td>
-        <td class="col-lg-4" id="wheel-of-fortune_TEXT"><span class="jittery" id="jittery32" > WHEEL&nbsp;OF&nbsp;FORTUNE </span></td>
-        <td class="col-lg-4" id="quizzes_TEXT"><span class="jittery" id="jittery33" > QUIZ&nbsp;CONCLAVE </span></td>
-        </div>
-      </tr>
+        </div></div></td>
 
-    </tbody>
-  </table>
-  </div>
-
-  <div class="table-responsive">
-  <table class="table">
-    <tbody>
-      <tr>
-      <div class="row">
-        <td class="col-lg-3" style="padding-left: 0%;"></td>
-        
-        <td class="col-lg-4" style="padding-left: 0%;" id="jam">
+        <td class="col-lg-3" style="padding-left: 0%;" id="jam">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/litr/jam.jpg" width="180px;">
-        </td>
-
-       <td class="col-lg-4" style="padding-left: 0%;" id="businessquiz">
-          <img class="img-circle img-responsive" src="images/litr/businessquiz.jpg" width="180px;">
-        </td>
-
-        <td class="col-lg-3" style="padding-left: 0%;"></td>
+        <div></div></td>
 
         </div>
       </tr>
       <tr>
       <div class="row">
-        <td class="col-lg-3" ></td>
-        <td class="col-lg-3" id="jam_TEXT"><span class="jittery" id="jittery34" > JUST&nbsp;A&nbsp;MINUTE </span></td>
-        <td class="col-lg-3" id="businessquiz_TEXT"><span class="jittery" id="jittery35" > BUSINESS&nbsp;QUIZ </span></td>
-        <td class="col-lg-3" ></td>
+        <td class="col-lg-3" id="mrdetective_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery5" >MR&nbsp;DETECTIVE </span></div></td>
+        
+<td class="col-lg-3" id="wheel-of-fortune_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery6" >WHEEL&nbsp;OF&nbsp;FORTUNE</span></div></td>
+
+        <td class="col-lg-3" id="quizzes_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery7" >QUIZ&nbsp;CONCLAVE</span></div></td>
+
+        <td class="col-lg-3" id="jam_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery8" > JUST&nbsp;A&nbsp;MINUTE  </span></div></td>
+
         </div>
       </tr>
 
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" style="padding-left: 0%;" id="">
+        </td>
+        
+        <td class="col-lg-3" style="padding-left: 0%;" id="businessquiz">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/litr/businessquiz.jpg" width="180px;">
+        </div></div></td>
+
+        <td class="col-lg-3" style="padding-left: 0%;" id="">
+        </td>
+        
+        </div>
+      </tr>
+      <tr>
+      <div class="row">
+        <td class="col-lg-3" id="">
+        </td>
+
+        <td class="col-lg-3" id="businessquiz_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery10" >BUSINESS&nbsp;QUIZ </span></div></td>
+
+        <td class="col-lg-3" id="">
+        </td>
+
+        </div>
+      </tr>
+
+          
+ 
     </tbody>
   </table>
   </div>
+
+ 
+
+
+
+
+
+
+
         `);
      $(".competitionArea").show("bounce",{times:4,distance:60},1000);
     jitterEffect(31 , 35);
@@ -544,71 +604,121 @@ $(document).ready(function(){
       $(".competitionArea").fadeOut("fast",function(){
 
       $(".competitionArea").html(`
-      <br><br><h2 >ONLINE<br><br></h2>
+     
+
+
+  <br><br><h2>ONLINE<br><br></h2>
   <p >ENTER INTO THE WORLD OF ONLINE<br><br></p>
   <div class="table-responsive">
   <table class="table">
     <tbody>
       <tr>
+
       <div class="row">
+
+
         <td class="col-lg-3" style="padding-left: 0%;" id="pixeladda">
-          <img class="img-circle img-responsive" src="images/online/pixeladda.jpg" width="200px;">
-        </td>
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/online/pixeladda.jpg" width="180px;">
+        </div></div></td>
+
         
         <td class="col-lg-3" style="padding-left: 0%;" id="zodiac">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/online/zodiac.jpg" width="180px;">
-        </td>
+        </div></div></td>
 
        <td class="col-lg-3" style="padding-left: 0%;" id="sweetheart">
+       <div class="animated bounceInUp col-sm-8 text-center">
+        <div class="morph pic">
           <img class="img-circle img-responsive" src="images/online/sweetheart.jpg" width="180px;">
-        </td>
+        </div></div></td>
 
         <td class="col-lg-3" style="padding-left: 0%;" id="tweetatale">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/online/tweetatale.jpg" width="180px;">
-        </td>
+        <div></div></td>
 
         </div>
       </tr>
       <tr>
       <div class="row">
-        <td class="col-lg-3" id="pixeladda_TEXT"><span class="jittery" id="jittery36" > PIXEL&nbsp;ADDA </span></td>
-        <td class="col-lg-3" id="zodiac_TEXT"><span class="jittery" id="jittery37" > ZODIAC </span></td>
-        <td class="col-lg-3"id="sweetheart_TEXT" ><span class="jittery" id="jittery38" > SWEETHEART </span></td>
-        <td class="col-lg-3" id="tweetatale_TEXT"><span class="jittery" id="jittery39" > TWEET&nbsp;A&nbsp;TALE </span></td>
+        <td class="col-lg-3" id="pixeladda_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery5" > PIXEL&nbsp;ADDA </span></div></td>
+        
+<td class="col-lg-3" id="zodiac_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery6" >  ZODIAC </span></div></td>
+
+        <td class="col-lg-3" id="sweetheart_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery7" > SWEETHEART </span></div></td>
+
+        <td class="col-lg-3" id="tweetatale_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery8" > TWEET&nbsp;A&nbsp;TALE </span></div></td>
+
         </div>
       </tr>
 
       <tr>
       <div class="row">
         <td class="col-lg-3" style="padding-left: 0%;" id="twistit">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/online/twistit.jpg" width="180px;">
-        </td>
+        </div></div></td>
         
         <td class="col-lg-3" style="padding-left: 0%;" id="skipit">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/online/skipit.jpg" width="180px;">
-        </td>
+        </div></div></td>
 
         <td class="col-lg-3" style="padding-left: 0%;" id="tellatale">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
           <img class="img-circle img-responsive" src="images/online/tellatale.jpg" width="180px;">
-        </td>
-        
-        <td class="col-lg-3" style="padding-left: 0%;" id="whatsapp">
-          <img class="img-circle img-responsive" src="images/online/whatsapp.jpg" width="180px;">
-        </td>
+        </div></div></td>
 
+        <td class="col-lg-3" style="padding-left: 0%;" id="whatsapp">
+        <div class="animated bounceInUp col-sm-8 text-center">
+         <div class="morph pic">
+          <img class="img-circle img-responsive" src="images/online/whatsapp.jpg" width="180px;">
+        </div></div></td>
+        
         </div>
       </tr>
       <tr>
       <div class="row">
-        <td class="col-lg-3" id="twistit_TEXT"><span class="jittery" id="jittery40" > TWIST&nbsp;IT </span></td>
-        <td class="col-lg-3" id="skipit_TEXT"><span class="jittery" id="jittery41" > SKIP&nbsp;IT </span></td>
-        <td class="col-lg-3" id="tellatale_TEXT"><span class="jittery" id="jittery42" > TELL&nbsp;A&nbsp;TALE </span></td>
-        <td class="col-lg-3" id="whatsapp_TEXT"><span class="jittery" id="jittery43" > STATE&nbsp;YOUR&nbsp;STATUS </span></td>
+        <td class="col-lg-3" id="twistit_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery9" > TWIST&nbsp;IT </span></div></td>
+
+        <td class="col-lg-3" id="skipit_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery10" > SKIP&nbsp;IT </span></div></td>
+
+        <td class="col-lg-3" id="tellatale_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery11" > TELL&nbsp;A&nbsp;TALE </span></div></td>
+        
+         <td class="col-lg-3" id="whatsapp_TEXT">
+        <div class="animated bounceInUp col-sm-8 text-center">
+        <span class="jittery" id="jittery11" >STATE&nbsp;YOUR&nbsp;STATUS </span></div></td>
+
         </div>
       </tr>
-        </tbody>
-      </table>
-    </div>
+
+          
+ 
+    </tbody>
+  </table>
+  </div>
         `);
      $(".competitionArea").show("bounce",{times:4,distance:60},1000);
     jitterEffect(36 , 43);
