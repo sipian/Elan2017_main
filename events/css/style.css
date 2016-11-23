@@ -1,0 +1,38 @@
+/* BASE
+============================================================================= */
+@import url(http://fonts.googleapis.com/css?family=Offside);
+html 							{ overflow-y:scroll; }
+body 							{ margin-top:40px; }
+#demo-one 						{ background:url(../img/cloudcity.jpg); }
+#demo-two 						{ background:url(../img/stars.jpg); }
+#demo-three 					{ background:url(../img/water.jpg); }
+
+/* HEADER
+============================================================================= */
+#header 						{ margin-bottom:50px; }
+
+	/* logo */
+	#logo 						{ color:#FFF; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
+	#logo span 					{ display:inline-block; }
+
+/* MAIN NAV
+============================================================================= */
+#main-nav 						{ margin-bottom:30px; }
+
+/* SIDEBAR
+============================================================================= */
+
+
+/* CONTENT
+============================================================================= */
+
+#content img 					{ border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; }
+
+/* ANIMATIONS
+============================================================================= */
+
+	
+
+	/* content */
+	#content 					{ animation-delay:1.5s; -moz-animation-delay:1.5s; -webkit-animation-delay:1.5s; }
+		#content img 			{ animation-delay:1.7s; -moz-animation-delay:1.7s; -webkit-animation-delay:1.7s; }

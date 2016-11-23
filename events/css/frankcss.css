@@ -1,0 +1,45 @@
+html{
+	background-color: #f814;
+}
+#nav {
+width:950px;
+margin:0 auto;
+list-style:none;
+padding-top: 0px;
+padding-bottom: 20px;
+
+}
+#nav img
+{
+	width: 60px;
+}
+#nav li {
+float:left;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+
+}
+#nav p{
+	display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none;
+}
+.Biggies
+{
+	padding-top: 500 px;
+	display: block;
+	width:950px;
+	height: 500px;
+margin:0 auto;
+margin-top: 25%;
+}
+
+
+
