@@ -93,23 +93,49 @@ img{
 }
 
 .pt-page-1 {
-	background: #0ac2d2;
+	/*1920 X 1080*/
+background: #0ac2d2;
+/*
+    background-image: url("../images/web1_jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+    
+
 }
 
 .pt-page-2 {
-	background: #7bb7fa;
+	/*background: #7bb7fa;*/
+    background-image: url("../images/web2_jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 .pt-page-3 {
-	background: #60d7a9;
+	/*background: #60d7a9;*/
+	background-image: url("../images/web3_jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .pt-page-4 {
-	background: #fdc162;
+	/*background: #fdc162;*/
+	background-image: url("../images/web4_jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .pt-page-5 {
-	background: #fd6a62;
+	/*background: #66ff99;*/
+
+	background-image: url("../images/web5_png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
