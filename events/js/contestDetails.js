@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-   $("body").on("click" ,"#elan-e-jung" , function(){
-      $(".competitionArea").hide("clip" , "fast",function(){
-      $(".competitionArea").html(`
+    $("body").on("click", "#elan-e-jung", function() {
+        $(".competitionArea").hide("clip", "fast", function() {
+            $(".competitionArea").html(`
         <div class='contest'>
          <div class="container">
 <div class="heading">
@@ -106,15 +106,15 @@ $(document).ready(function(){
 </div>
 </div>
 </div>`);
-    $(".competitionArea").show("slide");
+            $(".competitionArea").show("slide");
+        });
     });
-  });
 
-/* MANTHAN  */
+    /* MANTHAN  */
 
-   $("body").on("click" ,"#manthan" , function(){
-      $(".competitionArea").hide("clip" , "fast",function(){
-      $(".competitionArea").html(`
+    $("body").on("click", "#manthan", function() {
+        $(".competitionArea").hide("clip", "fast", function() {
+            $(".competitionArea").html(`
         <div class='contest'>
          <div class="container">
 <div class="heading">
@@ -222,17 +222,17 @@ $(document).ready(function(){
 </div>
 </div>
 </div>`);
-    $(".competitionArea").show("slide");
+            $(".competitionArea").show("slide");
+        });
     });
-  });
 
 
 
-/* FMI  */
+    /* FMI  */
 
-   $("body").on("click" ,"#fmi" , function(){
-      $(".competitionArea").hide("clip" , "fast",function(){
-      $(".competitionArea").html(`
+    $("body").on("click", "#fmi", function() {
+        $(".competitionArea").hide("clip", "fast", function() {
+            $(".competitionArea").html(`
         <div class='contest'>
          <div class="container">
 <div class="heading">
@@ -340,16 +340,16 @@ $(document).ready(function(){
 </div>
 </div>
 </div>`);
-    $(".competitionArea").show("slide");
+            $(".competitionArea").show("slide");
+        });
     });
-  });
 
 
-/* FMI  */
+    /* FMI  */
 
-   $("body").on("click" ,"#attakkalariposter" , function(){
-      $(".competitionArea").hide("clip" , "fast",function(){
-      $(".competitionArea").html(`
+    $("body").on("click", "#attakkalariposter", function() {
+        $(".competitionArea").hide("clip", "fast", function() {
+            $(".competitionArea").html(`
         <div class='contest'>
          <div class="container">
 <div class="heading">
@@ -457,29 +457,29 @@ $(document).ready(function(){
 </div>
 </div>
 </div>`);
-    $(".competitionArea").show("slide");
+            $(".competitionArea").show("slide");
+        });
     });
-  });
 
 
 
-   $("body").on("click" ,"#backBiggies" , function(){
-          $("#biggies").trigger("click");
-  });
+    $("body").on("click", "#backBiggies", function() {
+        $("#biggies").trigger("click");
+    });
 
-  $("body").on("click" ,"#backCulti" , function(){
-          $("#culti").trigger("click");
-      });
+    $("body").on("click", "#backCulti", function() {
+        $("#culti").trigger("click");
+    });
 
-  $("body").on("click" ,"#backInfi" , function(){
-          $("#infi").trigger("click");
-      });
+    $("body").on("click", "#backInfi", function() {
+        $("#infi").trigger("click");
+    });
 
-  $("body").on("click" ,"#backOnline" , function(){
-          $("#online").trigger("click");
-      });
+    $("body").on("click", "#backOnline", function() {
+        $("#online").trigger("click");
+    });
 
-  $("body").on("click" ,"#backLitr" , function(){
-          $("#litr").trigger("click");
-      });
+    $("body").on("click", "#backLitr", function() {
+        $("#litr").trigger("click");
+    });
 });
