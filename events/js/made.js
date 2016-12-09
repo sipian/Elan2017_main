@@ -1,4 +1,4 @@
-$(document).on('ready', function(){
+  $(document).on('ready', function(){
     $modal = $('.modal-frame');
     $overlay = $('.modal-overlay');
 

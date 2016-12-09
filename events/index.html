@@ -1,268 +1,410 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  
-  <title>ELAN 2017 EVENTS</title>
-  <meta charset="utf-8">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><!-- Force IE to use the latest rendering engine -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
-    
-
-<link rel="stylesheet" type="text/css" href="css/navBar.css">
-  <link rel="stylesheet" type="text/css" href="css/morph.css">
+  <title>ELAN EVENTS</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+  <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+  <meta name="author" content="Codrops" />
+  <link rel="shortcut icon" href="../favicon.ico">
+  <!--     <link rel="stylesheet" type="text/css" href="css/default.css" />
+      -->
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/animations.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
-   <link rel="stylesheet" type="text/css" href="css/main.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" type="text/css" href="css/frankcss.css">
+  <link rel="stylesheet" type="text/css" href="css/junk.css">
+  <link rel="stylesheet" type="text/css" href="css/hover.css">
+  <!--  <link rel="stylesheet" type="text/css" href="css/killer.css">
+      -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
-
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/demo-one.css">
-
+  <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css" />
+  <link href="css/text/animate.css" rel="stylesheet">
 </head>
-
 <style>
-span ,h2,p {
-  font: 200 40px/1em Amatic SC;
-  text-align: center;
- }
-
-span {
-  animation: jitter 200ms linear infinite;
-  color: #f06d06;
-  display: inline-block
+@font-face {
+    font-family: chelsea;
+    src: url(fonts/Chelsea.tff);
 }
-
-@keyframes jitter {
-  50% {
-    transform: skewY(0.7deg) skewX(-0.7deg) scale(1.006);
+@font-face {
+    font-family: chelsea;
+    src: url(fonts/Chelsea.tff);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+  span,
+  h2,
+  p {
+    font: 200 40px/1em Amatic SC;
+    text-align: center;
+    color: #f06d06;
   }
-}
-.contest{
-  font-family: 'Waiting for the Sunrise', cursive; 
-  font-size:18px; 
-  letter-spacing: 6px; 
-  font-weight: bold;
-}
-ul li{
-list-style: disc; 
- }
- 
+  span {
+    color: #f06d06;
+  }
+  h3 {
+    color: black;
+    font: 200 30px/1em Amatic SC;
+  }
+  img {
+    cursor: pointer;
+  }
+  .contest {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: white;
+  }
+  .table-responsive {
+    overflow-y: hidden;
+  }
+  .hide-text {
+    visibility: hidden;
+  }
 </style>
-<body>
+<!-- width : 
+2.5*2+4.5*3 = 18.5
+
+width : 1027.777777778
+height: 1111.111111111
 
 
-<div class="nav_logic">
-  <li id="biggies">
-    <a href="#">
-       <img class="img-circle img-responsive" src="images/biggies.png">
-     </a>
-    <p>BIGGIES</p>
-  </li>
+width : 
+height : 26*55.555555556 = 1445
 
-  <li id="online">
-    <a href="#">
-       <img class="img-circle img-responsive" src="images/online.png">
-     </a>
-    <p>ONLINE</p>
-  </li>  
+5.5*2 + 3 + 2*2 = 11+7 = 20
 
-    <li id="culti">
-    <a href="#">
-       <img class="img-circle img-responsive" src="images/culti.png">
-     </a>
-    <p>CULTI</p>
-  </li>
 
-    <li id="infi">
-    <a href="#">
-       <img class="img-circle img-responsive" src="images/infi.png">
-     </a>
-    <p>INFI</p>
-  </li>
-
-    <li id="litr">
-    <a href="#">
-       <img class="img-circle img-responsive" src="images/litr.png">
-     </a>
-    <p>LITR</p>
-  </li> 
-</div>
-
-<br><br>
-
- <div class="container competitionArea" style="margin-left:22%;">
-
-<br><br><br><br><br>
-  <h2 >BIGGIES<br>
-     
-   
-    
-
-<br><br>
-    
-
-    
-    <div class="container111">
-
-	<div id="header111" class="row text-center">
-		<div id="logo111">
-			<span id="danger">
-				<span class="dd animated bounceInDown">d</span>
-				<span class="da animated bounceInDown">a</span>
-				<span class="dn animated bounceInDown">n</span>
-				<span class="dg animated bounceInDown">g</span>
-				<span class="de animated bounceInDown">e</span>
-				<span class="dr animated bounceInDown">r</span>
-			</span>
-			<span id="zone">
-				<span class="zz animated bounceInDown">z</span>
-				<span class="zo animated bounceInDown">o</span>
-				<span class="zn animated bounceInDown">n</span>
-				<span class="ze animated bounceInDown">e</span>
-			</span>
-		</div>
-        </div>
-</div>
-    
-    
-    
-    
-    
-    
-    
-    
-<div class="container competitionArea" style="margin-left:22%;display: none;">
-    
-    
-   <br></h2>
- <p >ENTER INTO THE WORLD OF BIGGIES<br><br></p>
-  <div class="table-responsive" style="overflow-y: hidden;"> 
-  <table class="table">
-    <tbody>
-      <tr>
-      <div class="row">
-      <td class="col-lg-4" style="padding-left: 0%;d" id="elan-e-jung">
-        <div class="animated bounceInUp col-sm-8 text-center">
-          <div class="morph pic">
-            <img class="img-circle img-responsive" src="images/biggies/elan-e-jung.jpg" width="180px;">
-          </div>
-        </div>
-      </td>
-
-      <td class="col-lg-4" style="padding-left: 0%;" id="manthan">
-        <div class="animated bounceInUp col-sm-8 text-center">
-          <div class="morph pic">
-            <img class="img-circle img-responsive" src="images/biggies/manthan.jpg" width="180px;">
-          </div>
-        </div>
-      </td>
-
-      <td class="col-lg-4" style="padding-left: 0%;" id="fmi">
-        <div  class="animated bounceInUp col-sm-8 text-center">
-          <div class="morph pic">
-            <img class="img-circle img-responsive" src="images/biggies/fmi.jpg" width="180px;">
-          </div>
-        </div>
-      </td>
-        </div>
-      </tr>
-
-      <tr>
-      <div class="row">
-
-        <td class="col-lg-4" id="elan-e-jung_TEXT">
-        <div  class="animated bounceInUp col-sm-8 text-center">
-        <span class="jittery" id="jittery1"> ELAN-E-JUNG </span>
-        </div>
-        </td>
-
-        <td class="col-lg-4" id="manthan_TEXT">
-        <div class="animated bounceInUp col-sm-8 text-center">
-        <span class="jittery" id="jittery2"> MANTHAN </span>
-        </div>
-        </td>
-
-        <td class="col-lg-4" id="fmi_TEXT">
-        <div  class="animated bounceInUp col-sm-8 text-center">
-        <span class="jittery" id="jittery3"  style="margin-left: -10%;"> CAMPUS&nbsp;PRINCESS&nbsp;AUDITION </span>
-        </div>
-        </td>
-        </div>
-      </tr>
-
-       <tr>
-
-      <div class="row">
-        <td class="col-lg-4"></td>
+55.555555556
+4.5/250
+5.5/300 -->
+<body >
+  <div id="pt-main" class="pt-perspective container-fluid" >
+    <div class="pt-page pt-page-1" style="
+    background-image: url('images/background.png');  
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    ">
+<!--       <br> <br> <br> <br> <br>
+ -->        <br> <br> <br> <br> <br>
+ <div class="container competitionArea biggiesBigDiv" style="margin-left:auto;margin-bottom:50px;">
         
-        <td class="col-lg-4" style="padding-left: 0%;" id="attakkalariposter">
-          <div  class="animated bounceInUp col-sm-8 text-center">
-            <div class="morph pic">
-              <img class="img-circle img-responsive" src="images/biggies/attakkalariposter.jpg" width="180px;">
-            </div>
+         <p><br></p>
+  <div class="table-responsive" style="padding-bottom: 140px;
+         background-image: url('images/event_main.png');  
+         background-repeat: no-repeat;
+         background-attachment: scroll;
+         background-size: cover;     
+       ">
+       <h2><br><br><br><br>BIGGIES<br><br></h2>
+          <table class="table">
+             <tbody>
+              <tr>
+                <div class="row">
+                  <td class="col-lg-4 " style="padding-left: 2%;">
+                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+
+                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                          <div class="front">
+                            <img class="img-responsive pop" src="images/biggies/elan-e-jung.jpg" style="width: 250px;height: 300px;">
+                          </div>
+                          <div class="back">
+                            <div id="text">
+                              <br>
+                              <h3 class="short_description">
+                              WATCH AS THE STAGE IS CONVERTED INTO A BATTLEFIELD AS THE BANDS SWEAT IT OUT IN A WINNER-GET-ALL-NO-HOLDS-BARRED CONTEST
+                             </h3>
+                              <button type="button" class="btn btn-info elan-e-jung clickButton">
+                                ELAN-E-JUNG
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="col-lg-4" style="padding-left: 0%;">
+                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                          <div class="front">
+                            <img class="img-responsive" src="images/biggies/manthan.jpg" style="width: 250px;height: 300px;">
+                          </div>
+                          <div class="back">
+                            <div id="text">
+                              <br>
+                              <br>
+                              <h3 class="short_description">
+                                Lose yourself in the
+                                 lilting guitar 
+                                 music dished out by the score.
+                              </h3>
+                              <br>
+                              <br>
+                              <button type="button" class="btn btn-info manthan clickButton">
+                                MANTHAN
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="col-lg-4" style="padding-left: 0%;">
+                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                          <div class="front">
+                            <img class="img-responsive" src="images/biggies/fmi.jpg" style="width: 250px;height: 300px;">
+                          </div>
+                          <div class="back">
+                            <div id="text">
+                              <br>
+                              <br>
+                              <h3 class="short_description">
+                                ZONAL AUDITIONS HELD IN ELAN 2016 ,
+                                 ADJUDGED BY AAFREEN VAZ.
+                              </h3>
+                              <br>
+                              <br>
+                              <button type="button" class="btn btn-info fmi clickButton">
+                                CAMPUS PRINCESS
+                                <br> AUDITION
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </div>
+              </tr>
+              <tr>
+                <div class="row">
+                  <td class="col-lg-4">
+                    <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                      <br>
+                      <span class="contestName" style="margin-left: 70px;">ELAN-E-JUNG </span>
+                    </div>
+                  </td>
+                  <td class="col-lg-4 manthan">
+                    <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                      <br>
+                      <span class="contestName" id="trial2" style="margin-left: 70px;"> MANTHAN </span>
+                    </div>
+                  </td>
+                  <td class="col-lg-4 fmi">
+                    <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                      <br>
+                      <span class="contestName" id="trial3" style="margin-left: 70px;"> CAMPUS&nbsp;PRINCESS</span>
+                      <br>
+                      <span class="contestName" id="trial3" style="margin-left: 70px;">AUDITION </span>
+                    </div>
+                  </td>
+                </div>
+              </tr>
+              <tr>
+                <div class="row">
+                  <td class="col-lg-4"></td>
+                  <td class="col-lg-4 angasutra" style="padding-left: 0%;" id="attakkalariposter">
+                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                          <div class="front">
+                            <img class="img-responsive" src="images/biggies/attakkalariposter.jpg" style="width: 250px;height: 300px;">
+                          </div>
+                          <div class="back">
+                            <div id="text">
+                              <br>
+                              <br>
+                              <h3 class="short_description">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An Evening of Mixed Ball
+                              </h3>
+                              <br>
+                              <br>
+                              <button type="button" class="btn btn-info angasutra clickButton">
+                                ANGASUTRA
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </div>
+                </td>
+                <td class="col-lg-4"></td>
+        </div>
+        </tr>
+        <tr>
+          <div class="row">
+            <td class="col-lg-4"></td>
+            <td class="col-lg-4">
+              <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                <br>
+                <span class="contestName" id="trial4" style="margin-left: 70px;margin-bottom: "> ANGASUTRA </span>
+              </div>
+            </td>
+            <td class="col-lg-4"></td>
           </div>
-        </td>
-
-        <td class="col-lg-4"></td>
-        </div>
-      </tr>
-      <tr>
-      <div class="row">
-        <td class="col-lg-4" ></td>
-
-        <td class="col-lg-4"  id="attakkalariposter_TEXT">
-           <div  class="animated bounceInUp col-sm-8 text-center">
-           <span class="jittery" id="jittery4"> ANGASUTRA </span>
-           </div>
-        </td>
-        <td class="col-lg-4" ></td>
-        </div>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-</div>
-</body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+
+  <div class="pt-page pt-page-2">
+    <br> <br> <br> <br> <br>
+        <br> <br> <br> <br> <br>
+    <div class="container competitionArea cultiBigDiv" style="margin-left:auto;"></div>
+    </div>
+    
+
+
+   <div class="pt-page pt-page-3">
+        <br> <br> <br> <br> <br>
+        <br> <br> <br> <br> <br>
+        <div class="container competitionArea infiBigDiv" style="margin-left:auto;"></div>
+      </div>
+
+
+
+   <div class="pt-page pt-page-4">
+        <br> <br> <br> <br> <br>
+        <br> <br> <br> <br> <br>
+        <div class="container competitionArea onlineBigDiv" style="margin-left:auto;"></div>
+   </div>
+
+
+   <div class="pt-page pt-page-5">
+            <br> <br> <br> <br> <br>
+        <br> <br> <br> <br> <br>
+          <div class="container competitionArea litrBigDiv" style="margin-left:auto;"></div>
+    </div>
+
+ </body>
+<script src="js/modernizr.custom.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script type="text/javascript">
-   function jitterEffect(start , stop){
-    for (var num = start; num <= stop; num++) {
-     let id='#jiterry'+num.toString();
-    var $jittery = $("#jittery"+num),
-    aText = $jittery.text().split(''),
-    letters = '';
-    for (var i = 0; i < aText.length; i++) {
-    letters += '<span>' + aText[i] + '</span>';
-   }
+  $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5").prepend(`
+  <ul id="nav" style="margin-top:100px;">
+    <li class="biggies" style="margin-left:-40px;">
+    <a href="#">
+      <div  style=" 
+    background-image: url('images/button.png');  
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: scroll;
+    background-size:150px 200px;">
+    <p style="padding:30px;font-size:35px;">BIGGIES</p>
+      </div>
+       </div>
+     </a>
+    </li>
 
-  $jittery.empty().append(letters);
 
-  $.each($('span', $jittery), function(i) {
-    $(this).css('animation-delay', '-' + i + '70ms');
-  }); 
-  }
-}
+    <li class="culti" style="margin-left: 60px;">
+    <a href="#">
+      <div  style=" 
+    background-image: url('images/button.png');  
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: scroll;
+    background-size:150px 200px;">
+    <p style="padding:30px;font-size:35px;">CULTI</p>
+      </div>
+       </div>
+     </a>
+    </li>
+    
+    
+    <li class="infi" style="margin-left: 60px;">
+    <a href="#">
+      <div  style=" 
+    background-image: url('images/button.png');  
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: scroll;
+    background-size:150px 200px;">
+    <p style="padding:30px;font-size:35px;">INFI</p>
+      </div>
+       </div>
+     </a>
+    </li>
+    
+    <li class="online" style="margin-left: 60px;">
+    <a href="#">
+      <div  style=" 
+    background-image: url('images/button.png');  
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: scroll;
+    background-size:150px 200px;">
+    <p style="padding:30px;font-size:35px;">ONLINE</p>
+      </div>
+       </div>
+     </a>
+    </li>
+
+    
+    <li class="litr" style="margin-left: 60px;">
+    <a href="#">
+      <div  style=" 
+    background-image: url('images/button.png');  
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: scroll;
+    background-size:150px 200px;">
+    <p style="padding:30px;font-size:35px;">LITR</p>
+      </div>
+       </div>
+     </a>
+    </li>
+
+    </ul>
+    `);
 </script>
- <script src="js/content.js" type="text/javascript"></script>
-<script src="js/contestDetails.js" type="text/javascript"></script>
-</html>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/changeBiggiesContent.js"></script>
+<script src="js/changeCultiContent.js"></script>
+<script src="js/changeInfiContent.js"></script>
+<script src="js/changeLitrContent.js"></script>
+<script src="js/changeOnlineContent.js"></script>
+<script src="js/pagetransitions.js"></script>
+<script src="js/contest/biggies/biggiesText.js"></script>
+<script src="js/contest/biggies/biggies.js"></script>
+<script src="js/contest/culti/cultiText.js"></script>
+<script src="js/contest/culti/culti.js"></script>
+<script src="js/contest/infi/infiText.js"></script>
+<script src="js/contest/infi/infi.js"></script>
+<script src="js/contest/online/onlineText.js"></script>
+<script src="js/contest/online/online.js"></script>
+<script src="js/contest/litr/litrText.js"></script>
+<script src="js/contest/litr/litr.js"></script>
+     <script type="text/javascript">
+     console.log($(".biggiesBigDiv").width());
+     console.log($(".biggiesBigDiv").height());
 
+     console.log("***********************************");
+
+     console.log($(".pop").width());
+     console.log($(".pop").height());
+
+      </script>
+</html>

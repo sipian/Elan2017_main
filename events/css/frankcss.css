@@ -1,39 +1,33 @@
- 
-.nav_logic {
+
+#nav {
+z-index: 10000;
 width:950px;
 margin:0 auto;
 list-style:none;
 padding-top: 0px;
-padding-bottom: 10px;
-background: transparent;
+padding-bottom: 20px;
 
 }
-.nav_logic img
+#nav img
 {
-	width: 45px;
-	background: transparent;
+	width: 60px;
 }
-.nav_logic li {
+#nav li {
 float:left;
 padding-top: 10px;
 padding-bottom: 10px;
 }
-.nav_logic a {
+#nav a {
 display:block;
 text-align:center;
 width:150px; /* fixed width */
-text-decoration:none;
-font: 25px Amatic SC; 
+text-decoration:none; 
 
 }
-.nav_logic p{
+#nav p{
 	display:block;
 text-align:center;
 width:150px; /* fixed width */
 text-decoration:none;
-font: 25px Amatic SC; 
 }
-
-
-
 
