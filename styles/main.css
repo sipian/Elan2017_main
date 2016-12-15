@@ -51,8 +51,8 @@
 }
 @media (max-height: 339px) {
     .section__home .home__bg-container-trans {
-        display: none
-    }
+/*        display: none
+*/    }
 }
 .section__home .home__bg-island-animation {
     position: relative;
@@ -70,8 +70,8 @@
     left: 0;
     width: 30%;
     height: 100%;
-    background: #df9279;
-}
+/*    background: #df9279;
+*/}
 @media (min-height: 341px) and (min-width: 641px) {
     .section__home .home__bg-container-left1 {
         width: 3px;
@@ -88,8 +88,8 @@
     left: 99%;
     width: 30%;
     height: 100%;
-    background: #df9279
-}
+/*    background: #df9279
+*/}
 @media (min-height: 341px) and (min-width: 641px) {
     .section__home .home__bg-container-left2 {
         width: 50%
@@ -115,8 +115,8 @@
     background-repeat: no-repeat;
     width: 276px;
     height: 223px;
-    display: none;
-    visibility: hidden;
+/*    display: none;
+*/    visibility: hidden;
     top: calc(50% - 105px - 65px)
 }
 @media (min-height: 341px) and (min-width: 641px) {
@@ -130,16 +130,16 @@
     top: 85%;
     right: 30px;
     margin: 0 auto;
-    background-image: url("../images/meyer-hole.png");
-/*    background-size: 205px 36px;
+/*    background-image: url("../images/meyer-hole.png");
+*//*    background-size: 205px 36px;
 */        background-size: 70% 70%;
 
     background-position: top center;
     background-repeat: no-repeat;
     width: 205px;
     height: 36px;
-    display: none;
-    visibility: hidden
+/*    display: none;
+*/    visibility: hidden
 }
 @media (min-width: 641px) {
     .section__home .home__bg-hole-meyer {
@@ -152,10 +152,10 @@
     left: 33.3%;
     width: 33.3%;
     height: 100%;
-    background: #a08e5d;
-    visibility: hidden;
-    display: none
-}
+/*    background: #a08e5d;
+*/    visibility: hidden;
+/*    display: none
+*/}
 @media (min-height: 341px) and (min-width: 641px) and (max-width: 1024px) {
     .section__home .home__bg-container-center1 {
         visibility: visible;
@@ -178,10 +178,10 @@
     left: 130%;
     width: 33.3%;
     height: 100%;
-    background: #a08e5d;
-    visibility: hidden;
-    display: none
-}
+/*    background: #a08e5d;
+*/    visibility: hidden;
+/*    display: none
+*/}
 @media (min-height: 341px) and (min-width: 641px) and (max-width: 1024px) {
     .section__home .home__bg-container-center2 {
         visibility: visible;
@@ -219,8 +219,8 @@ width: 184px;
 .section__home .home__bg-hole-miller {
     top: 85%;
     right: 20px;
-    background-image: url("../images/miller-hole.png");
-/*    background-size: 204px 36px;
+/*    background-image: url("../images/miller-hole.png");
+*//*    background-size: 204px 36px;
 */  
     background-size: 70% 70%;
 
@@ -232,8 +232,8 @@ width: 184px;
     left: 66.6%;
     width: 33.3%;
     height: 100%;
-    background: #333;
-    visibility: hidden;
+/*    background: #333;
+*/    visibility: hidden;
     display: none
 }
 @media (min-height: 341px) and (min-width: 1025px) {
@@ -248,8 +248,8 @@ width: 184px;
     left: 160%;
     width: 50%;
     height: 100%;
-    background: #333;
-    visibility: hidden;
+/*    background: #333;
+*/    visibility: hidden;
     display: none
 }
 @media (min-height: 341px) and (min-width: 1025px) {
@@ -281,8 +281,8 @@ width: 258px;
 .section__home .home__bg-hole-smith {
     top: 85%;
     right: 0;
-    background-image: url("../images/smith-hole.png");
-/*    background-size: 205px 36px;
+/*    background-image: url("../images/smith-hole.png");
+*//*    background-size: 205px 36px;
 */
     background-size: 70% 70%;
 
@@ -319,8 +319,8 @@ width: 258px;
 .section__home .home__bg-hole-helmet {
     top: 85%;
     right: 0;
-    background-image: url("../images/helmet-hole.png");
-/*    background-size: 205px 36px;
+/*    background-image: url("../images/helmet-hole.png");
+*//*    background-size: 205px 36px;
 */
     background-size: 70% 70%;
 
@@ -352,8 +352,8 @@ width: 258px;
 .section__home .home__bg-hole-shield {
     top: 85%;
     right: 0;
-    background-image: url("../images/shield-hole.png");
-/*    background-size: 205px 36px;
+/*    background-image: url("../images/shield-hole.png");
+*//*    background-size: 205px 36px;
 */
     background-size: 70% 70%;
 
@@ -385,8 +385,8 @@ width: 258px;
 .section__home .home__bg-hole-crown {
     top: 85%;
     right: 0;
-    background-image: url("../images/crown-hole.png");
-/*    background-size: 205px 36px;
+/*    background-image: url("../images/crown-hole.png");
+*//*    background-size: 205px 36px;
 */
     background-size: 70% 70%;
 
@@ -546,6 +546,7 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 body {
+
     position: relative;
     min-height: 100%;
     font-family: "simplonNorm-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;

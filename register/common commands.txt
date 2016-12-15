@@ -1,0 +1,26 @@
+drop table users;
+drop table users_unverified;
+
+
+CREATE TABLE users(
+	ID varchar(100) PRIMARY KEY,
+	name text NOT NULL,
+	username varchar(100) NOT NULL UNIQUE,
+	password text NOT NULL,
+	college text NOT NULL,
+	mobile varchar(13) NOT NULL,
+	email varchar(100) NOT NULL UNIQUE,
+	city text
+);
+
+create table users_unverified(
+	username varchar(100) PRIMARY KEY,
+	password text NOT NULL,
+	college text NOT NULL,
+	mobile varchar(13) NOT NULL,
+	email varchar(100) NOT NULL UNIQUE,
+	city text,
+	code text,
+	name text NOT NULL
+);
+
