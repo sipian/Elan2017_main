@@ -1,12 +1,22 @@
 function changeCultiContent() {
     $('.cultiBigDiv').html(`
-<h2>culti<br><br></h2>
-<div class="table-responsive">
-    <table class="table">
+  <p><br></p>
+<div class="table-responsive"  style="padding-bottom: 140px;
+         background-image: url('images/event_culti.png');  
+         background-repeat: no-repeat;
+         background-attachment: scroll;
+      background-size: contain;     
+       ">
+          <h2 style="margin-left: 30px;margin-top: 8px; margin-bottom: 10px;">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  CULTI
+                  </h2>    <table class="table">
         <tbody>
             <tr>
                 <div class="row">
-
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -665,7 +675,7 @@ function changeCultiContent() {
         </tbody>
     </table>
 </div>
-<div class="table-responsive">
+<div class="table-responsive"  style="margin-top:-120px;">
     <table class="table">
         <tbody>
             <tr>

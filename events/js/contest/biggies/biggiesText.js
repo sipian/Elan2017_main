@@ -3,23 +3,22 @@ function getBiggiesContent(argument) {
 	if(argument=='elan-e-jung')
 		return `\`
         <p><br></p>
-        <div class='contest' 
-         style="padding-bottom: 140px;
-         background-image: url('images/event_main.png');  
-         background-repeat: no-repeat;
-         background-attachment: scroll;
-         background-size: contain;     
-       ">
-    <div class="container">
-    <br><br><br><br><br><br><br>
-
+    <div class='contest' 
+      style="padding-bottom: 140px;
+      background-image: url('images/event_culti.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: cover;     
+    ">
+    <div class="container" style="width:1040px;padding-left:35px;text-align:left;">
+     <br><br><br><br><br><br><br>
         <div class="heading">
             <div class="col-lg-1" id="backBiggies">
                 <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-2"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;"> ELAN-E-JUNG</strong> </h2>
+                <h2> <strong style="font-weight: 900;margin-left:75px;"> ELAN-E-JUNG</strong> </h2>
             </div>
             <br><br><br>
         </div>
@@ -35,7 +34,7 @@ function getBiggiesContent(argument) {
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
         <div class="text">

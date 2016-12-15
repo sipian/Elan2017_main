@@ -32,10 +32,10 @@
   cursor: pointer;
   -webkit-backface-visibility: hidden;
 }
-/*
+ 
 .dummy-button {
   position: absolute;
-  top: 500%;
+  top: 35%;
   left: 50%;
   z-index: 11;
   margin-top: -2.25em;
@@ -55,7 +55,7 @@
   cursor: pointer;
   -webkit-backface-visibility: hidden;
 }
-*/
+ 
 .csstransforms .cn-wrapper { 
   z-index: -11;
   position: fixed;

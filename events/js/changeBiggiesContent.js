@@ -1,21 +1,27 @@
 function changeBiggiesContent() {
     $('.biggiesBigDiv').html(`
-       
-         <p><br></p>
-  <div class="table-responsive" style="padding-bottom: 140px;
-         background-image: url('images/event_main.png');  
-         background-repeat: no-repeat;
-         background-attachment: scroll;
-         background-size: cover;     
-       ">
-       <h2><br><br><br><br>BIGGIES<br><br></h2>
+              <p>
+          <br>
+        </p>
+        <div class="table-responsive" style="padding-bottom: 140px;
+                  background-image: url('images/event_main.png');  
+                  background-repeat: no-repeat;
+                  background-attachment: scroll;
+                  background-size: contain;     
+                  ">
+          <h2 style="margin-left: 30px;margin-top: 8px; margin-bottom: 10px;">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  BIGGIES
+                  </h2>
           <table class="table">
-             <tbody>
+            <tbody>
               <tr>
                 <div class="row">
                   <td class="col-lg-4 " style="padding-left: 2%;">
                     <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-
                       <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
                           <div class="front">
@@ -25,8 +31,8 @@ function changeBiggiesContent() {
                             <div id="text">
                               <br>
                               <h3 class="short_description">
-                              WATCH AS THE STAGE IS CONVERTED INTO A BATTLEFIELD AS THE BANDS SWEAT IT OUT IN A WINNER-GET-ALL-NO-HOLDS-BARRED CONTEST
-                             </h3>
+                                                   Watch As The Stage Is Converted Into A Battlefield As The Bands Sweat It Out In A Winner-get-all-no-holds-barred Contest
+                                                </h3>
                               <button type="button" class="btn btn-info elan-e-jung clickButton">
                                 ELAN-E-JUNG
                               </button>
@@ -36,7 +42,7 @@ function changeBiggiesContent() {
                       </div>
                     </div>
                   </td>
-                  <td class="col-lg-4" style="padding-left: 0%;">
+                  <td class="col-lg-4" style="padding-left: 1%;">
                     <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
                       <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
@@ -48,10 +54,10 @@ function changeBiggiesContent() {
                               <br>
                               <br>
                               <h3 class="short_description">
-                                Lose yourself in the
-                                 lilting guitar 
-                                 music dished out by the score.
-                              </h3>
+                                                   Lose yourself in the
+                                                   lilting guitar 
+                                                   music dished out by the score.
+                                                </h3>
                               <br>
                               <br>
                               <button type="button" class="btn btn-info manthan clickButton">
@@ -75,9 +81,9 @@ function changeBiggiesContent() {
                               <br>
                               <br>
                               <h3 class="short_description">
-                                ZONAL AUDITIONS HELD IN ELAN 2016 ,
-                                 ADJUDGED BY AAFREEN VAZ.
-                              </h3>
+                                                   Zonal Auditions Held In Elan 2016 ,
+                                                   Adjudged By Aafreen Vaz.
+                                                </h3>
                               <br>
                               <br>
                               <button type="button" class="btn btn-info fmi clickButton">
@@ -96,22 +102,53 @@ function changeBiggiesContent() {
                 <div class="row">
                   <td class="col-lg-4">
                     <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                      <span style="margin-left: 60px;">
+                                    <img src="images/borderImg1.png" class="borderImg"
+                                    style="margin-bottom: -5px; ">
+                                    </span>
                       <br>
-                      <span class="contestName" style="margin-left: 70px;">ELAN-E-JUNG </span>
+                      <span class="contestName" style="margin-left: 75px;
+                                    margin-right: -60px;">ELAN-E-JUNG 
+                                    </span>
+                      <br>
+                      <span style="margin-left: 60px;">
+                                    <img src="images/borderImg2.png" class="borderImg"
+                                    style="margin-bottom: -3px; ">
+                                    </span>
                     </div>
                   </td>
                   <td class="col-lg-4 manthan">
                     <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                      <span style="margin-left: 45px;">
+                                    <img src="images/borderImg1.png" class="borderImg"
+                                    style="margin-bottom: -5px; ">
+                                    </span>
                       <br>
-                      <span class="contestName" id="trial2" style="margin-left: 70px;"> MANTHAN </span>
+                      <span class="contestName" style="margin-left: 49px;margin-right: -60px;">MANTHAN 
+                                    </span>
+                      <br>
+                      <span style="margin-left: 45px;">
+                                    <img src="images/borderImg2.png" class="borderImg"
+                                    style="margin-bottom: -3px; ">
+                                    </span>
                     </div>
                   </td>
                   <td class="col-lg-4 fmi">
                     <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                      <span style="margin-left: 35px;">
+                                    <img src="images/borderImg1.png" class="borderImg"
+                                    style="margin-bottom: -5px; ">
+                                    </span>
                       <br>
-                      <span class="contestName" id="trial3" style="margin-left: 70px;"> CAMPUS&nbsp;PRINCESS</span>
+                      <span class="contestName" id="trial3" style="margin-left: 50px;"> CAMPUS&nbsp;PRINCESS</span>
                       <br>
-                      <span class="contestName" id="trial3" style="margin-left: 70px;">AUDITION </span>
+                      <span class="contestName" id="trial3" style="margin-left: 70px;">AUDITION 
+                                    </span>
+                      <br>
+                      <span style="margin-left: 35px;">
+                                    <img src="images/borderImg2.png" class="borderImg"
+                                    style="margin-bottom: -3px; ">
+                                    </span>
                     </div>
                   </td>
                 </div>
@@ -119,7 +156,7 @@ function changeBiggiesContent() {
               <tr>
                 <div class="row">
                   <td class="col-lg-4"></td>
-                  <td class="col-lg-4 angasutra" style="padding-left: 0%;" id="attakkalariposter">
+                  <td class="col-lg-4 angasutra" style="padding-left: 1%;" id="attakkalariposter">
                     <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
                       <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
@@ -131,8 +168,8 @@ function changeBiggiesContent() {
                               <br>
                               <br>
                               <h3 class="short_description">
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An Evening of Mixed Ball
-                              </h3>
+                                                   An Evening of Mixed Ball
+                                                </h3>
                               <br>
                               <br>
                               <button type="button" class="btn btn-info angasutra clickButton">
@@ -154,8 +191,18 @@ function changeBiggiesContent() {
             <td class="col-lg-4"></td>
             <td class="col-lg-4">
               <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                <span style="margin-left: 45px;">
+                                    <img src="images/borderImg1.png" class="borderImg"
+                                    style="margin-bottom: -5px; ">
+                                    </span>
                 <br>
-                <span class="contestName" id="trial4" style="margin-left: 70px;margin-bottom: "> ANGASUTRA </span>
+                <span class="contestName" id="trial4" style="margin-left: 93px;margin-bottom: "> 
+               ANGASUTRA </span>
+                <br>
+                <span style="margin-left: 45px;">
+                                    <img src="images/borderImg2.png" class="borderImg"
+                                    style="margin-bottom: -3px; ">
+                                    </span>
               </div>
             </td>
             <td class="col-lg-4"></td>

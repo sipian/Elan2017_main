@@ -87,7 +87,7 @@ $('body').on("click", ".biggies", function() {
                 changeContest();
                 $('.biggiesDiv').css("display", "block");
                 $('.biggiesDiv').addClass('animated bounceInUp');
-            }, 750);
+            }, 380);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".culti", function() {
@@ -98,7 +98,7 @@ $('body').on("click", ".culti", function() {
                 changeContest();
                 $('.cultiDiv').css("display", "block");
                 $('.cultiDiv').addClass('animated bounceInUp');
-            }, 750);
+            }, 380);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".infi", function() {
@@ -109,7 +109,7 @@ $('body').on("click", ".infi", function() {
                 changeContest();
                 $('.infiDiv').css("display", "block");
                 $('.infiDiv').addClass('animated bounceInUp');
-            }, 750);
+            }, 380);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".online", function() {
@@ -120,7 +120,7 @@ $('body').on("click", ".online", function() {
                 changeContest();
                 $('.onlineDiv').css("display", "block");
                 $('.onlineDiv').addClass('animated bounceInUp');
-            }, 750);
+            }, 380);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".litr", function() {
@@ -131,6 +131,8 @@ $('body').on("click", ".litr", function() {
                 changeContest();
                 $('.litrDiv').css("display", "block");
                 $('.litrDiv').addClass('animated bounceInUp');
-            }, 750);
+            }, 380);
         }); //rotateCubeTopOut
 });
+
+/*36 60  66  28  13*/

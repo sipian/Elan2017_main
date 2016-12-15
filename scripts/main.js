@@ -270,7 +270,6 @@ this.MMS = this.MMS || {};
             var currentIslandTop = island.offset().top;
             var holeTop = $(".home__bg-hole-" + part).offset().top;
 
-
             island.off("click touchstart");
             this.playClickSound(index);
 
@@ -318,7 +317,7 @@ this.MMS = this.MMS || {};
                     mobileHA: true
                 });
                 self.playSwooshSound(index);
-            }, 2000);   //speed of object going up
+            }, 400);   //speed of object going up
 
         },
 

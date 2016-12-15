@@ -1,8 +1,16 @@
 function changeInfiContent() {
     $('.infiBigDiv').html(`
-           <h2>INFI<br><br></h2>
-                        <div class="table-responsive">
-                            <table class="table">
+                      <p><br></p>
+<div class="table-responsive"  style="padding-bottom: 140px;
+         background-image: url('images/event_infi.png');  
+         background-repeat: no-repeat;
+         background-attachment: scroll;
+      background-size: contain;     
+       ">
+       
+    <h2 style="margin-left: 30px;margin-bottom: 10px;"><br><br><br><br><br>INFI </h2>
+     
+     <table class="table">
                                 <tbody>
                                     <tr>
                                         <div class="row">
@@ -210,7 +218,7 @@ function changeInfiContent() {
                                 </tbody>
                             </table>
                         </div>
-                        <div class="table-responsive">
+                        <div class="table-responsive" style="margin-top:-120px;">
                             <table class="table">
                                 <tbody>
                                     <tr>

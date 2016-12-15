@@ -1,12 +1,18 @@
 function changeLitrContent() {
   $('.litrBigDiv').html(`
-<h2>LITR<br><br></h2>
-<div class="table-responsive">
+
+ <div class="table-responsive" style="
+        padding-bottom: 140px;
+        background-image: url('images/event_litr.png');  
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;">
+
+  <h2 style="margin-left: 30px; margin-bottom: 10px;"><br><br><br>LITR </h2>
     <table class="table">
         <tbody>
             <tr>
                 <div class="row">
-
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center litrDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -18,10 +24,8 @@ function changeLitrContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    UNRAVEL ALL THE CLUES HIDDEN IN PLAIN SIGHT AND BE THE FIRST TO GET TO THE BOTTOM OF THE MYSTERY.
+                                    Unravel All The Clues Hidden In Plain Sight And Be The First To Get To The Bottom Of The Mystery.
                               </h3>
-                                            <br>
-                                            <br>
                                             <button type="button" class="btn btn-info mrdetective clickButton">
                                                 MR&nbsp;DETECTIVE
                                             </button>
@@ -31,8 +35,6 @@ function changeLitrContent() {
                             </div>
                         </div>
                     </td>
-
-
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center litrDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -44,9 +46,8 @@ function changeLitrContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    A FUN EVENT THAT COMBINES LUCK AND KNOWLEDGE,POINT DETERMINED BY THE NUMBER SPUN ON THE WHEEL.
+                                    A Fun Event That Combines Luck And Knowledge,point Determined By The Number Spun On The Wheel.
                                </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info wheel-of-fortune clickButton">
                                                 WHEEL&nbsp;OF&nbsp;FORTUNE
@@ -57,9 +58,6 @@ function changeLitrContent() {
                             </div>
                         </div>
                     </td>
-
-
-
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center litrDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -70,10 +68,9 @@ function changeLitrContent() {
                                     <div class="back">
                                         <div id="text">
                                             <br>
-                                            <h3 class="short_description">
-                                    SET OF THEMED QUIZZES, AND THERE'S ONE FOR EVERYBODY. THE JACKS OF ALL TRADES PARTICIPATE IN VARIOUS ROUNDS OF THE GENERAL QUIZ.
+                                             <h3 class="short_description">
+                                    Set Of Themed Quizzes, And There's One For Everybody. The Jacks Of All Trades Participate In Various Rounds Of The General Quiz.
                                     </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info quizzes clickButton">
                                                 QUIZ&nbsp;CONCLAVE
@@ -116,7 +113,7 @@ function changeLitrContent() {
 </div>
 
 
-<div class="table-responsive">
+<div class="table-responsive" style="margin-top:-120px;">
     <table class="table">
         <tbody>
             <tr>
@@ -132,11 +129,10 @@ function changeLitrContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    YOU'VE GOT A MINUTE TO WIN IT.
-                                    GOOD LUCK 
+                                    You've Got A Minute To Win It.
+                                    Good Luck 
                                 </h3>
-                                            <br>
-                                            <br>
+                                        <br>
                                             <button type="button" class="btn btn-info jam clickButton">
                                                 JUST&nbsp;A&nbsp;MINUTE
                                             </button>
@@ -158,9 +154,8 @@ function changeLitrContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    TRADE AND BEYOND IN ASSOCIATION WITH ELAN , IIT HYDERABAD INVITED STUDENTS FOR ITS CAMPUS QUIZ DURING THE FEST
+                                    Trade And Beyond In Association With Elan , Iit Hyderabad Invited Students For Its Campus Quiz During The Fest
                                 </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info businessquiz clickButton">
                                                 BUSINESS&nbsp;QUIZ
@@ -198,7 +193,6 @@ function changeLitrContent() {
         </tbody>
     </table>
 </div>
-<br><br><br>
-        `);
+         `);
 
 }

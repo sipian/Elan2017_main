@@ -1,0 +1,12 @@
+[16-Jun-2016 03:09:16 America/New_York] PHP Warning:  session_start(): open(/tmp/sess_CC4005BAE2D6DBE1E9F0F5030E1A2735, O_RDWR) failed: Permission denied (13) in /home/elanorg/public_html/register/register.php on line 2
+[16-Jun-2016 03:09:16 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/elanorg/public_html/register/register.php:2) in /home/elanorg/public_html/register/register.php on line 2
+[16-Jun-2016 03:09:16 America/New_York] PHP Warning:  Unknown: open(/tmp/sess_CC4005BAE2D6DBE1E9F0F5030E1A2735, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[16-Jun-2016 03:09:16 America/New_York] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[16-Jun-2016 03:19:48 America/New_York] PHP Warning:  session_start(): open(/tmp/sess_CC4005BAE2D6DBE1E9F0F5030E1A2735, O_RDWR) failed: Permission denied (13) in /home/elanorg/public_html/register/register.php on line 2
+[16-Jun-2016 03:19:48 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/elanorg/public_html/register/register.php:2) in /home/elanorg/public_html/register/register.php on line 2
+[16-Jun-2016 03:19:48 America/New_York] PHP Warning:  Unknown: open(/tmp/sess_CC4005BAE2D6DBE1E9F0F5030E1A2735, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[16-Jun-2016 03:19:48 America/New_York] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[30-Jun-2016 11:30:16 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/elanorg/public_html/register/checkuser.php on line 17
+[30-Jun-2016 11:30:17 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/elanorg/public_html/register/checkuser.php on line 24
+[30-Jun-2016 11:30:17 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/elanorg/public_html/register/checkuser.php on line 17
+[30-Jun-2016 11:30:17 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/elanorg/public_html/register/checkuser.php on line 24

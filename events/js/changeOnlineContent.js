@@ -1,12 +1,19 @@
 function changeOnlineContent() {
   $('.onlineBigDiv').html(`
-<h2>online<br><br></h2>
-<div class="table-responsive">
+ <p><br></p>
+<div class="table-responsive"  style="padding-bottom: 140px;
+         background-image: url('images/event_online.png');  
+         background-repeat: no-repeat;
+         background-attachment: scroll;
+      background-size: contain;     
+      overflow-y: auto;
+       ">
+       
+    <h2 style="margin-left: 30px;margin-bottom: 10px;"><br><br><br><br>ONLINE </h2>
     <table class="table">
         <tbody>
             <tr>
                 <div class="row">
-
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -33,7 +40,6 @@ function changeOnlineContent() {
                             </div>
                         </div>
                     </td>
-
 
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
@@ -234,7 +240,7 @@ function changeOnlineContent() {
 </div>
 
 
-<div class="table-responsive">
+<div class="table-responsive" style="margin-top:-150px;">
     <table class="table">
         <tbody>
             <tr>
