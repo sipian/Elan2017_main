@@ -1,16 +1,24 @@
 function changeOnlineContent() {
   $('.onlineBigDiv').html(`
  <p><br></p>
-<div class="table-responsive"  style="padding-bottom: 140px;
-         background-image: url('images/event_online.png');  
-         background-repeat: no-repeat;
-         background-attachment: scroll;
-      background-size: contain;     
-      overflow-y: auto;
+<div class="table-responsive scrollify animated bounceInUp onlineDiv" style="
+   padding-left:35px;
+   padding-bottom: 140px;
+   background-image: url('images/event_online.png');  
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: contain;   
+   max-height: 1100px;
        ">
        
-    <h2 style="margin-left: 30px;margin-bottom: 10px;"><br><br><br><br>ONLINE </h2>
-    <table class="table">
+  <h2 style="margin-left: 80px;margin-top: 54px; margin-bottom: 10px;">
+    <br>
+    <br>
+    <br>
+    <br>
+    ONLINE
+  </h2>    
+  <table class="table">
         <tbody>
             <tr>
                 <div class="row">
@@ -25,9 +33,9 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    GET BEHIND THE LENS AND SHOOT AWAY.
+                                    Get Behind The Lens And Shoot Away.
                                     <br>
-                                    PICTURE WITH MAXIMUM LIKES WINS.
+                                    Picture With Maximum Likes Wins.
                                     </h3>
                                             <br>
                                             <br>
@@ -52,7 +60,7 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                   BE READY FOR MIND WARS IN OUR EXHILARATING ONLINE EVENT.
+                                   Be Ready For Mind Wars In Our Exhilarating Online Event.
                                </h3>
                                             <br>
                                             <br>
@@ -79,9 +87,9 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                       POUR YOUR SOUL INTO THE PAPER
+                                       Pour Your Soul Into The Paper
                                        <br>
-                                        AND TELL YOUR BELOVED HOW MUCH YOU CARE.
+                                        And Tell Your Beloved How Much You Care.
                                     </h3>
                                             <br>
                                             <br>
@@ -98,25 +106,58 @@ function changeOnlineContent() {
             </tr>
             <tr>
                 <div class="row">
-                    <td class="col-lg-4" style="padding-left:7%;">
+                    <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <br>
-                            <span class="contestName" id="trial5">PIXEL&nbsp;ADDA </span>
+                            <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 57px;
+                        margin-right: 0px;">Pixel&nbsp;Adda
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                         </div>
+                    </td>
+
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
+                                  <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 80px;
+                        margin-right: 0px;">Zodiac
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
                         </div>
                     </td>
 
-                    <td class="col-lg-4" style="padding-left:7%;">
+                    <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <br>
-                            <span class="contestName" id="trial6">ZODIAC</span>
-                        </div>
-                    </td>
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <br>
-                            <span class="contestName" id="trial7">SWEET&nbsp;HEART</span>
-                        </div>
+                                      <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 50px;
+                        margin-right: 0px;">Sweet&nbsp;Heart
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                       </div>
                     </td>
                 </div>
             </tr>
@@ -135,11 +176,10 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    TRAGEDY, SUSPENSE, ROMANCE, COMEDY, FANTASY OR BIOGRAPHY- 
+                                    Tragedy, Suspense, Romance, Comedy, Fantasy Or Biography- 
                                     <br>
-                                    YOU'D BE SURPRISED AT WHAT YOU CAN DO WITH 140 CHARACTERS!
+                                    You'd Be Surprised At What You Can Do With 140 Characters!
                               </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info tweetatale clickButton">
                                                 TWEET&nbsp;A&nbsp;TALE
@@ -163,11 +203,10 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    EVER WONDERED WHAT WOULD’VE HAPPENED IF CINDERELLA NEVER LEFT HER SHOE BEHIND? 
+                                    Ever Wondered What Would’ve Happened If Cinderella Never Left Her Shoe Behind? 
                                     <br>
-                                    OR, IF SNOW WHITE HADN’T MET THE DWARVES?
+                                    Or, If Snow White Hadn’t Met The Dwarves?
                                </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info twistit clickButton">
                                                 TWIST&nbsp;IT
@@ -192,11 +231,10 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    HAVE YOU EVER REALIZED HOW DIFFICULT IT IS TO
+                                    Have You Ever Realized How Difficult It Is To
                                     <br> 
-                                    IGNORE A CERTAIN LETTER OF THE ALPHABET COMPLETELY?
+                                    Ignore A Certain Letter Of The Alphabet Completely?
                                     </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info skipit clickButton">
                                                 SKIP&nbsp;IT
@@ -211,38 +249,62 @@ function changeOnlineContent() {
             </tr>
             <tr>
                 <div class="row">
-                    <td class="col-lg-4" style="padding-left:7%;">
+                    <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <br>
-                            <span class="contestName" id="trial5">TWEET&nbsp;A&nbsp;TALE </span>
+                                             <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 42px;
+                        margin-right: 0px;">Tweet&nbsp;A&nbsp;Tale
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                            <span class="contestName" id="trial5"></span>
                         </div>
                     </td>
 
-                    <td class="col-lg-4" style="padding-left:7%;">
+                    <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <br>
-                            <span class="contestName" id="trial6">TWIST&nbsp;IT</span>
+                                <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 70px;
+                        margin-right: 0px;">Twist&nbsp;It
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
                         </div>
                     </td>
 
-                    <td class="col-lg-4" style="padding-left:7%;">
+                    <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <br>
-                            <span class="contestName" id="trial7">SKIP&nbsp;IT</span>
+                                        <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 70px;
+                        margin-right: 0px;">Skip&nbsp;It
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
                         </div>
                     </td>
                 </div>
             </tr>
-
-
-        </tbody>
-    </table>
-</div>
-
-
-<div class="table-responsive" style="margin-top:-150px;">
-    <table class="table">
-        <tbody>
             <tr>
                 <div class="row">
 
@@ -257,11 +319,10 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    HERE'S YOUR CHANCE TO BREAK FREE FROM THE CONVENTION
-                                    <br> AND PEN DOWN A STORY OF FEW WORDS.
+                                    Here's Your Chance To Break Free From The Convention
+                                    <br> And Pen Down A Story Of Few Words.
                                 </h3>
-                                            <br>
-                                            <br>
+                                             <br>
                                             <button type="button" class="btn btn-info tellatale clickButton">
                                                 TELL&nbsp;A&nbsp;TALE
                                             </button>
@@ -283,9 +344,8 @@ function changeOnlineContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    WHATSAPP STATUSES ARE A WAY OF LETTING ALL OUR FRIENDS KNOW ABOUT OUR DAY IN A LINE OR TWO.
+                                    Whatsapp Statuses Are A Way Of Letting All Our Friends Know About Our Day In A Line Or Two.
                                     </h3>
-                                            <br>
                                             <br>
                                             <button type="button" class="btn btn-info whatsapp clickButton">
                                                 STATE&nbsp;YOUR&nbsp;STATUS
@@ -303,17 +363,41 @@ function changeOnlineContent() {
             </tr>
             <tr>
                 <div class="row">
-                   <td class="col-lg-4"  style="padding-left:7%;">
+                   <td class="col-lg-4"  style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                        <br>
-                            <span class="contestName" id="trial8"> TELL&nbsp;A&nbsp;TALE  </span>
+                                          <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 67px;
+                        margin-right: 0px;">Tell&nbsp;A&nbsp;Tale
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
                         </div>
                     </td>
 
-                    <td class="col-lg-4 "   style="padding-left:5%;">
+                    <td class="col-lg-4 "   style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv" >
-                        <br>
-                            <span class="contestName" id="trial10">STATE&nbsp;YOUR&nbsp;STATUS</span>
+                                              <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 30px;
+                        margin-right: 0px;">State&nbsp;Your&nbsp;Status
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+
+                            <span class="contestName" id="trial10"></span>
                         </div>
                     </td>
  
@@ -322,7 +406,6 @@ function changeOnlineContent() {
         </tbody>
     </table>
 </div>
-<br><br><br>
         `);
 
 }

@@ -128,6 +128,7 @@ img{
 
 }
 
+
 .pt-page-4 {
 /*	background: #fdc162;
 */
@@ -150,6 +151,18 @@ img{
     
 }
 
+.pt-page-6 {
+/*	background: #60d7a9;
+*/
+
+	background-image: url("../images/web5_jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
 
 /* Triggers (menu and button) */
 

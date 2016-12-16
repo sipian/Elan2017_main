@@ -1,512 +1,468 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>ELAN EVENTS</title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A Collection of Page Transitions with CSS Animations" />
-  <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
-  <meta name="author" content="Codrops" />
-  <link rel="shortcut icon" href="../favicon.ico">
-  <link rel="stylesheet" type="text/css" href="css/component.css" />
-  <link rel="stylesheet" type="text/css" href="css/animations.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/frankcss.css">
-  <link rel="stylesheet" type="text/css" href="css/junk.css">
-  <link rel="stylesheet" type="text/css" href="css/hover.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css" />
-  <link href="css/text/animate.css" rel="stylesheet">
-</head>
-<style>
-  @font-face {
+  <head>
+    <title>ELAN EVENTS</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+    <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/frankcss.css">
+    <link rel="stylesheet" type="text/css" href="css/junk.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css" />
+    <link href="css/text/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css" />
+  </head>
+  <style>
+    @font-face {
     font-family: chelsea;
     src: url('./fonts/chelsea2/ChelseaAlternates.ttf');
-  }
-  h2,
-  p {
+    }
+    h2,
+    p {
     font: 200 40px/1em chelsea
     /*Amatic SC*/
-    
     ;
     text-align: center;
     color: #f06d06;
-  }
-  h3 {
+    }
+    h3 {
     color: black;
     font: 200 30px/1em chelsea
     /*Amatic SC*/
-    
     ;
-  }
-  .contest {
+    }
+    .contest {
     font-family: 'Waiting for the Sunrise', cursive;
     font-size: 18px;
     letter-spacing: 6px;
     font-weight: bold;
     color: white;
-  }
-  .table-responsive {
+    }
+    .table-responsive {
     overflow-y: hidden;
-  }
-  .hide-text {
+    }
+    .hide-text {
     visibility: hidden;
-  }
-  .contestName {
+    }
+    .contestName {
     font: 200 40px/1em chelsea
     /*Amatic SC*/
-    
     ;
     font-size: 26px;
     color: #a6a6a6;
-  }
-  .short_description {
+    }
+    .short_description {
     font-size: 26px;
-  }
-  .buttonDivTop {
+    }
+    .buttonDivTop {
     color: #e6ac00;
-  }
-  .borderImg {
+    }
+    .borderImg {
     width: 250px;
     height: 20px;
     box-shadow: none;
-  }
-</style>
-<!-- width : 
-      biggies 
-      
-      2.5*2+4.5*3 = 18.5
-      
-      width : 1027.777777778
-      height: 1111.111111111
-      
-      
-      width : 
-      height : 26*55.555555556 = 1445
-      
-      5.5*2 + 3 + 2*2 = 11+7 = 20
-      
-      
-      55.555555556
-      4.5/250
-      5.5/300 -->
-<!-- width : 
-      culti 
-      
-      2.5*2+4.5*3 = 18.5
-      
-      width : 1027.777777778
-      height: 1111.111111111
-      
-      
-      width : 
-      height : 26*55.555555556 = 1445
-      
-      5.5*2 + 3 + 2*2 = 11+7 = 20
-      
-      
-      55.555555556
-      4.5/250
-      5.5/300 -->
-
-<body>
-  <div id="pt-main" class="pt-perspective container-fluid">
-    <div class="pt-page pt-page-1" style="
-                background-image: url('images/web1_jpg.jpg');  
-                
-/*            background-image: url('http://wallpapercave.com/wp/iThhgfC.jpg');
-*/            background-repeat: no-repeat;
-            background-position: right top;
-            background-attachment: fixed;
-            background-size: cover;
+    }
+  </style>
+  <body>
+    <div id="pt-main" class="pt-perspective container-fluid">
+      <div class="pt-page pt-page-1" style="
+        background-image: url('images/web1_jpg.jpg');  
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
+        background-size: cover;
+        ">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container competitionArea biggiesBigDiv" style="margin-left:auto;margin-bottom:50px;">
+          <p>
+            <br>
+          </p>
+<div class="table-responsive scrollify animated bounceInUp biggiesDiv" style="
+            padding-left:35px;
+            padding-bottom: 140px;
+            background-image: url('images/event_biggies.png');  
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: contain; 
+            max-height: 1100px;
             ">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="container competitionArea biggiesBigDiv" style="margin-left:auto;margin-bottom:50px;">
-        <p>
-          <br>
-        </p>
-        <div class="table-responsive" style="padding-bottom: 140px;
-                  background-image: url('images/event_biggies.png');  
-                  background-repeat: no-repeat;
-                  background-attachment: scroll;
-                  background-size: contain;     
-                  ">
-          <h2 style="margin-left: 60px;margin-top: 50px; margin-bottom: 10px;">
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  BIGGIES
-                  </h2>
-          <table class="table">
-            <tbody>
-              <tr>
-                <div class="row">
-                  <td class="col-lg-4 " style="padding-left: 2%;">
-                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                        <div class="flipper">
-                          <div class="front">
-                            <img class="img-responsive pop" src="images/biggies/elan-e-jung.jpg" style="width: 250px;height: 300px;">
-                          </div>
-                          <div class="back">
-                            <div id="text">
-                              <br>
-                              <h3 class="short_description">
-                                                   Watch As The Stage Is Converted Into A Battlefield As The Bands Sweat It Out In A Winner-get-all-no-holds-barred Contest
-                                                </h3>
-                              <button type="button" class="btn btn-info elan-e-jung clickButton">
+
+  <h2 style="margin-left: 50px;margin-top: 35px; margin-bottom: 10px;">
+    <br>
+    <br>
+    <br>
+    <br>
+              BIGGIES
+            </h2>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <div class="row">
+                    <td class="col-lg-4 " style="padding-left: 2%;">
+                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                          <div class="flipper">
+                            <div class="front">
+                              <img class="img-responsive pop" src="images/biggies/elan-e-jung.jpg" style="width: 250px;height: 300px;">
+                            </div>
+                            <div class="back">
+                              <div id="text">
+                                <br>
+                                <h3 class="short_description">
+                                  Watch As The Stage Is Converted Into A Battlefield As The Bands Sweat It Out In A Winner-get-all-no-holds-barred Contest
+                                </h3>
+                                <button type="button" class="btn btn-info elan-e-jung clickButton">
                                 ELAN-E-JUNG
-                              </button>
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </td>
-                  <td class="col-lg-4" style="padding-left: 1%;">
-                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                        <div class="flipper">
-                          <div class="front">
-                            <img class="img-responsive" src="images/biggies/manthan.jpg" style="width: 250px;height: 300px;">
-                          </div>
-                          <div class="back">
-                            <div id="text">
-                              <br>
-                              <br>
-                              <h3 class="short_description">
-                                                   Lose yourself in the
-                                                   lilting guitar 
-                                                   music dished out by the score.
-                                                </h3>
-                              <br>
-                              <br>
-                              <button type="button" class="btn btn-info manthan clickButton">
+                    </td>
+                    <td class="col-lg-4" style="padding-left: 1%;">
+                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                          <div class="flipper">
+                            <div class="front">
+                              <img class="img-responsive" src="images/biggies/manthan.jpg" style="width: 250px;height: 300px;">
+                            </div>
+                            <div class="back">
+                              <div id="text">
+                                <br>
+                                <br>
+                                <h3 class="short_description">
+                                  Lose yourself in the
+                                  lilting guitar 
+                                  music dished out by the score.
+                                </h3>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-info manthan clickButton">
                                 MANTHAN
-                              </button>
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </td>
-                  <td class="col-lg-4" style="padding-left: 0%;">
-                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                        <div class="flipper">
-                          <div class="front">
-                            <img class="img-responsive" src="images/biggies/fmi.jpg" style="width: 250px;height: 300px;">
-                          </div>
-                          <div class="back">
-                            <div id="text">
-                              <br>
-                              <br>
-                              <h3 class="short_description">
-                                                   Zonal Auditions Held In Elan 2016 ,
-                                                   Adjudged By Aafreen Vaz.
-                                                </h3>
-                              <br>
-                              <br>
-                              <button type="button" class="btn btn-info fmi clickButton">
+                    </td>
+                    <td class="col-lg-4" style="padding-left: 0%;">
+                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                          <div class="flipper">
+                            <div class="front">
+                              <img class="img-responsive" src="images/biggies/fmi.jpg" style="width: 250px;height: 300px;">
+                            </div>
+                            <div class="back">
+                              <div id="text">
+                                <br>
+                                <br>
+                                <h3 class="short_description">
+                                  Zonal Auditions Held In Elan 2016 ,
+                                  Adjudged By Aafreen Vaz.
+                                </h3>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-info fmi clickButton">
                                 CAMPUS PRINCESS
                                 <br> AUDITION
-                              </button>
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </td>
-                </div>
-              </tr>
-              <tr>
-                <div class="row">
-                  <td class="col-lg-4">
-                    <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                      <span style="margin-left: 60px;">
-                                    <img src="images/borderImg1.png" class="borderImg"
-                                    style="margin-bottom: -5px; ">
-                                    </span>
-                      <br>
-                      <span class="contestName" style="margin-left: 75px;
-                                    margin-right: -60px;">ELAN-E-JUNG 
-                                    </span>
-                      <br>
-                      <span style="margin-left: 60px;">
-                                    <img src="images/borderImg2.png" class="borderImg"
-                                    style="margin-bottom: -3px; ">
-                                    </span>
-                    </div>
-                  </td>
-                  <td class="col-lg-4 manthan">
-                    <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                      <span style="margin-left: 45px;">
-                                    <img src="images/borderImg1.png" class="borderImg"
-                                    style="margin-bottom: -5px; ">
-                                    </span>
-                      <br>
-                      <span class="contestName" style="margin-left: 49px;margin-right: -60px;">MANTHAN 
-                                    </span>
-                      <br>
-                      <span style="margin-left: 45px;">
-                                    <img src="images/borderImg2.png" class="borderImg"
-                                    style="margin-bottom: -3px; ">
-                                    </span>
-                    </div>
-                  </td>
-                  <td class="col-lg-4 fmi">
-                    <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                      <span style="margin-left: 35px;">
-                                    <img src="images/borderImg1.png" class="borderImg"
-                                    style="margin-bottom: -5px; ">
-                                    </span>
-                      <br>
-                      <span class="contestName" id="trial3" style="margin-left: 50px;"> CAMPUS&nbsp;PRINCESS</span>
-                      <br>
-                      <span class="contestName" id="trial3" style="margin-left: 70px;">AUDITION 
-                                    </span>
-                      <br>
-                      <span style="margin-left: 35px;">
-                                    <img src="images/borderImg2.png" class="borderImg"
-                                    style="margin-bottom: -3px; ">
-                                    </span>
-                    </div>
-                  </td>
-                </div>
-              </tr>
-              <tr>
-                <div class="row">
-                  <td class="col-lg-4"></td>
-                  <td class="col-lg-4 angasutra" style="padding-left: 1%;" id="attakkalariposter">
-                    <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                        <div class="flipper">
-                          <div class="front">
-                            <img class="img-responsive" src="images/biggies/attakkalariposter.jpg" style="width: 250px;height: 300px;">
-                          </div>
-                          <div class="back">
-                            <div id="text">
-                              <br>
-                              <br>
-                              <h3 class="short_description">
-                                                   An Evening of Mixed Ball
-                                                </h3>
-                              <br>
-                              <br>
-                              <button type="button" class="btn btn-info angasutra clickButton">
+                    </td>
+                  </div>
+                </tr>
+                <tr>
+                  <div class="row">
+                    <td class="col-lg-4">
+                      <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                        <span style="margin-left: 60px;">
+                        <img src="images/borderImg1.png" class="borderImg"
+                          style="margin-bottom: -5px; ">
+                        </span>
+                        <br>
+                        <span class="contestName" style="margin-left: 72px;
+                          margin-right: -90px;">Elan-E-jung 
+                        </span>
+                        <br>
+                        <span style="margin-left: 60px;">
+                        <img src="images/borderImg2.png" class="borderImg"
+                          style="margin-bottom: -3px; ">
+                        </span>
+                      </div>
+                    </td>
+                    <td class="col-lg-4 manthan">
+                      <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                        <span style="margin-left: 45px;">
+                        <img src="images/borderImg1.png" class="borderImg"
+                          style="margin-bottom: -5px; ">
+                        </span>
+                        <br>
+                        <span class="contestName" style="margin-left: 55px;margin-right: -60px;">Manthan 
+                        </span>
+                        <br>
+                        <span style="margin-left: 45px;">
+                        <img src="images/borderImg2.png" class="borderImg"
+                          style="margin-bottom: -3px; ">
+                        </span>
+                      </div>
+                    </td>
+                    <td class="col-lg-4 fmi">
+                      <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
+                        <span style="margin-left: 35px;">
+                        <img src="images/borderImg1.png" class="borderImg"
+                          style="margin-bottom: -5px; ">
+                        </span>
+                        <br>
+                        <span class="contestName" id="trial3" style="margin-left: 70px;"> Campus&nbsp;Princess</span>
+                        <br>
+                        <span class="contestName" id="trial3" style="margin-left: 105px;">Audition 
+                        </span>
+                        <br>
+                        <span style="margin-left: 35px;">
+                        <img src="images/borderImg2.png" class="borderImg"
+                          style="margin-bottom: -3px; ">
+                        </span>
+                      </div>
+                    </td>
+                  </div>
+                </tr>
+                <tr>
+                  <div class="row">
+                    <td class="col-lg-4"></td>
+                    <td class="col-lg-4 angasutra" style="padding-left: 1%;" id="attakkalariposter">
+                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                          <div class="flipper">
+                            <div class="front">
+                              <img class="img-responsive" src="images/biggies/attakkalariposter.jpg" style="width: 250px;height: 300px;">
+                            </div>
+                            <div class="back">
+                              <div id="text">
+                                <br>
+                                <br>
+                                <h3 class="short_description">
+                                  An Evening of Mixed Ball
+                                </h3>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-info angasutra clickButton">
                                 ANGASUTRA
-                              </button>
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </td>
+                  </div>
                   </td>
-                </div>
-                </td>
-                <td class="col-lg-4"></td>
-        </div>
+                  <td class="col-lg-4"></td>
+          </div>
         </tr>
         <tr>
-          <div class="row">
-            <td class="col-lg-4"></td>
-            <td class="col-lg-4">
-              <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                <span style="margin-left: 45px;">
-                  <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px; ">
-                </span>
-                <br>
-                <span class="contestName" id="trial4" style="margin-left: 93px;margin-bottom: "> 
-                    ANGASUTRA
-                </span>
-                <br>
-                <span style="margin-left: 45px;">
-                    <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                </span>
-              </div>
-            </td>
-            <td class="col-lg-4"></td>
-          </div>
+                <div class="row">
+                        <td class="col-lg-4"></td>
+                        <td class="col-lg-4">
+                                <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
+                                        <span style="margin-left: 45px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px; ">
+                                        </span>
+                                                <br>
+                                        <span class="contestName" id="trial4" style="margin-left: 110px;margin-bottom: "> 
+                                                Angasutra 
+                                        </span>
+                                                <br>
+                                        <span style="margin-left: 45px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                        </span>
+                                </div>
+                        </td>
+                        <td class="col-lg-4"></td>
+                </div>
         </tr>
         </tbody>
-        </table>
+</table>
+</div>
       </div>
     </div>
-  </div>
-  <div class="pt-page pt-page-2">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container competitionArea cultiBigDiv" style="margin-left:auto;margin-bottom:50px;"></div>
-  </div>
-  <div class="pt-page pt-page-3">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container competitionArea infiBigDiv" style="margin-left:auto;"></div>
-  </div>
-  <div class="pt-page pt-page-4">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container competitionArea onlineBigDiv" style="margin-left:auto;"></div>
-  </div>
-  <div class="pt-page pt-page-5">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container competitionArea litrBigDiv" style="margin-left:auto;margin-bottom:50px;">
-      <div class="pt-page pt-page-6">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="container competitionArea techyBigDiv" style="margin-left:auto;margin-bottom:50px;">
-        </div>
+    <div class="pt-page pt-page-2">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container competitionArea cultiBigDiv" style="margin-left:auto;margin-bottom:50px;"></div>
+    </div>
+    <div class="pt-page pt-page-3">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container competitionArea infiBigDiv" style="margin-left:auto;"></div>
+    </div>
+    <div class="pt-page pt-page-4">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container competitionArea onlineBigDiv" style="margin-left:auto;"></div>
+    </div>
+    <div class="pt-page pt-page-5">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container competitionArea litrBigDiv" style="margin-left:auto;margin-bottom:50px;">
       </div>
-</body>
-<script src="js/modernizr.custom.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script type="text/javascript">
-  $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5").prepend(`
-      <ul id="nav" style="margin-top:100px;">
-        <li class="biggies" style="margin-left:-40px;">
-        <a href="#">
-          <div  style=" 
-        background-image: url('images/button.png');  
-        background-repeat: no-repeat;
-        background-position:right;
-        background-attachment: scroll;
-        background-size:150px 200px;">
-        <p style="padding:30px;font-size:27px;" class="buttonDivTop">BIGGIES</p>
-          </div>
-           </div>
-         </a>
-        </li>
-      
-      
-        <li class="culti" style="margin-left: 60px;">
-        <a href="#">
-          <div  style=" 
-        background-image: url('images/button.png');  
-        background-repeat: no-repeat;
-        background-position:right;
-        background-attachment: scroll;
-        background-size:150px 200px;">
-        <p style="padding:30px;font-size:27px;" class="buttonDivTop">CULTI</p>
-          </div>
-           </div>
-         </a>
-        </li>
+    </div>
+    <div class="pt-page pt-page-6">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container competitionArea techyBigDiv" style="margin-left:auto;margin-bottom:50px;">
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+    $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5 , .pt-page-6").prepend(`
+        <ul id="nav" style="margin-top:100px;">
+          <li class="biggies" style="margin-left:0px;">
+          <a href="#">
+            <div  style=" 
+          background-image: url('images/button.png');  
+          background-repeat: no-repeat;
+          background-position:right;
+          background-attachment: scroll;
+          background-size:150px 200px;">
+          <p style="padding:30px;font-size:27px;" class="buttonDivTop">BIGGIES</p>
+            </div>
+             </div>
+           </a>
+          </li>
         
         
-        <li class="infi" style="margin-left: 60px;">
-        <a href="#">
-          <div  style=" 
-        background-image: url('images/button.png');  
-        background-repeat: no-repeat;
-        background-position:right;
-        background-attachment: scroll;
-        background-size:150px 200px;">
-        <p style="padding:30px;font-size:27px;" class="buttonDivTop">INFI</p>
+          <li class="culti" style="margin-left: 10px;">
+          <a href="#">
+            <div  style=" 
+          background-image: url('images/button.png');  
+          background-repeat: no-repeat;
+          background-position:right;
+          background-attachment: scroll;
+          background-size:150px 200px;">
+          <p style="padding:30px;font-size:27px;" class="buttonDivTop">CULTI</p>
+            </div>
+             </div>
+           </a>
+          </li>
+          
+          <li class="techy" style="margin-left: 10px;">
+          <a href="#">
+            <div  style=" 
+          background-image: url('images/button.png');  
+          background-repeat: no-repeat;
+          background-position:right;
+          background-attachment: scroll;
+          background-size:150px 200px;">
+          <p style="padding:30px;font-size:27px;" class="buttonDivTop">TECHY</p>
+            </div>
           </div>
-           </div>
-         </a>
-        </li>
+           </a>
+          </li>   
+          
+          <li class="infi" style="margin-left: 10px;">
+          <a href="#">
+            <div  style=" 
+          background-image: url('images/button.png');  
+          background-repeat: no-repeat;
+          background-position:right;
+          background-attachment: scroll;
+          background-size:150px 200px;">
+          <p style="padding:30px;font-size:27px;" class="buttonDivTop">INFI</p>
+            </div>
+             </div>
+           </a>
+          </li>
+          
+          <li class="online" style="margin-left: 10px;">
+          <a href="#">
+            <div  style=" 
+          background-image: url('images/button.png');  
+          background-repeat: no-repeat;
+          background-position:right;
+          background-attachment: scroll;
+          background-size:150px 200px;">
+          <p style="padding:30px;font-size:27px;" class="buttonDivTop">ONLINE</p>
+            </div>
+             </div>
+           </a>
+          </li>
         
-        <li class="online" style="margin-left: 60px;">
-        <a href="#">
-          <div  style=" 
-        background-image: url('images/button.png');  
-        background-repeat: no-repeat;
-        background-position:right;
-        background-attachment: scroll;
-        background-size:150px 200px;">
-        <p style="padding:30px;font-size:27px;" class="buttonDivTop">ONLINE</p>
-          </div>
-           </div>
-         </a>
-        </li>
-      
-        
-        <li class="litr" style="margin-left: 60px;">
-        <a href="#">
-          <div  style=" 
-        background-image: url('images/button.png');  
-        background-repeat: no-repeat;
-        background-position:right;
-        background-attachment: scroll;
-        background-size:150px 200px;">
-        <p style="padding:30px;font-size:27px;" class="buttonDivTop">LITR</p>
-          </div>
-           </div>
-         </a>
-        </li>      
+          
+          <li class="litr" style="margin-left: 10px;">
+          <a href="#">
+            <div  style=" 
+          background-image: url('images/button.png');  
+          background-repeat: no-repeat;
+          background-position:right;
+          background-attachment: scroll;
+          background-size:150px 200px;">
+          <p style="padding:30px;font-size:27px;" class="buttonDivTop">LITR</p>
+            </div>
+             </div>
+           </a>
+          </li>   
         </ul>
-        `);
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/changeBiggiesContent.js"></script>
-<script src="js/changeCultiContent.js"></script>
-<script src="js/changeInfiContent.js"></script>
-<script src="js/changeLitrContent.js"></script>
-<script src="js/changeOnlineContent.js"></script>
-<script src="js/pagetransitions.js"></script>
-<script src="js/contest/biggies/biggiesText.js"></script>
-<script src="js/contest/biggies/biggies.js"></script>
-<script src="js/contest/culti/cultiText.js"></script>
-<script src="js/contest/culti/culti.js"></script>
-<script src="js/contest/infi/infiText.js"></script>
-<script src="js/contest/infi/infi.js"></script>
-<script src="js/contest/online/onlineText.js"></script>
-<script src="js/contest/online/online.js"></script>
-<script src="js/contest/litr/litrText.js"></script>
-<script src="js/contest/litr/litr.js"></script>
+          `);
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script src="js/animate.js"></script>
+  <script src="js/changeBiggiesContent.js"></script>
+  <script src="js/changeCultiContent.js"></script>
+  <script src="js/changeTechyContent.js"></script>
+  <script src="js/changeInfiContent.js"></script>
+  <script src="js/changeLitrContent.js"></script>
+  <script src="js/changeOnlineContent.js"></script>
+  <script src="js/pagetransitions.js"></script>
+  <script src="js/contest/biggies/biggiesText.js"></script>
+  <script src="js/contest/biggies/biggies.js"></script>
+  <script src="js/contest/culti/cultiText.js"></script>
+  <script src="js/contest/culti/culti.js"></script>
+  <script src="js/contest/infi/infiText.js"></script>
+  <script src="js/contest/infi/infi.js"></script>
+  <script src="js/contest/online/onlineText.js"></script>
+  <script src="js/contest/online/online.js"></script>
+  <script src="js/contest/litr/litrText.js"></script>
+  <script src="js/contest/litr/litr.js"></script>
 
 </html>

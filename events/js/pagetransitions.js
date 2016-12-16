@@ -1,3 +1,12 @@
+                $(".scrollify").mCustomScrollbar({
+                    axis:"y",
+                    theme:"inset-3-dark",
+                    autoExpandScrollbar: true,
+                    scrollInertia : 40,
+                    autoDraggerLength : true,
+                    alwaysShowScrollbar : 0,
+                    mouseWheel : true
+                });
 var $main = $('#pt-main'),
     $pages = $main.children('div.pt-page'),
     current = 0,
@@ -78,16 +87,27 @@ function changeContest(argument) {
                 changeInfiContent();
                 changeOnlineContent();
                 changeLitrContent();
+                changeTechyContent();
+                $(".scrollify").mCustomScrollbar({
+                    axis:"y",
+                    theme:"inset-3-dark",
+                    autoExpandScrollbar: true,
+                    scrollInertia : 40,
+                    autoDraggerLength : true,
+                    alwaysShowScrollbar : 0,
+                    mouseWheel : true
+                });
+
 }
 $('body').on("click", ".biggies", function() {
     if (current != 0)
-        nextPage(36, current, 0, function() {
+        nextPage(60, current, 0, function() {
             $('.biggiesDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
                 $('.biggiesDiv').css("display", "block");
                 $('.biggiesDiv').addClass('animated bounceInUp');
-            }, 380);
+            }, 750);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".culti", function() {
@@ -96,43 +116,57 @@ $('body').on("click", ".culti", function() {
             $('.cultiDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
-                $('.cultiDiv').css("display", "block");
-                $('.cultiDiv').addClass('animated bounceInUp');
-            }, 380);
+                    $('.cultiDiv').css("display", "block");
+                    $('.cultiDiv').addClass('animated bounceInUp');
+            }, 750);
         }); //rotateCubeTopOut
 });
+
 $('body').on("click", ".infi", function() {
     if (current != 2)
-        nextPage(66, current, 2, function() {
+        nextPage(60, current, 2, function() {
             $('.infiDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
                 $('.infiDiv').css("display", "block");
                 $('.infiDiv').addClass('animated bounceInUp');
-            }, 380);
+            }, 750);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".online", function() {
     if (current != 3)
-        nextPage(28, current, 3, function() {
+        nextPage(60, current, 3, function() {
             $('.onlineDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
                 $('.onlineDiv').css("display", "block");
                 $('.onlineDiv').addClass('animated bounceInUp');
-            }, 380);
+            }, 750);
         }); //rotateCubeTopOut
 });
 $('body').on("click", ".litr", function() {
     if (current != 4)
-        nextPage(13, current, 4, function() {
+        nextPage(60, current, 4, function() {
             $('.litrDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
                 $('.litrDiv').css("display", "block");
                 $('.litrDiv').addClass('animated bounceInUp');
-            }, 380);
+            }, 750);
         }); //rotateCubeTopOut
 });
+
+$('body').on("click", ".techy", function() {
+    if (current != 5)
+        nextPage(60, current, 5, function() {
+            $('.techyDiv').css("display", "none");
+            setTimeout(function() {
+                changeContest();
+                $('.techyDiv').css("display", "block");
+                $('.techyDiv').addClass('animated bounceInUp');
+            }, 750);
+        }); //rotateCubeTopOut
+});
+
 
 /*36 60  66  28  13*/
