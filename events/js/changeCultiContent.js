@@ -1,732 +1,929 @@
 function changeCultiContent() {
-    $('.cultiBigDiv').html(`
+    $('.cultiBigDiv').html
+(`
   <p><br></p>
-<div class="table-responsive"  style="padding-bottom: 140px;
-         background-image: url('images/event_culti.png');  
-         background-repeat: no-repeat;
-         background-attachment: scroll;
-      background-size: contain;     
-       ">
-          <h2 style="margin-left: 30px;margin-top: 8px; margin-bottom: 10px;">
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  CULTI
-                  </h2>    <table class="table">
-        <tbody>
-            <tr>
-                <div class="row">
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="Break Free" src="images/culti/breakfree.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    A COMPETITION WHERE THE DANCERS MUST CAPTIVATE THE AUDIENCE WITH THEIR IMMENSE DANCING TALENT.
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info breakfree clickButton">
-                                                Break&nbsp;Free
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="LOOSE YOUR FEET" src="images/culti/looseyourfeet.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                   SHAKE A LEG. 
-                                   <br>TWIST YOUR BODY.
-                                   <br>BREAK YOUR NECK.
-                                   <br>IT'S TIME TO LET GO.
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info looseyourfeet clickButton">
-                                                LOOSE YOUR FEET
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="NRITYANJALI" src="images/culti/nrityanjali.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    A PERFECT TRADITIONAL TOUCH FOR THE CULTURAL EXTRAVAGANZA.
-                                    </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info nrityanjali clickButton">
-                                                NRITYANJALI
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+<div class="table-responsive scrollify animated bounceInUp cultiDiv" style="
+  padding-left:33px;
+  padding-bottom: 140px;
+  background-image: url('images/event_culti7.png');  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  max-height: 2350px;
+  ">
+  
+  <h2 style="margin-left: 30px;margin-top: 25px; margin-bottom: 10px;">
+    <br>
+    <br>
+    <br>
+    <br>
+    CULTI
+  </h2>
+  <table class="table">
+    <tbody>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="Break Free" src="images/culti/breakfree.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        A Competition Where The Dancers Must Captivate The Audience With Their Immense Dancing Talent.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info breakfree clickButton">
+                      BREAK FREE
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-            <tr>
-                <div class="row">
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial24">BREAK&nbsp;Free</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial25">LOOSE YOUR FEET</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial26">NRITYANJALI</span>
-                        </div>
-                    </td>
-
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="LOOSE YOUR FEET" src="images/culti/looseyourfeet.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Shake A Leg. 
+                        Twist Your Body.
+                        Break Your Neck.
+                        It's Time To Let Go.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info looseyourfeet clickButton">
+                      LOOSE YOUR Feet
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-
-            <tr>
-                <div class="row">
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="just-duet" src="images/culti/just-duet.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    EVERYONE'S A GAMER. NOT EVERYONE'S A WINNER.
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info just-duet">
-                                                JUST&nbsp;-&nbsp;DUET
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="VIBRAZIONE" src="images/culti/vibrazione.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    A BATTLE OF SINGING WHERE THE CONTESTANTS PELLBIND WITH THEIR HARMONIOUS NOTES.
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info vibrazione">
-                                                VIBRAZIONE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="OCTAVES" src="images/culti/octaves.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    THIS EVENT PITS THE BEST AGAINST THE BEST ON THE CULTURAL STAGE. 
-                                    </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info octaves">
-                                                OCTAVES
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="NRITYANJALI" src="images/culti/nrityanjali.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        A Perfect Traditional Touch For The Cultural Extravaganza.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info nrityanjali clickButton">
+                      NRITYANJALI
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-            <tr>
-                <div class="row">
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial27"> JUST&nbsp;DUET </span>
-                        </div>
-                    </td>
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial28">VIBRAZIONE</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial29"> OCTAVES </span>
-                        </div>
-                    </td>
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 25px;
+                margin-right: 0px;">Break&nbsp;Free
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 40px;
+                margin-right: 0px;">Loose&nbsp;Your&nbsp;Feet
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 63px;
+                margin-right: 0px;">Nrityanjali
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="just-duet" src="images/culti/just-duet.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        A Perfect Event For A Pair Of Dancers.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info just-duet">
+                      JUST&nbsp;-&nbsp;DUET
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-
-            <tr>
-                <div class="row">
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="ANDAZ APNA APNA" src="images/culti/andaazapnapna.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                     STEP UP, AND LEAVE THE AUDIENCE ENTHRALLED !
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info andaazapnapna clickButton">
-                                                ANDAZ&nbsp;APNA&nbsp;APNA
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="FILM FARE FIESTA" src="images/culti/filmfarefiesta.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    DO YOU THINK YOU CAN TAKE AFTER STEVEN SPIELBERG, CHRISTOPHER NOLAN AND JAMES CAMERON?
-                                    </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info filmfarefiesta clickButton">
-                                                FILM&nbsp;FARE&nbsp;FIESTA
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="PICELECTIC" src="images/culti/picelectic.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    PORTRAY YOUR PHOTOGRAPHY SKILLS BY SHOOTING PICTURES IN,ON AND ABOUT ELAN 2017. 
-                                    </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info picelectic clickButton">
-                                                PICELECTIC
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="VIBRAZIONE" src="images/culti/vibrazione.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        A Battle Of Singing Where The Contestants Pellbind With Their Harmonious Notes.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info vibrazione">
+                      VIBRAZIONE
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-            <tr>
-                <div class="row">
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial24">ANDAZ&nbsp;APNA&nbsp;APNA</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial25"> FILM&nbsp;FARE&nbsp;FIESTA</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial26">PICELECTIC</span>
-                        </div>
-                    </td>
-
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="OCTAVES" src="images/culti/octaves.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        This Event Pits The Best Against The Best On The Cultural Stage. 
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info octaves">
+                      OCTAVES
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-
-            <tr>
-                <div class="row">
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="lan gaming" src="images/culti/lightscamera.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                              <br>
-                                          <h3 class="short_description">
-                                              THE SCREEN AND THE SOUNDS ARE READY. 
-                                              <br>
-                                              THE STAGE IS SET.           
-                                              <br>
-                                              BRING THE DIRECTOR AND 'CAMERAMAN' IN YOU.
-                                          </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info lightscamera">
-                                                LIGHTS, CAMERA,
-                                                <br>
-                                                ELAN
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="FACE PAINTING" src="images/culti/facepainting.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    YOU THINK YOU CAN HAVE A FACE FUNKIER THAN INFAMOUS "THE MASK". 
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info facepainting">
-                                                FACE&nbsp;PAINTING
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="NAIL ART " src="images/culti/nailart.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    CAN YOU ADD YOUR INTRICATE DETAILS CREATIVELY ON MUCH SMALLER CANVAS LIKE FINGER NAILS? 
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info nailart">
-                                                NAIL&nbsp;ART 
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left: 4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 79px;
+                margin-right: 0px;"> Just&nbsp;Duet
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 68px;
+                margin-right: 0px;">Vibrazione
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 80px;
+                margin-right: 0px;">Octaves
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="ANDAZ APNA APNA" src="images/culti/andaazapnapna.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Step Up, And Leave The Audience Enthralled !
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info andaazapnapna clickButton">
+                      ANDAZ&nbsp;APNA&nbsp;APNA
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-            <tr>
-                <div class="row">
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial27"> LIGHTS, CAMERA , ELAN</span>
-                        </div>
-                    </td>
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial28">FACE&nbsp;PAINTING</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial29"> NAIL&nbsp;ART </span>
-                        </div>
-                    </td>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="FILM FARE FIESTA" src="images/culti/filmfarefiesta.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Do You Think You Can Take After Steven Spielberg, Christopher Nolan And James Cameron?
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info filmfarefiesta clickButton">
+                      FILM&nbsp;FARE&nbsp;FIESTA
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-
-            <tr>
-                <div class="row">
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="MEHENDI ART" src="images/culti/mehendi.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                     LET THE HENNA FLOW OUT OF YOUR CONES AND LET'S SEE WHAT COLOR IT BRINGS TO YOUR LIFE.
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info mehendi clickButton">
-                                                MEHENDI&nbsp;ART
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="CLAY MODELING" src="images/culti/claymodelling.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    BRING LIFE TO FIGMENTS OF YOUR OWN THOUGHTS AND IMAGINATIONS BY MOULDING BEAUTIFUL STRUCTURES OUT OF CLAY! 
-                                    </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info claymodelling clickButton">
-                                                CLAY&nbsp;MODELING&nbsp;
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt=" BLIND ART" src="images/culti/blindart.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    CAN YOU DRAW BLINDFOLDED??........WELL, AT LEAST WHEN YOUR FRIEND IS GUIDING YOU?..
-                                    </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info blindart clickButton">
-                                                 BLIND&nbsp;ART 
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="PICELECTIC" src="images/culti/picelectic.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Portray Your Photography Skills By Shooting Pictures In,on And About Elan 2017. 
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info picelectic clickButton">
+                      PICELECTIC
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-            <tr>
-                <div class="row">
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial24">MEHENDI&nbsp;ART</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial25">CLAY&nbsp;MODELING</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial26">BLIND&nbsp;ART</span>
-                        </div>
-                    </td>
-
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 25px;
+                margin-right: 0px;">Andaz&nbsp;Apna&nbsp;Apna
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 40px;
+                margin-right: 0px;">Film&nbsp;Fare&nbsp;Fiesta
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 70px;
+                margin-right: 0px;">Picelectic
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="lan gaming" src="images/culti/lightscamera.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        The Screen And The Sounds Are Ready. 
+                        <br>
+                        The Stage Is Set.           
+                        <br>
+                        Bring The Director And 'cameraman' In You.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info lightscamera">
+                      LIGHTS, CAMERA,
+                      <br>
+                      ELAN
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-
-            <tr>
-                <div class="row">
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="ART EXHIBITION" src="images/culti/artexhibition.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    EVER VISITED AN ART GALLERY? EVER CHECKED OUT THOSE PORTRAITS COSTING SO MUCH? 
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info artexhibition">
-                                                ART&nbsp;EXHIBITION
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="DJ WARS" src="images/culti/djwars.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    FOR ALL THE ASPIRING DJ'S OUT THERE!! 
-                                    <br>
-                                    CAN YOU MIX'EM GOOD ENOUGH?!
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info djwars">
-                                                DJ&nbsp;WARS
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="RJ HUNT" src="images/culti/rjhunt.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    THE PARTICIPANTS NEED TO PRODUCE AN AD FOR THE PRODUCT (FUNNY OR CRAZY) GIVEN TO THEM.
-                              </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info rjhunt">
-                                                RJ&nbsp;HUNT
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="FACE PAINTING" src="images/culti/facepainting.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        You Think You Can Have A Face Funkier Than Infamous "the Mask". 
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info facepainting">
+                      FACE&nbsp;PAINTING
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-            <tr>
-                <div class="row">
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial27"> ART&nbsp;EXHIBITION </span>
-                        </div>
-                    </td>
-
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial28">DJ&nbsp;WARS</span>
-                        </div>
-                    </td>
-                    <td class="col-lg-4" style="padding-left:7%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <br>
-                            <span class="contestName" id="trial29"> RJ&nbsp;HUNT </span>
-                        </div>
-                    </td>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="NAIL ART " src="images/culti/nailart.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Can You Add Your Intricate Details Creatively On Much Smaller Canvas Like Finger Nails? 
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info nailart">
+                      NAIL&nbsp;ART 
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="table-responsive"  style="margin-top:-120px;">
-    <table class="table">
-        <tbody>
-            <tr>
-                <div class="row">
-                    <td class="col-lg-4" style="padding-left: 0%;">
-                    </td>
-
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="LEND ME YOUR VOICE" src="images/culti/lendmeurvoice.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                     EVER THOUGHT THAT YOU COULD HAVE DELIVERED THE DIALOGUES BETTER THAN THE ACTORS IN THE MOVIE?
-                            </h3>
-                                            <br>
-                                            <br>
-                                            <button type="button" class="btn btn-info lendmeurvoice">
-                                                LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-                    <td class="col-lg-4" style="padding-left: 0%;">
-                    </td>
-
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 13px;
+                margin-right: 0px;">Lights,&nbsp;Camera,&nbsp;Elan
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 55px;
+                margin-right: 0px;">Face&nbsp;Painting
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 70px;
+                margin-right: 0px;">Nail&nbsp;Art
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="MEHENDI ART" src="images/culti/mehendi.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Let The Henna Flow Out Of Your Cones And Let's See What Color It Brings To Your Life.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info mehendi clickButton">
+                      MEHENDI&nbsp;ART
+                      </button>
+                    </div>
+                  </div>
                 </div>
-            </tr>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="CLAY MODELING" src="images/culti/claymodelling.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Bring Life To Figments Of Your Own Thoughts And Imaginations By Moulding Beautiful Structures Out Of Clay! 
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info claymodelling clickButton">
+                      CLAY&nbsp;MODELING&nbsp;
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt=" BLIND ART" src="images/culti/blindart.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Can You Draw Blindfolded??........well, At Least When Your Friend Is Guiding You?..
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info blindart clickButton">
+                      BLIND&nbsp;ART 
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 47px;
+                margin-right: 0px;">Mehendi&nbsp;Art
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 50px;
+                margin-right: 0px;">Clay&nbsp;Modeling
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 70px;
+                margin-right: 0px;">Blind&nbsp;Art
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="ART EXHIBITION" src="images/culti/artexhibition.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Ever Visited An Art Gallery? Ever Checked Out Those Portraits Costing So Much? 
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info artexhibition">
+                      ART&nbsp;EXHIBITION
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="DJ WARS" src="images/culti/djwars.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        For All The Aspiring Dj's Out There!! 
+                        <br>
+                        Can You Mix'em Good Enough?!
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info djwars">
+                      DJ&nbsp;WARS
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="RJ HUNT" src="images/culti/rjhunt.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        The Participants Need To Produce An Ad For The Product (funny Or Crazy) Given To Them.
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info rjhunt">
+                      RJ&nbsp;HUNT
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 49px;
+                margin-right: 0px;">Art&nbsp;Exhibition
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 80px;
+                margin-right: 0px;">Dj&nbsp;Wars
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 89px;
+                margin-right: 0px;">Rj&nbsp;Hunt
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
             <tr>
-                <div class="row">
-                    <td class="col-lg-4"></td>
-                    <td class="col-lg-4  style=" padding-left:20%; ">
-                                                <div class="animated bounceInUp col-sm-8 text-center cultiDiv ">
-                                                    <br>
-                                                    <span class="contestName " id="trial30 " style="margin-left: 20%; ">LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE</span>
-                                                </div>
-                                            </td>
-                                            <td class="col-lg-4 "></td>
-                                        </div>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-        `);
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="">
+              <div style="margin-left: 40px;">
+                <div class="flipper">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                      </h3>
+                      <br>
+                      <br>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE" src="images/culti/lendmeurvoice.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Ever Thought That You Could Have Delivered The Dialogues Better Than The Actors In The Movie?
+                      </h3>
+                      <br>
+                      <br>
+                      <button type="button" class="btn btn-info djwars">
+                      LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="">
+              <div style="margin-left: 40px;">
+                <div class="flipper">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                      </h3>
+                      <br>
+                      <br>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </div>
+      </tr>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 29px;
+                margin-right: 0px;">
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 10px;
+                margin-right: 0px;">Lend&nbsp;Me&nbsp;Your&nbsp;Voice
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 74px;
+                margin-right: 0px;">
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              </span>
+            </div>
+          </td>
+        </div>
+      </tr>
+    </tbody>
+  </table>
+</div>`);
 }
