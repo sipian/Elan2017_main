@@ -1,0 +1,134 @@
+/*Main Nav Bar*/
+
+@font-face {
+    font-family: 'SteelfishExtraBold';
+    src: url('../fonts/steelfish_eb-webfont.eot');
+    src: url('../fonts/steelfish_eb-webfontd41d.eot?#iefix') format('embedded-opentype'),  url('fonts/steelfish_eb-webfont.woff') format('woff'),  url('../fonts/steelfish_eb-webfont.ttf') format('truetype'),  url('../fonts/steelfish_eb-webfont.svg#SteelfishExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+
+a {
+    color:#994716;
+    text-decoration:none;
+    border:none;
+}
+
+a:hover {
+    color: #dc9d1f;
+    text-decoration:none
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right
+}
+
+.clear{
+    clear:both
+}
+
+nav {
+    width:960px;
+    margin:0 auto;
+    height:115px;
+    font: normal 24px/14px 'SteelfishExtraBold', impact, helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    background:url(../images/logo.png) center top no-repeat;
+    background-size: contain;
+}
+
+/*.map-edge{
+    height:38px;
+    width:100%;
+    background: url(images/map-edge.png) center top repeat-x;
+    overflow:hidden;
+    position:relative;
+    z-index:70
+}*/
+
+/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+::-moz-selection {
+background: #fcd700;
+color: #fff;
+text-shadow: none;
+}
+::selection {
+    background: #fcd700;
+    color: #fff;
+    text-shadow: none;
+}
+/*  j.mp/webkit-tap-highlight-color */
+a:link {
+    -webkit-tap-highlight-color: #fcd700;
+    -moz-transition: all 0.2s ease-in 0s;
+    -webkit-transition: all 0.2s ease-in 0s;
+    text-decoration: none;
+}
+ins {
+    background-color: #fcd700;
+    color: #000;
+    text-decoration: none;
+}
+mark {
+    background-color: #fcd700;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+#wrapper {
+    width:100%;
+    overflow:hidden;
+}
+/*Main Nav Bar*/
+#nav-outter {
+    width:100%;
+    background:url(../images/nav-bg.png) left top repeat-x;
+    position:fixed;
+    top:0;
+    z-index:80
+}
+nav a {
+    color:#4a5c66;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:27px;
+    height:30px;a
+}
+nav a:hover {
+    color:#e6a51d
+}
+
+.left{
+    margin-left: 4%;
+}
+.right{
+    margin-right: 9%;
+}
+nav a.active{
+    color:#e6a51d;
+}
+
+nav .left a {
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+nav .right a {
+    margin-left: 10px;
+    letter-spacing: 1px;
+
+}
+

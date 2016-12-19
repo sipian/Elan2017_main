@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/frankcss.css">
     <link rel="stylesheet" type="text/css" href="css/junk.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" href="../navbar/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
@@ -75,6 +76,29 @@
     }
   </style>
   <body>
+    <div id="nav-outter">
+        <nav id="topNavBar">
+            <div class="left">
+                        <a class="scroll" href="#"></a>
+                        <a class="scroll" href="#">About&nbsp;Us</a>
+                        <a class="scroll" href="#">Register</a>
+                        <a class="scroll" href="">Events</a>
+                        <a class="scroll" href="#">Workshops</a>
+            </div>
+            <div class="center">
+            <a href="../">
+            <img src="../images/logo.png" style="float: left;" id="logo">
+            </a>    
+            </div>
+            <div class="right"  style="float: right;">
+                        <a class="scroll" href="http://blog.elan.org.in">Blog</a>
+                        <a class="scroll" href="#">Sponsors</a>
+                        <a class="scroll" href="../archives">Archives</a>
+                        <a class="scroll" href="../team">Team</a>
+                        <a class="scroll" href="#"></a>
+            </div>
+        </nav>
+    </div>
     <div id="pt-main" class="pt-perspective container-fluid">
       <div class="pt-page pt-page-1" style="
         background-image: url('images/web1_jpg.jpg');  
@@ -354,6 +378,7 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript">
     $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5 , .pt-page-6").prepend(`
+      <br><br><br><br>
         <ul id="nav" style="margin-top:100px;">
           <li class="biggies" style="margin-left:0px;">
           <a href="#">

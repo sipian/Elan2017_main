@@ -18,7 +18,9 @@ td {
 img{
       box-shadow: 0 0 45px rgba(0,0,0,0.7);
   }
-
+ #logo{
+      box-shadow: none;
+  }
 .pt-perspective {
 	position: relative;
 	width: 100%;
@@ -159,7 +161,6 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 
 
 }
