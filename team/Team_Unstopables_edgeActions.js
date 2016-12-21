@@ -124,6 +124,8 @@ Symbol.bindElementAction(compId,symbolName,"${_harshFB}","click",function(sym,e)
 Symbol.bindElementAction(compId,symbolName,"${_prasanthFB}","click",function(sym,e){window.open("https://www.facebook.com/prasanth.mamakar?fref=ts","_self");});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_sruthiFB}","click",function(sym,e){window.open("https://www.facebook.com/shruti.bhatambre?fref=ts","_self");});
+//Edge binding end      
+Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",9695,function(sym,e){sym.stop();});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
