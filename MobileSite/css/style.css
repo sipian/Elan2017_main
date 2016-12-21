@@ -205,7 +205,13 @@ h3.tittle-one:after, h3.tittle-one:before{
 padding:80px 0;
 }
 .feature {
-    background: url(../images/1.jpg)no-repeat center fixed;
+    background: url(../images/kq.jpg)no-repeat center fixed;
+    background-size: cover;
+    min-height: 350px;
+    padding: 5em 0 0;
+}
+.feature1 {
+    background: url(../images/archives.png)no-repeat center fixed;
     background-size: cover;
     min-height: 350px;
     padding: 5em 0 0;
@@ -216,6 +222,12 @@ color:#A0CC59;
 font-size:50px;
 margin-bottom:50px;
 }
+h4.tittle-one{
+text-align:center;
+color:#A0CC59;
+font-size:25px;
+margin-bottom:50px;
+background-color: #696969}
 .banner-bottom p{
 color:#464646;
 font-size:14px;
