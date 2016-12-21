@@ -1,16 +1,18 @@
-.floatingText{
-    font-family: chelsea;
-    color: black;
-    position: fixed;
-    font-size: 40px;
-    left: 50px;
- }
-#sponsors{
-    left: 18px;
+@font-face {
+    font-family: "simplonNorm-bold";
+    src: url("../fonts/SimplonNorm-Bold.otf") format("opentype"), url("../fonts/SimplonNorm-Bold.woff") format("woff")
 }
-#team{
-    left: 73px;
+@font-face {
+    font-family: "simplonNorm-medium";
+    src: url("../fonts/SimplonNorm-Medium.otf") format("opentype"), url("../fonts/SimplonNorm-Medium.woff") format("woff")
 }
+@font-face {
+    font-family: "simplonNorm-regular";
+    src: url("../fonts/SimplonNorm-Regular.otf") format("opentype"), url("../fonts/SimplonNorm-Regular.woff") format("woff")
+}
+
+
+
 .section__wrapper {
     width: 90%;
     margin: 0 auto;
@@ -56,137 +58,252 @@
 }
 .section__home .home__bg-container-left1 {
     position: absolute;
-    left: 20%;
+    left: 15%;
     width: 40%;
     height: 100%;
 }
+
+.section__home .home__bg-container-left2 {
+    position: absolute;
+    left: 120%;
+    width: 40%;
+    height: 100%;
+}
+
+.section__home .home__bg-island-meyer {
+    z-index: 1;
+    position: relative;
+    right: 45px;
+    margin: 0 auto;
+    background-image: url("../images/meyer-island.png");
+    background-size: 70% 70%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 223px;
+   visibility: visible;
+    top: calc(50% - 105px - 65px)
+}
+
+.section__home .home__bg-hole-meyer {
+    position: relative;
+    top: 85%;
+    right: 30px;
+    margin: 0 auto;
+    background-size: 70% 70%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 36px;
+    visibility: visible;
+}
+
+
 .section__home .home__bg-container-center1 {
     position: absolute;
-    left: 61%;
+    left: 54%;
     width: 33.3%;
     height: 100%;
     visibility: visible;
 }
 
 
-.section__home .home__bg-container-right1 {
+.section__home .home__bg-container-center2 {
     position: absolute;
-    left: 98%;
-    width: 40%;
+    left: 130%;
+    width: 33.3%;
     height: 100%;
     visibility: visible;
 }
 
 
-.section__home .home__bg-container-left2 {
-    position: absolute;
-    left: 138%;
-    width: 40%;
-    height: 100%;
-}
-
-@media screen and (max-height: 850px) {
-  .responsive{
-    margin-top: 20px;
-  }
-}
-@media screen and (max-height: 750px) {
-  .responsive{
-    margin-top: 80px;
-  }
-}
-
-.home__bg-island-meyer {
-    z-index: 1;
-    background-image: url("../images/trial.png");
-    background-size: 40% 40%;
-    width: 258px;
-    height: 264px;
-    top: calc(50% - 105px - 65px);
-    position: relative;
-    margin: 0 auto;
-    background-position: top center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    -webkit-transition:all 1s;
-    -moz-transition:all 1s;
-    -ms-transition:all 1s;
-    -o-transition:all 1s;
-}
-
-
-.home__bg-island-meyer:hover{
-    background-size: 75% 75%;
-}
-
-
 .section__home .home__bg-island-miller {
     z-index: 1;
-    background-image: url("../images/smith-island.png");
-    background-size: 40% 40%;
-    width: 258px;
-    height: 264px;
-    top: calc(50% - 121px - 65px);
+    background-image: url("../images/miller-island.png");
+    background-size: 70% 70%;
+    width: 184px;
+    height: 243px;
+    top: calc(50% - 121px - 65px)
+}
+.section__home .home__bg-island-miller,
+.section__home .home__bg-hole-miller {
     position: relative;
     margin: 0 auto;
     background-position: top center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    -webkit-transition:all 1s;
-    -moz-transition:all 1s;
-    -ms-transition:all 1s;
-    -o-transition:all 1s;
+    background-repeat: no-repeat
 }
-
-
-.home__bg-island-miller:hover{
+.section__home .home__bg-hole-miller {
+    top: 85%;
+    right: 20px;
     background-size: 70% 70%;
+    width: 204px;
+     height: 36px;
 }
 
+
+.section__home .home__bg-container-right1 {
+    position: absolute;
+    left: 82%;
+    width: 40%;
+    height: 100%;
+    visibility: visible;
+}
+
+.section__home .home__bg-container-right2 {
+    position: absolute;
+    left: 160%;
+    width: 50%;
+    height: 100%;
+/*    background: #333;
+*/    visibility: hidden;
+    display: none
+}
+@media (min-height: 341px) and (min-width: 1px) {
+    .section__home .home__bg-container-right2 {
+        visibility: visible;
+        display: block
+    }
+}
 .section__home .home__bg-island-smith {
     z-index: 1;
+    left: 8%;
     background-image: url("../images/smith-island.png");
-    background-size: 40% 40%;
-    width: 258px;
+/*    background-size: 258px 264px;
+*/    
+    background-size: 70% 70%;
+
+width: 258px;
     height: 264px;
     top: calc(50% - 115px - 65px);
+
+}
+.section__home .home__bg-island-smith,
+.section__home .home__bg-hole-smith {
     position: relative;
     margin: 0 auto;
     background-position: top center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    -webkit-transition:all 1s;
-    -moz-transition:all 1s;
-    -ms-transition:all 1s;
-    -o-transition:all 1s;
+    background-repeat: no-repeat
+}
+.section__home .home__bg-hole-smith {
+    top: 85%;
+    right: 0;
+/*    background-image: url("../images/smith-hole.png");
+*//*    background-size: 205px 36px;
+*/
+    background-size: 70% 70%;
+
+ width: 205px;
+    height: 36px
 }
 
-.home__bg-island-smith:hover{
-    background-size: 70% 70%;
-}
+
+/*
+
+MY CONTROLS
+
+*/
 
 .section__home .home__bg-island-helmet {
     z-index: 1;
-    background-image: url("../images/smith-island.png");
-    background-size: 40% 40%;
-    width: 258px;
+    left: -10%;
+    background-image: url("../images/helmet-island.png");
+/*    background-size: 258px 264px;
+*/    
+    background-size: 60% 60%;
+
+width: 258px;
     height: 264px;
-    top: calc(50% - 115px - 65px);
+    top: calc(50% - 115px - 65px)
+}
+.section__home .home__bg-island-helmet,
+.section__home .home__bg-hole-helmet {
     position: relative;
     margin: 0 auto;
     background-position: top center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    -webkit-transition:all 1s;
-    -moz-transition:all 1s;
-    -ms-transition:all 1s;
-    -o-transition:all 1s;
+    background-repeat: no-repeat
 }
-
-.home__bg-island-helmet:hover{
+.section__home .home__bg-hole-helmet {
+    top: 85%;
+    right: 0;
+/*    background-image: url("../images/helmet-hole.png");
+*//*    background-size: 205px 36px;
+*/
     background-size: 70% 70%;
+
+ width: 205px;
+    height: 36px
 }
 
+
+
+.section__home .home__bg-island-shield {
+    z-index: 1;
+    left: -10%;
+    background-image: url("../images/shield-island.png");
+/*    background-size: 258px 264px;
+*/    
+    background-size: 55% 55%;
+
+width: 258px;
+    height: 264px;
+    top: calc(50% - 115px - 65px)
+}
+.section__home .home__bg-island-shield,
+.section__home .home__bg-hole-shield {
+    position: relative;
+    margin: 0 auto;
+    background-position: top center;
+    background-repeat: no-repeat
+}
+.section__home .home__bg-hole-shield {
+    top: 85%;
+    right: 0;
+/*    background-image: url("../images/shield-hole.png");
+*//*    background-size: 205px 36px;
+*/
+    background-size: 70% 70%;
+
+ width: 205px;
+    height: 36px
+}
+
+
+
+.section__home .home__bg-island-crown {
+    z-index: 1;
+    left: 0px;
+    background-image: url("../images/crown-island.png");
+/*    background-size: 258px 264px;
+*/    
+    background-size: 55% 55%;
+
+width: 258px;
+    height: 264px;
+    top: calc(50% - 115px - 65px)
+}
+.section__home .home__bg-island-crown,
+.section__home .home__bg-hole-crown {
+    position: relative;
+    margin: 0 auto;
+    background-position: top center;
+    background-repeat: no-repeat
+}
+.section__home .home__bg-hole-crown {
+    top: 85%;
+    right: 0;
+/*    background-image: url("../images/crown-hole.png");
+*//*    background-size: 205px 36px;
+*/
+    background-size: 70% 70%;
+
+ width: 205px;
+    height: 36px
+}
+
+/*
+
+
+*/
 .section__home .home__bg {
     position: absolute;
     left: 0;
@@ -196,10 +313,9 @@
     padding: 0;
     margin: 0
 }
-
 @media (max-height: 678px) {
     .section__home .home__bg {
-        top: 500px;
+        top: 500px
     }
 }
 .section__home .home__bg img {
@@ -333,18 +449,19 @@
 html,
 body {
     height: 100%;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent
 }
 body {
 
     position: relative;
     min-height: 100%;
+    font-family: "simplonNorm-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
     background: #fff;
     padding: 0;
     margin: 0;
     font-size: 16px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .site {

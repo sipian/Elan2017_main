@@ -1,17 +1,11 @@
-/*Main #topNavBar Bar*/
-
-@font-face {
-    font-family: 'SteelfishExtraBold';
-    src: url('steelfish_eb-webfont.eot');
-    src: url('steelfish_eb-webfontd41d.eot?#iefix') format('embedded-opentype'),  url('steelfish_eb-webfont.woff') format('woff'),  url('steelfish_eb-webfont.ttf') format('truetype'),  url('steelfish_eb-webfont.svg#SteelfishExtraBold') format('svg');
+.scroll{
+    font-family: chelsea;
     font-weight: normal;
     font-style: normal;
-}
-
-.scroll{
     color:#994716;
     text-decoration:none;
     border:none;
+    letter-spacing: -2px;
 }
 
 .scroll:hover {
@@ -21,8 +15,9 @@
 
 .left{
     float:left;
-    margin-left: 4%;
-}
+    margin-left: 14%;
+    letter-spacing:-5px;
+ }
 .center{
     position: fixed;
     margin-top: -20px;
@@ -30,7 +25,8 @@
 }
 .right{
     float:left;
-    margin-right: 6%;
+    margin-right: 13%;
+    letter-spacing:-5px;
 }
 
 .clear{
@@ -44,11 +40,19 @@
     cursor: pointer;
     font: normal 24px/14px 'SteelfishExtraBold', impact, helvetica, sans-serif;
     text-transform: uppercase;
-    letter-spacing:4px;
-    /*background:url(../images/logo.png) center top no-repeat;
-    background-size: contain;*/
 }
 
+@media screen and (min-width: 0px) {
+  .left{
+    margin-left: 16%;
+ }
+ .right{
+    margin-right: 17%;
+}
+#bigrock{
+    width: 100px;
+}
+}
 /*.map-edge{
     height:38px;
     width:100%;
@@ -118,11 +122,9 @@ mark {
 
 #topNavBar .left a {
     margin-right: 10px;
-    letter-spacing: 1px;
 }
 #topNavBar .right a {
     margin-left: 10px;
-    letter-spacing: 1px;
 
 }
 
