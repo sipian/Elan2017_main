@@ -317,7 +317,7 @@ this.MMS = this.MMS || {};
                     mobileHA: true
                 });
                 self.playSwooshSound(index);
-            }, 400);   //speed of object going up
+            }, 9000000);   //speed of object going up
 
         },
 

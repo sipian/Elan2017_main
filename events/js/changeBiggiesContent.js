@@ -3,17 +3,16 @@ function changeBiggiesContent() {
           <p>
             <br>
           </p>
-<div class="table-responsive scrollify animated bounceInUp biggiesDiv" style="
+<div class="table-responsive animated bounceInUp biggiesDiv" style="
             padding-left:35px;
-            padding-bottom: 140px;
+            padding-bottom: 350px;
             background-image: url('images/event_biggies.png');  
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: contain; 
             max-height: 1100px;
             ">
-
-  <h2 style="margin-left: 50px;margin-top: 35px; margin-bottom: 10px;">
+  <h2 style="margin-left: 15px;margin-top: 35px; margin-bottom: 10px;">
     <br>
     <br>
     <br>
@@ -24,7 +23,7 @@ function changeBiggiesContent() {
               <tbody>
                 <tr>
                   <div class="row">
-                    <td class="col-lg-4 " style="padding-left: 2%;">
+                    <td class="col-lg-4" style="padding-left: 2%;">
                       <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
                         <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                           <div class="flipper">
@@ -73,32 +72,7 @@ function changeBiggiesContent() {
                         </div>
                       </div>
                     </td>
-                    <td class="col-lg-4" style="padding-left: 0%;">
-                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                          <div class="flipper">
-                            <div class="front">
-                              <img class="img-responsive" src="images/biggies/fmi.jpg" style="width: 250px;height: 300px;">
-                            </div>
-                            <div class="back">
-                              <div id="text">
-                                <br>
-                                <br>
-                                <h3 class="short_description">
-                                  Zonal Auditions Held In Elan 2016 ,
-                                  Adjudged By Aafreen Vaz.
-                                </h3>
-                                <br>
-                                <br>
-                                <button type="button" class="btn btn-info fmi clickButton">
-                                CAMPUS PRINCESS
-                                <br> AUDITION
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <td class="col-lg-2" style="padding-left: 0%;">
                     </td>
                   </div>
                 </tr>
@@ -138,22 +112,6 @@ function changeBiggiesContent() {
                       </div>
                     </td>
                     <td class="col-lg-4 fmi">
-                      <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                        <span style="margin-left: 35px;">
-                        <img src="images/borderImg1.png" class="borderImg"
-                          style="margin-bottom: -5px; ">
-                        </span>
-                        <br>
-                        <span class="contestName" id="trial3" style="margin-left: 70px;"> Campus&nbsp;Princess</span>
-                        <br>
-                        <span class="contestName" id="trial3" style="margin-left: 105px;">Audition 
-                        </span>
-                        <br>
-                        <span style="margin-left: 35px;">
-                        <img src="images/borderImg2.png" class="borderImg"
-                          style="margin-bottom: -3px; ">
-                        </span>
-                      </div>
                     </td>
                   </div>
                 </tr>
@@ -161,29 +119,6 @@ function changeBiggiesContent() {
                   <div class="row">
                     <td class="col-lg-4"></td>
                     <td class="col-lg-4 angasutra" style="padding-left: 1%;" id="attakkalariposter">
-                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                          <div class="flipper">
-                            <div class="front">
-                              <img class="img-responsive" src="images/biggies/attakkalariposter.jpg" style="width: 250px;height: 300px;">
-                            </div>
-                            <div class="back">
-                              <div id="text">
-                                <br>
-                                <br>
-                                <h3 class="short_description">
-                                  An Evening of Mixed Ball
-                                </h3>
-                                <br>
-                                <br>
-                                <button type="button" class="btn btn-info angasutra clickButton">
-                                ANGASUTRA
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </td>
                   </div>
                   </td>
@@ -193,20 +128,6 @@ function changeBiggiesContent() {
         <tr>
                 <div class="row">
                         <td class="col-lg-4"></td>
-                        <td class="col-lg-4">
-                                <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                                        <span style="margin-left: 45px;">
-                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px; ">
-                                        </span>
-                                                <br>
-                                        <span class="contestName" id="trial4" style="margin-left: 110px;margin-bottom: "> 
-                                                Angasutra 
-                                        </span>
-                                                <br>
-                                        <span style="margin-left: 45px;">
-                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                                        </span>
-                                </div>
                         </td>
                         <td class="col-lg-4"></td>
                 </div>

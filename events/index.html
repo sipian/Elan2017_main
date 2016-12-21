@@ -21,7 +21,6 @@
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css" />
     <link href="css/text/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,22 +31,19 @@
     font-family: chelsea;
     src: url('./fonts/chelsea2/ChelseaAlternates.ttf');
     }
-    h2,
-    p {
-    font: 200 40px/1em chelsea
-    /*Amatic SC*/
-    ;
+    h2,p {
+    font: 200 40px/1em chelsea;
     text-align: center;
-    color: #f06d06;
+    color: black;
     }
     h3 {
-    color: black;
-    font: 200 30px/1em chelsea
+    color: #F06D06;
+    font: 200 30px/1em chelsea;
     /*Amatic SC*/
     ;
     }
     .contest {
-    font-family: 'Waiting for the Sunrise', cursive;
+    font-family: chelsea, cursive;
     font-size: 18px;
     letter-spacing: 6px;
     font-weight: bold;
@@ -60,7 +56,7 @@
     visibility: hidden;
     }
     .contestName {
-    font: 200 40px/1em chelsea
+    font: 200 40px/1em chelsea;
     /*Amatic SC*/
     ;
     font-size: 26px;
@@ -68,6 +64,7 @@
     }
     .short_description {
     font-size: 26px;
+    color: black;
     }
     .buttonDivTop {
     color: #e6ac00;
@@ -78,10 +75,10 @@
     box-shadow: none;
     }
   </style>
-  <body>
-    <div id="nav-outter">
+  <body style="overflow-y: hidden;">
+    <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:13px;">
+        <div  style="position:fixed;left:4px;top:-5px;">
                <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
                <map name="cyient">
                   <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
@@ -92,7 +89,7 @@
                         <a class="scroll" href="">Events</a>
             </div>
             <div class="center">
-            <img src="../images/logo6.png" style="float: left;margin-top: 20px; margin-left: -105px;width: 400px;height: 160px;" id="logo" usemap="#mapname">
+            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
             <map name="mapname">
               <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
             </map>
@@ -101,7 +98,7 @@
                         <a class="scroll" href="../Sponsors">Sponsor</a>
                         <a class="scroll" href="../team">Team</a>
             </div>
-            <div  style="position:fixed;right:4px;top:13px;">
+            <div  style="position:fixed;right:4px;top:-4px;">
                <img src="../images/bigrock.png" class="qwer" id="bigrock" style="float: left;width: 150px;height:55px;" usemap="#bigrock">
                <map name="bigrock">
                   <area shape="rect" coords="0,0,150,55" href="http://www.bigrock.com/" alt="BIG ROCK" target="_blank" style="outline: none;">
@@ -112,32 +109,36 @@
 
     <div id="pt-main" class="pt-perspective container-fluid">
       <div class="pt-page pt-page-1" style="
-        background-image: url('images/web1_jpg.jpg');  
+        background-image: url('images/web8_jpg.jpg');  
         background-repeat: no-repeat;
         background-position: right top;
         background-attachment: fixed;
         background-size: cover;
+        margin-bottom: 10px;
         ">
         <br>
         <br>
         <br>
         <br>
         <br>
-        <div class="container competitionArea biggiesBigDiv" style="margin-left:auto;margin-bottom:50px;">
+        <div class="container competitionArea biggiesBigDiv" style="
+        margin-left:auto;
+        margin-bottom:50px;
+
+        ">
           <p>
             <br>
           </p>
-<div class="table-responsive scrollify animated bounceInUp biggiesDiv" style="
+<div class="table-responsive animated bounceInUp biggiesDiv" style="
             padding-left:35px;
-            padding-bottom: 140px;
+            padding-bottom: 350px;
             background-image: url('images/event_biggies.png');  
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: contain; 
-            max-height: 1100px;
+            max-height: 1050px;
             ">
-
-  <h2 style="margin-left: 50px;margin-top: 35px; margin-bottom: 10px;">
+  <h2 style="margin-left: 15px;margin-top: 35px; margin-bottom: 10px;">
     <br>
     <br>
     <br>
@@ -148,7 +149,7 @@
               <tbody>
                 <tr>
                   <div class="row">
-                    <td class="col-lg-4 " style="padding-left: 2%;">
+                    <td class="col-lg-4" style="padding-left: 2%;">
                       <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
                         <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                           <div class="flipper">
@@ -197,32 +198,7 @@
                         </div>
                       </div>
                     </td>
-                    <td class="col-lg-4" style="padding-left: 0%;">
-                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                          <div class="flipper">
-                            <div class="front">
-                              <img class="img-responsive" src="images/biggies/fmi.jpg" style="width: 250px;height: 300px;">
-                            </div>
-                            <div class="back">
-                              <div id="text">
-                                <br>
-                                <br>
-                                <h3 class="short_description">
-                                  Zonal Auditions Held In Elan 2016 ,
-                                  Adjudged By Aafreen Vaz.
-                                </h3>
-                                <br>
-                                <br>
-                                <button type="button" class="btn btn-info fmi clickButton">
-                                CAMPUS PRINCESS
-                                <br> AUDITION
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <td class="col-lg-2" style="padding-left: 0%;">
                     </td>
                   </div>
                 </tr>
@@ -262,22 +238,6 @@
                       </div>
                     </td>
                     <td class="col-lg-4 fmi">
-                      <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                        <span style="margin-left: 35px;">
-                        <img src="images/borderImg1.png" class="borderImg"
-                          style="margin-bottom: -5px; ">
-                        </span>
-                        <br>
-                        <span class="contestName" id="trial3" style="margin-left: 70px;"> Campus&nbsp;Princess</span>
-                        <br>
-                        <span class="contestName" id="trial3" style="margin-left: 105px;">Audition 
-                        </span>
-                        <br>
-                        <span style="margin-left: 35px;">
-                        <img src="images/borderImg2.png" class="borderImg"
-                          style="margin-bottom: -3px; ">
-                        </span>
-                      </div>
                     </td>
                   </div>
                 </tr>
@@ -285,29 +245,6 @@
                   <div class="row">
                     <td class="col-lg-4"></td>
                     <td class="col-lg-4 angasutra" style="padding-left: 1%;" id="attakkalariposter">
-                      <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                        <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                          <div class="flipper">
-                            <div class="front">
-                              <img class="img-responsive" src="images/biggies/attakkalariposter.jpg" style="width: 250px;height: 300px;">
-                            </div>
-                            <div class="back">
-                              <div id="text">
-                                <br>
-                                <br>
-                                <h3 class="short_description">
-                                  An Evening of Mixed Ball
-                                </h3>
-                                <br>
-                                <br>
-                                <button type="button" class="btn btn-info angasutra clickButton">
-                                ANGASUTRA
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </td>
                   </div>
                   </td>
@@ -317,20 +254,6 @@
         <tr>
                 <div class="row">
                         <td class="col-lg-4"></td>
-                        <td class="col-lg-4">
-                                <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
-                                        <span style="margin-left: 45px;">
-                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px; ">
-                                        </span>
-                                                <br>
-                                        <span class="contestName" id="trial4" style="margin-left: 110px;margin-bottom: "> 
-                                                Angasutra 
-                                        </span>
-                                                <br>
-                                        <span style="margin-left: 45px;">
-                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                                        </span>
-                                </div>
                         </td>
                         <td class="col-lg-4"></td>
                 </div>
@@ -385,7 +308,6 @@
     </div>
 
 
-
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
@@ -415,7 +337,7 @@
         <svg height="40" width="150">
         <rect id="shape1" height="40" width="150" />
         <div id="text3">
-          <a href="" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&nbsp;&&nbsp;EML</a>
+          <a href="" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
         </div>
         </svg>
         </div>
@@ -431,17 +353,7 @@
         </svg>
         </div>
     </div>
-    
-    <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text5">
-          <a href="" class="linkBT"><span class="spot"></span>GALLERY</a>
-        </div>
-        </svg>
-        </div>
-    </div>
+
     </div>
 </div>
 <main>
@@ -587,5 +499,7 @@
   <script src="js/contest/online/online.js"></script>
   <script src="js/contest/litr/litrText.js"></script>
   <script src="js/contest/litr/litr.js"></script>
+  
+  <script src="../navbar/navbar.js"></script>
 
 </html>

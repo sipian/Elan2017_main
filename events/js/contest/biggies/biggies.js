@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
     $('body').on("click", ".elan-e-jung", function() {
+         
         $('.biggiesBigDiv').hide("slide",{direction:"up"}, 450 , function(){
+        // $(".biggiesBigDiv").addClass("scrollify");
+        // $(".biggiesBigDiv").css({"max-height":"1050px" , "overflow-y":"scroll"});
         $(".biggiesBigDiv").html(getBiggiesContent('elan-e-jung'));
         $('.biggiesBigDiv').show('slide',{direction:"down"},450);
        });     

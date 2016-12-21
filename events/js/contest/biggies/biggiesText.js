@@ -4,21 +4,31 @@ function getBiggiesContent(argument) {
 		return `\`
         <p><br></p>
     <div class='contest' 
-      style="padding-bottom: 140px;
-      background-image: url('images/event_culti.png');  
+      style="padding-bottom: 150px;
+      background-image: url('images/event_biggies.png');  
       background-repeat:  no-repeat;
       background-attachment: scroll;
-      background-size: cover;     
+      background-size: contain;
+      
     ">
-    <div class="container" style="width:1040px;padding-left:35px;text-align:left;">
-     <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 900px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        ">
+     
         <div class="heading">
             <div class="col-lg-1" id="backBiggies">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-2"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:75px;"> ELAN-E-JUNG</strong> </h2>
+                <h3> <strong style="font-weight: 900;margin-left:60px;"> ELAN-E-JUNG</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -39,23 +49,23 @@ function getBiggiesContent(argument) {
         <br>
         <div class="text">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
                 <br><br>
             </div>
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Distorted guitars, emphatic rhythms, dense bass and drums, vigorous vocals,
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                epic riffs and wild headbanging. 
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                Elan is back with its signature event, the metal battle. 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                Get ready to turn up your amps and set the stage on fire at Elan-e-Jung! 
             </div>
             <br>
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
                 <ul>
                     <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
@@ -65,7 +75,7 @@ function getBiggiesContent(argument) {
                 </ul>
             </div>
             <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
@@ -100,7 +110,7 @@ function getBiggiesContent(argument) {
                 <br>
             </div>
             <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+                <h3 style="text-align: center;">TERMS AND CONDITIONS</h3>
                 <br>
                 <ul>
                     <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
@@ -136,7 +146,7 @@ function getBiggiesContent(argument) {
             </div>
             <div class="col-lg-2"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;"> MANTHAN</strong> </h2>
+                <h3> <strong style="font-weight: 900;margin-left:10%;"> MANTHAN</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -157,11 +167,11 @@ function getBiggiesContent(argument) {
         <br>
         <div class="text">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
                 <br><br>
             </div>
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
                 <br>
                 When it comes to metal , English songs are without doubt the best.
                 <br>
@@ -173,7 +183,7 @@ function getBiggiesContent(argument) {
             </div>
             <br>
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
                 <ul>
                     <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
@@ -183,7 +193,7 @@ function getBiggiesContent(argument) {
                 </ul>
             </div>
             <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
@@ -218,7 +228,7 @@ function getBiggiesContent(argument) {
                 <br>
             </div>
             <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+                <h3 style="text-align: center;">TERMS AND CONDITIONS</h3>
                 <br>
                 <ul>
                     <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
@@ -254,7 +264,7 @@ function getBiggiesContent(argument) {
             </div>
             <div class="col-lg-2"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:3%;"> CAMPUS PRINCESS AUDITION</strong> </h2>
+                <h3> <strong style="font-weight: 900;margin-left:3%;"> CAMPUS PRINCESS AUDITION</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -275,11 +285,11 @@ function getBiggiesContent(argument) {
         <br>
         <div class="text">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
                 <br><br>
             </div>
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
                 <br>
                 When it comes to metal , English songs are without doubt the best.
                 <br>
@@ -291,7 +301,7 @@ function getBiggiesContent(argument) {
             </div>
             <br>
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
                 <ul>
                     <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
@@ -301,7 +311,7 @@ function getBiggiesContent(argument) {
                 </ul>
             </div>
             <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
@@ -336,7 +346,7 @@ function getBiggiesContent(argument) {
                 <br>
             </div>
             <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+                <h3 style="text-align: center;">TERMS AND CONDITIONS</h3>
                 <br>
                 <ul>
                     <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
@@ -373,7 +383,7 @@ function getBiggiesContent(argument) {
             </div>
             <div class="col-lg-2"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight:900;margin-left:10%;"> ANGASUTRA</strong> </h2>
+                <h3> <strong style="font-weight:900;margin-left:10%;"> ANGASUTRA</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -394,11 +404,11 @@ function getBiggiesContent(argument) {
         <br>
         <div class="text">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
                 <br><br>
             </div>
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
                 <br>
                 When it comes to metal , English songs are without doubt the best.
                 <br>
@@ -410,7 +420,7 @@ function getBiggiesContent(argument) {
             </div>
             <br>
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
                 <ul>
                     <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
@@ -420,7 +430,7 @@ function getBiggiesContent(argument) {
                 </ul>
             </div>
             <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
@@ -455,7 +465,7 @@ function getBiggiesContent(argument) {
                 <br>
             </div>
             <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+                <h3 style="text-align: center;">TERMS AND CONDITIONS</h3>
                 <br>
                 <ul>
                     <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
