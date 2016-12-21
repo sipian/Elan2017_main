@@ -1,0 +1,125 @@
+
+main #services {
+  float: right;
+  text-align: center;
+  transform: translatez(0);
+  margin-top: 0px;
+}
+
+main #services li {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+main #services li a div {
+  width: 40px;
+  height: 40px;
+  color: #74d4b3;
+  font-size: 2.2em;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+}
+main #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+main #services li a .fa.fa-youtube:hover{
+  background-color: white;
+  color  : red;
+}
+main #services li a .fa.fa-twitter:hover{
+  background-color: white;
+  color  : #1DA1F2;
+}
+main #services li a .fa.fa-facebook:hover{
+  background-color: #3B5998;
+  color: white;
+}
+main #services li a .fa.fa-instagram:hover{
+  background-image : url('images/instagram.png');
+  background-size: cover;
+  color: black;
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  z-index: 12;
+  width: 100%;
+  color: white;
+  background-color:black;
+}
+.bottomLink{
+  color: white;
+  text-decoration:none;
+}
+.bottomLinkDiv{
+  float: left;
+}
+#text1{
+  float: left;
+}
+@media screen and (max-width: 1460px) {
+  main #services {
+  margin-top: -50px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .svg-wrapper1{
+    margin-left: 25px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .svg-wrapper1{
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .svg-wrapper1{
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 999px) {
+  main #services {
+  margin-top: -50px;
+  }
+  .svg-wrapper1{
+    margin-left: -5px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .svg-wrapper1{
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .svg-wrapper1{
+    margin-left: -25px;
+  }
+  .text5{
+    margin-left: -50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .svg-wrapper1{
+    margin-left: -30px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .svg-wrapper1{
+    margin-left: -30px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .responsive{
+    height: -30px;
+  }
+}
