@@ -32,22 +32,16 @@
                </map>
             </div>
             <div class="center" style=" ">
-               <img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
+               
                <map name="mapname">
                   <area shape="rect" coords="0,30,300,150" href="" alt="alttext"  style="outline: none;">
-               </map>
-            </div>
-            <div  style="position:fixed;right:4px;top:-5px;">
-               <img src="images/bigrock.png" style="float: left;width: 150px;height:55px;" usemap="#bigrock">
-               <map name="bigrock">
-                  <area shape="rect" coords="0,0,150,55" href="http://www.bigrock.com/" alt="CYIENT" target="_blank" style="outline: none;">
                </map>
             </div>
          </nav>
       </div>
       <div class="responsive" style="height: 90px;">&nbsp;</div>
       <div class="site__main-content scrollable" id="back" style="
-        background-image: url('images/test11.png');  
+        background-image: url('images/test15.jpg');  
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
@@ -108,7 +102,7 @@
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
+                           <a href="hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
                         </div>
                      </svg>
                   </div>
@@ -172,12 +166,41 @@
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
    <script src="scripts/main.js"></script>
    <script type="text/javascript">
-      $(document).ready(function(argument) {
+                 $(document).ready(function () {
+                  $('.center').html(`<img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">`);
 
-            if($(window).height()<400)
-                    $("#logo").css("margin-left","-205px");
-                else
-                    $("#logo").css("margin-left","-105px");
+                 if($(window).height()<400){
+                    $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else if($(window).height()<500){
+                    $("#logo").css({"margin-left":"-108px","width": "450px" , "height": "155px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else{
+                    $("#logo").css({"margin-left":"-105px","width": "500px" , "height": "175px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+            $(window).resize(function () {
+                 if($(window).height()<400){
+                    $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else if($(window).height()<500){
+                    $("#logo").css({"margin-left":"-108px","width": "450px" , "height": "155px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else{
+                    $("#logo").css({"margin-left":"-105px","width": "500px" , "height": "175px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+            });
+
+            })
+                
+   </script>
+   <script type="text/javascript">
+      $(document).ready(function(argument) {
 
             if($(window).height()>700)
                     $("#back").css("margin-top","-80px");
@@ -190,10 +213,6 @@
                 else
                     $("#back").css("margin-top","-130px");
 
-                if($(window).height()<400)
-                    $("#logo").css("margin-left","-205px");
-                else
-                    $("#logo").css("margin-left","-105px");
             });
           $(".home__bg-island-meyer.animation__float_01.js-island-meyer").click(function() {
                 $("#about").html("");

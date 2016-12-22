@@ -1,29 +1,30 @@
 function changeTechyContent() {
   $('.techyBigDiv').html(`
   <p><br></p>
-<div class="table-responsive scrollify animated bounceInUp techyDiv"
-        style="
-        padding-bottom: 140px;
-        padding-left:18px;
-        background-image: url('images/event_culti7.png');  
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: contain;
-        max-height: 2350px;
-">
-
-          <h2 style="margin-left: 40px;margin-top: 25px; margin-bottom: 10px;">
-  <br>
-  <br>
-  <br>
-  <br>
-  TECHY
+<div class="table-responsive animated bounceInUp infiDiv" style="
+  padding-left: 28px;
+  padding-bottom: 140px;
+  background-image: url('images/event_culti7.png');  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  max-height: 2400px;
+  overflow-y:hidden;
+  ">
+    <h2 style="margin-left: -5px;margin-top: 25px; margin-bottom: 10px;">
+    <br>
+    <br>
+    <br>
+    <br>
+    INFI
   </h2>
-    <table class="table">
-        <tbody>
-            <tr>
-                <div class="row">
-                    <td class="col-lg-4 " style="padding-left: 0%;">
+  <br>
+  <div style="overflow-y:scroll;max-height: 2000px;">  
+  <table class="table">
+    <tbody>
+      <tr>
+        <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center techyDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
@@ -139,13 +140,6 @@ function changeTechyContent() {
                     </td>
                 </div>
             </tr>
-
-        </tbody>
-    </table>
- 
-<div class="table-responsive" style="margin-top: 0px;">
-    <table class="table">
-        <tbody>
             <tr>
                 <div class="row">
                     <td class="col-lg-4 " style="padding-left: 0%;">
@@ -263,17 +257,6 @@ function changeTechyContent() {
                     </td>
                 </div>
             </tr>
-
-        </tbody>
-
-    </table>
-</div>
-
-
-
-<div class="table-responsive" style="margin-top:0px;">
-    <table class="table">
-        <tbody>
             <tr>
                 <div class="row">
                     <td class="col-lg-4 " style="padding-left: 0%;">
@@ -391,17 +374,6 @@ function changeTechyContent() {
                     </td>
                 </div>
             </tr>
-
-        </tbody>
-
-    </table>
-</div>
-
-
-
-<div class="table-responsive" style="margin-top:0px;">
-    <table class="table">
-        <tbody>
             <tr>
                 <div class="row">
                     <td class="col-lg-4 " style="padding-left: 0%;">
@@ -524,17 +496,6 @@ function changeTechyContent() {
                     </td>
                 </div>
             </tr>
-
-        </tbody>
-
-    </table>
-</div>
-
-
-
-<div class="table-responsive" style="margin-top: 0px;">
-    <table class="table">
-        <tbody>
             <tr>
                 <div class="row">
                     <td class="col-lg-4"  style="padding-left: 0%;">
@@ -623,6 +584,7 @@ function changeTechyContent() {
             </tr>
         </tbody>
     </table>
+    </div>
 </div>
 </div>
          `);

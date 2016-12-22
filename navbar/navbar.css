@@ -15,7 +15,7 @@
 
 .left{
     float:left;
-    margin-left: 14%;
+    margin-left: 13.5%;
     letter-spacing:-5px;
     margin-top: 2%;
  }
@@ -26,7 +26,7 @@
 }
 .right{
     float:left;
-    margin-right: 13%;
+    margin-right: 13.5%;
     letter-spacing:-5px;
     margin-top: 2%;
 }
@@ -44,27 +44,8 @@
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 0px) {
-  .left{
-    margin-left: 16%;
- }
- .right{
-    margin-right: 16%;
-}
-#bigrock{
-    width: 100px;
-}
-}
-/*.map-edge{
-    height:38px;
-    width:100%;
-    background: url(images/map-edge.png) center top repeat-x;
-    overflow:hidden;
-    position:relative;
-    z-index:70
-}*/
 
-/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+
 ::-moz-selection {
 background: #fcd700;
 color: #fff;
@@ -75,7 +56,7 @@ text-shadow: none;
     color: #fff;
     text-shadow: none;
 }
-/*  j.mp/webkit-tap-highlight-color */
+
 .scroll:link {
     -webkit-tap-highlight-color: #fcd700;
     -moz-transition: all 0.2s ease-in 0s;
@@ -97,7 +78,7 @@ mark {
     width:100%;
     overflow:hidden;
 }
-/*Main #topNavBar Bar*/
+
 #nav-outter {
     width:100%;
     background:url(../images/nav-bg.png) left top repeat-x;

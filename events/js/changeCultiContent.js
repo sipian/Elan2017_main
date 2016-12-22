@@ -2,23 +2,25 @@ function changeCultiContent() {
     $('.cultiBigDiv').html
 (`
   <p><br></p>
-<div class="table-responsive scrollify animated bounceInUp cultiDiv" style="
-  padding-left:33px;
+<div class="table-responsive animated bounceInUp cultiDiv" style="
+  padding-left: 28px;
   padding-bottom: 140px;
   background-image: url('images/event_culti7.png');  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
-  max-height: 2350px;
+  max-height: 2400px;
+  overflow-y:hidden;
   ">
-  
-  <h2 style="margin-left: 30px;margin-top: 25px; margin-bottom: 10px;">
+    <h2 style="margin-left: -5px;margin-top: 25px; margin-bottom: 10px;">
     <br>
     <br>
     <br>
     <br>
     CULTI
   </h2>
+  <br>
+  <div style="overflow-y:scroll;max-height: 2000px;">  
   <table class="table">
     <tbody>
       <tr>
@@ -66,7 +68,7 @@ function changeCultiContent() {
                       <br>
                       <br>
                       <button type="button" class="btn btn-info looseyourfeet clickButton">
-                      LOOSE YOUR Feet
+                      LOOSE YOUR FEET
                       </button>
                     </div>
                   </div>
@@ -424,24 +426,20 @@ function changeCultiContent() {
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                 <div class="flipper">
                   <div class="front">
-                    <img class="img-responsive" alt="lan gaming" src="images/culti/lightscamera.jpg" style="width: 250px;height: 300px;">
+                    <img class="img-responsive" alt="lan gaming" src="images/culti/nukkadnatak.jpg" style="width: 250px;height: 300px;">
                   </div>
                   <div class="back">
                     <div id="text">
                       <br>
                       <h3 class="short_description">
-                        The Screen And The Sounds Are Ready. 
+                        Haven't you ever wanted to change the way our country functions? 
                         <br>
-                        The Stage Is Set.           
-                        <br>
-                        Bring The Director And 'cameraman' In You.
+                        Well, it's time to be the change you want to see!
                       </h3>
                       <br>
                       <br>
-                      <button type="button" class="btn btn-info lightscamera">
-                      LIGHTS, CAMERA,
-                      <br>
-                      ELAN
+                      <button type="button" class="btn btn-info nukkadnatak">
+                      NUKKAD&nbsp;NATAK
                       </button>
                     </div>
                   </div>
@@ -509,7 +507,7 @@ function changeCultiContent() {
               </span>
               <br>
               <span class="contestName" style="margin-left: 13px;
-                margin-right: 0px;">Lights,&nbsp;Camera,&nbsp;Elan
+                margin-right: 0px;">NUKKAD&nbsp;NATAK
               </span>
               <br>
               <span style="margin-left:  0px;">
@@ -594,7 +592,6 @@ function changeCultiContent() {
                         Bring Life To Figments Of Your Own Thoughts And Imaginations By Moulding Beautiful Structures Out Of Clay! 
                       </h3>
                       <br>
-                      <br>
                       <button type="button" class="btn btn-info claymodelling clickButton">
                       CLAY&nbsp;MODELING&nbsp;
                       </button>
@@ -609,18 +606,18 @@ function changeCultiContent() {
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                 <div class="flipper">
                   <div class="front">
-                    <img class="img-responsive" alt=" BLIND ART" src="images/culti/blindart.jpg" style="width: 250px;height: 300px;">
+                    <img class="img-responsive" alt=" LEND ME YOUR VOICE" src="images/culti/lendmeurvoice.jpg" style="width: 250px;height: 300px;">
                   </div>
                   <div class="back">
                     <div id="text">
                       <br>
                       <h3 class="short_description">
-                        Can You Draw Blindfolded??........well, At Least When Your Friend Is Guiding You?..
+                      Ever thought that you could have delivered the dialogues better than the actors in the movie?
                       </h3>
                       <br>
                       <br>
-                      <button type="button" class="btn btn-info blindart clickButton">
-                      BLIND&nbsp;ART 
+                      <button type="button" class="btn btn-info lendmeurvoice clickButton">
+                      LEND&nbsp;YOUR&nbsp;VOICE
                       </button>
                     </div>
                   </div>
@@ -673,8 +670,8 @@ function changeCultiContent() {
                 style="margin-bottom: -5px; ">
               </span>
               <br>
-              <span class="contestName" style="margin-left: 70px;
-                margin-right: 0px;">Blind&nbsp;Art
+              <span class="contestName" style="margin-left: 37px;
+                margin-right: 0px;">Lend&nbsp;Your&nbsp;Voice
               </span>
               <br>
               <span style="margin-left:  0px;">
@@ -818,112 +815,9 @@ function changeCultiContent() {
           </td>
         </div>
       </tr>
-            <tr>
-        <div class="row">
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="">
-              <div style="margin-left: 40px;">
-                <div class="flipper">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                      </h3>
-                      <br>
-                      <br>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                <div class="flipper">
-                  <div class="front">
-                    <img class="img-responsive" alt="LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE" src="images/culti/lendmeurvoice.jpg" style="width: 250px;height: 300px;">
-                  </div>
-                  <div class="back">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                        Ever Thought That You Could Have Delivered The Dialogues Better Than The Actors In The Movie?
-                      </h3>
-                      <br>
-                      <br>
-                      <button type="button" class="btn btn-info djwars">
-                      LEND&nbsp;ME&nbsp;YOUR&nbsp;VOICE
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="">
-              <div style="margin-left: 40px;">
-                <div class="flipper">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                      </h3>
-                      <br>
-                      <br>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </td>
-        </div>
-      </tr>
-      <tr>
-        <div class="row">
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 29px;
-                margin-right: 0px;">
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              </span>
-            </div>
-          </td>
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg1.png" class="borderImg"
-                style="margin-bottom: -5px; ">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 10px;
-                margin-right: 0px;">Lend&nbsp;Me&nbsp;Your&nbsp;Voice
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg2.png" class="borderImg"
-                style="margin-bottom: -3px; ">
-              </span>
-            </div>
-          </td>
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 74px;
-                margin-right: 0px;">
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              </span>
-            </div>
-          </td>
-        </div>
-      </tr>
     </tbody>
   </table>
-</div>`);
+  </div>
+</div>
+<br><br><br><br>`);
 }

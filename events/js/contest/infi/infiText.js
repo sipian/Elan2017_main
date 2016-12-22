@@ -2,14 +2,32 @@ function getInfiContent(argument) {
 
 	if(argument=='walktheramp')
 		return `\`<div class='contest'>
-    <div class="container">
+        <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
         <div class="heading">
-            <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;">WALK THE RAMP</strong> </h2>
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -17,93 +35,128 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -121,97 +174,161 @@ function getInfiContent(argument) {
             </div>
             <br><br><br>
         </div>
+        <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
         <div class="photo">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -229,97 +346,161 @@ function getInfiContent(argument) {
             </div>
             <br><br><br>
         </div>
-         <div class="photo">
+         <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -338,97 +519,161 @@ function getInfiContent(argument) {
             </div>
             <br><br><br>
         </div>
+        <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
         <div class="photo">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -448,97 +693,161 @@ function getInfiContent(argument) {
             </div>
             <br><br><br>
         </div>
+        <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
         <div class="photo">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -558,97 +867,161 @@ function getInfiContent(argument) {
             </div>
             <br><br><br>
         </div>
+        <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
         <div class="photo">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -668,97 +1041,161 @@ function getInfiContent(argument) {
             </div>
             <br><br><br>
         </div>
+        <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1430px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backCulti">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
         <div class="photo">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
                 <br><br>
             </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Welcome to the true culture of break dance.
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                If you really dance from the heart, if dance runs through your veins 
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                and if dance is in every minute of your life........................... This is where you should be !!!
+                 <br>
+                 So rise and shine.
+                 <br>
+                 Dance with energy and Elan!!
+                 <br>
+                 Coordination is what matters when it comes to a group performance.
+                 <br>
+                  Break free is one such group dance event
+                  <br>
+                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
+                   <br>
+                    It's time to move n shake n drop.
+                </div>
             </div>
             <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;1st position : Rs 25000
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
+                <ul style="list-style-type: disc;">
+                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Minimum size of the team-6.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>All the registered teams shall participate in prelims.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>During the prelims each team will be given 3-5mins to perform.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The song must be of 6-9 minutes long for finale.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
+                        <br>
+                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
                 </ul>
+
             </div>
-            <br>   
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;

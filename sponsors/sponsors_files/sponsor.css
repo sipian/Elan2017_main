@@ -1,0 +1,30 @@
+div.back_cover{
+background: url(sponsor.png);
+background-size:contain;
+background-repeat:repeat;
+
+}
+body{
+text-align:center;
+ color:#aaa;
+font-family: 'Josefin Sans', sans-serif;
+}
+.row{
+margin: 4% 0%;
+}
+@media screen and (max-width: 768px) {
+.col-xs-12{
+margin: 4% 0%;
+}
+}
+img{
+width:55%;
+margin:0 auto;
+}
+body::-webkit-scrollbar {
+display: none;
+}
+
+img:not(#logo , .qwer) {
+box-shadow: 10px 10px 10px black;
+}
