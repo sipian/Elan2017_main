@@ -14,7 +14,15 @@
       <meta property=og:description content="ELAN 2017 Website"/>
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
       <link rel="stylesheet" href="styles/main.css">
+
+<!-- pre loader link sheets -->
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+<!-- pre loader link sheets ends  -->
+
       <title>ELAN 2017</title>
+
       <style type="text/css">
          @font-face {
          font-family: chelsea;
@@ -23,6 +31,30 @@
       </style>
    </head>
    <body class="site de" style="height: 100%;">
+
+
+  <!-- Preloader with Bootstrap Progress Bar -->
+<div class='loader'>
+<div class="warrior">
+    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+     
+  <div class='loader-container'>
+    
+
+
+    <div class='progress progress-striped active'>
+      <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
+    </div>
+    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
+  </div>
+</div>
+
+
+<!-- Landing Page -->
+
+
+
+
       <div id="nav-outter" style="z-index: 1;">
          <nav id="topNavBar">
             <div  style="position:fixed;left:4px;top:-5px;">
@@ -237,4 +269,8 @@
           });
       })
    </script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
 </html>

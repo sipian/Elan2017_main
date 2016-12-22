@@ -129,4 +129,10 @@ Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",9695,function(sym,
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
+
+//=========================================================
+
+//Edge symbol: 'Preloader'
+(function(symbolName){})("Preloader");
+//Edge symbol end:'Preloader'
 })(jQuery,AdobeEdge,"EDGE-58749904");

@@ -11,7 +11,12 @@
 <link href="css/style.css" rel="stylesheet" media="screen" >
 <link href="css/flock.css" rel="stylesheet" media="screen" >
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" >
-<link rel="stylesheet" href="../navbar/navbar.css">
+<!-- pre loader link sheets -->
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+<!-- pre loader link sheets ends  -->
+
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<title>Untitled</title>
 <!--Adobe Edge Runtime-->
@@ -33,7 +38,7 @@
 			min-height: 100%;
 			width: auto;
 			height: auto;
-			/*background: url(http://movie.miestilomag.com/wp-content/uploads/2014/03/temp-screenshot.png) no-repeat;*/
+			background: url(http://movie.miestilomag.com/wp-content/uploads/2014/03/temp-screenshot.png) no-repeat;
 			background-size: cover;
 		}
 
@@ -48,39 +53,39 @@
 </head>
 <body style="margin:0;padding:0;height:100%;">
 
-<!--     <div id="nav-outter">
-        <nav id="topNavBar">
-            <div class="left">
-                        <a class="scroll" href="#" style="cursor: default;"></a>
-                        <a class="scroll" href="#">About&nbsp;Us</a>
-                        <a class="scroll" href="#">Register</a>
-                        <a class="scroll" href="../events">Events</a>
-                        <a class="scroll" href="#">Workshops</a>
-            </div>
-            <div class="center">
-            <a href="../">
-            <img src="../images/logo.png" style="float: left;" id="logo">
-            </a>    
-            </div>
-            <div class="right"  style="float: right;">
-                        <a class="scroll" href="http://blog.elan.org.in">Blog</a>
-                        <a class="scroll" href="#">Sponsors</a>
-                        <a class="scroll" href="../archives">Archives</a>
-                        <a class="scroll" href="">Team</a>
-                        <a class="scroll" href="#"></a>
-            </div>
-        </nav>
-    </div> -->
-    <br><br>
+
+  <!-- Preloader with Bootstrap Progress Bar -->
+<div class='loader'>
+<div class="warrior">
+    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+     
+  <div class='loader-container'>
+    
+
+
+    <div class='progress progress-striped active'>
+      <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
+    </div>
+    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
+  </div>
+</div>
+
+
+<!-- Landing Page -->
+
+
+
 <div class="responsive" id="jump">
 <div id="Stage" class="EDGE-58749904">
 
 <video id="bgvid" autoplay loop muted>
-	<source src="main1.mp4" type="video/mp4">
+	<source src="main2.mp4" type="video/mp4">
 </video>
 
 </div>
 </div>
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
+    <script src="js/index.js"></script>
 </body>
 </html>
