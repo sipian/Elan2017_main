@@ -24,6 +24,11 @@
     <link href="css/text/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- pre loader link sheets -->
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+<!-- pre loader link sheets ends  -->
 
   </head>
   <style>
@@ -76,6 +81,26 @@
     }
   </style>
   <body style="overflow-y: hidden;">
+
+
+    <!-- Preloader with Bootstrap Progress Bar -->
+<div class='loader'>
+<div class="warrior">
+    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+     
+  <div class='loader-container'>
+    
+
+
+    <div class='progress progress-striped active'>
+      <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
+    </div>
+    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
+  </div>
+</div>
+
+
+<!-- Landing Page -->
     <div id="nav-outter"  style="z-index: 1;">
 	<nav id="topNavBar">
 	<div  style="position:fixed;left:4px;top:-5px;">
@@ -95,7 +120,7 @@
 	    </map>
 	    </div>
 	    <div class="right"  style="float: right;">
-			<a class="scroll" href="../Sponsors">Sponsor</a>
+			<a class="scroll" href="../sponsors">Sponsor</a>
 			<a class="scroll" href="../team">Team</a>
 	    </div>
 	</nav>
@@ -319,7 +344,7 @@
 	<svg height="40" width="150">
 	<rect id="shape1" height="40" width="150" />
 	<div id="text2">
-	  <a href="" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
+	  <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
 	</div>
 	</svg>
 	</div>
@@ -330,7 +355,7 @@
 	<svg height="40" width="150">
 	<rect id="shape1" height="40" width="150" />
 	<div id="text3">
-	  <a href="" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
+	  <a href="../workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
 	</div>
 	</svg>
 	</div>
@@ -376,6 +401,11 @@
 </div>
 
   </body>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+    
   <script src="js/modernizr.custom.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -497,4 +527,6 @@
   
   <script src="../navbar/navbar.js"></script>
 
+
 </html>
+

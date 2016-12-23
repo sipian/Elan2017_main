@@ -9,14 +9,16 @@ function changeInfiContent() {
    background-attachment: scroll;
    background-size: contain;     
    max-height: 1100px;
+   overflow-y:hidden;
    ">
-  <h2 style="margin-left: 80px;margin-top: 54px; margin-bottom: 10px;">
+  <h2 style="margin-left: 30px;margin-top: 54px; margin-bottom: 10px;">
     <br>
     <br>
     <br>
     <br>
     INFI
-  </h2>  
+  </h2> 
+  <div style="overflow-y:scroll;max-height: 700px;">  
   <table class="table">
       <tbody>
          <tr>
@@ -26,17 +28,19 @@ function changeInfiContent() {
                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
                            <div class="front">
-                              <img class="img-responsive" alt="walk the ramp" src="images/infi/walktheramp.png" style="width: 250px;height: 300px;">
+                              <img class="img-responsive" alt="FOODATHON" src="images/infi/foodathon.jpg" style="width: 250px;height: 300px;">
                            </div>
                            <div class="back">
                               <div id="text">
                                  <br>
                                  <h3 class="short_description">
-                                    Most Anticipated Event That Depicts The Zenith Of Glitziness And Glamour.
+                                  Let’s See Who Is The Biggest Foodie.
+                                  <br>
+                                  But Wait, Is It So Simple!! We Don’t Think So
                                  </h3>
                                  <br><br>
-                                 <button type="button" class="btn btn-info walktheramp clickButton">
-                                 WALK&nbsp;THE&nbsp;RAMP
+                                 <button type="button" class="btn btn-info foodathon clickButton">
+                                 FOODATHON
                                  </button>
                               </div>
                            </div>
@@ -57,7 +61,6 @@ function changeInfiContent() {
                                  <h3 class="short_description">
                                     This Contains The Traditional One Minute Games To End A Tiring Day. The Events Will Be Simple And Fun-filled.
                                  </h3>
-                                 <br>
                                  <button type="button" class="btn btn-info minutetowinit clickButton">
                                  MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT
                                  </button>
@@ -72,16 +75,17 @@ function changeInfiContent() {
                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
                            <div class="front">
-                              <img class="img-responsive" alt="field kings" src="images/infi/fieldkings.jpg" style="width: 250px;height: 300px;">
+                              <img class="img-responsive" alt="final destination" src="images/infi/snake.jpg" style="width: 250px;height: 300px;">
                            </div>
                            <div class="back">
                               <div id="text">
                                  <br>
                                  <h3 class="short_description">
-                                    Prove Your Worth As A Team On The Field. Participate In 5's Football. We Are In Search Of The Kings Of The Game!!!
+                                  Indulge Yourself In In The Favourite Board Games Of All Times.
                                  </h3>
-                                 <button type="button" class="btn btn-info fieldkings clickButton">
-                                 FIELD&nbsp;KINGS
+                                 <br><br>
+                                 <button type="button" class="btn btn-info snake">
+                                 HUMAN&nbsp;SNAKE&&nbsp;LADDERS
                                  </button>
                               </div>
                            </div>
@@ -101,7 +105,7 @@ function changeInfiContent() {
                      </span>
                      <br>
                      <span class="contestName" style="margin-left: 31px;
-                        margin-right: 0px;">Walk&nbsp;The&nbsp;Ramp
+                        margin-right: 0px;">Foodathon
                      </span>
                      <br>
                      <span style="margin-left:  0px;">
@@ -134,8 +138,8 @@ function changeInfiContent() {
                         style="margin-bottom: -5px; ">
                      </span>
                      <br>
-                     <span class="contestName" style="margin-left: 62px;
-                        margin-right: 0px;">Field&nbsp;Kings
+                     <span class="contestName" style="margin-left: -20px;
+                        margin-right: 0px;">Human&nbsp;Snake&nbsp;&&nbsp;Ladders
                      </span>
                      <br>
                      <span style="margin-left:  0px;">
@@ -182,7 +186,7 @@ function changeInfiContent() {
                               <div id="text">
                                  <br>
                                  <h3 class="short_description">
-                                    Everyone's A Gamer. Not Everyone's A Winner.
+                                 Ever Dreamt Of Finding Blackbeard’s Treasure.
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info finaldestination">
@@ -276,24 +280,22 @@ function changeInfiContent() {
          </tr>
          <tr>
             <div class="row">
-               <td class="col-lg-4" style="padding-left: 0%;">
-               </td>
                <td class="col-lg-4 " style="padding-left: 0%;">
                   <div class="animated bounceInUp col-sm-8 text-center infiDiv">
                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
                            <div class="front">
-                              <img class="img-responsive" alt="CONVERSATION COFFEE" src="images/infi/convcoffee.png" style="width: 250px;height: 300px;">
+                              <img class="img-responsive" alt="CASINO ROYALE" src="images/infi/casino_royale.jpg" style="width: 250px;height: 300px;">
                            </div>
                            <div class="back">
                               <div id="text">
                                  <br>
                                  <h3 class="short_description">
-                                    This Event Basically Aims At The Interaction Of Our August Crowd Among Themselves.
+                                  Who Doesn’t Love To Gamble? 
                                  </h3>
                                  <br><br>
-                                 <button type="button" class="btn btn-info convcoffee">
-                                 CONVERSATION&nbsp;COFFEE
+                                 <button type="button" class="btn btn-info casino_royale">
+                                 CASINO&nbsp;ROYALE
                                  </button>
                               </div>
                            </div>
@@ -301,35 +303,43 @@ function changeInfiContent() {
                      </div>
                   </div>
                </td>
-               <td class="col-lg-4" style="padding-left: 0%;">
+               <td class="col-lg-4 " style="padding-left: 0%;">
+                  
+               </td>
+               <td class="col-lg-4 " style="padding-left: 0%;">
                </td>
             </div>
          </tr>
          <tr>
             <div class="row">
-               <td class="col-lg-4"></td>
-               <td class="col-lg-4  style="padding-left:20%;">
-               <div class="animated bounceInUp col-sm-8 text-center infiDiv">
-                  <span style="margin-left:  31px;">
-                  <img src="images/borderImg1.png" class="borderImg"
-                     style="margin-bottom: -5px; ">
-                  </span>
-                  <br>
-                  <span class="contestName" style="margin-left: 42px;
-                     margin-right: 0px;">Conversation&nbsp;Coffee
-                  </span>
-                  <br>
-                  <span style="margin-left:  31px;">
-                  <img src="images/borderImg2.png" class="borderImg"
-                     style="margin-bottom: -3px; ">
-                  </span>
-               </div>
+               <td class="col-lg-4"  style="padding-left:4%;">
+                  <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 54px;
+                        margin-right: 0px;">Casino&nbsp;Royale
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                  </div>
                </td>
-               <td class="col-lg-4"></td>
+               <td class="col-lg-4"  style="padding-left:4%;">
+                  
+               </td>
+               <td class="col-lg-4"  style="padding-left:4%;">
+               </td>
             </div>
          </tr>
       </tbody>
    </table>
+   </div>
 </div>
+<br><br><br>
         `);
 }

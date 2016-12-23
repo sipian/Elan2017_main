@@ -1,12 +1,4 @@
-                $(".scrollify").mCustomScrollbar({
-                    axis:"y",
-                    theme:"inset-3-dark",
-                    autoExpandScrollbar: true,
-                    scrollInertia : 40,
-                    autoDraggerLength : true,
-                    alwaysShowScrollbar : 0,
-                    mouseWheel : true
-                });
+
 var $main = $('#pt-main'),
     $pages = $main.children('div.pt-page'),
     current = 0,
@@ -16,7 +8,7 @@ var $main = $('#pt-main'),
     animEndEventNames = {
         'WebkitAnimation': 'webkitAnimationEnd',
         'OAnimation': 'oAnimationEnd',
-        'msAnimation': 'MSAnimationEnd',
+        'msAnimation': 'MSAznimationEnd',
         'animation': 'animationend'
     },
     // animation end event name
@@ -87,15 +79,6 @@ function changeContest(argument) {
                 changeOnlineContent();
                 changeLitrContent();
                 changeTechyContent();
-                $(".scrollify").mCustomScrollbar({
-                    axis:"y",
-                    theme:"inset-3-dark",
-                    autoExpandScrollbar: true,
-                    scrollInertia : 40,
-                    autoDraggerLength : true,
-                    alwaysShowScrollbar : 0,
-                    mouseWheel : true
-                });
 
 }
 $('body').on("click", ".biggies", function() {
@@ -111,7 +94,7 @@ $('body').on("click", ".biggies", function() {
 });
 $('body').on("click", ".culti", function() {
     if (current != 1)
-        nextPage(36, current, 1, function() {
+        nextPage(24, current, 1, function() {
             $('.cultiDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
@@ -157,7 +140,7 @@ $('body').on("click", ".litr", function() {
 
 $('body').on("click", ".techy", function() {
     if (current != 5)
-        nextPage(60, current, 5, function() {
+        nextPage(42, current, 5, function() {
             $('.techyDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();

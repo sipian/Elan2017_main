@@ -1,191 +1,110 @@
 $(document).ready(function() {
 
-    $('body').on("click", ".breakfree", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".robo_soccer", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('breakfree'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('robo_soccer'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".looseyourfeet", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".robo_wars", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('looseyourfeet'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('robo_wars'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".nrityanjali", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".pirates", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('nrityanjali'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('pirates'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".just-duet", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".robo_epic", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('just-duet'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('robo_epic'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".vibrazione", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".ojo_cada", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('vibrazione'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('ojo_cada'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".octaves", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".drift_king", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('octaves'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('drift_king'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".andaazapnapna", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".bridge_builder", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('andaazapnapna'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('bridge_builder'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-
-    $('body').on("click", ".nukkadnatak", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".junkyard_wars", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('nukkadnatak'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('junkyard_wars'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".filmfarefiesta", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".electronic_champ", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('filmfarefiesta'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('electronic_champ'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on("click", ".picelectic", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".dtmf_race", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('picelectic'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-    $('body').on("click", ".lightscamera", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('lightscamera'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-    $('body').on("click", ".facepainting", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('facepainting'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-    $('body').on("click", ".nailart", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('nailart'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-    $('body').on("click", ".mehendi", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('mehendi'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-
-    $('body').on("click", ".claymodelling", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('claymodelling'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-
-    $('body').on("click", ".artexhibition", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('artexhibition'));
-            $(".cultiBigDiv").show('slide', {
-                direction: "down"
-            }, 500);
-        });
-    });
-
-
-    $('body').on("click", ".djwars", function() {
-        $(".cultiBigDiv").hide("slide", {
-            direction: "up"
-        }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('djwars'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('dtmf_race'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
@@ -193,34 +112,102 @@ $(document).ready(function() {
 
 
 
-    $('body').on("click", ".rjhunt", function() {
-        $(".cultiBigDiv").hide("slide", {
+
+
+
+    $('body').on("click", ".elixir", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('rjhunt'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('elixir'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-
-
-    $('body').on("click", ".lendmeurvoice", function() {
-        $(".cultiBigDiv").hide("slide", {
+    $('body').on("click", ".hack_a_maze", function() {
+        $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
-            $(".cultiBigDiv").html(getCultiContent('lendmeurvoice'));
-            $(".cultiBigDiv").show('slide', {
+            $(".techyBigDiv").html(getTechyContent('hack_a_maze'));
+            $(".techyBigDiv").show('slide', {
                 direction: "down"
             }, 500);
         });
     });
 
-    $('body').on('click', "#backCulti", function() {
+    $('body').on("click", ".enigma", function() {
+        $(".techyBigDiv").hide("slide", {
+            direction: "up"
+        }, 500, function() {
+            $(".techyBigDiv").html(getTechyContent('enigma'));
+            $(".techyBigDiv").show('slide', {
+                direction: "down"
+            }, 500);
+        });
+    });
+
+    $('body').on("click", ".algo", function() {
+        $(".techyBigDiv").hide("slide", {
+            direction: "up"
+        }, 500, function() {
+            $(".techyBigDiv").html(getTechyContent('algo'));
+            $(".techyBigDiv").show('slide', {
+                direction: "down"
+            }, 500);
+        });
+    });
+
+    $('body').on("click", ".pro_quest", function() {
+        $(".techyBigDiv").hide("slide", {
+            direction: "up"
+        }, 500, function() {
+            $(".techyBigDiv").html(getTechyContent('pro_quest'));
+            $(".techyBigDiv").show('slide', {
+                direction: "down"
+            }, 500);
+        });
+    });
+
+    $('body').on("click", ".quadcopter", function() {
+        $(".techyBigDiv").hide("slide", {
+            direction: "up"
+        }, 500, function() {
+            $(".techyBigDiv").html(getTechyContent('quadcopter'));
+            $(".techyBigDiv").show('slide', {
+                direction: "down"
+            }, 500);
+        });
+    });
+
+    $('body').on("click", ".science_quiz", function() {
+        $(".techyBigDiv").hide("slide", {
+            direction: "up"
+        }, 500, function() {
+            $(".techyBigDiv").html(getTechyContent('science_quiz'));
+            $(".techyBigDiv").show('slide', {
+                direction: "down"
+            }, 500);
+        });
+    });
+
+    $('body').on("click", ".auto_quiz", function() {
+        $(".techyBigDiv").hide("slide", {
+            direction: "up"
+        }, 500, function() {
+            $(".techyBigDiv").html(getTechyContent('auto_quiz'));
+            $(".techyBigDiv").show('slide', {
+                direction: "down"
+            }, 500);
+        });
+    });
+
+    $('body').on('click', "#backTechy", function() {
         setTimeout(function() {
-            changeCultiContent();
-            $(".cultiBigDiv").css("display", "block");
+            changeTechyContent();
+            $(".techyBigDiv").css("display", "block");
         }, 50);
     });
+
 });

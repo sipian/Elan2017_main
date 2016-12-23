@@ -1,8 +1,9 @@
 function getInfiContent(argument) {
 
-	if(argument=='walktheramp')
-		return `\`<div class='contest'>
-        <p><br></p>
+	if(argument=='foodathon')
+		return `\`
+    <div class='contest'>
+                <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -17,17 +18,17 @@ function getInfiContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1300px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
         <div class="heading">
-            <div class="col-lg-1" id="backCulti">
+            <div class="col-lg-1" id="backInfi">
 <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:55px;">FOODATHON</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -35,7 +36,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/foodathon.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -48,7 +49,7 @@ function getInfiContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
+                <h3 style="text-align: center;font-weight: 900;">CAKE&nbsp;EATING&nbsp;COMPETITION</h3>
                 <br><br>
             </div>
 
@@ -57,28 +58,16 @@ function getInfiContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Welcome to the true culture of break dance.
+                 Haters will hate but “Food is not a word, It’s a religion”.
                 <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
+                ELAN invites all the foodies for a real competition.
                 <br>
-                If you really dance from the heart, if dance runs through your veins 
-                <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
+                  Let’s see who is the biggest foodie..But wait, Is it so simple!! 
                   <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
+                  We don’t think so
+                <br>
                 </div>
             </div>
-            <br>
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
@@ -96,64 +85,31 @@ function getInfiContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
             <br>
                                     <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>Individual participation.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
+                    <li>Onspot registration with limited number of entries.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the prelims each team will be given 3-5mins to perform.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>The song must be of 6-9 minutes long for finale.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                    <li>Organiser’s decision final and binding to all.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
                 </ul>
-
             </div>
                 <br><br>
             </div>
@@ -162,18 +118,7 @@ function getInfiContent(argument) {
   </div>\``;
 
   if(argument=='minutetowinit')
-		return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;"> MINUTE TO WIN IT</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
+		return `\`
         <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
@@ -189,189 +134,17 @@ function getInfiContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1300px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
-        <div class="heading">
-            <div class="col-lg-1" id="backCulti">
-<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
-            </div>
-            <br><br><br>
-        </div>
-        <div class="photo">
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
-  </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-        </div>
-        <br>
-        <div class="text"  style="font-size:23.5px;">
-            <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
-                <br><br>
-            </div>
-
-
-            <div class="row about">
-                <h3 style="text-align: center;">ABOUT</h3>
-                <div>
-                <br>
-                Welcome to the true culture of break dance.
-                <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
-                <br>
-                If you really dance from the heart, if dance runs through your veins 
-                <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
-                  <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
-                </div>
-            </div>
-            <br>
-                        <div class="row details">
-                <h3 style="text-align: center;">DETAILS</h3>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
-                </div>
-                <br>
-            </div>
-            <br>
-                                    <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
-                <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
-                         <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the prelims each team will be given 3-5mins to perform.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>The song must be of 6-9 minutes long for finale.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-                </ul>
-
-            </div>
-                <br><br>
-            </div>
-        </div>
-    </div>
-  </div>\``;
-
-  if(argument=='fieldkings')
-		return `\`<div class='contest'>
-    <div class="container">
         <div class="heading">
             <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:3%;">FIELD KINGS</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-         <p><br></p>
-    <div class='contest' 
-      style="padding-bottom: 150px;
-      padding-left:20px;
-      background-image: url('images/event_details.png');  
-      background-repeat:  no-repeat;
-      background-attachment: scroll;
-      background-size: contain;
-    ">
-    <br><br><br><br><br><br><br>
-    <br><br><br><br>
-    <div class="container" style="
-        width:1040px;
-        padding-left:35px;
-        text-align:left;
-        max-height: 1430px;
-        overflow-y:auto;
-        overflow-x:hidden;
-        ">
-        <div class="heading">
-            <div class="col-lg-1" id="backCulti">
 <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:-15px;">MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -379,7 +152,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/minutetowinit.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -392,34 +165,21 @@ function getInfiContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
+                <h3 style="text-align: center;font-weight: 900;">EXCITEMENT&nbsp;IN&nbsp;A&nbsp;MINUTE</h3>
                 <br><br>
             </div>
 
-
+ 
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Welcome to the true culture of break dance.
+                Fun and Goodies, What a great combination.
                 <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
+                Isn’t it? ELAN presents you all the traditional games with a little twist.
                 <br>
-                If you really dance from the heart, if dance runs through your veins 
+                Get ready to grab some goodies!  
                 <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
-                  <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
                 </div>
             </div>
             <br>
@@ -440,86 +200,41 @@ function getInfiContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
             <br>
                                     <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>The events can be performed single or in a group depending on the event.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
+                    <li>No malpractices.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the prelims each team will be given 3-5mins to perform.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>The song must be of 6-9 minutes long for finale.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                    <li>The decision of the organizers is final.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
                 </ul>
-
             </div>
                 <br><br>
             </div>
         </div>
     </div>
   </div>\``;
-
 
   if(argument=='langaming')
-		return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight:900;margin-left:10%;"> LAN GAMING</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <p><br></p>
+		return `\`
+    <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -534,17 +249,17 @@ function getInfiContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1300px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
         <div class="heading">
-            <div class="col-lg-1" id="backCulti">
+            <div class="col-lg-1" id="backInfi">
 <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:50px;">LAN&nbsp;GAMING</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -552,7 +267,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/langaming.png">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -565,34 +280,19 @@ function getInfiContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
-                <br><br>
             </div>
 
-
+ 
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Welcome to the true culture of break dance.
+                “Fire in the hole”.  If you know what I mean,
                 <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
+                 Come join us for a fun filled day of gaming.
+                 <br>
+                 Let’s find out, who is the pro!
                 <br>
-                If you really dance from the heart, if dance runs through your veins 
-                <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
-                  <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
                 </div>
             </div>
             <br>
@@ -613,65 +313,55 @@ function getInfiContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
             <br>
-                                    <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
+            <div class="row rules">
+                <h3 style="text-align: center;">GAMES</h3>
                 <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>DoTA 2
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
+                    <li>CS:GO
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the prelims each team will be given 3-5mins to perform.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>The song must be of 6-9 minutes long for finale.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                    <li>Call of Duty: Modern Warfare 3
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
                 </ul>
-
             </div>
+             <div class="row rules">
+                <h3 style="text-align: center;">RULES</h3>
+                <br>
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>The teams for DoTA 2, CS:GO need to consist of five members each.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>The games will be held in a tournament style format.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>In case of malpractice the concerned team will be disqualified or faced with a penalty.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Organiser’s decision final and binding to all
+                    <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li> 
+                </ul>
+            </div>
+
                 <br><br>
             </div>
         </div>
@@ -681,19 +371,8 @@ function getInfiContent(argument) {
 
 
   if(argument=='finaldestination')
-        return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight:900;margin-left:10%;">FINAL DESTINATION</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <p><br></p>
+        return `\`
+    <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -708,17 +387,17 @@ function getInfiContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1300px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
         <div class="heading">
-            <div class="col-lg-1" id="backCulti">
+            <div class="col-lg-1" id="backInfi">
 <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:-22px;">FINAL&nbsp;DESTINATION</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -726,7 +405,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/finaldestination.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -739,34 +418,21 @@ function getInfiContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
+                <h3 style="text-align: center;font-weight: 900;">TREASURE&nbsp;HUNT&nbsp;COMPETITION</h3>
                 <br><br>
             </div>
 
-
+ 
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Welcome to the true culture of break dance.
+                Ever dreamt of finding Blackbeard’s Treasure.
                 <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
+                If yes then you are just in the right place. 
                 <br>
-                If you really dance from the heart, if dance runs through your veins 
+                ELAN brings to you a real treasure, If you can find it!!  
                 <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
-                  <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
                 </div>
             </div>
             <br>
@@ -787,64 +453,55 @@ function getInfiContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
                 </div>
                 <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
-                </div>
-                <br>
             </div>
-            <br>
                                     <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
+                <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>Teams should consist of 4 members.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
+                    <li>The teams should assemble 30 min before the start of the game.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
+                    <li>There will be different clues to be solved at the different checkpoints.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                    <li>The first team coming at each checkpoint will get the opportunity to perform the task first.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                    <li>Without solving one clue you can't move to the next.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>During the prelims each team will be given 3-5mins to perform.
+                    <li>The first two teams to complete every task and bag maximum points will be rewarded.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The song must be of 6-9 minutes long for finale.
+                    <li>Malpractice will lead to disqualification.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                    <li>Organiser’s decision final and binding to all.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
                 </ul>
-
             </div>
                 <br><br>
             </div>
@@ -855,19 +512,8 @@ function getInfiContent(argument) {
 
 
   if(argument=='madads')
-        return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight:900;margin-left:10%;">MAD ADS</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <p><br></p>
+        return `\`
+    <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -882,17 +528,17 @@ function getInfiContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1300px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
         <div class="heading">
-            <div class="col-lg-1" id="backCulti">
+            <div class="col-lg-1" id="backInfi">
 <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:75px;">MAD&nbsp;ADS</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -900,7 +546,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/madads.png">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -913,34 +559,21 @@ function getInfiContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
+                <h3 style="text-align: center;font-weight: 900;">CRAZY&nbsp;ADVERTISING&nbsp;SKILLS</h3>
                 <br><br>
             </div>
 
-
+ 
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Welcome to the true culture of break dance.
+                Mad Ads is all about having fun, it’s about laughing and having a good time. 
                 <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
+                Entertain the audience with some hilarious and innovative ads! 
                 <br>
-                If you really dance from the heart, if dance runs through your veins 
+                Well you may get something in return, but only if you are hilarious enough!
                 <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
-                  <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
                 </div>
             </div>
             <br>
@@ -961,64 +594,50 @@ function getInfiContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
                 </div>
                 <br>
             </div>
             <br>
                                     <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
-                <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                <h3 style="text-align: center;">RULES</h3>
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>This is a group event-group of 4-5.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
+                    <li>Every member of the group should participate.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
+                    <li>The Product will be given by the organizers and in no case it can be exchanged.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+                    <li>The group will be given 30 minutes for preparing the AD.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
+                    <li>The AD should be 3 min in length.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>During the prelims each team will be given 3-5mins to perform.
+                    <li>No vulgarity allowed and sportsmanship to be followed.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The song must be of 6-9 minutes long for finale.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+                    <li>Organiser’s decision final and binding to all.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
                 </ul>
-
             </div>
                 <br><br>
             </div>
@@ -1028,20 +647,9 @@ function getInfiContent(argument) {
 
 
 
-  if(argument=='convcoffee')
-        return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backInfi">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight:900;margin-left:10%;">CONVERSATION COFFEE</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <p><br></p>
+  if(argument=='casino_royale')
+        return `\`
+    <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -1056,17 +664,17 @@ function getInfiContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1300px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
         <div class="heading">
-            <div class="col-lg-1" id="backCulti">
+            <div class="col-lg-1" id="backInfi">
 <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:75px;">BREAKFREE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:20px;">CASINO&nbsp;ROYALE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -1074,7 +682,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/breakfree_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:10.5%;" src="images/infi/casino_royale.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -1087,34 +695,25 @@ function getInfiContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
-                <br><br>
             </div>
 
-
+ 
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Welcome to the true culture of break dance.
+                Who doesn’t love to gamble? Raring to test out that poker face
                 <br>
-                Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
+                you’ve been practising for so long? Well, look no more, 
                 <br>
-                If you really dance from the heart, if dance runs through your veins 
+                coz you’ve come to the perfect place.Whether it’s the spin of the
                 <br>
-                and if dance is in every minute of your life........................... This is where you should be !!!
-                 <br>
-                 So rise and shine.
-                 <br>
-                 Dance with energy and Elan!!
-                 <br>
-                 Coordination is what matters when it comes to a group performance.
-                 <br>
-                  Break free is one such group dance event
-                  <br>
-                   ​where one can show off their individual talents or spellbind the crowd with their coordination.
-                   <br>
-                    It's time to move n shake n drop.
+                roulette wheel that catches your eye,  or the shouts of ‘hit’ and ‘stay’ 
+                <br>
+                from the blackjack table that draw you in, the excitement in the air 
+                <br>
+                just won’t let you leave. May the odds be ever in your favour!
+                <br>
                 </div>
             </div>
             <br>
@@ -1135,67 +734,123 @@ function getInfiContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;1st position : Rs 25000
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
+                </div>
+                <br>
+            </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+  </div>\``;
+
+
+  if(argument=='snake')
+        return `\`
+    <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1300px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backInfi">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:-60px;">HUMAN&nbsp;SNAKE&nbsp;&&nbsp;LADDERS</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:10.5%;" src="images/infi/snake.jpg">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+ 
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                The name says it all doesn’t it?
+                <br>
+                 Indulge yourself in in the favourite board games of all times.
+                <br>
+                </div>
+            </div>
+            <br>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
                 </div>
                 <br>
             </div>
-            <br>
-                                    <div class="row rules">
-                <h3 style="text-align: center;">EVENT FORMAT</h3>
-                <br>
-                <ul style="list-style-type: disc;">
-                    <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+                <br
+                                   <div class="row rules">
+                <h3 style="text-align: center;">RULES</h3>
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>Onspot registration.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Minimum size of the team-6.
+                    <li>Organiser’s decision final and binding to all.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>All the registered teams shall participate in prelims.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the whole competition, at any given time, minimum of 4 performers should be on the stage.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>During the prelims each team will be given 3-5mins to perform.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>The song must be of 6-9 minutes long for finale.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
-                        <br>
-                        This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
                 </ul>
-
             </div>
-                <br><br>
             </div>
+            <br>
+            <br>
         </div>
     </div>
   </div>\``;

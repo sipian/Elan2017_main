@@ -7,20 +7,20 @@ main #services {
 }
 
 main #services li {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: inline-block;
   margin: 10px;
-  margin-top: 6px;
+  margin-top: 12px;
   list-style: none;
 }
 main #services li a div {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   color: #74d4b3;
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-align: center;
-  line-height: 35px;
+  line-height: 28px;
   background-color: #fff;
   transition: all 0.5s ease;
   border-radius: 5px;

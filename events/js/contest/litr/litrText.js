@@ -1,15 +1,34 @@
 function getLitrContent(argument) {
 
-	if(argument=='mrdetective')
-		return `\`<div class='contest'>
-    <div class="container">
+    if(argument=='mrdetective')
+        return `\`
+    <div class='contest'>
+                <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1300px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
         <div class="heading">
             <div class="col-lg-1" id="backLitr">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;">MR DETECTIVE</strong> </h2>
+                <h3><strong style="font-weight: 900;margin-left:25px;">MR&nbsp;DETECTIVE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -17,108 +36,339 @@ function getLitrContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:6.5%;" src="images/litr/mrdetective.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+            </div>
+
+
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                 Put your deerstalkers on and get ready to solve the mystery.
+                <br>
+                </div>
+            </div>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br>
+                <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-1"></div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                Sahil&nbsp;Yerawar
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
+        </div>
+    </div>
+  </div>\``;
+
+  if(argument=='jam')
+        return `\`
+    <div class='contest'>
+                <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1300px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backLitr">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:25px;">JUST&nbsp;A&nbsp;MINUTE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:6.5%;" src="images/litr/jam.jpg">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+
             <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>               
+                    Participants are given topics on the spot and they have to speak on them.
+                    <br>
+                    Err and you will be buzzed and relinquished of the mic
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                </div>
+            </div>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                </div>
                 <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br>
+                <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-1"></div>
+
+                <div class="row">
+                <div class="col-lg-3">
+                Shashank&nbsp;Varanasi
+                <br>
+                </div>
+
+                 <div class="col-lg-3"></div>
+
+                 <div class="col-lg-3">
+                Gitanjali&nbsp;M
+                <br>
+                </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+  </div>\``;
+
+  if(argument=='wheel-of-fortune')
+        return `\`
+    <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1300px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backLitr">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:-20px;">WHEEL&nbsp;OF&nbsp;FORTUNE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/litr/wheel-of-fortune.jpg">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+  
+ 
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                Like to quiz? Here’s a chance to put those grey cells to work.
+                <br>
+                But don’t forget to get your lucky charms because the stakes are high!
+                <br>
+                May the odds always be in your favour… 
+                <br>
+                </div>
+            </div>
+            <br>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br>
+                                    <div class="row rules">
+                <h3 style="text-align: center;">RULES</h3>
+                <br>
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>Participation in teams of 2.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Organiser’s decision final and binding to all.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Online and Onspot registration with limited number of entries.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                </ul>
             </div>
             <br>
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
+                <div class="col-lg-1"></div>
+                <div class="row">
+                <div class="col-lg-3">
+                Vedhamoorthy
+                <br>
+                </div>
+                </div>
+                <br><br>
             </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
-                </div>
-                <br>
+                <br><br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
-                <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
-                </ul>
-            </div>
-            <br>   
         </div>
     </div>
   </div>\``;
 
 
-    if(argument=='wheel-of-fortune')
-        return `\`<div class='contest'>
-    <div class="container">
+  if(argument=='quizzes')
+        return `\`
+    <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1300px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
         <div class="heading">
             <div class="col-lg-1" id="backLitr">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;">WHEEL OF FORTUNE</strong> </h2>
+                <h3><strong style="font-weight: 900;margin-left:20px;">QUIZ&nbsp;CONCLAVE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -126,423 +376,206 @@ function getLitrContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
-                </div>
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:8.5%;" src="images/litr/quizzes.jpg">
+  </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
         </div>
         <br>
-        <div class="text">
+        <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
-                <br><br>
             </div>
-            <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
-                <br>
-                When it comes to metal , English songs are without doubt the best.
-                <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
-                <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
-                <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
-            </div>
-            <br>
-            <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
-                <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+
+
+
+
+
+             <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
-                </div>
                 <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
-                <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
-                </ul>
-            </div>
-            <br>   
-        </div>
-    </div>
-  </div>\``;
 
-
-
-    if(argument=='quizzes')
-        return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backLitr">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;">QUIZ CONCLAVE</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <div class="photo">
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
+            <div class="row about">
+                <h3 style="text-align: center;">GENERAL&nbsp;QUIZ</h3>
+                <div>
+                <br>
+                We know you haven’t been living under a rock,
+                <br>
+                so this quiz should be an easy one for you. Or should it?
+                <br>
                 </div>
-                <div class="col-lg-3"></div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
-        </div>
-        <br>
-        <div class="text">
-            <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+            
+            <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+                <div class="col-lg-4"></div>
+                <div class="row">
+                <div class="col-lg-4">
+                &nbsp;&nbsp;Arjun&nbsp;D’&nbsp;Cunha
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
-            <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+            
+             <div class="row about">
+                <h3 style="text-align: center;">SCI&nbsp;TECH&nbsp;QUIZ</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Come on, this is an IIT. 
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                We were bound to explore developments in the world of science and technology. 
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
-                <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                </div>
             </div>
-            <br>
+            
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
-                <br>
-                <br>
+                
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
-                </div>
-                <br>
-            </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
-                <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
-                </ul>
-            </div>
-            <br>   
-        </div>
-    </div>
-  </div>\``;
-
-
-
-    if(argument=='jam')
-        return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backLitr">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;">JUST A MINUTE</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <div class="photo">
-            <div class="row">
                 <div class="col-lg-3"></div>
-                <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
+                <div class="col-lg-3">
+                Asvin&nbsp;Kumar
+                <br>
                 </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
-        </div>
-        <br>
-        <div class="text">
-            <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <div class="col-lg-3">
+                Shashank&nbsp;Varanasi
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
-            <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+
+
+             <div class="row about">
+                <h3 style="text-align: center;">MELAS&nbsp;QUIZ</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Enter the world of pop culture. 
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                This quiz spans exactly five domains - Music, Entertainment, Literature, Art, Sports. 
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
-                <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                </div>
             </div>
-            <br>
+            
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
-            </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
-                <br>
-                <br>
+                
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
-                </div>
-                <br>
-            </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
-                <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
-                </ul>
-            </div>
-            <br>   
-        </div>
-    </div>
-  </div>\``;
-
-
-
-    if(argument=='businessquiz')
-        return `\`<div class='contest'>
-    <div class="container">
-        <div class="heading">
-            <div class="col-lg-1" id="backLitr">
-                <img  class="img-circle img-responsive" width=40px height=40px src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5">
-                <h2> <strong style="font-weight: 900;margin-left:10%;">BUSINESS QUIZ</strong> </h2>
-            </div>
-            <br><br><br>
-        </div>
-        <div class="photo">
-            <div class="row">
                 <div class="col-lg-3"></div>
-                <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="https://ae01.alicdn.com/kf/HTB1S3GNLXXXXXbXXpXXq6xXFXXXr/Living-room-home-wall-decoration-fabric-font-b-poster-b-font-Heavy-font-b-metal-b.jpg">
+                <div class="col-lg-3">
+                Rama&nbsp;Krishna
+                <br>
                 </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>
-        </div>
-        <br>
-        <div class="text">
-            <div class="row title">
-                <h2 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h2>
+                <div class="col-lg-3">
+                Aisha&nbsp;Dantuluri
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
-            <div class="row about">
-                <h2 style="text-align: center;">ABOUT</h2>
+
+             <div class="row about">
+                <h3 style="text-align: center;">HARRY&nbsp;POTTER&nbsp;QUIZ</h3>
+                <div>
                 <br>
-                When it comes to metal , English songs are without doubt the best.
+                Calling all potterheads. Can’t get enough of the world of the boy who lived?
                 <br>
-                Elan 2016 brings forth another edition of its signature event, Elan-e-Jung.
+                 Well, we couldn’t either, so we made a quiz about it.
                 <br>
-                With all the best parts of the previous editions looped in, this time the stage is set on a grander scale.
-                <br>
-                Throw yourself into the ultimate ride. The thrill of a lifetime awaits.
+                </div>
             </div>
-            <br>
+            
             <div class="row rules">
-                <h2 style="text-align: center;">RULES</h2>
+                <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
-                <ul>
-                    <li>Bands interested in participating should upload their demos/videos with Songdew.</li>
-                    <li>Out of this, bands will be shortlisted, and will be performing at ELAN-E-JUNG prelims, Elan 2016.</li>
-                    <li>3 bands will be shortlisted from the prelims round to perform at the Biggies stage.</li>
-                    <li>Each band will be given 20 mins to perform on stage including sound check (subject to change)</li>
-                </ul>
+                <div class="col-lg-4"></div>
+                <div class="row">
+                <div class="col-lg-4">
+                &nbsp;&nbsp;Tanya&nbsp;Marwah
+                <br>
+                </div>
+                </div>
+                <br><br>
             </div>
-            <div class="row details">
-                <h2 style="text-align: center;">DETAILS</h2>
+
+             <div class="row about">
+                <h3 style="text-align: center;">TOLLYWOOD&nbsp;QUIZ</h3>
+                <div>
                 <br>
+                Think you know everything about the world of South Indian cinema?
                 <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Date : 29th 30th and 31st of January 2016</div>
+                  Think you’d like to win some prizes? Well then, this is the place to be! 
+                <br>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Prize : INR 15,000 for the winner.<br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR 10,000 for the first runner up.</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">Closing Date for Entry : 15th January 2016</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-8">No. of Band members allowed : Maximum 7</div>
-                </div>
-                <br>
             </div>
-            <div class="row terms">
-                <h2 style="text-align: center;">TERMS AND CONDITIONS</h2>
+            
+            <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
-                <ul>
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.</li>
-                    <li>In case of any damage to the provided equipment, the band will be fined for the damage and may be disqualified.</li>
-                    <li>The decision is dependent on the nature of the damage and the judges' discretion.</li>
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.</li>
-                    <li>In case of any dispute the decision of the organizers will be final and binding.</li>
-                    <li>Consumption of Alcohol and Drugs is strictly prohibited on Campus.</li>
-                    <li>Also, no person can play for multiple bands. The bands cannot share the same front man.</li>
-                </ul>
+                <div class="col-lg-4"></div>
+                <div class="row">
+                <div class="col-lg-4">
+                &nbsp;&nbsp;Prasad&nbsp;Thota
+                <br>
+                </div>
+                </div>
+                <br><br>
             </div>
-            <br>   
+
+            <div class="row about">
+                <h3 style="text-align: center;">AUTOMOBILE&nbsp;QUIZ</h3>
+                <div>
+                <br>
+                The greatest human invention was the wheel. Probably the second greatest invention would be quizzes.
+                <br>
+                So, as they say, we just added one and two, and we bring you a quiz on anything that would run on wheels; 
+                <br>
+                and then some.
+                <br>
+                </div>
+            </div>
+            
+            <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+                <div class="col-lg-4"></div>
+                <div class="row">
+                <div class="col-lg-4">
+                &nbsp;&nbsp;Kushagra&nbsp;Saxena
+                <br>
+                </div>
+                </div>
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;

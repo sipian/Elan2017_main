@@ -29,13 +29,6 @@ $(document).ready(function() {
        });     
     });
 
-    $('body').on("click", ".businessquiz", function() {
-        $(".litrBigDiv").hide("slide",{direction:"up"}, 450 , function(){
-        $(".litrBigDiv").html(getLitrContent('businessquiz'));
-        $(".litrBigDiv").show('slide',{direction:"down"},450);
-       });     
-    });
-
     
     $('body').on('click', "#backLitr", function() {
         setTimeout(function() {
