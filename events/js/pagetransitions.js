@@ -64,7 +64,6 @@ function nextPage(animation, currentPageNumber, nextPageNumber, callback) {
 
     if (!support)
         onEndAnimation($currPage, $nextPage);
-    console.log(callback);
     callback()
 }
 
@@ -112,7 +111,7 @@ $('body').on("click", ".biggies", function() {
 });
 $('body').on("click", ".culti", function() {
     if (current != 1)
-        nextPage(60, current, 1, function() {
+        nextPage(36, current, 1, function() {
             $('.cultiDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
@@ -124,7 +123,7 @@ $('body').on("click", ".culti", function() {
 
 $('body').on("click", ".infi", function() {
     if (current != 2)
-        nextPage(60, current, 2, function() {
+        nextPage(66, current, 2, function() {
             $('.infiDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
@@ -135,7 +134,7 @@ $('body').on("click", ".infi", function() {
 });
 $('body').on("click", ".online", function() {
     if (current != 3)
-        nextPage(60, current, 3, function() {
+        nextPage(28, current, 3, function() {
             $('.onlineDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();
@@ -146,7 +145,7 @@ $('body').on("click", ".online", function() {
 });
 $('body').on("click", ".litr", function() {
     if (current != 4)
-        nextPage(60, current, 4, function() {
+        nextPage(13, current, 4, function() {
             $('.litrDiv').css("display", "none");
             setTimeout(function() {
                 changeContest();

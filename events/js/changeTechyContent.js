@@ -1,7 +1,7 @@
 function changeTechyContent() {
   $('.techyBigDiv').html(`
   <p><br></p>
-<div class="table-responsive animated bounceInUp infiDiv" style="
+<div class="table-responsive animated bounceInUp techyDiv" style="
   padding-left: 28px;
   padding-bottom: 140px;
   background-image: url('images/event_culti7.png');  
@@ -16,7 +16,7 @@ function changeTechyContent() {
     <br>
     <br>
     <br>
-    INFI
+    TECHY
   </h2>
   <br>
   <div style="overflow-y:scroll;max-height: 2000px;">  
@@ -154,10 +154,9 @@ function changeTechyContent() {
                                             <br>
                                             <h3 class="short_description">
                                     Do You Think Your Bot Is Fast And Can Follow A Line? 
-                                     But Is Your Bot Smart, Smart Enough To Count The Number Of Strips In A Race Track? 
                                 </h3>
                                             <button type="button" class="btn btn-info robo_epic clickButton">
-                                                ROBO EPIC
+                                                LINE&nbsp;AND&nbsp;WALL&nbsp;FOLLOWER
                                             </button>
                                         </div>
                                     </div>
@@ -170,7 +169,7 @@ function changeTechyContent() {
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="OJO CAD" src="images/techy/ojo_cada.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="CAD PRO" src="images/techy/ojo_cada.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
@@ -179,7 +178,7 @@ function changeTechyContent() {
                                      It’s Time To Show Off Your Expertise In Designing. An On-the-spot Designing Round.
                                            </h3>
                                              <button type="button" class="btn btn-info ojo_cada clickButton">
-                                                OJO CAD
+                                                CAD PRO
                                             </button>
                                         </div>
                                     </div>
@@ -220,7 +219,7 @@ function changeTechyContent() {
                                         <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
                                 </span>
                                 <br>
-                                <span class="contestName" style="margin-left: 10px; margin-right: -60px;">Robo&nbsp;Epic</span>
+                                <span class="contestName" style="margin-left: 10px; margin-right: -60px;">Line&nbsp;and&nbsp;wall&nbsp;follower</span>
                                 <br>
                                 <span style="margin-left: 0px;">
                                         <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
@@ -234,7 +233,7 @@ function changeTechyContent() {
                                         <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
                                 </span>
                                 <br>
-                                <span class="contestName" style="margin-left: 10px; margin-right: -60px;">Ojo&nbsp;Cad</span>
+                                <span class="contestName" style="margin-left: 10px; margin-right: -60px;">Cad&nbsp;Pro</span>
                                 <br>
                                 <span style="margin-left: 0px;">
                                         <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
