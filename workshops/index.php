@@ -18,7 +18,7 @@ if ($detect->isMobile()) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>WORKSHOPS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -204,14 +204,14 @@ background-image:url(images/workshopBack.jpg);
 
             </div>
 
-            <! row starts here -->
+            <!-- row starts here -->
 
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="http://elan.org.in/androEngineWorkshop" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/android-app-workshop.jpg" class="img-fluid" alt="">
@@ -227,7 +227,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/quadcopterWorkshop" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/quadcopterSmall.jpg" class="img-fluid" alt="">
@@ -243,7 +243,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/androidAppWorkshop" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/android-app-development.jpg" class="img-fluid" alt="">
@@ -259,7 +259,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/automobileWorkshop" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/car.jpg" class="img-fluid" alt="">
@@ -275,7 +275,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/roboticsWorkshop" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/hqdefault.jpg" class="img-fluid" alt="">
@@ -305,7 +305,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/aiworkshop" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/cloudcomputing.jpg" class="img-fluid" alt="">
@@ -321,7 +321,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/ethicalhacking" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/hacking.jpg" class="img-fluid" alt="">
@@ -337,7 +337,7 @@ background-image:url(images/workshopBack.jpg);
                     <a href="http://elan.org.in/hapticsroboarm" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                
                             </div>
                         </div>
                         <img src="images/roboticArm2.jpg" class="img-fluid" alt="">

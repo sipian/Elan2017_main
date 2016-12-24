@@ -11,8 +11,9 @@ if ($detect->isMobile()) {
 <!DOCTYPE html>
 <html style="height:100%;">
 <head>
-	<title>Main Begins</title>
+	<title>TEAM</title>
 
+<link rel="shortcut icon" href="../favicon.ico">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,7 @@ if ($detect->isMobile()) {
 <!-- <link href="css/flock.css" rel="stylesheet" media="screen" >
  -->
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-	<title>Untitled</title>
+	<title>TEAM</title>
 <!--Adobe Edge Runtime-->
 
 
@@ -108,9 +109,8 @@ if ($detect->isMobile()) {
 
 <div class="responsive" id="jump">
 <div id="Stage" class="EDGE-58749904">
-<br><br><br><br><br><br>
 
-<video id="bgvid" autoplay loop muted>
+<video id="bgvid" autoplay loop muted >
 	<source src="main2.mp4" type="video/mp4">
 </video>
 
