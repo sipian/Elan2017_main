@@ -1,3 +1,12 @@
+<?php
+include 'Mobile-Detect-master/Mobile_Detect.php';
+$detect = new Mobile_Detect();
+
+if ($detect->isMobile()) {
+    header('Location: http://m.elan.org.in');
+    exit(0);
+}
+?>
 <!doctype html>
 <html class="no-js" lang="de">
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -28,7 +37,12 @@
          font-family: chelsea;
          src: url('fonts/chelsea2/ChelseaAlternates.ttf');
          }
+         b {
+    color: #F06D06;
+    font: 200 30px/1em chelsea;
+    }
       </style>
+
    </head>
    <body class="site de" style="height: 100%;">
 
@@ -144,7 +158,7 @@
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text3">
-                           <a href="" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
+                           <a href="workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
                         </div>
                      </svg>
                   </div>
@@ -201,7 +215,7 @@
                  $(document).ready(function () {
                   $('.center').html(`<img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">`);
 
-                 if($(window).height()<400){
+               /*  if($(window).height()<400){
                     $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
                     $(".qwer").css({"width": "150px" , "height" : "55px"});
                 }
@@ -210,7 +224,7 @@
                     $(".qwer").css({"width": "150px" , "height" : "55px"});
                 }
                 else{
-                    $("#logo").css({"margin-left":"-105px","width": "500px" , "height": "175px"});
+                    $("#logo").css({"margin-left":"-135px","width": "500px" , "height": "175px"});
                     $(".qwer").css({"width": "150px" , "height" : "55px"});
                 }
             $(window).resize(function () {
@@ -226,7 +240,7 @@
                     $("#logo").css({"margin-left":"-105px","width": "500px" , "height": "175px"});
                     $(".qwer").css({"width": "150px" , "height" : "55px"});
                 }
-            });
+            });*/
 
             })
                 

@@ -55,6 +55,10 @@ body {
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 }
 
+   b {
+    color: #F06D06;
+    font: 200 30px/1em chelsea;
+    }
 </style>
 
 </head>
@@ -65,7 +69,7 @@ body {
   <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
 <div class="warrior">
-    <img src="img/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+    <img src="../images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
      
   <div class='loader-container'>
     
@@ -223,8 +227,8 @@ body {
 <script type="text/javascript">
 
   $(document).ready(function () {
-                $("#start").html(`
-                        <p> <strong>Energy , Style And Enthusiasm</strong></p>
+    $("#start").html(`
+    <p> <strong>Energy , Style And Enthusiasm</strong></p>
     <p> <strong>ELAN</strong> , a mesmerizing unification of Energy, Style and Enthusiasm <br> is all set to hold Hyderabad spellbound once again, with it's <br> <strong>eigth edition</strong> being launched at the <strong>start of 2017.</strong></p>
     <p> This Annual Inter­College <strong>“Techno­Cultural”</strong> festival of IIT Hyderabad 
     <br>promises a plethora of events to stupefy and ensorcell
@@ -291,5 +295,5 @@ body {
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
 </html>
