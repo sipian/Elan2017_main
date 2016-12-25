@@ -94,7 +94,7 @@ function getBiggiesContent(argument) {
                 <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Upload your band’s demos/videos and register @ “abc.xyz”.
                         <br>
                     </li>
@@ -111,7 +111,7 @@ function getBiggiesContent(argument) {
 
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>x bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
@@ -132,7 +132,7 @@ function getBiggiesContent(argument) {
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
                         You need not be a college band to participate in this event.
@@ -213,7 +213,7 @@ function getBiggiesContent(argument) {
                         <div class="row rules">
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
                          Judge’s decision is considered final and should be abided by everyone.
@@ -382,7 +382,7 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Upload your band’s demos/videos and register @ “abc.xyz”.
                         <br>
                     </li>
@@ -399,7 +399,7 @@ src="images/biggies/manthan_small.jpg">
 
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>x bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
@@ -420,7 +420,7 @@ src="images/biggies/manthan_small.jpg">
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
                         You need not be a college band to participate in this event.
@@ -501,7 +501,7 @@ src="images/biggies/manthan_small.jpg">
                         <div class="row rules">
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
                 <br>
-                <ul style="list-style-type: disc;">
+                <ul style="list-style-type: disc;margin-left:15px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
                          Judge’s decision is considered final and should be abided by everyone.

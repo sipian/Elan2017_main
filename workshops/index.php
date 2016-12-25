@@ -21,7 +21,7 @@ if ($detect->isMobile()) {
     <title>WORKSHOPS</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -38,7 +38,7 @@ if ($detect->isMobile()) {
  <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="css/frankcss.css">
     <link rel="stylesheet" type="text/css" href="css/junk.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
@@ -46,10 +46,10 @@ if ($detect->isMobile()) {
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
     <link href="css/text/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- pre loader link sheets -->
 <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>

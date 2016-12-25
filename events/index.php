@@ -20,18 +20,14 @@ if ($detect->isMobile()) {
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="css/frankcss.css">
     <link rel="stylesheet" type="text/css" href="css/junk.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" href="../navbar/navbar.css">
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
-    <link href="css/text/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- pre loader link sheets -->
 <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
@@ -405,7 +401,7 @@ if ($detect->isMobile()) {
 	</a>
     </li>
     <li>
-	<a href="https://www.instagram.com/elan.iith/" target="_blank" style="text-decoration: none;">
+	<a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
 	    <div class='fa fa-instagram'></div>
 	</a>
     </li>
@@ -426,7 +422,7 @@ if ($detect->isMobile()) {
     <script src="js/index.js"></script>
     
   <script src="js/modernizr.custom.js"></script>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript">
     $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5 , .pt-page-6").prepend(`
@@ -521,7 +517,6 @@ if ($detect->isMobile()) {
 	  `);
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="scroll/jquery.mCustomScrollbar.concat.min.js"></script>
 
   <script src="js/animate.js"></script>
   <script src="js/changeBiggiesContent.js"></script>

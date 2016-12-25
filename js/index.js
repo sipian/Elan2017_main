@@ -8,7 +8,7 @@ var progress = setInterval(function () {
     }
       $bar.text(parseInt($bar.width() / 6) + "%");
 
-    if ($bar.width() / 6 == 100){
+    if ($bar.width() / 6 >= 100){
       $bar.text("Still working ... " + $bar.width() / 6 + "%");
     }
 }, 800);

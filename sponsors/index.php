@@ -15,7 +15,7 @@ if ($detect->isMobile()) {
       <title>Sponsors</title>
       <link rel='shortcut icon' href='../favicon.ico' type='image/x-icon'/ >
       <meta name=d"viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link rel="stylesheet" href="../navbar/navbar.css">
 <link rel="stylesheet" href="../styles/footer.css">
