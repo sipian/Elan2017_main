@@ -17,7 +17,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -110,7 +110,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -205,7 +205,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -308,7 +308,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -400,7 +400,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -494,7 +494,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -590,7 +590,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -691,7 +691,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -785,7 +785,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -880,7 +880,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -979,7 +979,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -1082,7 +1082,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -1173,7 +1173,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         max-width: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
@@ -1266,7 +1266,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -1366,7 +1366,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -1458,7 +1458,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -1550,7 +1550,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -1644,7 +1644,7 @@ function getTechyContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1370px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">

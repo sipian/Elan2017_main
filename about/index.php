@@ -1,3 +1,12 @@
+<?php
+include '../Mobile-Detect-master/Mobile_Detect.php';
+$detect = new Mobile_Detect();
+
+if ($detect->isMobile()) {
+    header('Location: http://m.elan.org.in');
+    exit(0);
+}
+?>
 <!doctype html>
 <html>
 <head>
@@ -15,10 +24,10 @@
 <style>
     @font-face {
     font-family: chelsea;
-    src: url('fonts/chelsea2/ChelseaAlternates.ttf');
+    src: url('../fonts/chelsea2/ChelseaAlternates.ttf');
     }
 body {
-	background: url(img/aboutus1.png) no-repeat 0% 0% fixed;
+	background: url(../images/aboutus1.png) no-repeat 0% 0% fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -73,7 +82,8 @@ body {
      
   <div class='loader-container'>
     
-
+<br><br><br><br>
+     <br>
 
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
@@ -110,7 +120,7 @@ body {
         </nav>
     </div>
 <div style="margin-bottom: -10%;">&nbsp;</div>
-<div class="info animated fadeIn" style="background-image: url('img/aboutus.png');  
+<div class="info animated fadeIn" style="background-image: url('../images/aboutus.png');  
         background-repeat: no-repeat;
         background-position: bottom;
         background-size:  auto 80%;/*650px 80%*/;">

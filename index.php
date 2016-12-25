@@ -55,6 +55,8 @@ if ($detect->isMobile()) {
   <div class='loader-container'>
     
 
+     <br><br><br><br>
+     <br>
 
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
@@ -129,6 +131,8 @@ if ($detect->isMobile()) {
             </div>
          </section>
       </div>
+
+      
       <br><br><br>
       <div class="footer">
          <div class="container"  style="float: left;">

@@ -39,8 +39,7 @@ function changeCultiContent() {
                         A Competition Where The Dancers Must Captivate The Audience With Their Immense Dancing Talent.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info breakfree clickButton">
+<button type="button" class="btn btn-info breakfree clickButton">
                       BREAK FREE
                       </button>
                     </div>
@@ -66,8 +65,7 @@ function changeCultiContent() {
                         It's Time To Let Go.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info looseyourfeet clickButton">
+<button type="button" class="btn btn-info looseyourfeet clickButton">
                       LOOSE YOUR FEET
                       </button>
                     </div>
@@ -90,8 +88,7 @@ function changeCultiContent() {
                         A Perfect Traditional Touch For The Cultural Extravaganza.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info nrityanjali clickButton">
+<button type="button" class="btn btn-info nrityanjali clickButton">
                       NRITYANJALI
                       </button>
                     </div>
@@ -173,8 +170,7 @@ function changeCultiContent() {
                         A Perfect Event For A Pair Of Dancers.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info just-duet">
+<button type="button" class="btn btn-info just-duet">
                       JUST&nbsp;-&nbsp;DUET
                       </button>
                     </div>
@@ -197,8 +193,7 @@ function changeCultiContent() {
                         A Battle Of Singing Where The Contestants Pellbind With Their Harmonious Notes.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info vibrazione">
+<button type="button" class="btn btn-info vibrazione">
                       VIBRAZIONE
                       </button>
                     </div>
@@ -221,8 +216,7 @@ function changeCultiContent() {
                         This Event Pits The Best Against The Best On The Cultural Stage. 
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info octaves">
+<button type="button" class="btn btn-info octaves">
                       OCTAVES
                       </button>
                     </div>
@@ -304,8 +298,7 @@ function changeCultiContent() {
                         Step Up, And Leave The Audience Enthralled !
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info andaazapnapna clickButton">
+<button type="button" class="btn btn-info andaazapnapna clickButton">
                       ANDAZ&nbsp;APNA&nbsp;APNA
                       </button>
                     </div>
@@ -328,8 +321,7 @@ function changeCultiContent() {
                         Do You Think You Can Take After Steven Spielberg, Christopher Nolan And James Cameron?
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info filmfarefiesta clickButton">
+<button type="button" class="btn btn-info filmfarefiesta clickButton">
                       FILM&nbsp;FARE&nbsp;FIESTA
                       </button>
                     </div>
@@ -352,8 +344,7 @@ function changeCultiContent() {
                         Portray Your Photography Skills By Shooting Pictures In,on And About Elan 2017. 
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info picelectic clickButton">
+<button type="button" class="btn btn-info picelectic clickButton">
                       PICELECTIC
                       </button>
                     </div>
@@ -437,8 +428,7 @@ function changeCultiContent() {
                         Well, it's time to be the change you want to see!
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info nukkadnatak">
+<button type="button" class="btn btn-info nukkadnatak">
                       NUKKAD&nbsp;NATAK
                       </button>
                     </div>
@@ -461,8 +451,7 @@ function changeCultiContent() {
                         You Think You Can Have A Face Funkier Than Infamous "the Mask". 
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info facepainting">
+<button type="button" class="btn btn-info facepainting">
                       FACE&nbsp;PAINTING
                       </button>
                     </div>
@@ -485,8 +474,7 @@ function changeCultiContent() {
                         Can You Add Your Intricate Details Creatively On Much Smaller Canvas Like Finger Nails? 
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info nailart">
+<button type="button" class="btn btn-info nailart">
                       NAIL&nbsp;ART 
                       </button>
                     </div>
@@ -568,8 +556,7 @@ function changeCultiContent() {
                         Let The Henna Flow Out Of Your Cones And Let's See What Color It Brings To Your Life.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info mehendi clickButton">
+<button type="button" class="btn btn-info mehendi clickButton">
                       MEHENDI&nbsp;ART
                       </button>
                     </div>
@@ -615,8 +602,7 @@ function changeCultiContent() {
                       Ever thought that you could have delivered the dialogues better than the actors in the movie?
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info lendmeurvoice clickButton">
+<button type="button" class="btn btn-info lendmeurvoice clickButton">
                       LEND&nbsp;YOUR&nbsp;VOICE
                       </button>
                     </div>
@@ -698,8 +684,7 @@ function changeCultiContent() {
                         Ever Visited An Art Gallery? Ever Checked Out Those Portraits Costing So Much? 
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info artexhibition">
+<button type="button" class="btn btn-info artexhibition">
                       ART&nbsp;EXHIBITION
                       </button>
                     </div>
@@ -724,8 +709,7 @@ function changeCultiContent() {
                         Can You Mix'em Good Enough?!
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info djwars">
+<button type="button" class="btn btn-info djwars">
                       DJ&nbsp;WARS
                       </button>
                     </div>
@@ -748,8 +732,7 @@ function changeCultiContent() {
                         The Participants Need To Produce An Ad For The Product (funny Or Crazy) Given To Them.
                       </h3>
                       <br>
-                      <br>
-                      <button type="button" class="btn btn-info rjhunt">
+<button type="button" class="btn btn-info rjhunt">
                       RJ&nbsp;HUNT
                       </button>
                     </div>

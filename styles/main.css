@@ -93,7 +93,7 @@ body {
     position: relative;
     margin: 0 auto;
     height: 100px;
-    width: 100px;
+    width:  100px;
     background-image: url("../images/explosion.png");
     background-position: top left;
     background-repeat: no-repeat;

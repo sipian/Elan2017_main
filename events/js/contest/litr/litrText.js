@@ -18,7 +18,7 @@ function getLitrContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1300px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -121,7 +121,7 @@ function getLitrContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1300px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -231,7 +231,7 @@ function getLitrContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1300px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -358,7 +358,7 @@ function getLitrContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1300px;
+        max-height: 1280px;
         overflow-y:auto;
         overflow-x:hidden;
         ">

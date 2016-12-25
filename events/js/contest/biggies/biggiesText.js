@@ -16,7 +16,7 @@ function getBiggiesContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1280px;
         overflow-y:scroll;
         overflow-x:hidden;
         ">
@@ -297,7 +297,7 @@ function getBiggiesContent(argument) {
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1430px;
+        max-height: 1280px;
         overflow-y:scroll;
         overflow-x:hidden;
         ">
