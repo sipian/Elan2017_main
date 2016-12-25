@@ -108,7 +108,7 @@ if ($detect->isMobile()) {
         </nav>
     </div>
 
-<div class="responsive" id="jump">
+<div class="responsive" id="jump" style="font-size: 50px;">
 <div id="Stage" class="EDGE-58749904">
 
 <video id="bgvid" autoplay loop muted >
