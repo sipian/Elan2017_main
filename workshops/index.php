@@ -133,8 +133,8 @@ background-size: cover;
 
     <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
-<div class="warrior">
-    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+<div class="warrior1">
+    <img src="images/warrior1.gif" style='width:100%;' border="0" alt="Null"></div>
      
   <div class='loader-container'>
     

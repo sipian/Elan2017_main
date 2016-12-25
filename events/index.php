@@ -412,7 +412,13 @@ if ($detect->isMobile()) {
   </ul>
 </main>
 </div>
-
+<div style="display: none;">
+    <img src="images/event_biggies.png">
+    <img src="images/event_culti7.png">
+    <img src="images/event_details.png">
+    <img src="images/event_infi.png">
+    <img src="images/event_litr.png">
+</div>
   </body>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

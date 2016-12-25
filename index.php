@@ -24,6 +24,11 @@ if ($detect->isMobile()) {
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
       <link rel="stylesheet" href="styles/main.css">
 
+   <link rel="stylesheet" href="styles/footer.css">
+   <link rel="stylesheet" href="navbar/navbar.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- pre loader link sheets -->
 <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
 
@@ -205,16 +210,15 @@ if ($detect->isMobile()) {
          </main>
       </div>
    </body>
-   
-   <link rel="stylesheet" href="styles/footer.css">
-   <link rel="stylesheet" href="navbar/navbar.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
    <script src="scripts/vendor.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-   <script src="scripts/main.js"></script>
+            <script src="scripts/main.js"></script>
+
    <script type="text/javascript">
                  $(document).ready(function () {
                   $('.center').html(`<img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">`);
