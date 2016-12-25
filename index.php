@@ -197,7 +197,7 @@ if ($detect->isMobile()) {
                   </a>
                </li>
                <li>
-                  <a href="https://www.instagram.com/elan.iith/" target="_blank" style="text-decoration: none;">
+                  <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
                      <div class='fa fa-instagram'></div>
                   </a>
                </li>

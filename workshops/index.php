@@ -251,7 +251,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/android-app-development.jpg" width="778px" height="5px" class="img-fluid" alt="">
+                        <img src="images/android-app-development.jpg"  style="width :400px; height :201px" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Android App Development</h4>
@@ -267,7 +267,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/car.jpg" class="img-fluid" width="778px" height="435px" alt="">
+                        <img src="images/car.jpg" class="img-fluid" style="width :400px; height :201px"  alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Automobile Engine Mechanics</h4>
@@ -283,7 +283,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/hqdefault.jpg" class="img-fluid" alt="">
+                        <img src="images/hqdefault.jpg" style="width :400px; height :201px"  class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Autonomous Robotics</h4>
@@ -313,7 +313,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/cloudcomputing.jpg" class="img-fluid" alt="">
+                        <img src="images/cloudcomputing.jpg" style="width :400px; height :201px" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>VIRTUAL REALITY , ARTIFICIAL INTELIGENCE , CLOUD COMPUTING </h4>
@@ -329,7 +329,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/hacking.jpg" class="img-fluid" alt="">
+                        <img src="images/hacking.jpg" style="width :400px; height :201px"  class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>ETHICAL  HACKING</h4>
@@ -345,7 +345,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/roboticArm2.jpg" class="img-fluid" alt="">
+                        <img src="images/roboticArm2.jpg" style="width :400px; height :201px" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>HAPTICS  ROBOARM</h4>
@@ -432,7 +432,7 @@ background-size: cover;
         </a>
     </li>
     <li>
-        <a href="https://www.instagram.com/elan.iith/" target="_blank" style="text-decoration: none;">
+        <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
             <div class='fa fa-instagram'></div>
         </a>
     </li>
