@@ -14,7 +14,7 @@ if ($detect->isMobile()) {
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+    <meta name="description" content="Elan Events 2017" />
     <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="../favicon.ico">
@@ -123,19 +123,25 @@ if ($detect->isMobile()) {
 	       </map>
 	    </div>
 	    <div class="left">
-			<a class="scroll" href="../about">About</a>
-			<a class="scroll" href="">Events</a>
+
+	    
+			<a class="scroll" href="../about" id="about_nav">About</a>
+
+			<a class="scroll" href="" id="events_nav">Events</a>
+			<a class="scroll" href="../sponsors" id="sponsors_nav">Sponsor</a>
+			<a class="scroll" href="../team" id="team_nav">Team</a>
 	    </div>
+
+	  
+
 	    <div class="center">
-	    <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
+	    <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
 	    <map name="mapname">
 	      <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
 	    </map>
 	    </div>
-	    <div class="right"  style="float: right;">
-			<a class="scroll" href="../sponsors">Sponsor</a>
-			<a class="scroll" href="../team">Team</a>
-	    </div>
+
+	   
 	</nav>
     </div>
 
@@ -405,7 +411,7 @@ if ($detect->isMobile()) {
 	</a>
     </li>
     <li>
-	<a href="https://www.instagram.com/elan.iith/" target="_blank" style="text-decoration: none;">
+	<a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
 	    <div class='fa fa-instagram'></div>
 	</a>
     </li>
@@ -520,31 +526,31 @@ if ($detect->isMobile()) {
 	</ul>
 	  `);
   </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?version=1.0"></script>
+  <script type="text/javascript" src="scroll/jquery.mCustomScrollbar.concat.min.js?version=1.0"></script>
 
-  <script src="js/animate.js"></script>
-  <script src="js/changeBiggiesContent.js"></script>
-  <script src="js/changeCultiContent.js"></script>
+  <script src="js/animate.js?version=1.0"></script>
+  <script src="js/changeBiggiesContent.js?version=1.0"></script>
+  <script src="js/changeCultiContent.js?version=1.0"></script>
   <script src="js/changeTechyContent.js"></script>
-  <script src="js/changeInfiContent.js"></script>
-  <script src="js/changeLitrContent.js"></script>
-  <script src="js/changeOnlineContent.js"></script>
-  <script src="js/pagetransitions.js"></script>
-  <script src="js/contest/biggies/biggiesText.js"></script>
-  <script src="js/contest/biggies/biggies.js"></script>
-  <script src="js/contest/culti/cultiText.js"></script>
-  <script src="js/contest/culti/culti.js"></script>
+  <script src="js/changeInfiContent.js?version=1.0"></script>
+  <script src="js/changeLitrContent.js?version=1.0"></script>
+  <script src="js/changeOnlineContent.js?version=1.0"></script>
+  <script src="js/pagetransitions.js?version=1.0"></script>
+  <script src="js/contest/biggies/biggiesText.js?version=1.0"></script>
+  <script src="js/contest/biggies/biggies.js?version=1.0"></script>
+  <script src="js/contest/culti/cultiText.js?version=1.0"></script>
+  <script src="js/contest/culti/culti.js?version=1.0?version=1.0"></script>
   <script src="js/contest/techy/techyText.js"></script>
   <script src="js/contest/techy/techy.js"></script>
-  <script src="js/contest/infi/infiText.js"></script>
-  <script src="js/contest/infi/infi.js"></script>
-  <script src="js/contest/online/onlineText.js"></script>
-  <script src="js/contest/online/online.js"></script>
-  <script src="js/contest/litr/litrText.js"></script>
-  <script src="js/contest/litr/litr.js"></script>
+  <script src="js/contest/infi/infiText.js?version=1.0"></script>
+  <script src="js/contest/infi/infi.js?version=1.0"></script>
+  <script src="js/contest/online/onlineText.js?version=1.0"></script>
+  <script src="js/contest/online/online.js?version=1.0"></script>
+  <script src="js/contest/litr/litrText.js?version=1.0"></script>
+  <script src="js/contest/litr/litr.js?version=1.0"></script>
   
-  <script src="../navbar/navbar.js"></script>
+  <script src="../navbar/navbar.js?version=1.0"></script>
 
 
 </html>

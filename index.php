@@ -84,12 +84,16 @@ if ($detect->isMobile()) {
                   <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
                </map>
             </div>
-            <div class="center" style=" ">
-               
-               <map name="mapname">
-                  <area shape="rect" coords="0,30,300,150" href="" alt="alttext"  style="outline: none;">
-               </map>
-            </div>
+
+
+        
+      <div class="center1">
+      <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
+      <map name="mapname">
+        <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
+      </map>
+      </div>
+
          </nav>
       </div>
       <div class="responsive" style="height: 90px;">&nbsp;</div>
@@ -216,6 +220,7 @@ if ($detect->isMobile()) {
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
    <script src="scripts/vendor.js"></script>
+    <script src="navbar/navbar1.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
             <script src="scripts/main.js"></script>
 

@@ -93,27 +93,33 @@ if ($detect->isMobile()) {
   
     <div id="nav-outter"  style="z-index: 2;">
         <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;">
-               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-               <map name="cyient">
-                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-               </map>
-            </div>
-            <div class="left">
-                        <a class="scroll" href="../about">About</a>
-                        <a class="scroll" href="../events">Events</a>
-            </div>
-            <div class="center">
-            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
-            <map name="mapname">
-              <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
-            </map>
-            </div>
-            <div class="right"  style="float: right;">
-                        <a class="scroll" href="../sponsors">Sponsor</a>
-                        <a class="scroll" href="../team">Team</a>
-            </div>
-        </nav>
+    <div  style="position:fixed;left:4px;top:-5px;">
+           <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
+           <map name="cyient">
+          <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
+           </map>
+        </div>
+        <div class="left">
+
+        
+            <a class="scroll" href="../about" id="about_nav">About</a>
+
+            <a class="scroll" href="../events" id="events_nav">Events</a>
+            <a class="scroll" href="../sponsors" id="sponsors_nav">Sponsor</a>
+            <a class="scroll" href="../team" id="team_nav">Team</a>
+        </div>
+
+      
+
+        <div class="center">
+        <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
+        <map name="mapname">
+          <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
+        </map>
+        </div>
+
+       
+    </nav>
     </div>
 <div id="check" style="margin-top: 4%;">&nbsp;</div>
 <div id="canvas" >

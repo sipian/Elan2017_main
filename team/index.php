@@ -102,7 +102,7 @@ if ($detect->isMobile()) {
                         <a class="scroll" href="../about">About</a>
                         <a class="scroll" href="../events">Events</a>
             </div>
-            <div class="center">
+            <div class="center1">
             <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
             <map name="mapname">
               <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">

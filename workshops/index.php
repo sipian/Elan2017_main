@@ -150,28 +150,35 @@ background-image:url(images/workshopBack.jpg);
 <!-- Nav bar Begins -->
 
 <div id="nav-outter"  style="z-index: 1;">
-        <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;">
-               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-               <map name="cyient">
-                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-               </map>
-            </div>
-            <div class="left">
-                        <a class="scroll" href="../about">About</a>
-                        <a class="scroll" href="">Events</a>
-            </div>
-            <div class="center">
-            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
-            <map name="mapname">
-              <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
-            </map>
-            </div>
-            <div class="right"  style="float: right;">
-                        <a class="scroll" href="../Sponsors">Sponsor</a>
-                        <a class="scroll" href="../team">Team</a>
-            </div>
-        </nav>
+       <nav id="topNavBar">
+    <div  style="position:fixed;left:4px;top:-5px;">
+           <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
+           <map name="cyient">
+          <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
+           </map>
+        </div>
+        
+        <div class="left1">
+
+        
+            <a class="scroll" href="../about" id="about_nav1">About</a>
+
+            <a class="scroll" href="../events" id="events_nav1">Events</a>
+            <a class="scroll" href="../sponsors" id="sponsors_nav1">Sponsor</a>
+            <a class="scroll" href="../team" id="team_nav1">Team</a>
+        </div>
+
+      
+
+        <div class="center">
+        <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
+        <map name="mapname">
+          <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
+        </map>
+        </div>
+
+       
+    </nav>
     </div>
 
     <!-- Nav bar Ends -->
