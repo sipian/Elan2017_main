@@ -3,7 +3,7 @@ include '../Mobile-Detect-master/Mobile_Detect.php';
 $detect = new Mobile_Detect();
 
 if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in/services.html');
+    header('Location: http://m.elan.org.in');
     exit(0);
 }
 ?>
@@ -118,9 +118,6 @@ div.workshop_back{
     }
     body{
 background-image:url(images/workshopBack.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
     }
   </style>
 
@@ -133,14 +130,10 @@ background-size: cover;
 
     <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
-<div class="warrior1">
-    <img src="images/warrior1.gif" style='width:100%;' border="0" alt="Null"></div>
-     
+<div class="warrior">
+    <img src="../images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
   <div class='loader-container'>
-    
-<br><br><br><br>
-     <br>
-
+  <br><br><br><br><br>
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>
@@ -151,31 +144,35 @@ background-size: cover;
 
 <!-- Landing Page -->
 
-<!-- Nav bar Begins -->
-
 <div id="nav-outter"  style="z-index: 3;">
-        <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;">
-               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-               <map name="cyient">
-                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-               </map>
-            </div>
-            <div class="left">
-                        <a class="scroll" href="../about">About</a>
-                        <a class="scroll" href="../events">Events</a>
-            </div>
-            <div class="center">
-            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
-            <map name="mapname">
-              <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
-            </map>
-            </div>
-            <div class="right"  style="float: right;">
-                        <a class="scroll" href="../sponsors">Sponsor</a>
-                        <a class="scroll" href="../team">Team</a>
-            </div>
-        </nav>
+    <nav id="topNavBar">
+    <div  style="position:fixed;left:4px;top:-5px;">
+           <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
+           <map name="cyient">
+          <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
+           </map>
+        </div>
+        <div class="left">
+
+        
+            <a class="scroll" href="../about" id="about_nav">About</a>
+
+            <a class="scroll" href="" id="events_nav">Events</a>
+            <a class="scroll" href="../sponsors" id="sponsors_nav">Sponsor</a>
+            <a class="scroll" href="../team" id="team_nav">Team</a>
+        </div>
+
+      
+
+        <div class="center">
+        <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
+        <map name="mapname">
+          <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
+        </map>
+        </div>
+
+       
+    </nav>
     </div>
 
     <!-- Nav bar Ends -->
@@ -193,8 +190,8 @@ background-size: cover;
                 <div class="col-lg-12 text-xs-center">
                 <br><br><br><br><br><br><br><br>
                     <h2 class="section-heading">Workshops</h2>
-<!--                     <h3 class="section-subheading text-muted">Elan IIT Hyderabad</h3>
- -->                </div>
+                   
+                </div>
 
             </div>
 
@@ -211,15 +208,14 @@ background-size: cover;
             <!-- row starts here -->
 
             <div class="row">
-
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/andro_engine.html" target="_blank" class="portfolio-link" >
+                    <a href="Workshop_details/andro_engine.html" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
                             </div>
                         </div>
-                        <img src="images/android-app-workshop.jpg" style="width :360px; height :201px"  class="img-fluid" alt="">
+                        <img src="images/android-app-workshop.jpg" style="width :100%; height :100%;"  class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Android Engine</h4>
@@ -229,13 +225,13 @@ background-size: cover;
 
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/quadcopter.html" target="_blank" class="portfolio-link" >
+                    <a href="Workshop_details/quadcopter.html" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
                             </div>
                         </div>
-                        <img src="images/quadcopterSmall.jpg" class="img-fluid" style="width :360px; height :201px" alt="">
+                        <img src="images/quadcopterSmall.jpg" class="img-fluid" style="width :100%; height :100%;" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Quadcopter</h4>
@@ -245,13 +241,14 @@ background-size: cover;
 
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/androApp.html" target="_blank" class="portfolio-link" >
+                    <a href="Workshop_details/androApp.html" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
                             </div>
                         </div>
-                        <img src="images/android-app-development.jpg"  style="width :360px; height :201px" class="img-fluid" alt="">
+                        <img src="images/android-app-development.jpg"  style="width :100%; height :100%;" class="img-fluid" alt="">
+
                     </a>
                     <div class="portfolio-caption">
                         <h4>Android App Development</h4>
@@ -261,13 +258,13 @@ background-size: cover;
 
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/autoMob.html" target="_blank" class="portfolio-link" >
+                    <a href="Workshop_details/autoMob.html" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
                             </div>
                         </div>
-                        <img src="images/car.jpg" class="img-fluid" style="width :360px; height :201px"  alt="">
+                        <img src="images/car.jpg" class="img-fluid" style="width :100%; height :100%;"  alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Automobile Engine Mechanics</h4>
@@ -277,13 +274,13 @@ background-size: cover;
 
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/robot.html" target="_blank" class="portfolio-link" >
+                    <a href="Workshop_details/robot.html" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
                             </div>
                         </div>
-                        <img src="images/hqdefault.jpg" style="width :360px; height :201px"  class="img-fluid" alt="">
+                        <img src="images/hqdefault.jpg" style="width :100%; height :100%;"  class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Autonomous Robotics</h4>
@@ -313,7 +310,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/cloudcomputing.jpg" style="width :360px; height :201px" class="img-fluid" alt="">
+                        <img src="images/cloudcomputing.jpg" style="width :100%; height :100%;" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>VIRTUAL REALITY , ARTIFICIAL INTELIGENCE , CLOUD COMPUTING </h4>
@@ -329,7 +326,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/hacking.jpg" style="width :360px; height :201px"  class="img-fluid" alt="">
+                        <img src="images/hacking.jpg" style="width :100%; height :100%;"  class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>ETHICAL  HACKING</h4>
@@ -345,7 +342,7 @@ background-size: cover;
                                 
                             </div>
                         </div>
-                        <img src="images/roboticArm2.jpg" style="width :360px; height :201px" class="img-fluid" alt="">
+                        <img src="images/roboticArm2.jpg" style="width :100%; height :100%;" class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>HAPTICS  ROBOARM</h4>
@@ -362,54 +359,68 @@ background-size: cover;
         </div>
     </section>
 
+   
+
+
 
 <!-- Footer Begins here -->
-
 
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
-        <div class="bottomLinkDiv" >
-        <div class="svg-wrapper1" >
-      <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text1">
-          <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-        </div>
-      </svg>
-    </div>
-        </div>
-    <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text2">
-          <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-        </div>
-        </svg>
-        </div>
-    </div>
     
     <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text3">
-          <a href="" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
-        </div>
-        </svg>
-        </div>
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litranza" class="linkBT"><span class="spot"></span>LITRANZA</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+
+    
+    <div class="bottomLinkDiv">
+    <div class="svg-wrapper1" >
+    <svg height="40" width="150">
+    <rect id="shape1" height="40" width="150" />
+    <div id="text3">
+      <a href="../workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
+    </div>
+    </svg>
+    </div>
     </div>
 
     <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text4">
-          <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
-        </div>
-        </svg>
-        </div>
+    <div class="svg-wrapper1" >
+    <svg height="40" width="150">
+    <rect id="shape1" height="40" width="150" />
+    <div id="text4">
+      <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
+    </div>
+    </svg>
+    </div>
     </div>
 
     </div>
@@ -417,29 +428,28 @@ background-size: cover;
 <main>
   <ul id='services'>
     <li>
-        <a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" target="_blank" style="text-decoration: none;">
-             <div class='fa fa-facebook'></div>
-        </a>
+    <a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" target="_blank" style="text-decoration: none;">
+         <div class='fa fa-facebook'></div>
+    </a>
     </li>
     <li>
-        <a href="https://twitter.com/ELAN_IITH" target="_blank" style="text-decoration: none;">
-            <div class='fa fa-twitter'></div>
-        </a>
+    <a href="https://twitter.com/ELAN_IITH" target="_blank" style="text-decoration: none;">
+        <div class='fa fa-twitter'></div>
+    </a>
     </li>
     <li>
-        <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" style="text-decoration: none;">
-            <div class='fa fa-youtube'></div>
-        </a>
+    <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" style="text-decoration: none;">
+        <div class='fa fa-youtube'></div>
+    </a>
     </li>
     <li>
-        <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
-            <div class='fa fa-instagram'></div>
-        </a>
+    <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
+        <div class='fa fa-instagram'></div>
+    </a>
     </li>
   </ul>
 </main>
 </div>
-
 <!--Footer Ends Here -->
 
 
@@ -456,6 +466,13 @@ background-size: cover;
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+
 
 
   <script src="../navbar/navbar.js"></script>

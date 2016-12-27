@@ -33,7 +33,7 @@ $(document).ready(function() {
         });
     });
 
-    $('body').on("click", ".robo_epic", function() {
+   $('body').on("click", ".robo_epic", function() {
         $(".techyBigDiv").hide("slide", {
             direction: "up"
         }, 500, function() {
@@ -43,7 +43,6 @@ $(document).ready(function() {
             }, 500);
         });
     });
-
     $('body').on("click", ".ojo_cada", function() {
         $(".techyBigDiv").hide("slide", {
             direction: "up"

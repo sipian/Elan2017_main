@@ -90,8 +90,7 @@ if ($detect->isMobile()) {
 
 
 <!-- Landing Page -->
-  
-    <div id="nav-outter"  style="z-index: 2;">
+    <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
         <div  style="position:fixed;left:4px;top:-5px;">
                <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
@@ -103,7 +102,7 @@ if ($detect->isMobile()) {
                         <a class="scroll" href="../about">About</a>
                         <a class="scroll" href="../events">Events</a>
             </div>
-            <div class="center">
+            <div class="center1">
             <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
             <map name="mapname">
               <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
@@ -115,6 +114,7 @@ if ($detect->isMobile()) {
             </div>
         </nav>
     </div>
+    
 <div id="check" style="margin-top: 4%;">&nbsp;</div>
 <div id="canvas" >
 <div class="magazine-viewport" style="z-index: 1;">
@@ -171,26 +171,37 @@ if ($detect->isMobile()) {
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
-        <div class="bottomLinkDiv" >
-        <div class="svg-wrapper1" >
-      <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text1">
-          <a href=""  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-        </div>
-      </svg>
-    </div>
-        </div>
+      
     <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text2">
-          <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-        </div>
-        </svg>
-        </div>
-    </div>
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litranza" class="linkBT"><span class="spot"></span>LITRANZA</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
     
     <div class="bottomLinkDiv">
         <div class="svg-wrapper1" >

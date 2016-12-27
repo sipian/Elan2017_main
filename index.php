@@ -26,7 +26,6 @@ if ($detect->isMobile()) {
 
    <link rel="stylesheet" href="styles/footer.css">
    <link rel="stylesheet" href="navbar/navbar.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- pre loader link sheets -->
@@ -56,25 +55,14 @@ if ($detect->isMobile()) {
 <div class='loader'>
 <div class="warrior">
     <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
-     
   <div class='loader-container'>
-    
-
-     <br><br><br><br>
-     <br>
-
+     <br><br><br><br><br>
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>
     <h3><b>Please wait a moment while we are preparing the content !</b></h3>
   </div>
 </div>
-
-
-<!-- Landing Page -->
-
-
-
 
       <div id="nav-outter" style="z-index: 1;">
          <nav id="topNavBar">
@@ -84,14 +72,18 @@ if ($detect->isMobile()) {
                   <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
                </map>
             </div>
-            <div class="center" style=" ">
-               
-               <map name="mapname">
-                  <area shape="rect" coords="0,30,300,150" href="" alt="alttext"  style="outline: none;">
-               </map>
-            </div>
+
+
+      <div class="center1">
+      <img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
+      <map name="mapname">
+        <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
+      </map>
+      </div>
+
          </nav>
       </div>
+      
       <div class="responsive" style="height: 90px;">&nbsp;</div>
       <div class="site__main-content scrollable" id="back" style="
         background-image: url('images/test13.jpg');  
@@ -142,12 +134,13 @@ if ($detect->isMobile()) {
       <div class="footer">
          <div class="container"  style="float: left;">
             <div class="row" >
-               <div class="bottomLinkDiv" >
+               
+                <div class="bottomLinkDiv">
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
-                        <div id="text1">
-                           <a href="archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        <div id="text2">
+                           <a href="litranza" class="linkBT"><span class="spot"></span>LITRANZA</a>
                         </div>
                      </svg>
                   </div>
@@ -157,7 +150,17 @@ if ($detect->isMobile()) {
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
+                           <a href="litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
                         </div>
                      </svg>
                   </div>
@@ -209,6 +212,7 @@ if ($detect->isMobile()) {
             </ul>
          </main>
       </div>
+      <img src="images/explosion.png" style="display: none;">
    </body>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -216,6 +220,7 @@ if ($detect->isMobile()) {
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
    <script src="scripts/vendor.js"></script>
+    <script src="navbar/navbar1.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
             <script src="scripts/main.js"></script>
 

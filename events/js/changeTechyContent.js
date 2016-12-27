@@ -141,29 +141,8 @@ function changeTechyContent() {
             </tr>
             <tr>
                 <div class="row">
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="ROBO EPIC" src="images/techy/robo_epic.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    Do You Think Your Bot Is Fast 
-                                    <br>And Can Follow A Line? 
-                                </h3>
-                                            <button type="button" class="btn btn-info robo_epic clickButton">
-                                                LINE&nbsp;FOLLOWER
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+
+
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center techyDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -209,23 +188,35 @@ function changeTechyContent() {
                             </div>
                         </div>
                     </td>
+
+                           <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="QUADCOPTER CHALLENGE" src="images/techy/quadcopter.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     Design And Build A Wireless Remote Controlled Flying Drone 
+                                     </h3>
+                                            <button type="button" class="btn btn-info quadcopter clickButton">
+                                                QUADCOPTER CHALLENGE
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
                 </div>
             </tr>
             <tr>
                 <div class="row">
-                    <td class="col-lg-4" style="padding-left:4%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
-                                </span>
-                                <br>
-                                <span class="contestName" style="margin-left: 10px; margin-right: -60px;">Line&nbsp;Follower</span>
-                                <br>
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                                </span>
-                        </div>
-                    </td>
+
+                   
 
                     <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center techyDiv">
@@ -248,6 +239,20 @@ function changeTechyContent() {
                                 </span>
                                 <br>
                                 <span class="contestName" style="margin-left: 10px; margin-right: -60px;">Drift&nbsp;King</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+
+                      <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Quadcopter&nbsp;Challenge</span>
                                 <br>
                                 <span style="margin-left: 0px;">
                                         <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
@@ -404,30 +409,9 @@ function changeTechyContent() {
                             </div>
                         </div>
                     </td>
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="ELIXIR OF ELICTRICITY" src="images/techy/elixir.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                     Start exploring other alternative 
-                                     <br>
-                                     sources of energy to harness energy.
-                                    </h3>
-                                            <button type="button" class="btn btn-info elixir clickButton">
-                                                ELIXIR OF ELECTRICITY
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+
+              
+
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center techyDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -443,6 +427,28 @@ function changeTechyContent() {
                                         </h3>
                                             <button type="button" class="btn btn-info hack_a_maze clickButton">
                                                 HACK A MAZE
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                     <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="PRO QUEST" src="images/techy/pro_quest.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                             <h3 class="short_description">
+                                    A Competitive Programming Competition For Participants Of All Levels Of Expertise.
+                                        </h3>
+                                            <button type="button" class="btn btn-info pro_quest clickButton">
+                                                PRO QUEST
                                             </button>
                                         </div>
                                     </div>
@@ -468,19 +474,7 @@ function changeTechyContent() {
                         </div>
                     </td>
 
-                    <td class="col-lg-4" style="padding-left:4%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
-                                </span>
-                                <br>
-                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Elixir&nbsp;Of&nbsp;Electricity</span>
-                                <br>
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                                </span>
-                        </div>
-                    </td>
+                 
 
                     <td class="col-lg-4" style="padding-left:4%;">
                         <div class="animated bounceInUp col-sm-8 text-center techyDiv">
@@ -490,6 +484,21 @@ function changeTechyContent() {
                                 <br>
                                 <span class="contestName" style="margin-left: 15px; margin-right: -60px;">
                                 Hack&nbsp;a&nbsp;Maze
+                                </span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>  
+                        </div>
+                    </td>
+                          <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 15px; margin-right: -60px;">
+                                Pro&nbsp;Quest
                                 </span>
                                 <br>
                                 <span style="margin-left: 0px;">
@@ -547,28 +556,7 @@ function changeTechyContent() {
                             </div>
                         </div>
                     </td>
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="PRO QUEST" src="images/techy/pro_quest.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                             <h3 class="short_description">
-                                    A Competitive Programming Competition For Participants Of All Levels Of Expertise.
-                                        </h3>
-                                            <button type="button" class="btn btn-info pro_quest clickButton">
-                                                PRO QUEST
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+                   
                 </div>
             </tr>
             <tr>
@@ -601,48 +589,15 @@ function changeTechyContent() {
                         </div>
                     </td>
 
-                    <td class="col-lg-4" style="padding-left:4%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
-                                </span>
-                                <br>
-                                <span class="contestName" style="margin-left: 15px; margin-right: -60px;">
-                                Pro&nbsp;Quest
-                                </span>
-                                <br>
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                                </span>  
-                        </div>
-                    </td>
+              
                 </div>
             </tr>
 
                         <tr>
                 <div class="row">
-                    <td class="col-lg-4 " style="padding-left: 0%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img class="img-responsive" alt="QUADCOPTER CHALLENGE" src="images/techy/quadcopter.jpg" style="width: 250px;height: 300px;">
-                                    </div>
-                                    <div class="back">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                     Design And Build A Wireless Remote Controlled Flying Drone 
-                                     </h3>
-                                            <button type="button" class="btn btn-info quadcopter clickButton">
-                                                QUADCOPTER CHALLENGE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
+
+             
+
                     <td class="col-lg-4 " style="padding-left: 0%;">
 
                     </td>
@@ -653,19 +608,7 @@ function changeTechyContent() {
             </tr>
             <tr>
                 <div class="row">
-                    <td class="col-lg-4" style="padding-left:4%;">
-                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
-                                </span>
-                                <br>
-                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Quadcopter&nbsp;Challenge</span>
-                                <br>
-                                <span style="margin-left: 0px;">
-                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
-                                </span>
-                        </div>
-                    </td>
+                  
 
                     <td class="col-lg-4" style="padding-left:4%;">
 

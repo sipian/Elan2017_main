@@ -19,6 +19,7 @@ if ($detect->isMobile()) {
 <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="../navbar/navbar.css">
 <!-- pre loader link sheets ends  -->
 
 <style>
@@ -68,6 +69,7 @@ body {
     color: #F06D06;
     font: 200 30px/1em chelsea;
     }
+ 
 </style>
 
 </head>
@@ -93,8 +95,6 @@ body {
 </div>
 
 
-<!-- Landing Page -->
-
     <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
         <div  style="position:fixed;left:4px;top:-5px;">
@@ -107,7 +107,7 @@ body {
                         <a class="scroll" href="../about">About</a>
                         <a class="scroll" href="../events">Events</a>
             </div>
-            <div class="center">
+            <div class="center1">
             <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
             <map name="mapname">
               <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
@@ -119,6 +119,7 @@ body {
             </div>
         </nav>
     </div>
+
 <div style="margin-bottom: -10%;">&nbsp;</div>
 <div class="info animated fadeIn" style="background-image: url('../images/aboutus.png');  
         background-repeat: no-repeat;
@@ -128,11 +129,18 @@ body {
   <div class="aboutcontent" style="margin-top: -40%;margin-left: 15.5%;">
   <div style="margin-top: 30%;" id="hello">
   <div class="aboutimg">
-  <h1 style="text-align: center;margin-left: -25%;"><br>ABOUT&nbsp;ELAN</h1>
+  <br><br>
+  <h1 style="text-align: center;margin-left: -16%;">ABOUT&nbsp;ELAN</h1>
   </div>
-  <div id="start">
+
+<!-- inforamation of about us -->
+
+
+  <div class="about_rock" id="start" style="margin-left: 4%;">
     
     </div>
+
+<!-- inforamation of about us -->
  <br>
   <div class="row" style="margin-left: -20.5%;width:100%;height: 55%;" >
   <div class="col-md-4">
@@ -153,26 +161,37 @@ body {
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
-        <div class="bottomLinkDiv" >
-        <div class="svg-wrapper1" >
-      <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text1">
-          <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-        </div>
-      </svg>
-    </div>
-        </div>
+      
     <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text2">
-          <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-        </div>
-        </svg>
-        </div>
-    </div>
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litranza" class="linkBT"><span class="spot"></span>LITRANZA</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
     
     <div class="bottomLinkDiv">
         <div class="svg-wrapper1" >
@@ -226,9 +245,12 @@ body {
 
 </body>
 
-<link rel="stylesheet" href="../navbar/navbar.css">
+
 <link rel="stylesheet" href="../styles/footer.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../js/index.js"></script>
 

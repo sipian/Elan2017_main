@@ -107,7 +107,7 @@ b{
                         <a class="scroll" href="../about">About</a>
                         <a class="scroll" href="../events">Events</a>
             </div>
-            <div class="center">
+            <div class="center1">
             <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
             <map name="mapname">
               <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
@@ -123,31 +123,22 @@ b{
 <div style="margin-bottom: -10%;">&nbsp;</div>
 <br><br><br>
 <br><br><br>
-<div class="info animated fadeIn" style="background-image: url('../images/aboutus.png');  
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size:  auto 80%;/*650px 80%*/;">
-  
-  <div class="aboutcontent" style="margin-top: -40%;margin-left: 15.5%;">
-  <div style="margin-top: 30%;" id="hello">
-  <div class="aboutimg">
-  <h1 style="text-align: center;margin-left: -25%;"><br>HOSPITALITY</h1>
-  </div>
-  <div id="start">
-    
-    </div>
- <br>
-  <div class="row" style="margin-left: -20.5%;width:100%;height: 55%;" >
-  <div class="col-md-4">
-    </div>
-    <div class="col-md-6">
-    <div class="embed-responsive embed-responsive-16by9">
-      </div>
-    </div>
-  </div>
+   <div class="back_cover">
+      <br><br><br><br>
+      <br><br>
+         <div class="container">
+            <h1 style="font-family: chelsea;font-size:400%;color: #F06D06;text-align: center;" >Hospitality<br>Details Coming Soon...</h1>
+      
 
-  </div>
-</div></div>
+      
+     
+       
+         
+           
+           
+         </div>
+      </div>
+
 
 
 <br><br><br>

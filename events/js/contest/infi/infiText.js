@@ -55,7 +55,7 @@ function getInfiContent(argument) {
 
 
             <div class="row about">
-                <h3 style="text-align: center;">ABOUT</h3>
+                <h3 style="text-align: center;" id="about">ABOUT</h3>
                 <div>
                 <br>
                  Haters will hate but “Food is not a word, It’s a religion”.
@@ -69,7 +69,7 @@ function getInfiContent(argument) {
                 </div>
             </div>
                         <div class="row details">
-                <h3 style="text-align: center;">DETAILS</h3>
+                <h3 style="text-align: center;" id="details">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
@@ -94,7 +94,7 @@ function getInfiContent(argument) {
             </div>
             <br>
                                     <div class="row rules">
-                <h3 style="text-align: center;">RULES</h3>
+                <h3 style="text-align: center;" id="rules">RULES</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Individual participation.
@@ -696,24 +696,28 @@ function getInfiContent(argument) {
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
             </div>
+ 
+
 
  
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Who doesn’t love to gamble? Raring to test out that poker face
+                Got the perfect poker face? Think you’re luckier than the rest?
                 <br>
-                you’ve been practising for so long? Well, look no more, 
+                Put it to the test at the Casino!
                 <br>
-                coz you’ve come to the perfect place.Whether it’s the spin of the
+                For those who have aces up their sleeves, to those who just want to have some fun,
                 <br>
-                roulette wheel that catches your eye,  or the shouts of ‘hit’ and ‘stay’ 
+                 the excitement of gambling never dies.
                 <br>
-                from the blackjack table that draw you in, the excitement in the air 
+                Whether it’s the spin of the roulette wheel that catches your eye,
                 <br>
-                just won’t let you leave. May the odds be ever in your favour!
+                or the shouts of ‘hit’ and ‘stay’ from the blackjack table that draw you in, the casino just won’t let you leave.
                 <br>
+                  May the odds be ever in your favour!
+                  <br>
                 </div>
             </div>
             <br>
@@ -834,8 +838,7 @@ function getInfiContent(argument) {
                 </div>
                 <br>
             </div>
-                <br
-                                   <div class="row rules">
+                <br>                                   <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Onspot registration.
@@ -848,6 +851,333 @@ function getInfiContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                 </ul>
             </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+  </div>\``;
+
+
+  if(argument=='convcoffee')
+        return `\`
+    <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1280px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backInfi">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:-60px;">CONVERSATION&nbsp;COFFEE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:10.5%;" src="images/infi/convcoffee.png">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+
+ 
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                A hot cuppa to share with a friend may be some people’s idea of heaven.
+                <br>
+                They have it made for them in Conversation coffee, where participants 
+                <br>
+                 get to talk with a complete stranger for a stipulated time,
+                 <br>
+                  and have to answer questions about the person  they were teamed up with.
+                  <br>
+                   The team that answers most questions correctly wins, but everyone goes home having made a new friend. Cheers!
+                </div>
+            </div>
+            <br>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+                <br>            <div class="row rules">
+                <h3 style="text-align: center;">RULES</h3>
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>Partners will be assigned by random chits.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Participants will be given 10 minutes with their partners.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>The most correct answers will win.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                </ul>
+            </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+  </div>\``;
+
+
+  if(argument=='walk_the_ramp')
+        return `\`
+    <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1280px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backInfi">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left: -8px;">WALK&nbsp;THE&nbsp;RAMP</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:7.75%;" src="images/infi/walktheramp.png">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+ 
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                You got the confidence to set the ramp on fire? 
+                <br>
+                Think you have the presence of mind to impress the judges? 
+                <br>
+                Then walk the plank, i mean, the ramp. 
+                <br>
+                A ramp walk, followed by a Q&A session with the judges.
+                <br>
+                 Winners take home the titles of Mr and Ms Elan.
+                 <br>
+                </div>
+            </div>
+            <br>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+                <br>                                   <div class="row rules">
+                <h3 style="text-align: center;">RULES</h3>
+                <ul style="list-style-type: disc;margin-left:15px;">
+                    <li>Online as well as on-spot registration. (3 hours before the event)
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Judges decision is final.
+                         <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                </ul>
+            </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+  </div>\``;
+
+
+  if(argument=='campus_princess')
+        return `\`
+    <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1280px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backInfi">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:-11px;">CAMPUS&nbsp;PRINCESS</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:8.5%;" src="images/infi/campus_princess.jpg">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+ 
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                An event for all those pretty ladies out there, here is your chance to get selected for the Femina Miss India beauty pageant!
+                <br>
+                In this star-studded event, watch as the beauty queens bedazzle you with their grace, 
+                <br>
+                show their grit in the Q&A round and go on to take the crown.
+                </div>
+            </div>
+            <br>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+                <br>
             </div>
             <br>
             <br>

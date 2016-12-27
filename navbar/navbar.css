@@ -1,3 +1,30 @@
+#about_nav1{
+
+   left: -10%;
+   padding-right: 40px;
+  
+}
+#events_nav1{
+
+   left: -10%;
+   padding-right: 40px;
+   padding-left: 10px;
+}
+#sponsors_nav1{
+
+   left: -10%;
+   padding-right: 40px;
+   padding-left: 40px;
+
+}
+#team_nav1{
+
+     left: -10%;
+   
+   padding-left: 50px;
+    
+}
+
 .scroll{
     font-family: chelsea;
     font-weight: normal;
@@ -7,10 +34,25 @@
     border:none;
     letter-spacing: -2px;
 }
+#logo{
+
+    width: 250px;
+    height: 100px;
+}
 
 .scroll:hover {
     color: #dc9d1f;
     text-decoration:none
+}
+
+.left1{
+    float:left;
+    margin-left: 13.5%;
+    letter-spacing:-5px;
+    margin-top: 2%;
+    left: 10%;
+
+
 }
 
 .left{
@@ -18,17 +60,59 @@
     margin-left: 13.5%;
     letter-spacing:-5px;
     margin-top: 2%;
- }
-.center{
-    position: fixed;
-    margin-top: -20px;
-    margin-left: 380px;
+    left: 10%;
+
+
 }
+#about_nav{
+
+   left: -10%;
+   padding-right: 40px;
+  
+}
+#events_nav{
+
+   left: -10%;
+   padding-right: 40px;
+   padding-left: 10px;
+}
+#sponsors_nav{
+
+   left: -10%;
+   padding-right: 40px;
+   padding-left: 40px;
+
+}
+#team_nav{
+
+     left: -10%;
+   
+   padding-left: 50px;
+    
+}
+.center{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 750px;
+}
+.center1{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 430px;
+}
+.center2{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 850px;
+}
+
 .right{
+    text-align: center;
     float:left;
-    margin-right: 13.5%;
+    margin-right: -30.5%;
     letter-spacing:-5px;
     margin-top: 2%;
+    
 }
 
 .clear{
@@ -108,6 +192,12 @@ mark {
 }
 #topNavBar .right a {
     margin-left: 10px;
+
+}
+#date_nav{
+    left: 50%;
+   padding-right: 10px;
+   padding-left: 10px;
 
 }
 
