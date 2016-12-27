@@ -157,7 +157,7 @@ background-image:url(images/workshopBack.jpg);
           <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
            </map>
         </div>
-        
+
         <div class="left1">
 
         
@@ -166,17 +166,22 @@ background-image:url(images/workshopBack.jpg);
             <a class="scroll" href="../events" id="events_nav1">Events</a>
             <a class="scroll" href="../sponsors" id="sponsors_nav1">Sponsor</a>
             <a class="scroll" href="../team" id="team_nav1">Team</a>
+
         </div>
 
       
 
         <div class="center">
         <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
+
         <map name="mapname">
           <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
         </map>
         </div>
 
+<div class="center2">
+    <a class="scroll" id="date_nav">20th - 22nd january</a>
+</div>
        
     </nav>
     </div>
@@ -593,6 +598,16 @@ background-image:url(images/workshopBack.jpg);
         <rect id="shape1" height="40" width="150" />
         <div id="text4">
           <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
+        </div>
+        </svg>
+        </div>
+    </div>
+     <div class="bottomLinkDiv">
+        <div class="svg-wrapper1" >
+        <svg height="40" width="150">
+        <rect id="shape1" height="40" width="150" />
+        <div id="text4">
+          <a href="../litfest" target="_blank" class="linkBT"><span class="spot"></span>Litfest</a>
         </div>
         </svg>
         </div>

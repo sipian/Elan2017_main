@@ -93,14 +93,18 @@
 .center{
     position: absolute;
     margin-top: -20px;
-    margin-left: 950px;
+    margin-left: 750px;
 }
 .center1{
     position: absolute;
     margin-top: -20px;
     margin-left: 430px;
 }
-
+.center2{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 850px;
+}
 
 .right{
     text-align: center;
@@ -188,6 +192,12 @@ mark {
 }
 #topNavBar .right a {
     margin-left: 10px;
+
+}
+#date_nav{
+    left: 50%;
+   padding-right: 10px;
+   padding-left: 10px;
 
 }
 
