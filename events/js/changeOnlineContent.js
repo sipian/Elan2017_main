@@ -48,23 +48,23 @@ function changeOnlineContent() {
                         </div>
                     </td>
 
-                    <td class="col-lg-4 " style="padding-left: 0%;display:none;">
+                    <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="WHEEL OF FORTUNE" src="images/online/zodiac.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="EMBLAZON" src="images/online/emblazon.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                   Be Ready For Mind Wars In Our Exhilarating Online Event.
+                                   Annual Photography Contest Of Elan &  Nvision
                                </h3>
                                             <br>
                                             <br>
-                                            <button type="button" class="btn btn-info zodiac clickButton">
-                                                ZODIAC
+                                            <button type="button" class="btn btn-info emblazon clickButton">
+                                                EMBLAZON
                                             </button>
                                         </div>
                                     </div>
@@ -124,6 +124,21 @@ function changeOnlineContent() {
                     </td>
 
                     <td class="col-lg-4" style="padding-left:4%;">
+                    <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
+                            <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 42px;
+                        margin-right: 0px;">Emblazon
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                         </div>
                     </td>
 
                     <td class="col-lg-4" style="padding-left:4%;">

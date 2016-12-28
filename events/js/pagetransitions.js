@@ -108,8 +108,11 @@ $('body').on("click", ".online", function() {
             changeContest();
             $('.onlineDiv').css("display", "block");
             $('.onlineDiv').addClass('animated bounceInUp');
+            if(window.location.href.indexOf("emblazon") > -1)
+                $(".emblazon").trigger("click");
         }, 750);
     });
+
 });
 $('body').on("click", ".litr", function() {
     if (current != 4) nextPage(60, current, 4, function() {

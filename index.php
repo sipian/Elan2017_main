@@ -8,7 +8,7 @@ if ($detect->isMobile()) {
 }
 ?>
 <!doctype html>
-<html class="no-js" lang="de">
+<html>
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta charset="utf-8">
@@ -54,7 +54,7 @@ if ($detect->isMobile()) {
   <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
 <div class="warrior">
-    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+    <img src="images/logo6.png" style='width:100%;' border="0" alt="Null"></div>
   <div class='loader-container'>
      <br><br><br><br><br>
     <div class='progress progress-striped active'>

@@ -255,7 +255,7 @@ var symbols = {
             id:'asstinfra',
             type:'image',
             rect:['43.2%','-26.4%','13.6%','26.4%','auto','auto'],
-            fill:["rgba(0,0,0,0)",im+"asstinfra.jpg",'0px','0px']
+            fill:["rgba(0,0,0,0)",im+"asstinfra.png",'0px','0px']
          },
          {
             id:'biggieCoord2',

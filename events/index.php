@@ -3,7 +3,7 @@ include '../Mobile-Detect-master/Mobile_Detect.php';
 $detect = new Mobile_Detect();
 
 if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in/gallery.html');
+    header('Location: http://m.elan.org.in/events.html');
     exit(0);
 }
 ?>
@@ -58,7 +58,8 @@ if ($detect->isMobile()) {
     .contest {
     font-family: monte, cursive;
     font-size: 18px;
-    letter-spacing: 6px;
+    letter-spacing: -1px;
+    word-spacing: 3px;
     font-weight: normal;
     color: white;
     }

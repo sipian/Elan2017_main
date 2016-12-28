@@ -3,7 +3,7 @@ include '../Mobile-Detect-master/Mobile_Detect.php';
 $detect = new Mobile_Detect();
 
 if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in');
+    header('Location: http://m.elan.org.in/workshops.html');
     exit(0);
 }
 ?>
@@ -145,7 +145,7 @@ background-image:url(images/workshopBack.jpg);
 <!-- Landing Page -->
 
 
-    <div id="nav-outter"  style="z-index: 1;">
+    <div id="nav-outter"  style="z-index: 3;">
         <nav id="topNavBar">
         <div  style="position:fixed;left:4px;top:-5px;">
                <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">

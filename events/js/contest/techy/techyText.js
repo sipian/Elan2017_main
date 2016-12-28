@@ -85,6 +85,20 @@ function getTechyContent(argument) {
                     </div>
                 </div>
             </div>
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                Do you want to become the Robosoccer League champion?
+                <br>
+                You gotta prove it. 
+                <br>
+                Bring on your bots on the field  and lead 
+                <br>
+                your soccer team to victory! 
+                <br>
+                </div>
+            </div>
             <br><br>
             </div>
         </div>
