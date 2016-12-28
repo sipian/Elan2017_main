@@ -140,7 +140,7 @@ if ($detect->isMobile()) {
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="litranza" class="linkBT"><span class="spot"></span>LITRANZA</a>
+                           <a href="literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
                         </div>
                      </svg>
                   </div>
