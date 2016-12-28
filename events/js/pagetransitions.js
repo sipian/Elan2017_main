@@ -69,7 +69,8 @@ function changeContest(argument) {
     changeLitrContent();
     changeTechyContent();
 }
-changeContest();
+
+
 $('body').on("click", ".biggies", function() {
     if (current != 0) nextPage(60, current, 0, function() {
         $('.biggiesDiv').css("display", "none");

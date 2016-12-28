@@ -95,38 +95,31 @@ body {
 </div>
 
 
-<!-- Landing Page -->
-
     <div id="nav-outter"  style="z-index: 1;">
-       <nav id="topNavBar">
-  <div  style="position:fixed;left:4px;top:-5px;">
-         <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-         <map name="cyient">
-      <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-         </map>
-      </div>
-      <div class="left">
-
-      
-      <a class="scroll" href="" id="about_nav">About</a>
-
-      <a class="scroll" href="../events" id="events_nav">Events</a>
-      <a class="scroll" href="../sponsors" id="sponsors_nav">Sponsor</a>
-      <a class="scroll" href="../team" id="team_nav">Team</a>
-      </div>
-
-    
-
-      <div class="center">
-      <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
-      <map name="mapname">
-        <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
-      </map>
-      </div>
-
-     
-  </nav>
+        <nav id="topNavBar">
+        <div  style="position:fixed;left:4px;top:-5px;">
+               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
+               <map name="cyient">
+                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
+               </map>
+            </div>
+            <div class="left">
+                        <a class="scroll" href="../about">About</a>
+                        <a class="scroll" href="../events">Events</a>
+            </div>
+            <div class="center1">
+            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
+            <map name="mapname">
+              <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
+            </map>
+            </div>
+            <div class="right"  style="float: right;">
+                        <a class="scroll" href="../sponsors">Sponsor</a>
+                        <a class="scroll" href="../team">Team</a>
+            </div>
+        </nav>
     </div>
+
 <div style="margin-bottom: -10%;">&nbsp;</div>
 <div class="info animated fadeIn" style="background-image: url('../images/aboutus.png');  
         background-repeat: no-repeat;
@@ -136,6 +129,7 @@ body {
   <div class="aboutcontent" style="margin-top: -40%;margin-left: 15.5%;">
   <div style="margin-top: 30%;" id="hello">
   <div class="aboutimg">
+  <br><br>
   <h1 style="text-align: center;margin-left: -16%;">ABOUT&nbsp;ELAN</h1>
   </div>
 
@@ -167,26 +161,37 @@ body {
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
-        <div class="bottomLinkDiv" >
-        <div class="svg-wrapper1" >
-      <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text1">
-          <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-        </div>
-      </svg>
-    </div>
-        </div>
+      
     <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text2">
-          <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-        </div>
-        </svg>
-        </div>
-    </div>
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
     
     <div class="bottomLinkDiv">
         <div class="svg-wrapper1" >
@@ -242,12 +247,13 @@ body {
 
 
 <link rel="stylesheet" href="../styles/footer.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="../navbar/navbar.js"></script>
 <script type="text/javascript">
@@ -318,8 +324,4 @@ body {
             });
   })
 </script>
-
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-    <script src="../js/index.js"></script>
 </html>

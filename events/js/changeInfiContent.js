@@ -304,9 +304,52 @@ function changeInfiContent() {
                   </div>
                </td>
                <td class="col-lg-4 " style="padding-left: 0%;">
-                  
+               <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                           <div class="front">
+                              <img class="img-responsive" alt="CONVERSATION COFFEE" src="images/infi/convcoffee.png" style="width: 250px;height: 300px;">
+                           </div>
+                           <div class="back">
+                              <div id="text">
+                                 <br>
+                                 <h3 class="short_description">
+                                   Talk With A Complete Stranger And Answer Questions About Him.
+                                 </h3>
+                                 <br><br>
+                                 <button type="button" class="btn btn-info convcoffee">
+                                 CONVERSATION&nbsp;COFFEE
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </td>
                <td class="col-lg-4 " style="padding-left: 0%;">
+               <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                           <div class="front">
+                              <img class="img-responsive" alt="WALK THE RAMP" src="images/infi/walktheramp.png" style="width: 250px;height: 300px;">
+                           </div>
+                           <div class="back">
+                              <div id="text">
+                                 <br>
+                                 <h3 class="short_description">
+                                 You got the confidence to set the ramp on fire? 
+                                 <br>
+                                 Think you have the presence of mind to impress the judges?
+                                 </h3>
+                                 <br>
+                                 <button type="button" class="btn btn-info walk_the_ramp">
+                                 WALK&nbsp;THE&nbsp;RAMP
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </td>
             </div>
          </tr>
@@ -330,10 +373,91 @@ function changeInfiContent() {
                   </div>
                </td>
                <td class="col-lg-4"  style="padding-left:4%;">
-                  
+                  <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 18px;
+                        margin-right: 0px;">Conversation&nbsp;Coffee
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                  </div>
                </td>
                <td class="col-lg-4"  style="padding-left:4%;">
+               <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 24px;
+                        margin-right: 0px;">Walk&nbsp;The&nbsp;Ramp
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                  </div>
                </td>
+            </div>
+         </tr>
+         <tr>
+            <div class="row">
+               <td class="col-lg-4 " style="padding-left: 0%;">
+                  <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                        <div class="flipper">
+                           <div class="front">
+                              <img class="img-responsive" alt="CAMPUS PRINCESS" src="images/infi/campus_princess.jpg" style="width: 250px;height: 300px;">
+                           </div>
+                           <div class="back">
+                              <div id="text">
+                                 <br>
+                                 <h3 class="short_description">
+                                  An Event For All Those Pretty Ladies Out There!!
+                                 </h3>
+                                 <br><br>
+                                 <button type="button" class="btn btn-info campus_princess">
+                                 CAMPUS&nbsp;PRINCESS
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </td>
+               <td class="col-lg-4 " style="padding-left: 0%;"></td>
+               <td class="col-lg-4 " style="padding-left: 0%;"></td>
+            </div>
+         </tr>
+         <tr>
+            <div class="row">
+               <td class="col-lg-4"  style="padding-left:4%;">
+                  <div class="animated bounceInUp col-sm-8 text-center infiDiv">
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 34px;
+                        margin-right: 0px;">Campus&nbsp;Princess
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                  </div>
+               </td>
+               <td class="col-lg-4"  style="padding-left:4%;"></td>
+               <td class="col-lg-4"  style="padding-left:4%;"></td>
             </div>
          </tr>
       </tbody>

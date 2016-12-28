@@ -19,15 +19,20 @@ if ($detect->isMobile()) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="sample.css" rel="stylesheet" type="text/css">
 <link href="../css/style.css" rel="stylesheet" media="screen" >
-<!-- <link href="css/flock.css" rel="stylesheet" media="screen" >
- -->
+
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<title>TEAM</title>
 <!--Adobe Edge Runtime-->
 
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
 
-    <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/5.0.0/edge.5.0.0.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="Elan2017_Team_edgePreload.js"></script>
+<link rel="stylesheet" href="../navbar/navbar.css">
+<link rel="stylesheet" href="../styles/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="css/style.css">
+
 
     
 	<style>
@@ -69,26 +74,18 @@ if ($detect->isMobile()) {
 
 
   <!-- Preloader with Bootstrap Progress Bar -->
+    <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
 <div class="warrior">
     <img src="../images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
-     
   <div class='loader-container'>
-    
-<br><br><br><br>
-     <br>
-
+  <br><br><br><br><br>
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>
     <h3><b>Please wait a moment while we are preparing the content !</b></h3>
   </div>
 </div>
-
-
-
-
-<!-- Landing Page -->
 
     <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
@@ -110,7 +107,7 @@ if ($detect->isMobile()) {
             </div>
             <div class="right"  style="float: right;">
                         <a class="scroll" href="../sponsors">Sponsor</a>
-                        <a class="scroll" href="">Team</a>
+                        <a class="scroll" href="../team">Team</a>
             </div>
         </nav>
     </div>
@@ -128,26 +125,37 @@ if ($detect->isMobile()) {
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
-        <div class="bottomLinkDiv" >
-        <div class="svg-wrapper1" >
-      <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text1">
-          <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-        </div>
-      </svg>
-    </div>
-        </div>
-    <div class="bottomLinkDiv">
-        <div class="svg-wrapper1" >
-        <svg height="40" width="150">
-        <rect id="shape1" height="40" width="150" />
-        <div id="text2">
-          <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-        </div>
-        </svg>
-        </div>
-    </div>
+        <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+
     
     <div class="bottomLinkDiv">
         <div class="svg-wrapper1" >
@@ -203,10 +211,8 @@ if ($detect->isMobile()) {
 </body>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-<link rel="stylesheet" href="../navbar/navbar.css">
-<link rel="stylesheet" href="../styles/footer.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/5.0.0/edge.5.0.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Elan2017_Team_edgePreload.js"></script>
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

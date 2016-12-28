@@ -56,10 +56,30 @@ $(document).ready(function() {
         $(".infiBigDiv").show('slide',{direction:"down"},450);
        });     
     });
-    
 
-     
-    
+
+    $('body').on("click", ".convcoffee", function() {
+        $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
+        $(".infiBigDiv").html(getInfiContent('convcoffee'));
+        $(".infiBigDiv").show('slide',{direction:"down"},450);
+       });     
+    });
+
+    $('body').on("click", ".walk_the_ramp", function() {
+        $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
+        $(".infiBigDiv").html(getInfiContent('walk_the_ramp'));
+        $(".infiBigDiv").show('slide',{direction:"down"},450);
+       });     
+    });
+
+    $('body').on("click", ".campus_princess", function() {
+        $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
+        $(".infiBigDiv").html(getInfiContent('campus_princess'));
+        $(".infiBigDiv").show('slide',{direction:"down"},450);
+       });     
+    });
+
+   
 
     $('body').on('click', "#backInfi", function() {
         setTimeout(function() {

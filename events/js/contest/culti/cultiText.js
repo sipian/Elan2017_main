@@ -110,7 +110,7 @@ return `
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The Event will be conducted in 2 rounds - Prelims and Finals.
             <br>
           </li>
@@ -247,7 +247,7 @@ return `
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The event comprises of eliminations followed by finals.( prelims, semi-final and final)
             <br>
           </li>
@@ -401,7 +401,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Event consists of only one round and the results are decided by the judge.
             <br>
           </li>
@@ -519,7 +519,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The team should consist of two participants irrespective of their gender.
             <br>
           </li>
@@ -654,7 +654,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>It is solo singing competition.
             <br>
           </li>
@@ -789,7 +789,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>This being a solo competition allows no more than one person per team.
             <br>
           </li>
@@ -939,7 +939,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>There will be 2 rounds, prelims and final.
             <br>
           </li>
@@ -966,7 +966,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Any kind of fluid or flame is not allowed on stage.
             <br>
           </li>
@@ -1089,7 +1089,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The event film fare fiesta is spread over two days.
             <br>
           </li>
@@ -1129,7 +1129,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Run time should not be more than 20 minutes.
             <br>
           </li>
@@ -1257,7 +1257,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The captures must be only during the 3 days of the ELAN fest 
             <br>and only inside IIT Hyderabad premises.
             <br>
@@ -1377,7 +1377,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Team Size: 5-15 People(Including Music Accompanists).
             <br>
           </li>
@@ -1414,7 +1414,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Dramatization
             <br>
           </li>
@@ -1534,7 +1534,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Registrations will be done on the spot during ELAN.
             <br>
           </li>
@@ -1562,7 +1562,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>There are no theme constraints. All kinds of themes and patterns are allowed.
             <br>
           </li>
@@ -1668,7 +1668,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li> Contestants shall use only the paints provided to them by the organizers.<br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -1686,7 +1686,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Neatness
             <br>
           </li>
@@ -1793,7 +1793,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Registrations will be on the spot during ELAN.
             <br>
           </li>
@@ -1812,7 +1812,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>There will be a time limit (1 hour).<br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -1834,7 +1834,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Attractivness<br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -1942,7 +1942,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Registrations will be on the spot during ELAN.
             <br>
           </li>
@@ -1968,7 +1968,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The amount of clay and paint provided will be limited.
             <br>Team size should be less than 3
             <br>
@@ -2077,7 +2077,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The contestants are provided with an option of a few ACTION HERO VIDEOS.
             <br>
           </li>
@@ -2106,7 +2106,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>It consists of only one round.
             <br>
           </li>
@@ -2254,7 +2254,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li> Registrations can be done online or on the spot.
             <br>
           </li>
@@ -2285,7 +2285,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li> Topic chosen
             <br>
           </li>
@@ -2304,7 +2304,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>Paintings can be either brought in person or can be sent by post*.
             <br>
           </li>
@@ -2431,7 +2431,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">INFRASTRUCTURE SUPPLIED</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>A DJ console(Mark I) and mixer
             <br>
           </li>
@@ -2555,7 +2555,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>
             Online Round :<br>
             <ul style="list-style-type: circle;margin-left:10%;">
@@ -2703,7 +2703,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>The contestants are provided with an option of a few ACTION HERO VIDEOS.
             <br>
           </li>
@@ -2732,7 +2732,7 @@ return ` \`
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc;margin-left:15px;">
           <li>It consists of only one round.
             <br>
           </li>

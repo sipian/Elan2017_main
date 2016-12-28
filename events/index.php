@@ -15,35 +15,32 @@ if ($detect->isMobile()) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Elan Events 2017" />
-    <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="css/frankcss.css">
-    <link rel="stylesheet" type="text/css" href="css/junk.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
+        <link rel="stylesheet" type="text/css" href="css/junk.css">
+
     <link rel="stylesheet" href="../navbar/navbar.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Amatic+SC'>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
-    <link href="css/text/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- pre loader link sheets -->
-<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
-<!-- pre loader link sheets ends  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
+
+    <!-- pre loader link sheets -->
+        <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+    <!-- pre loader link sheets ends  -->
 
   </head>
   <style>
     @font-face {
     font-family: chelsea;
-    src: url('./fonts/chelsea2/ChelseaAlternates.ttf');
+    src: url('fonts/chelsea2/ChelseaAlternates.ttf');
     }
     @font-face {
     font-family: monte;
@@ -57,14 +54,12 @@ if ($detect->isMobile()) {
     h3 {
     color: #F06D06;
     font: 200 30px/1em chelsea;
-    /*Amatic SC*/
-    ;
     }
     .contest {
     font-family: monte, cursive;
     font-size: 18px;
     letter-spacing: 6px;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     }
     .table-responsive {
@@ -96,7 +91,6 @@ if ($detect->isMobile()) {
   <body style="overflow-y: hidden;">
 
 
-    <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
 <div class="warrior">
     <img src="../images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
@@ -113,37 +107,31 @@ if ($detect->isMobile()) {
 </div>
 
 
-<!-- Landing Page -->
     <div id="nav-outter"  style="z-index: 1;">
-	<nav id="topNavBar">
-	<div  style="position:fixed;left:4px;top:-5px;">
-	       <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-	       <map name="cyient">
-		  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-	       </map>
-	    </div>
-	    <div class="left">
-
-	    
-			<a class="scroll" href="../about" id="about_nav">About</a>
-
-			<a class="scroll" href="" id="events_nav">Events</a>
-			<a class="scroll" href="../sponsors" id="sponsors_nav">Sponsor</a>
-			<a class="scroll" href="../team" id="team_nav">Team</a>
-	    </div>
-
-	  
-
-	    <div class="center">
-	    <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
-	    <map name="mapname">
-	      <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
-	    </map>
-	    </div>
-
-	   
-	</nav>
+        <nav id="topNavBar">
+        <div  style="position:fixed;left:4px;top:-5px;">
+               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
+               <map name="cyient">
+                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
+               </map>
+            </div>
+            <div class="left">
+                        <a class="scroll" href="../about">About</a>
+                        <a class="scroll" href="../events">Events</a>
+            </div>
+            <div class="center1">
+            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
+            <map name="mapname">
+              <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
+            </map>
+            </div>
+            <div class="right"  style="float: right;">
+                        <a class="scroll" href="../sponsors">Sponsor</a>
+                        <a class="scroll" href="../team">Team</a>
+            </div>
+        </nav>
     </div>
+
 
     <div id="pt-main" class="pt-perspective container-fluid">
       <div class="pt-page pt-page-1" style="
@@ -348,26 +336,38 @@ if ($detect->isMobile()) {
 <div class="footer">
 <div class="container"  style="float: left;">
     <div class="row" >
-	<div class="bottomLinkDiv" >
-	<div class="svg-wrapper1" >
-      <svg height="40" width="150">
-	<rect id="shape1" height="40" width="150" />
-	<div id="text1">
-	  <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-	</div>
-      </svg>
-    </div>
-	</div>
+	
     <div class="bottomLinkDiv">
-	<div class="svg-wrapper1" >
-	<svg height="40" width="150">
-	<rect id="shape1" height="40" width="150" />
-	<div id="text2">
-	  <a href="../hospitality" class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-	</div>
-	</svg>
-	</div>
-    </div>
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text1">
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+
     
     <div class="bottomLinkDiv">
 	<div class="svg-wrapper1" >
@@ -432,7 +432,7 @@ if ($detect->isMobile()) {
     <script src="js/index.js"></script>
     
   <script src="js/modernizr.custom.js"></script>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript">
     $(".pt-page-1 , .pt-page-2 , .pt-page-3 , .pt-page-4 , .pt-page-5 , .pt-page-6").prepend(`
@@ -526,9 +526,8 @@ if ($detect->isMobile()) {
 	</ul>
 	  `);
   </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?version=1.0"></script>
-  <script type="text/javascript" src="scroll/jquery.mCustomScrollbar.concat.min.js?version=1.0"></script>
 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?version=1.0"></script>
   <script src="js/animate.js?version=1.0"></script>
   <script src="js/changeBiggiesContent.js?version=1.0"></script>
   <script src="js/changeCultiContent.js?version=1.0"></script>
@@ -549,9 +548,7 @@ if ($detect->isMobile()) {
   <script src="js/contest/online/online.js?version=1.0"></script>
   <script src="js/contest/litr/litrText.js?version=1.0"></script>
   <script src="js/contest/litr/litr.js?version=1.0"></script>
-  
   <script src="../navbar/navbar.js?version=1.0"></script>
-
 
 </html>
 
