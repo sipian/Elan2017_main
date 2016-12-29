@@ -26,7 +26,7 @@ if ($detect->isMobile()) {
         <link rel="stylesheet" type="text/css" href="css/junk.css">
 
     <link rel="stylesheet" href="../navbar/navbar2.css">
-    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/footer3.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -90,41 +90,21 @@ if ($detect->isMobile()) {
     box-shadow: none;
     }
   </style>
-                  <style>
-.dropbtn {
-    color: white;
-    padding: 1px;
-/*    font-size: 16px;
-*/    border: none;
-    cursor: pointer;
-}
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+<?php
+                        session_start();
+                             if(isset($_SESSION["id"]))
+                             echo "
+                                <style>
+                                        .right{
+                                        margin-right: 9.5%;
+                                        margin-top: 1.15%;
+                                        }
+                                        @media screen and (max-width: 1000px) {
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 0px;
-    text-decoration: none;
-    display: block;
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-</style>
+                                        }
+                                </style>";
+                        ?>
   <body style="overflow-y: hidden;">
 
 
@@ -147,40 +127,34 @@ if ($detect->isMobile()) {
                </map>
         </div>
         <div class="left">
-                        <a class="scroll" href="about">About</a>
-                        <a class="scroll" href="events">Events</a>
-                        <a class="scroll" hresf="sponsors">Sponsors</a>
+                        <a class="scroll" href="../about">About</a>
+                        <a class="scroll" href="../events">Events</a>
+                        
         </div>
         
         <div class="center1">
         <a href="../">
-            <img src="../images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo" usemap="#mapname">
+            <img src="../images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo">
         </a>
         </div>
         
         <div class="right">
-                        <a class="scroll" href="team">Team</a>
-                        <a class="scroll" href="hospitality">Hospitality</a>
+                        <a class="scroll" href="../team">Team</a>
+                        <a class="scroll" href="../sponsors">Sponsors</a>
                         <?php
                         session_start();
-                            $tim;
-                            $name = $_SESSION["name"];
-                             
                              if(isset($_SESSION["id"]))
-                             
-                             $tim = "
+                             echo "
                                 <div class=\"dropdown\">
-                                    <a class=\"scroll dropbtn\" href=\"#\">Hi $name<span class=\"caret\"></span></a>
+                                    <a class=\"dropbtn\" href=\"#\"><span class=\"glyphicon glyphicon-user\"></span></a>
                                     <div class=\"dropdown-content\">
                                         <a class=\"scroll\" href=\"../dashboard.php\">Dashboard</a>
                                         <a class=\"scroll\" href=\"../signout.php\">Sign Out</a>
                                     </div>
                                 </div>";
-                            else  $tim = "<a class=\"scroll\" href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\">Register</a>";
-                            echo $tim;
                         ?>
         </div>
-        <div  style="position:fixed;right:4px;top:-5px;" class="qwerDIV">
+        <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
                <img src="../images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
         </div>
 
@@ -397,7 +371,7 @@ if ($detect->isMobile()) {
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
-                        <div id="text2">
+                        <div id="text1">
                            <a href="../literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
                         </div>
                      </svg>
@@ -417,35 +391,65 @@ if ($detect->isMobile()) {
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
-                        <div id="text1">
+                        <div id="text3">
                            <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
                         </div>
                      </svg>
                   </div>
                </div>
+               <div class="bottomLinkDiv" >
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text4">
+                           <a href="../hospitality"  class="linkBT"><span class="spot"></span>HOSPITALITY</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
 
-    
     <div class="bottomLinkDiv">
 	<div class="svg-wrapper1" >
 	<svg height="40" width="150">
 	<rect id="shape1" height="40" width="150" />
-	<div id="text3">
-	  <a href="../workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
+	<div id="text5">
+	  <a href="../workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOPS</a>
 	</div>
 	</svg>
 	</div>
     </div>
 
-    <div class="bottomLinkDiv">
+
+
+
+
+  <div class="bottomLinkDiv">
 	<div class="svg-wrapper1" >
 	<svg height="40" width="150">
 	<rect id="shape1" height="40" width="150" />
-	<div id="text4">
+	<div id="text6">
 	  <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
 	</div>
 	</svg>
 	</div>
     </div>
+
+        <?php
+                        session_start();
+                             if(!isset($_SESSION["id"]))
+                             echo "
+<div class=\"bottomLinkDiv\">
+  <div class=\"svg-wrapper1\"  style=\"background-color:white;\">
+  <svg height=\"40\" width=\"150\">
+  <rect id=\"shape1\" height=\"40\" width=\"150\" />
+  <div id=\"text7\">
+    <a href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>REGISTER</a>
+  </div>
+  </svg>
+  </div>
+    </div>";
+                        ?>
+
 
     </div>
 </div>
@@ -483,6 +487,7 @@ if ($detect->isMobile()) {
 </div>
   </body>
   <script type="text/javascript">
+
       var track=<?php if(isset($_SESSION['id']))echo "1"; else echo "0"; ?>;
       var _id="<?php echo $_SESSION['id']; ?>";
       var email="<?php echo $_SESSION['email']; ?>";
@@ -640,7 +645,6 @@ if ($detect->isMobile()) {
   <script src="js/contest/litr/litrPageTransitionRegister.js?version=1.0"></script>
   <script src="js/contest/litr/litrLitr.js?version=1.0?version=1.0"></script>
   <script src="js/contest/litr/litr.js?version=1.0"></script>
-  <script src="../navbar/navbar2.js?version=1.0"></script>
 
 </html>
 

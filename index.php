@@ -1,12 +1,4 @@
-<?php
-include 'Mobile-Detect-master/Mobile_Detect.php';
-$detect = new Mobile_Detect();
 
-if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in');
-    exit(0);
-}
-?>
 <!doctype html>
 <html class="no-js" lang="de">
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -24,14 +16,14 @@ if ($detect->isMobile()) {
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
       <link rel="stylesheet" href="styles/main.css">
 
-   <link rel="stylesheet" href="styles/footer.css">
-   <link rel="stylesheet" href="navbar/navbar.css">
+   <link rel="stylesheet" href="styles/footer3.css">
+   <link rel="stylesheet" href="navbar/navbar2.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- pre loader link sheets -->
 <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/loader.css">
 <!-- pre loader link sheets ends  -->
 
       <title>ELAN 2017</title>
@@ -53,14 +45,11 @@ if ($detect->isMobile()) {
 
   <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
-<div class="warrior">
-    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
-  <div class='loader-container'>
-     <br><br><br><br><br>
+   <div class='loader-container'>  
+   <img src="images/loading.png" id="loadImg" style='width:100%;' border="0" alt="Null">
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>
-    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
   </div>
 </div>
 
@@ -77,9 +66,12 @@ if ($detect->isMobile()) {
       <div class="center1">
       <img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
       <map name="mapname">
-        <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
+        <area shape="rect" coords="30,0,370,160" href="" alt="alttext" style="outline: none;">
       </map>
       </div>
+      <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
+               <img src="images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
+        </div>
 
          </nav>
       </div>
@@ -129,22 +121,17 @@ if ($detect->isMobile()) {
          </section>
       </div>
 
-<<<<<<< HEAD
       
       <br><br><br>
       <div class="footer">
          <div class="container"  style="float: left;">
-=======
-      <div class="footer">
-                     <div class="container"  style="float: left;">
->>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
-            <div class="row" >
-               
-                <div class="bottomLinkDiv">
+    <div class="row" >
+  
+    <div class="bottomLinkDiv">
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
-                        <div id="text2">
+                        <div id="text1">
                            <a href="literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
                         </div>
                      </svg>
@@ -164,66 +151,103 @@ if ($detect->isMobile()) {
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
-                        <div id="text1">
+                        <div id="text3">
                            <a href="archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
                         </div>
                      </svg>
                   </div>
                </div>
-               <div class="bottomLinkDiv">
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text3">
-                           <a href="workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOP&EML</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv">
+               <div class="bottomLinkDiv" >
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text4">
-<<<<<<< HEAD
-                           <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
-=======
-                           <a href="https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php" target="_blank" class="linkBT"><span class="spot"></span>REGISTER</a>
->>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
+                           <a href="hospitality"  class="linkBT"><span class="spot"></span>HOSPITALITY</a>
                         </div>
                      </svg>
                   </div>
                </div>
-            </div>
-         </div>
-         <main>
-            <ul id='services'>
-               <li>
-                  <a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" target="_blank" style="text-decoration: none;">
-                     <div class='fa fa-facebook'></div>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://twitter.com/ELAN_IITH" target="_blank" style="text-decoration: none;">
-                     <div class='fa fa-twitter'></div>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" style="text-decoration: none;">
-                     <div class='fa fa-youtube'></div>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
-                     <div class='fa fa-instagram'></div>
-                  </a>
-               </li>
-            </ul>
-         </main>
-<<<<<<< HEAD
-=======
 
->>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
+    <div class="bottomLinkDiv">
+  <div class="svg-wrapper1" >
+  <svg height="40" width="150">
+  <rect id="shape1" height="40" width="150" />
+  <div id="text5">
+    <a href="workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOPS</a>
+  </div>
+  </svg>
+  </div>
+    </div>
+
+
+
+
+
+  <div class="bottomLinkDiv">
+  <div class="svg-wrapper1" >
+  <svg height="40" width="150">
+  <rect id="shape1" height="40" width="150" />
+  <div id="text6">
+    <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
+  </div>
+  </svg>
+  </div>
+    </div>
+
+        <?php
+                        session_start();
+                             if(!isset($_SESSION["id"]))
+                             echo "
+<div class=\"bottomLinkDiv\">
+  <div class=\"svg-wrapper1\"  style=\"background-color:white;\">
+  <svg height=\"40\" width=\"150\">
+  <rect id=\"shape1\" height=\"40\" width=\"150\" />
+  <div id=\"text7\">
+    <a href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>REGISTER</a>
+  </div>
+  </svg>
+  </div>
+    </div>";
+    else echo "
+<div class=\"bottomLinkDiv\">
+  <div class=\"svg-wrapper1\"  style=\"background-color:white;\">
+  <svg height=\"40\" width=\"150\">
+  <rect id=\"shape1\" height=\"40\" width=\"150\" />
+  <div id=\"text7\">
+    <a href=\"dashboard.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>DASHBOARD</a>
+  </div>
+  </svg>
+  </div>
+    </div>";
+                        ?>
+
+
+    </div>
+</div>
+<main>
+  <ul id='services'>
+    <li>
+  <a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" target="_blank" style="text-decoration: none;">
+       <div class='fa fa-facebook'></div>
+  </a>
+    </li>
+    <li>
+  <a href="https://twitter.com/ELAN_IITH" target="_blank" style="text-decoration: none;">
+      <div class='fa fa-twitter'></div>
+  </a>
+    </li>
+    <li>
+  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" style="text-decoration: none;">
+      <div class='fa fa-youtube'></div>
+  </a>
+    </li>
+    <li>
+  <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
+      <div class='fa fa-instagram'></div>
+  </a>
+    </li>
+  </ul>
+</main>
       </div>
       <img src="images/explosion.png" style="display: none;">
    </body>
@@ -235,7 +259,6 @@ if ($detect->isMobile()) {
    <script src="scripts/vendor.js"></script>
     <script src="navbar/navbar1.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-<<<<<<< HEAD
             <script src="scripts/main.js"></script>
 
    <script type="text/javascript">
@@ -276,12 +299,6 @@ if ($detect->isMobile()) {
       $(document).ready(function(argument) {
 
             if($(window).height()>700)
-=======
-   <script src="scripts/main.js"></script>
-<!--    <script src="scripts/footer.js"></script>
- -->   <script type="text/javascript">
-                            if($(window).height()>700)
->>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
                     $("#back").css("margin-top","-80px");
                 else
                     $("#back").css("margin-top","-130px");

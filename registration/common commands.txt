@@ -1,5 +1,5 @@
+use elanop4y_fest_2017;
 drop table users;
-drop table users_unverified;
 drop table elanejung;
 drop table manthan;
 drop table breakfree;
@@ -204,7 +204,7 @@ create table wheel_of_fortune(
 );
 
 
-create table quiizes(
+create table quizzes(
     ID varchar(100) PRIMARY KEY,
     elanId varchar(10),
     email varchar(100) NOT NULL
