@@ -99,32 +99,34 @@ if(!isset($_SESSION["id"])){
                <map name="cyient">
                   <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
                </map>
-            </div>
-            <div class="left">
+        </div>
+        <div class="left">
                         <a class="scroll" href="about">About</a>
                         <a class="scroll" href="events">Events</a>
-                        <a class="scroll" href="sponsors">Sponsors</a>
-            </div>
-           <!--  <div class="center1">
-            <img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
-            <map name="mapname">
-              <area shape="rect" coords="20,0,380,160" href="" alt="alttext" style="outline: none;">
-            </map>
-            </div> -->
-            <div class="right">
+                        <a class="scroll" hresf="sponsors">Sponsors</a>
+        </div>
+        
+        <div class="center1">
+        <a href="">
+            <img src="images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo" usemap="#mapname">
+        </a>
+        </div>
+        
+        <div class="right">
                         <a class="scroll" href="team">Team</a>
                         <a class="scroll" href="hospitality">Hospitality</a>
-                        <div class="dropdown">
-  <a class="scroll dropbtn" href="#">Hi <?php  echo $_SESSION["name"];?><span class="caret"></span></a>
-  <div class="dropdown-content">
-    <a class="scroll" href="dashboard.php">Dashboard</a>
-    <a class="scroll" href="dashboard.php">Sign Out</a>
-  </div>
-</div>
-                        
-        </ul>
-            
-            </div>
+                            <div class="dropdown">
+                                <a class="scroll dropbtn" href="#">Hi <?php  echo $_SESSION["name"];?><span class="caret"></span></a>
+                                <div class="dropdown-content">
+                                    <a class="scroll" href="dashboard.php">Dashboard</a>
+                                    <a class="scroll" href="signout.php">Sign Out</a>
+                                </div>
+                        </div>
+        </div>
+        <div  style="position:fixed;right:4px;top:-5px;">
+               <img src="images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
+        </div>
+
         </nav>
     </div>
 
@@ -197,6 +199,6 @@ if(!isset($_SESSION["id"])){
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
      <script src="scripts/footer.js"></script>
     <script src="js/index.js"></script>
-  <script src="navbar/navbar.js?version=1.0"></script>
+  <script src="navbar/navbar2.js?version=1.0"></script>
 
 </html>
