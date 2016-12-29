@@ -6,6 +6,10 @@ function checkCultiRegister() {
                 $(".looseyourfeet").trigger("click");
 
     if(window.location.href.indexOf("nrityanjali") > -1)
-                $(".nrityanjali").trigger("click");            
+                $(".nrityanjali").trigger("click");
+    if(window.location.href.indexOf("just-duet") > -1)
+                $(".just-duet").trigger("click");
+    if(window.location.href.indexOf("just-duet") > -1)
+                $(".just-duet").trigger("click");                        
 
 }

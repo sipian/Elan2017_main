@@ -12,4 +12,9 @@ function checkCultiInsideRegister() {
         $(".culti").trigger("click");
         $(".cultiBigDiv").html(getCultiContent('nrityanjali'));
     }
+    if(window.location.href.indexOf("just-duet") > -1){
+        $(".culti").trigger("click");
+        $(".cultiBigDiv").html(getCultiContent('just-duet'));
+    }
+
 }

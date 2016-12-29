@@ -158,6 +158,47 @@ $('body').on("click", ".looseyourfeetButton", function() {
         });
     });
 
+// Event registration of just-duet starts
+
+$('body').on("click", ".just-duetButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('just-duet')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'just-duet'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for just-duet');
+                            $('.just-duetButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'just-duet'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from just-duet');
+                            $('.just-duetButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }
+    });
+
+
+// Event registration of just-duet ends
+
+
+
     $('body').on("click", ".vibrazione", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
