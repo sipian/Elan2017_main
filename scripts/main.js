@@ -1,3 +1,26 @@
+
+          $(".home__bg-island-meyer.animation__float_01.js-island-meyer").click(function() {
+                $("#about").html("");
+                $(".home__bg-island-meyer").html("");
+              setTimeout(function(){  window.location = "about"; }, 1000);
+          });
+      
+          $(".home__bg-island-miller.animation__float_02.js-island-miller").click(function() {
+                $("#events").html("");
+              setTimeout(function(){  window.location = "events"; }, 1000);
+          });
+      
+          $(".home__bg-island-smith.animation__float_03.js-island-smith").click(function() {
+                $("#sponsors").html("");
+              setTimeout(function(){  window.location = "sponsors"; }, 1000);
+          });
+      
+          $(".home__bg-island-helmet.animation__float_04.js-island-helmet").click(function() {
+                $("#team").html("");
+              setTimeout(function(){  window.location = "team"; }, 1000);
+          });
+
+
 $(document).ready(function() { 
    MMS.home.initialize();
  });

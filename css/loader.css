@@ -1,0 +1,28 @@
+/* Landing Page */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color: white;
+  color:#FFFFFF;
+  overflow:hidden;
+}
+
+.loader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background-color: #FFFFFF;
+}
+.loader-container {
+	width: 600px;
+	height: 200px;
+	position: fixed;
+	top:18%;
+	left: 28%;
+	margin: auto;
+	text-align: center;
+}

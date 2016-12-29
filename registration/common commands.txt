@@ -1,0 +1,102 @@
+drop table users;
+drop table users_unverified;
+drop table elanejung;
+
+
+CREATE TABLE users(
+	ID varchar(100) PRIMARY KEY,
+	elanId varchar(10),
+	name text NOT NULL,
+	password text NOT NULL,
+	college text NOT NULL,
+	mobile varchar(13) NOT NULL,
+	email varchar(100) NOT NULL,
+	registered_events text
+);
+
+create table users_unverified(
+	email varchar(100) NOT NULL PRIMARY KEY,
+	name text NOT NULL,
+	college text NOT NULL,
+	mobile varchar(13) NOT NULL,
+	passwords text NOT NULL
+);
+
+create table elanejung(
+	ID varchar(100) PRIMARY KEY,
+	elanId varchar(10),
+	email varchar(100) NOT NULL
+);
+
+insert into users values('5864195760d96d2fe331d7e7' , '3' , 'prateek' , '$2a$10$B/HXGbZDBjO0CuPIa53eWukK/CDpyvR9QjSaqILDx7kIJ5Hp/7oE2' , 'IITH' , '9876543210' , 'cs15btech11031@iith.ac.in' , 'elanejung,manthan');
+<?php
+
+/*
+http://localhost/Elan2017_main/token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7Il9pZCI6IjU4NjQxOTU3NjBkOTZkMmZlMzMxZDdlNyIsInVzZXJpZCI6MywiZW1haWwiOiJjczE1YnRlY2gxMTAzMUBpaXRoLmFjLmluIiwicGFzc3dvcmQiOiIkMmEkMTAkQlwvSFhHYlpEQmpPMEN1UElhNTNlV3VrS1wvQ0RweXZSOVFqU2FxSUxEeDdrSUo1SHBcLzdvRTIiLCJjb2xsZWdlIjoiaWl0aCIsInBob25lIjo5ODc2NTQzMjEwLCJ2ZXJpZmljYXRpb25Ub2tlbiI6IkdKRlJSTGVLdW5LQmxRU0tXblMzdEUwaVpreGcxV0tvbGVNNlFTVEJ3UlBheWJ0Q0c1TmdWNDYySjRhMklMS2EiLCJfX3YiOjAsImVtYWlsVmVyaWZpZWQiOnRydWUsImNhbkFjY2Vzc0tleXN0b25lIjpmYWxzZSwibmFtZSI6eyJmaXJzdCI6InByYXRlZWsiLCJsYXN0IjoiIn19LCJpYXQiOjE0ODI5NTUwOTYsImV4cCI6MTk4Mjk1NTk5Nn0.hu2EFV1J3eyvqtiBWDmrKO6gO0ZJr7miabxhrBC9a9c
+
+
+
+
+http://localhost/Elan2017_main/registration/token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7Il9pZCI6IjU4NjQxOTU4NjBkOTZkMmZlMzMxZDdlNyIsInVzZXJpZCI6MywiZW1haWwiOiJjczE1YnRlY2gxMTAzMUBpaXRoLmFjLmluIiwicGFzc3dvcmQiOiIkMmEkMTAkQlwvSFhHYlpEQmpPMEN1UElhNTNlV3VrS1wvQ0RweXZSOVFqU2FxSUxEeDdrSUo1SHBcLzdvRTIiLCJjb2xsZWdlIjoiaWl0aCIsInBob25lIjo5ODc2NTQzMjEwLCJ2ZXJpZmljYXRpb25Ub2tlbiI6IkdKRlJSTGVLdW5LQmxRU0tXblMzdEUwaVpreGcxV0tvbGVNNlFTVEJ3UlBheWJ0Q0c1TmdWNDYySjRhMklMS2EiLCJfX3YiOjAsImVtYWlsVmVyaWZpZWQiOmZhbHNlLCJjYW5BY2Nlc3NLZXlzdG9uZSI6ZmFsc2UsIm5hbWUiOnsiZmlyc3QiOiJwcmF0ZWVrIiwibGFzdCI6IiJ9fSwiaWF0IjoxNDgyOTU1MDk2LCJleHAiOjE5ODI5NTU5OTZ9.uNvvze2ydL24LUmiuIAZEZCvzxaI37Fki81EgwE-wxY
+
+
+http://localhost/Elan2017_main/registration/token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7Il9pZCI6IjU4NjQxOTU4NjBkOTZkMmZlMzMxZDdlNyIsInVzZXJpZCI6MywiZW1haWwiOiJjczE1YnRlY2gxMTAzMUBpaXRoLmFjLmluIiwicGFzc3dvcmQiOiIkMmEkMTAkQlwvSFhHYlpEQmpPMEN1UElhNTNlV3VrS1wvQ0RweXZSOVFqU2FxSUxEeDdrSUo1SHBcLzdvRTIiLCJjb2xsZWdlIjoiaWl0aCIsInBob25lIjo5ODc2NTQzMjEwLCJ2ZXJpZmljYXRpb25Ub2tlbiI6IkdKRlJSTGVLdW5LQmxRU0tXblMzdEUwaVpreGcxV0tvbGVNNlFTVEJ3UlBheWJ0Q0c1TmdWNDYySjRhMklMS2EiLCJfX3YiOjAsImVtYWlsVmVyaWZpZWQiOnRydWUsImNhbkFjY2Vzc0tleXN0b25lIjpmYWxzZSwibmFtZSI6eyJmaXJzdCI6InByYXRlZWsiLCJsYXN0IjoiIn19LCJpYXQiOjE0ODI5NTUwOTYsImV4cCI6MTk4Mjk1NTk5Nn0.kE_TM78zZF36hE5ufALKL96Jtkp-k-avA2tVjWBCrCI
+*/
+session_start();
+
+if(isset($_SESSION["id"])){
+    header("Location: dashboard.php");
+    exit();
+}
+
+if(!isset($_GET["token"])){
+    header("Location: error.php?err=Invalid Token.");
+    exit();
+}
+
+require_once('vendor/autoload.php');
+use \Firebase\JWT\JWT;
+
+$key = "example_key";
+$decoded = JWT::decode($_GET["token"], $key, array('HS256'));
+$decoded_array = (array) $decoded;
+$array = json_decode(json_encode($decoded_array["user"]), True);
+
+/*
+    print_r($jwt);
+*/
+
+print_r($array["emailVerified"]);
+
+
+
+/*$decoded_array = (array) $decoded;*/
+
+/*JWT::$leeway = 60; // $leeway in seconds
+$decoded = JWT::decode($jwt, $key, array('HS256'));*/
+
+/*
+$id;
+$password;
+$college;
+$mobile;
+$email;
+$name;
+$verifiedEmail;
+
+    $_SESSION["id"] = $id;
+    $_SESSION["email"] = $email;
+    $_SESSION["verified"] = false;    
+    $_SESSION["name"] = $name;    
+    $_SESSION["mobile"] = $mobile;    
+    $_SESSION["college"] = $college; 
+
+
+if ($verifiedEmail==false)
+    $_SESSION["verified"] = false;
+else
+     $_SESSION["verified"] = true;
+
+header("Location: dashboard.php");
+*/
+?>

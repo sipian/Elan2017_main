@@ -7,6 +7,9 @@ if ($detect->isMobile()) {
     exit(0);
 }
 ?>
+<?php 
+session_start();
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,7 +18,7 @@ if ($detect->isMobile()) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Elan Events 2017" />
-    <meta name="author" content="Codrops" />
+    <meta name="author" content="" />
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
@@ -94,7 +97,7 @@ if ($detect->isMobile()) {
 
 <div class='loader'>
 <div class="warrior">
-    <img src="../images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+    <img src="../images/loading.png" style='width:100%;' border="0" alt="Null"></div>
   <div class='loader-container'>
     
 <br><br><br><br>
@@ -427,7 +430,17 @@ if ($detect->isMobile()) {
     <img src="images/event_litr.png">
 </div>
   </body>
-
+  <script type="text/javascript">
+      var track=<?php if(isset($_SESSION['id']))echo "1"; else echo "0"; ?>;
+      var _id="<?php echo $_SESSION['id']; ?>";
+      var email="<?php echo $_SESSION['email']; ?>";
+      var name="<?php echo $_SESSION['name']; ?>";
+      var elanId="<?php echo $_SESSION['elanId']; ?>";
+      var college="<?php echo $_SESSION['college']; ?>";
+      var events="<?php echo $_SESSION['events']; ?>".split(",");
+      var verified=<?php echo $_SESSION['verified']; ?>;
+      
+  </script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script src="js/index.js"></script>
