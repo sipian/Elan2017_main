@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    checkInfiInsideRegister();
 
     $('body').on("click", ".foodathon", function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
