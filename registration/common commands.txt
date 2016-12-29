@@ -4,6 +4,8 @@ drop table elanejung;
 drop table manthan;
 drop table breakfree;
 drop table looseyourfeet;
+drop table nrityanjali;
+drop table campus_princess;
 
 
 CREATE TABLE users(
@@ -41,6 +43,17 @@ create table looseyourfeet(
     email varchar(100) NOT NULL
 );
 
+create table nrityanjali(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table campus_princess(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
 
 
 
@@ -61,6 +74,17 @@ create table looseyourfeet(
 
 
 
+
+
+<<<<<<< HEAD
+=======
+    $_SESSION["id"] = $id;
+    $_SESSION["email"] = $email;
+    $_SESSION["verified"] = false;
+    $_SESSION["name"] = $name;
+    $_SESSION["mobile"] = $mobile;
+    $_SESSION["college"] = $college;
+>>>>>>> ed5a0b284ecf5f940e4c369a699aef757aa9a1c0
 
 
 
@@ -102,3 +126,7 @@ http://localhost/Elan2017_main/registration/token.php?token=eyJ0eXAiOiJKV1QiLCJh
 
 http://localhost/Elan2017_main/registration/token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7Il9pZCI6IjU4NjQxOTU4NjBkOTZkMmZlMzMxZDdlNyIsInVzZXJpZCI6MywiZW1haWwiOiJjczE1YnRlY2gxMTAzMUBpaXRoLmFjLmluIiwicGFzc3dvcmQiOiIkMmEkMTAkQlwvSFhHYlpEQmpPMEN1UElhNTNlV3VrS1wvQ0RweXZSOVFqU2FxSUxEeDdrSUo1SHBcLzdvRTIiLCJjb2xsZWdlIjoiaWl0aCIsInBob25lIjo5ODc2NTQzMjEwLCJ2ZXJpZmljYXRpb25Ub2tlbiI6IkdKRlJSTGVLdW5LQmxRU0tXblMzdEUwaVpreGcxV0tvbGVNNlFTVEJ3UlBheWJ0Q0c1TmdWNDYySjRhMklMS2EiLCJfX3YiOjAsImVtYWlsVmVyaWZpZWQiOnRydWUsImNhbkFjY2Vzc0tleXN0b25lIjpmYWxzZSwibmFtZSI6eyJmaXJzdCI6InByYXRlZWsiLCJsYXN0IjoiIn19LCJpYXQiOjE0ODI5NTUwOTYsImV4cCI6MTk4Mjk1NTk5Nn0.kE_TM78zZF36hE5ufALKL96Jtkp-k-avA2tVjWBCrCI
 */
+<<<<<<< HEAD
+=======
+?>
+>>>>>>> ed5a0b284ecf5f940e4c369a699aef757aa9a1c0

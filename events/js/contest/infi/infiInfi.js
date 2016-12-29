@@ -1,8 +1,4 @@
 function checkInfiRegister() {
-    if(window.location.href.indexOf("breakfree") > -1)
-                $(".breakfree").trigger("click");
-            
-    if(window.location.href.indexOf("looseyourfeet") > -1)
-                $(".looseyourfeet").trigger("click");
-            
+    if(window.location.href.indexOf("campus_princess") > -1)
+                $(".campus_princess").trigger("click");
 }

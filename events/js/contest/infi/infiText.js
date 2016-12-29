@@ -1090,9 +1090,8 @@ function getInfiContent(argument) {
   </div>\``;
 
 
-  if(argument=='campus_princess')
-        return `\`
-    <p><br></p>
+  if(argument=='campus_princess'){
+    let ret = `\`
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -1131,9 +1130,13 @@ function getInfiContent(argument) {
             </div>
         </div>
         <br>
-        <div class="row">
+         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg campus_princessButton" style="align:center;">`;
+            ret += (events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1145,7 +1148,9 @@ function getInfiContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                An event for all those pretty ladies out there, here is your chance to get selected for the Femina Miss India beauty pageant!
+                An event for all those pretty ladies out there, here is your chance to get selected 
+                <br>
+                for the Femina Miss India beauty pageant!
                 <br>
                 In this star-studded event, watch as the beauty queens bedazzle you with their grace, 
                 <br>
@@ -1183,6 +1188,8 @@ function getInfiContent(argument) {
             <br>
         </div>
     </div>
-  </div>\``;
+   </div>\``;
+    return ret;
+    }
 
 }

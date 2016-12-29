@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    checkInfiInsideRegister();
 
     $('body').on("click", ".foodathon", function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
@@ -76,8 +77,44 @@ $(document).ready(function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('campus_princess'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       });
+        window.history.pushState("", "", '#campus_princess');
     });
+
+    $('body').on("click", ".campus_princessButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('campus_princess')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'campus_princess'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for Campus Princess');
+                            $('.campus_princessButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'campus_princess'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from Campus Princess');
+                            $('.campus_princessButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }
+    });
+
 
    
 

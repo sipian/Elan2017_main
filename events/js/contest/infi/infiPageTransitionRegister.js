@@ -1,12 +1,10 @@
-function checkCultiInsideRegister() {
-    if(window.location.href.indexOf("breakfree") > -1){
-        $(".culti").trigger("click");
-        $(".cultiBigDiv").html(getCultiContent('breakfree'));
-    }
-
-    if(window.location.href.indexOf("looseyourfeet") > -1){
-        $(".culti").trigger("click");
-        $(".cultiBigDiv").html(getCultiContent('looseyourfeet'));
-    }
-    
+function checkInfiInsideRegister() {
+    if(window.location.href.indexOf("campus_princess") > -1 || 
+       window.location.href.indexOf("walk_the_ramp") > -1 || 
+       window.location.href.indexOf("convcoffee") > -1 || 
+       window.location.href.indexOf("casino_royale") > -1 || 
+       window.location.href.indexOf("madads") > -1 || 
+       window.location.href.indexOf("finaldestination") > -1 || 
+       window.location.href.indexOf("campus_princess") > -1)
+        $(".infi").trigger("click");
 }

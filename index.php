@@ -8,7 +8,7 @@ if ($detect->isMobile()) {
 }
 ?>
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="de">
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
    <head>
       <meta charset="utf-8">
@@ -23,13 +23,15 @@ if ($detect->isMobile()) {
       <meta property=og:description content="ELAN 2017 Website"/>
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
       <link rel="stylesheet" href="styles/main.css">
-      <link rel="stylesheet" href="styles/footer.css">
-      <link rel="stylesheet" href="navbar/navbar.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="styles/footer.css">
+   <link rel="stylesheet" href="navbar/navbar.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- pre loader link sheets -->
-        <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
-        <link rel="stylesheet" href="css/loader.css">
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
 <!-- pre loader link sheets ends  -->
 
       <title>ELAN 2017</title>
@@ -39,6 +41,10 @@ if ($detect->isMobile()) {
          font-family: chelsea;
          src: url('fonts/chelsea2/ChelseaAlternates.ttf');
          }
+         b {
+    color: #F06D06;
+    font: 200 30px/1em chelsea;
+    }
       </style>
 
    </head>
@@ -47,11 +53,14 @@ if ($detect->isMobile()) {
 
   <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
-   <div class='loader-container'>  
-   <img src="images/loading.png" style='width:100%;' border="0" alt="Null">
+<div class="warrior">
+    <img src="images/warrior.gif" style='width:100%;' border="0" alt="Null"></div>
+  <div class='loader-container'>
+     <br><br><br><br><br>
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>
+    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
   </div>
 </div>
 
@@ -64,12 +73,14 @@ if ($detect->isMobile()) {
                </map>
             </div>
 
-                <div class="center1">
+
+      <div class="center1">
       <img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;" id="logo" usemap="#mapname">
       <map name="mapname">
         <area shape="rect" coords="30,0,370,160" href="../" alt="alttext" style="outline: none;">
       </map>
       </div>
+
          </nav>
       </div>
       
@@ -77,7 +88,7 @@ if ($detect->isMobile()) {
       <div class="site__main-content scrollable" id="back" style="
         background-image: url('images/test13.jpg');  
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: center;
         background-attachment: fixed;
         background-size: cover;
         overflow-y: hidden;
@@ -118,8 +129,15 @@ if ($detect->isMobile()) {
          </section>
       </div>
 
+<<<<<<< HEAD
+      
+      <br><br><br>
+      <div class="footer">
+         <div class="container"  style="float: left;">
+=======
       <div class="footer">
                      <div class="container"  style="float: left;">
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
             <div class="row" >
                
                 <div class="bottomLinkDiv">
@@ -167,7 +185,11 @@ if ($detect->isMobile()) {
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text4">
+<<<<<<< HEAD
+                           <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
+=======
                            <a href="https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php" target="_blank" class="linkBT"><span class="spot"></span>REGISTER</a>
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
                         </div>
                      </svg>
                   </div>
@@ -198,20 +220,68 @@ if ($detect->isMobile()) {
                </li>
             </ul>
          </main>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
       </div>
       <img src="images/explosion.png" style="display: none;">
    </body>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
    <script src="scripts/vendor.js"></script>
-   <script src="navbar/navbar1.js"></script>
+    <script src="navbar/navbar1.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<<<<<<< HEAD
+            <script src="scripts/main.js"></script>
+
+   <script type="text/javascript">
+                 $(document).ready(function () {
+                  $('.center').html(`<img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">`);
+
+               /*  if($(window).height()<400){
+                    $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else if($(window).height()<500){
+                    $("#logo").css({"margin-left":"-108px","width": "450px" , "height": "155px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else{
+                    $("#logo").css({"margin-left":"-135px","width": "500px" , "height": "175px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+            $(window).resize(function () {
+                 if($(window).height()<400){
+                    $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else if($(window).height()<500){
+                    $("#logo").css({"margin-left":"-108px","width": "450px" , "height": "155px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+                else{
+                    $("#logo").css({"margin-left":"-105px","width": "500px" , "height": "175px"});
+                    $(".qwer").css({"width": "150px" , "height" : "55px"});
+                }
+            });*/
+
+            })
+                
+   </script>
+   <script type="text/javascript">
+      $(document).ready(function(argument) {
+
+            if($(window).height()>700)
+=======
    <script src="scripts/main.js"></script>
 <!--    <script src="scripts/footer.js"></script>
  -->   <script type="text/javascript">
                             if($(window).height()>700)
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
                     $("#back").css("margin-top","-80px");
                 else
                     $("#back").css("margin-top","-130px");
@@ -221,6 +291,33 @@ if ($detect->isMobile()) {
                     $("#back").css("margin-top","-80px");
                 else
                     $("#back").css("margin-top","-130px");
+
+            });
+          $(".home__bg-island-meyer.animation__float_01.js-island-meyer").click(function() {
+                $("#about").html("");
+                $(".home__bg-island-meyer").html("");
+              setTimeout(function(){ 
+                window.location = "about"; }, 1000);
+          });
+      
+          $(".home__bg-island-miller.animation__float_02.js-island-miller").click(function() {
+                $("#events").html("");
+              setTimeout(function(){  window.location = "events"; }, 1000);
+          });
+      
+          $(".home__bg-island-smith.animation__float_03.js-island-smith").click(function() {
+                $("#sponsors").html("");
+              setTimeout(function(){  window.location = "sponsors"; }, 1000);
+          });
+      
+          $(".home__bg-island-helmet.animation__float_04.js-island-helmet").click(function() {
+                $("#team").html("");
+              setTimeout(function(){  window.location = "team"; }, 1000);
+          });
+      })
    </script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
     <script src="js/index.js"></script>
 </html>
