@@ -131,7 +131,7 @@ if ($detect->isMobile()) {
 
 <div class='loader'>
    <div class='loader-container'>  
-   <img src="../images/loading.png" style='width:100%;' border="0" alt="Null">
+   <img src="../images/loading.png" id="loadImg" style='width:100%;' border="0" alt="Null">
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>

@@ -161,7 +161,7 @@ function changeCultiContent() {
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                 <div class="flipper">
                   <div class="front">
-                    <img class="img-responsive" alt="just-duet" src="images/culti/just-duet.jpg" style="width: 250px;height: 300px;">
+                    <img class="img-responsive" alt="just_duet" src="images/culti/just_duet.jpg" style="width: 250px;height: 300px;">
                   </div>
                   <div class="back">
                     <div id="text">
@@ -170,7 +170,7 @@ function changeCultiContent() {
                         A Perfect Event For A Pair Of Dancers.
                       </h3>
                       <br>
-<button type="button" class="btn btn-info just-duet">
+<button type="button" class="btn btn-info just_duet">
                       JUST&nbsp;-&nbsp;DUET
                       </button>
                     </div>
@@ -494,8 +494,8 @@ function changeCultiContent() {
                 style="margin-bottom: -5px; ">
               </span>
               <br>
-              <span class="contestName" style="margin-left: 13px;
-                margin-right: 0px;">NUKKAD&nbsp;NATAK
+              <span class="contestName" style="margin-left: 40px;
+                margin-right: 0px;">Nukkad&nbsp;Natak
               </span>
               <br>
               <span style="margin-left:  0px;">
@@ -578,7 +578,6 @@ function changeCultiContent() {
                       <h3 class="short_description">
                         Bring Life To Figments Of Your Own Thoughts And Imaginations By Moulding Beautiful Structures Out Of Clay! 
                       </h3>
-                      <br>
                       <button type="button" class="btn btn-info claymodelling clickButton">
                       CLAY&nbsp;MODELING&nbsp;
                       </button>

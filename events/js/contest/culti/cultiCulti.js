@@ -7,8 +7,8 @@ function checkCultiRegister() {
 
     if(window.location.href.indexOf("nrityanjali") > -1)
                 $(".nrityanjali").trigger("click");
-    if(window.location.href.indexOf("just-duet") > -1)
-                $(".just-duet").trigger("click");
+    if(window.location.href.indexOf("just_duet") > -1)
+                $(".just_duet").trigger("click");
     if(window.location.href.indexOf("vibrazione") > -1)
                 $(".vibrazione").trigger("click");
 

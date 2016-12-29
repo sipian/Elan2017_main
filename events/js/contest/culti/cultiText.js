@@ -443,7 +443,7 @@ let ret = `\`
 return ret;
    }
 
-if (argument == 'just-duet'){
+if (argument == 'just_duet'){
 let ret = `\`
 <p><br></p>
 <div class='contest'
@@ -478,7 +478,7 @@ let ret = `\`
       <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-9">
-          <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/just-duet_small.jpg">
+          <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/just_duet_small.jpg">
         </div>
         <div class="col-lg-3"></div>
       </div>
@@ -487,8 +487,8 @@ let ret = `\`
     <div class="row">
                 <div class="col-lg-5">&nbsp;</div>
                 <div class="col-lg-6">
-                <button type="button" class="btn btn-primary btn-lg just-duetButton" style="align:center;">`;
-                ret += (events.indexOf('just-duet')>-1)?"UNREGISTER":"REGISTER";
+                <button type="button" class="btn btn-primary btn-lg just_duetButton" style="align:center;">`;
+                ret += (events.indexOf('just_duet')>-1)?"UNREGISTER":"REGISTER";
                 ret +=`
                 </button></div>
             </div>
@@ -586,9 +586,9 @@ let ret = `\`
 </div>\``;
 return ret;
    }
-   
-if (argument == 'vibrazione')
-return ` \`
+
+if (argument == 'vibrazione'){
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -629,9 +629,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                  <div class="col-lg-5">&nbsp;</div>
+                  <div class="col-lg-6">
+                  <button type="button" class="btn btn-primary btn-lg vibrazioneButton" style="align:center;">`;
+                  ret += (events.indexOf('vibrazione')>-1)?"UNREGISTER":"REGISTER";
+                  ret +=`
+                  </button></div>
+              </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -720,8 +724,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'octaves')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -762,9 +769,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                    <div class="col-lg-5">&nbsp;</div>
+                    <div class="col-lg-6">
+                    <button type="button" class="btn btn-primary btn-lg octavesButton" style="align:center;">`;
+                    ret += (events.indexOf('octaves')>-1)?"UNREGISTER":"REGISTER";
+                    ret +=`
+                    </button></div>
+                </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -869,8 +880,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'andaazapnapna')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -911,9 +925,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                    <div class="col-lg-5">&nbsp;</div>
+                    <div class="col-lg-6">
+                    <button type="button" class="btn btn-primary btn-lg andaazapnapnaButton" style="align:center;">`;
+                    ret += (events.indexOf('andaazapnapna')>-1)?"UNREGISTER":"REGISTER";
+                    ret +=`
+                    </button></div>
+                </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -1024,8 +1042,12 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
+
 if (argument == 'filmfarefiesta')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1066,9 +1088,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                     <div class="col-lg-5">&nbsp;</div>
+                     <div class="col-lg-6">
+                     <button type="button" class="btn btn-primary btn-lg filmfarefiestaButton" style="align:center;">`;
+                     ret += (events.indexOf('filmfarefiesta')>-1)?"UNREGISTER":"REGISTER";
+                     ret +=`
+                     </button></div>
+                 </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -1192,8 +1218,12 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
+
 if (argument == 'picelectic')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1234,9 +1264,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                     <div class="col-lg-5">&nbsp;</div>
+                     <div class="col-lg-6">
+                     <button type="button" class="btn btn-primary btn-lg picelecticButton" style="align:center;">`;
+                     ret += (events.indexOf('picelectic')>-1)?"UNREGISTER":"REGISTER";
+                     ret +=`
+                     </button></div>
+                 </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -1309,8 +1343,12 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
+
 if (argument == 'nukkadnatak')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1351,9 +1389,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                   <div class="col-lg-5">&nbsp;</div>
+                   <div class="col-lg-6">
+                   <button type="button" class="btn btn-primary btn-lg nukkadnatakButton" style="align:center;">`;
+                   ret += (events.indexOf('nukkadnatak')>-1)?"UNREGISTER":"REGISTER";
+                   ret +=`
+                   </button></div>
+               </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -1469,8 +1511,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'facepainting')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1511,9 +1556,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                     <div class="col-lg-5">&nbsp;</div>
+                     <div class="col-lg-6">
+                     <button type="button" class="btn btn-primary btn-lg facepaintingButton" style="align:center;">`;
+                     ret += (events.indexOf('facepainting')>-1)?"UNREGISTER":"REGISTER";
+                     ret +=`
+                     </button></div>
+                 </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -1607,8 +1656,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'nailart')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1649,9 +1701,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                      <div class="col-lg-5">&nbsp;</div>
+                      <div class="col-lg-6">
+                      <button type="button" class="btn btn-primary btn-lg nailartButton" style="align:center;">`;
+                      ret += (events.indexOf('nailart')>-1)?"UNREGISTER":"REGISTER";
+                      ret +=`
+                      </button></div>
+                  </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -1732,8 +1788,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'mehendi')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1774,9 +1833,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                      <div class="col-lg-5">&nbsp;</div>
+                      <div class="col-lg-6">
+                      <button type="button" class="btn btn-primary btn-lg mehendiButton" style="align:center;">`;
+                      ret += (events.indexOf('mehendi')>-1)?"UNREGISTER":"REGISTER";
+                      ret +=`
+                      </button></div>
+                  </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -1879,8 +1942,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'claymodelling')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -1921,9 +1987,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                      <div class="col-lg-5">&nbsp;</div>
+                      <div class="col-lg-6">
+                      <button type="button" class="btn btn-primary btn-lg claymodellingButton" style="align:center;">`;
+                      ret += (events.indexOf('claymodelling')>-1)?"UNREGISTER":"REGISTER";
+                      ret +=`
+                      </button></div>
+                  </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -2014,8 +2084,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'lendmeurvoice')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -2056,9 +2129,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                        <div class="col-lg-5">&nbsp;</div>
+                        <div class="col-lg-6">
+                        <button type="button" class="btn btn-primary btn-lg lendmeurvoiceButton" style="align:center;">`;
+                        ret += (events.indexOf('lendmeurvoice')>-1)?"UNREGISTER":"REGISTER";
+                        ret +=`
+                        </button></div>
+                    </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -2170,8 +2247,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'artexhibition')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -2212,9 +2292,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                       <div class="col-lg-5">&nbsp;</div>
+                       <div class="col-lg-6">
+                       <button type="button" class="btn btn-primary btn-lg artexhibitionButton" style="align:center;">`;
+                       ret += (events.indexOf('artexhibition')>-1)?"UNREGISTER":"REGISTER";
+                       ret +=`
+                       </button></div>
+                   </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -2360,8 +2444,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'djwars')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -2402,9 +2489,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                      <div class="col-lg-5">&nbsp;</div>
+                      <div class="col-lg-6">
+                      <button type="button" class="btn btn-primary btn-lg djwarsButton" style="align:center;">`;
+                      ret += (events.indexOf('djwars')>-1)?"UNREGISTER":"REGISTER";
+                      ret +=`
+                      </button></div>
+                  </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -2486,8 +2577,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'rjhunt')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -2528,9 +2622,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                       <div class="col-lg-5">&nbsp;</div>
+                       <div class="col-lg-6">
+                       <button type="button" class="btn btn-primary btn-lg rjhuntButton" style="align:center;">`;
+                       ret += (events.indexOf('rjhunt')>-1)?"UNREGISTER":"REGISTER";
+                       ret +=`
+                       </button></div>
+                   </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
@@ -2640,8 +2738,11 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 if (argument == 'lendmeurvoice')
-return ` \`
+{
+let ret = `\`
 <p><br></p>
 <div class='contest'
   style="padding-bottom: 150px;
@@ -2682,9 +2783,13 @@ return ` \`
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
+                        <div class="col-lg-5">&nbsp;</div>
+                        <div class="col-lg-6">
+                        <button type="button" class="btn btn-primary btn-lg lendmeurvoiceButton" style="align:center;">`;
+                        ret += (events.indexOf('lendmeurvoice')>-1)?"UNREGISTER":"REGISTER";
+                        ret +=`
+                        </button></div>
+                    </div>
     <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row about">
@@ -2796,4 +2901,6 @@ return ` \`
   </div>
 </div>
 </div>\``;
+return ret;
+   }
 }

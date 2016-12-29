@@ -43,7 +43,8 @@ function getTechyContent(argument) {
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-6">
+            <a href='https://nvision.org.in/events/robosoccer' target='_blank'><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a></div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
