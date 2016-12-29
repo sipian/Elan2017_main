@@ -2,8 +2,8 @@
 
 //include './ChromePhp.php';
 $servername = "localhost";
-$username = "elanorg_harsh";
+$username = "elanop4y_harsh";
 $password ="pAsSwOrD123@elan";
-$dbname="elanorg_fest_2017";
+$dbname="elanop4y_fest_2017";
 
 ?>

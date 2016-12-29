@@ -50,9 +50,9 @@ $verifiedEmail =$array["emailVerified"];
     $_SESSION["college"] = $college;
 
 if ($verifiedEmail == 1)
-    $_SESSION["verified"] = true;
+    $_SESSION["verified"] = 1;
 else
-     $_SESSION["verified"] = false;
+     $_SESSION["verified"] = 0;
 
 print_r("HELLO");
 $sql = "SELECT * FROM users WHERE ID='$id'";

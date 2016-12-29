@@ -129,10 +129,15 @@ if ($detect->isMobile()) {
          </section>
       </div>
 
+<<<<<<< HEAD
       
       <br><br><br>
       <div class="footer">
          <div class="container"  style="float: left;">
+=======
+      <div class="footer">
+                     <div class="container"  style="float: left;">
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
             <div class="row" >
                
                 <div class="bottomLinkDiv">
@@ -180,7 +185,11 @@ if ($detect->isMobile()) {
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text4">
+<<<<<<< HEAD
                            <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
+=======
+                           <a href="https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php" target="_blank" class="linkBT"><span class="spot"></span>REGISTER</a>
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
                         </div>
                      </svg>
                   </div>
@@ -211,6 +220,10 @@ if ($detect->isMobile()) {
                </li>
             </ul>
          </main>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
       </div>
       <img src="images/explosion.png" style="display: none;">
    </body>
@@ -222,6 +235,7 @@ if ($detect->isMobile()) {
    <script src="scripts/vendor.js"></script>
     <script src="navbar/navbar1.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<<<<<<< HEAD
             <script src="scripts/main.js"></script>
 
    <script type="text/javascript">
@@ -262,6 +276,12 @@ if ($detect->isMobile()) {
       $(document).ready(function(argument) {
 
             if($(window).height()>700)
+=======
+   <script src="scripts/main.js"></script>
+<!--    <script src="scripts/footer.js"></script>
+ -->   <script type="text/javascript">
+                            if($(window).height()>700)
+>>>>>>> 8d5e67e3ae99efc17f4f13d7273e33f885f7d321
                     $("#back").css("margin-top","-80px");
                 else
                     $("#back").css("margin-top","-130px");

@@ -19,13 +19,13 @@ $(document).ready(function() {
                         alert('Please Sign In Before Registering');
                         return;
                 }
-        if(verified==0){
+        if(verified==2){
                         alert('Please Verify Your Mail Id First');
                         return;
                 }
 
         if(events.indexOf('elanejung')==-1){
-        $.post("../registration/registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'elanejung'}, function(result){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'elanejung'}, function(result){
             if(result!="failure"){
                             alert('Successfully registered for Elan E Jung');
                             $('.elan-e-jungButton').html('UNREGISTER');
@@ -36,7 +36,7 @@ $(document).ready(function() {
         });
     }
     else{
-        $.post("../registration/unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'elanejung'}, function(result){
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'elanejung'}, function(result){
             if(result!="failure"){
                             alert('Successfully Deregistered from Elan E Jung');
                             $('.elan-e-jungButton').html('REGISTER');
@@ -57,8 +57,42 @@ $(document).ready(function() {
             $('.biggiesBigDiv').show('slide', {
                 direction: "down"
             }, 450);
-            window.history.pushState("", "", '#manthan');
         });
+        window.history.pushState("", "", '#manthan');
+    });
+
+    $('body').on("click", ".manthanButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('manthan')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'manthan'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for Manthan');
+                            $('.manthanButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'manthan'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from Manthan');
+                            $('.manthanButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }     
     });
     if(window.location.href.indexOf("manthan") > -1)
         $(".biggiesBigDiv").html(getBiggiesContent('manthan'));

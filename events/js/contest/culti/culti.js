@@ -9,7 +9,46 @@ $(document).ready(function() {
                 direction: "down"
             }, 500);
         });
+        window.history.pushState("", "", '#breakfree');
     });
+
+    checkCultiInsideRegister();
+    $('body').on("click", ".breakfreeButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('breakfree')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'breakfree'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for Break Free');
+                            $('.breakfreeButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'breakfree'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from Break Free');
+                            $('.breakfreeButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }     
+    });
+
+
+
 
     $('body').on("click", ".looseyourfeet", function() {
         $(".cultiBigDiv").hide("slide", {
@@ -21,6 +60,41 @@ $(document).ready(function() {
             }, 500);
         });
     });
+
+$('body').on("click", ".looseyourfeetButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('looseyourfeet')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'looseyourfeet'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for Loose Your Feet');
+                            $('.looseyourfeetButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'looseyourfeet'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from Loose Your Feet');
+                            $('.looseyourfeetButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }     
+    });
+
 
     $('body').on("click", ".nrityanjali", function() {
         $(".cultiBigDiv").hide("slide", {

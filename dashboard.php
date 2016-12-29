@@ -94,7 +94,7 @@ if(!isset($_SESSION["id"])){
 
     <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;">
+        <div  style="position:fixed;left:4px;top:-5px;" class="qwerDIV">
                <img src="images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
                <map name="cyient">
                   <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
@@ -107,7 +107,7 @@ if(!isset($_SESSION["id"])){
         </div>
         
         <div class="center1">
-        <a href="">
+        <a href="./index.php">
             <img src="images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo" usemap="#mapname">
         </a>
         </div>
@@ -123,9 +123,9 @@ if(!isset($_SESSION["id"])){
                                 </div>
                         </div>
         </div>
-        <div  style="position:fixed;right:4px;top:-5px;">
+       <!--  <div  style="position:fixed;right:4px;top:-5px;" class="qwerDIV">
                <img src="images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
-        </div>
+        </div> -->
 
         </nav>
     </div>
@@ -148,14 +148,14 @@ if(!isset($_SESSION["id"])){
             "0000".substring(0, "0000".length - '<?php echo $_SESSION["elanId"]; ?>'.length) + '<?php echo $_SESSION["elanId"]; ?>';</script> 
             
             <h3>College&nbsp;:&nbsp;<?php echo $_SESSION["college"]; ?></h3>
-            <h3>Mobile&nbsp;:&nbsp;<?php echo $_SESSION["elanId"]; ?></h3>
+            <h3>Mobile&nbsp;:&nbsp;<?php echo $_SESSION["mobile"]; ?></h3>
         </div> 
         <div class="col-lg-1"></div>
         <div class="col-lg-3">
             <h2 style="text-align: center;">REGISTERED&nbsp;EVENTS</h2>
 
             <?php 
-                if($_SESSION["verified"] == false)
+                if($_SESSION["verified"] == 2)
                     echo('<h4>Email is not verified. Check your mail for verification email.</h4>');
                 else{
                         $answer = "<ul class='list-group'>";

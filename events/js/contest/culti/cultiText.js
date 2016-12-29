@@ -1,8 +1,7 @@
 function getCultiContent(argument) {
-if (argument == 'breakfree')
-return `
-\` 
-<p><br></p>
+if (argument == 'breakfree'){
+    let ret = `\`
+        <p><br></p>
 <div class='contest' 
   style="padding-bottom: 150px;
   padding-left:20px;
@@ -42,10 +41,14 @@ return `
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
-    <br>
+            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg breakfreeButton" style="align:center;">`;
+            ret += (events.indexOf('breakfree')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
+        </div>
+        <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
         <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
@@ -151,11 +154,11 @@ return `
     </div>
   </div>
 </div>
-</div>\``;
-if (argument == 'looseyourfeet')
-return `
-\`
-<p><br></p>
+  </div>\``;
+    return ret;
+    }
+if (argument == 'looseyourfeet'){
+    let ret = `\`
 <div class='contest' 
   style="padding-bottom: 150px;
   padding-left:20px;
@@ -195,10 +198,14 @@ return `
     </div>
     <br>
     <div class="row">
-      <div class="col-lg-5">&nbsp;</div>
-      <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-    </div>
-    <br>
+            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg looseyourfeetButton" style="align:center;">`;
+            ret += (events.indexOf('looseyourfeet')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
+        </div>
+        <br>
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
         <h3 style="text-align: center;font-weight: 900;">PRO&nbsp;SOLO&nbsp;DANCE&nbsp;COMPETITION</h3>
@@ -300,7 +307,11 @@ return `
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
+    return ret;
+    }
+
+    
 if (argument == 'nrityanjali')
 return ` \`
 <p><br></p>

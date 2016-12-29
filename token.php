@@ -34,13 +34,14 @@ catch(Exception $e){
 $decoded_array = (array) $decoded;
 $array = json_decode(json_encode($decoded_array["user"]), True);
 
+print_r($decoded); 
 $id = $array["_id"];
 $userId = $array["userid"];
-$password = $array["password"];
+$password = "none";
 $college = $array["college"];
 $mobile = $array["phone"];
 $email = $array["email"];
-$name = $array["name"]["first"]." ". $array["name"]["last"];
+$name = $array["name"]["first"];
 $verifiedEmail =$array["emailVerified"];
     $_SESSION["id"] = $id;
     $_SESSION["elanId"] = $userId;
@@ -50,11 +51,12 @@ $verifiedEmail =$array["emailVerified"];
     $_SESSION["college"] = $college;
 
 if ($verifiedEmail == 1)
-    $_SESSION["verified"] = true;
+    $_SESSION["verified"] = 1;
 else
-     $_SESSION["verified"] = false;
+     $_SESSION["verified"] = 2;
 
 print_r("HELLO");
+
 $sql = "SELECT * FROM users WHERE ID='$id'";
 $result = mysqli_query($conn, $sql);
 
