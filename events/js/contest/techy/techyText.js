@@ -44,7 +44,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/robosoccer"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/robosoccer" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -153,7 +153,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/robowars"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/robowars" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -250,7 +250,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/pirates"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/pirates" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -355,7 +355,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/roboquidditch"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/roboquidditch" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -449,7 +449,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/cadpro"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/cadpro" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -545,7 +545,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/driftking"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/driftking" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -643,7 +643,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/bridgebuilder"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/bridgebuilder" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -746,7 +746,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/junkyardwars"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/junkyardwars" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -842,7 +842,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/electronicbloopers"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/electronicbloopers" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -939,7 +939,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/driftking"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/driftking" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1143,7 +1143,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/hackamaze"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/hackamaze" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1237,7 +1237,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/enigma"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/enigma" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1331,7 +1331,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/algorithma"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/algorithma" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1433,7 +1433,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/proquest"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/proquest" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1527,7 +1527,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/quadcopter"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/quadcopter" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1621,7 +1621,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/scitechquiz"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/scitechquiz" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
@@ -1717,7 +1717,7 @@ function getTechyContent(argument) {
         <div class="row">
             <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href="https://nvision.org.in/events/automobilequiz"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            <a href="https://nvision.org.in/events/automobilequiz" target="_blank"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
             </div>
         </div>
         <br>
