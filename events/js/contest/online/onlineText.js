@@ -152,9 +152,11 @@ function getOnlineContent(argument) {
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
                 <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/online/emblazon.jpg">
+                <h4 style="font-size:20px;margin-left:22%">Powered by Nikon</h4>
+                <img  class="img-thumbnail img-responsive" alt="event"  style="width:25%;height:150px;margin-left:20%;" src="images/online/Nikon_Logo.png">
   </div>
                 <div class="col-lg-3"></div>
-            </div>
+            </div18
         </div>
         <br>
         <div class="row">
@@ -188,11 +190,11 @@ function getOnlineContent(argument) {
                 <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:15px;">
-                    <li>Emblazon is the online photography contest organized by nvision and Elan IIT Hyderabad together.
+                    <li>Emblazon is the online photography contest organized by nvision and Elan IIT Hyderabad together in association with Nikon.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Upload your entry with the hashtag #Emblazon_IITH. Deadline for uploading your picture is 10th January, 2017.
+                    <li>Upload your entry with the hashtag #Emblazon_IITH. Deadline for uploading your picture is 13th January, 2017.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -204,15 +206,22 @@ function getOnlineContent(argument) {
                     <li>There is no entry fee or any age restriction to participate in this contest.
                         <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
+                     <li>There are two themes this year : <br>
+1.Streets<br>
+2.Festivals<br>
 
-                    <li>The theme for this year is VACATION. One can put any pictures taken in his/her vacation of any time.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
 
-                    <li>A maximum of three pictures will only be accepted per participant.
+
+
+                    <li>A maximum of two pictures per theme will only be accepted per participant.
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                     <li>The best 200 photographs will be shortlisted and sent to Nikon to be judged by their professional photographers.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
