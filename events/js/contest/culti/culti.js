@@ -210,6 +210,45 @@ $('body').on("click", ".just-duetButton", function() {
         });
     });
 
+// Event registration of  vibrazione starts
+
+
+$('body').on("click", ".vibrazioneButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('vibrazione')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'vibrazione'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for vibrazione');
+                            $('.vibrazioneButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'vibrazione'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from vibrazione');
+                            $('.vibrazioneButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }
+    });
+
+// Event registration of vibrazione ends
+
     $('body').on("click", ".octaves", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -220,6 +259,44 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+
+// Event registration of octaves starts
+
+
+$('body').on("click", ".octavesButton", function() {
+        if(track==0){
+                        alert('Please Sign In Before Registering');
+                        return;
+                }
+        if(verified==2){
+                        alert('Please Verify Your Mail Id First');
+                        return;
+                }
+
+        if(events.indexOf('octaves')==-1){
+        $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'octaves'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully registered for octaves');
+                            $('.octavesButton').html('UNREGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Registering');
+        });
+    }
+    else{
+        $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'octaves'}, function(result){
+            if(result!="failure"){
+                            alert('Successfully Deregistered from octaves');
+                            $('.octavesButton').html('REGISTER');
+                            events=result;
+                        }
+            else
+                alert('Some Error Ocurred While Deregistering');
+        });
+    }
+    });
+// Event registration of octaves ends
 
     $('body').on("click", ".andaazapnapna", function() {
         $(".cultiBigDiv").hide("slide", {
@@ -232,7 +309,42 @@ $('body').on("click", ".just-duetButton", function() {
         });
     });
 
+    // Event registration of andaazapnapna starts
+    $('body').on("click", ".andaazapnapnaButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('andaazapnapna')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'andaazapnapna'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for andaazapnapna');
+                                $('.andaazapnapnaButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'andaazapnapna'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from andaazapnapna');
+                                $('.andaazapnapnaButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of andaazapnapna ends
     $('body').on("click", ".nukkadnatak", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -244,6 +356,45 @@ $('body').on("click", ".just-duetButton", function() {
         });
     });
 
+    // Event registration of nukkadnatak starts
+
+    $('body').on("click", ".nukkadnatakButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
+
+            if(events.indexOf('nukkadnatak')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'nukkadnatak'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for nukkadnatak');
+                                $('.nukkadnatakButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'nukkadnatak'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from nukkadnatak');
+                                $('.nukkadnatakButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of nukkadnatak ends
+
+
     $('body').on("click", ".filmfarefiesta", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -254,7 +405,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of filmfarefiesta starts
 
+    $('body').on("click", ".filmfarefiestaButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
+
+            if(events.indexOf('filmfarefiesta')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'filmfarefiesta'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for filmfarefiesta');
+                                $('.filmfarefiestaButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'filmfarefiesta'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from filmfarefiesta');
+                                $('.filmfarefiestaButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+    // Event registration of filmfarefiesta ends
     $('body').on("click", ".picelectic", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -265,7 +451,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of picelectic starts
+    $('body').on("click", ".picelecticButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('picelectic')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'picelectic'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for picelectic');
+                                $('.picelecticButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'picelectic'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from picelectic');
+                                $('.picelecticButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of picelectic ends
     $('body').on("click", ".lightscamera", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -276,7 +497,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of lightscamera starts
+    $('body').on("click", ".lightscameraButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('lightscamera')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'lightscamera'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for lightscamera');
+                                $('.lightscameraButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'lightscamera'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from lightscamera');
+                                $('.lightscameraButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of lightscamera ends
     $('body').on("click", ".facepainting", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -287,7 +543,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of facepainting starts
 
+    $('body').on("click", ".facepaintingButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
+
+            if(events.indexOf('facepainting')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'facepainting'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for facepainting');
+                                $('.facepaintingButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'facepainting'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from facepainting');
+                                $('.facepaintingButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+    // Event registration of facepainting ends
     $('body').on("click", ".nailart", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -298,7 +589,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of nailart starts
 
+    $('body').on("click", ".nailartButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
+
+            if(events.indexOf('nailart')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'nailart'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for nailart');
+                                $('.nailartButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'nailart'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from nailart');
+                                $('.nailartButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+    // Event registration of nailart ends
     $('body').on("click", ".mehendi", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -310,7 +636,42 @@ $('body').on("click", ".just-duetButton", function() {
         });
     });
 
+    // Event registration of mehendi starts
 
+    $('body').on("click", ".mehendiButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
+
+            if(events.indexOf('mehendi')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'mehendi'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for mehendi');
+                                $('.mehendiButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'mehendi'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from nukkadnatak');
+                                $('.mehendiButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+    // Event registration of mehendi ends
     $('body').on("click", ".claymodelling", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -322,7 +683,42 @@ $('body').on("click", ".just-duetButton", function() {
         });
     });
 
+    // Event registration of claymodelling starts
+    $('body').on("click", ".claymodellingButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('claymodelling')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'claymodelling'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for claymodelling');
+                                $('.claymodellingButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'claymodelling'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from claymodelling');
+                                $('.claymodellingButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of claymodelling ends
     $('body').on("click", ".artexhibition", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -333,7 +729,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of artexhibition starts
+    $('body').on("click", ".artexhibitionButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('artexhibition')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'artexhibition'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for artexhibition');
+                                $('.artexhibitionButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'artexhibition'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from artexhibition');
+                                $('.artexhibitionButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of artexhibition ends
 
     $('body').on("click", ".djwars", function() {
         $(".cultiBigDiv").hide("slide", {
@@ -346,7 +777,42 @@ $('body').on("click", ".just-duetButton", function() {
         });
     });
 
+    // Event registration of djwars starts
 
+    $('body').on("click", ".djwarsButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
+
+            if(events.indexOf('djwars')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'djwars'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for djwars');
+                                $('.djwarsButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'djwars'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from djwars');
+                                $('.djwarsButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+    // Event registration of djwars ends
 
     $('body').on("click", ".rjhunt", function() {
         $(".cultiBigDiv").hide("slide", {
@@ -360,7 +826,42 @@ $('body').on("click", ".just-duetButton", function() {
     });
 
 
+    // Event registration of rjhunt starts
+    $('body').on("click", ".rjhuntButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('rjhunt')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'rjhunt'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for rjhunt');
+                                $('.rjhuntButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'rjhunt'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from rjhunt');
+                                $('.rjhuntButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of rjhunt ends
     $('body').on("click", ".lendmeurvoice", function() {
         $(".cultiBigDiv").hide("slide", {
             direction: "up"
@@ -371,7 +872,42 @@ $('body').on("click", ".just-duetButton", function() {
             }, 500);
         });
     });
+    // Event registration of lendmeurvoice starts
+    $('body').on("click", ".lendmeurvoiceButton", function() {
+            if(track==0){
+                            alert('Please Sign In Before Registering');
+                            return;
+                    }
+            if(verified==2){
+                            alert('Please Verify Your Mail Id First');
+                            return;
+                    }
 
+            if(events.indexOf('lendmeurvoice')==-1){
+            $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'lendmeurvoice'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully registered for lendmeurvoice');
+                                $('.lendmeurvoiceButton').html('UNREGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Registering');
+            });
+        }
+        else{
+            $.post("../unregisterEvent.php", {id: _id , email: email , elanId:elanId, contest:'lendmeurvoice'}, function(result){
+                if(result!="failure"){
+                                alert('Successfully Deregistered from lendmeurvoice');
+                                $('.lendmeurvoiceButton').html('REGISTER');
+                                events=result;
+                            }
+                else
+                    alert('Some Error Ocurred While Deregistering');
+            });
+        }
+        });
+
+    // Event registration of lendmeurvoice ends
     $('body').on('click', "#backCulti", function() {
         setTimeout(function() {
             changeCultiContent();
