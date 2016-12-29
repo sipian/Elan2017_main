@@ -88,6 +88,7 @@ $('body').on("click", ".culti", function() {
             changeContest();
             $('.cultiDiv').css("display", "block");
             $('.cultiDiv').addClass('animated bounceInUp');
+            checkCultiRegister();
         }, 750);
     });
 });

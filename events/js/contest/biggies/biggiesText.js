@@ -287,8 +287,8 @@ function getBiggiesContent(argument) {
     return ret;
     }
 
-  else if(argument=='manthan')
-		return `\`
+  else if(argument=='manthan'){
+		let ret = `\`
         <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
@@ -330,8 +330,12 @@ src="images/biggies/manthan_small.jpg">
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
-        </div>
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg manthanButton" style="align:center;">`;
+            ret += (events.indexOf('manthan')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
+            </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
@@ -573,5 +577,7 @@ src="images/biggies/manthan_small.jpg">
             </div>
         </div>
     </div>
-  </div>\``;
+  </div>\``
+  return ret;
+};
 }

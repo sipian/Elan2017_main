@@ -7,9 +7,7 @@ if ($detect->isMobile()) {
     exit(0);
 }
 ?>
-<?php 
-session_start();
- ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,7 +25,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="css/hover.css">
         <link rel="stylesheet" type="text/css" href="css/junk.css">
 
-    <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="../navbar/navbar2.css">
     <link rel="stylesheet" href="../styles/footer.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -36,7 +34,7 @@ session_start();
 
     <!-- pre loader link sheets -->
         <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/loader.css">
     <!-- pre loader link sheets ends  -->
 
   </head>
@@ -92,49 +90,103 @@ session_start();
     box-shadow: none;
     }
   </style>
+                  <style>
+.dropbtn {
+    color: white;
+    padding: 1px;
+/*    font-size: 16px;
+*/    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
   <body style="overflow-y: hidden;">
 
 
-<div class='loader'>
-<div class="warrior">
-    <img src="../images/loading.png" style='width:100%;' border="0" alt="Null"></div>
-  <div class='loader-container'>
-    
-<br><br><br><br>
-     <br>
 
+<div class='loader'>
+   <div class='loader-container'>  
+   <img src="../images/loading.png" style='width:100%;' border="0" alt="Null">
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>
-    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
   </div>
 </div>
 
-
     <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;">
+        <div  style="position:fixed;left:4px;top:-5px;" class="qwerDIV">
                <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
                <map name="cyient">
                   <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
                </map>
-            </div>
-            <div class="left">
-                        <a class="scroll" href="../about">About</a>
-                        <a class="scroll" href="../events">Events</a>
-            </div>
-            <div class="center1">
-            <img src="../images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">
-            <map name="mapname">
-              <area shape="rect" coords="20,0,380,160" href="../" alt="alttext" style="outline: none;">
-            </map>
-            </div>
-            <div class="right"  style="float: right;">
-                        <a class="scroll" href="../sponsors">Sponsor</a>
-                        <a class="scroll" href="../team">Team</a>
-            </div>
+        </div>
+        <div class="left">
+                        <a class="scroll" href="about">About</a>
+                        <a class="scroll" href="events">Events</a>
+                        <a class="scroll" hresf="sponsors">Sponsors</a>
+        </div>
+        
+        <div class="center1">
+        <a href="../">
+            <img src="../images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo" usemap="#mapname">
+        </a>
+        </div>
+        
+        <div class="right">
+                        <a class="scroll" href="team">Team</a>
+                        <a class="scroll" href="hospitality">Hospitality</a>
+                        <?php
+                        session_start();
+                            $tim;
+                            $name = $_SESSION["name"];
+                             
+                             if(isset($_SESSION["id"]))
+                             
+                             $tim = "
+                                <div class=\"dropdown\">
+                                    <a class=\"scroll dropbtn\" href=\"#\">Hi $name<span class=\"caret\"></span></a>
+                                    <div class=\"dropdown-content\">
+                                        <a class=\"scroll\" href=\"../dashboard.php\">Dashboard</a>
+                                        <a class=\"scroll\" href=\"../signout.php\">Sign Out</a>
+                                    </div>
+                                </div>";
+                            else  $tim = "<a class=\"scroll\" href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\">Register</a>";
+                            echo $tim;
+                        ?>
+        </div>
+        <div  style="position:fixed;right:4px;top:-5px;" class="qwerDIV">
+               <img src="../images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
+        </div>
+
         </nav>
     </div>
+
 
 
     <div id="pt-main" class="pt-perspective container-fluid">
@@ -438,12 +490,17 @@ session_start();
       var elanId="<?php echo $_SESSION['elanId']; ?>";
       var college="<?php echo $_SESSION['college']; ?>";
       var events="<?php echo $_SESSION['events']; ?>".split(",");
-      var verified=<?php echo $_SESSION['verified']; ?>;
+      var verified=
+      <?php 
+      if(isset($_SESSION['id']))
+          echo $_SESSION['verified']; 
+        else echo 3;
+      ?>;
       
   </script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
     
   <script src="js/modernizr.custom.js"></script>
 
@@ -552,8 +609,18 @@ session_start();
   <script src="js/pagetransitions.js?version=1.0"></script>
   <script src="js/contest/biggies/biggiesText.js?version=1.0"></script>
   <script src="js/contest/biggies/biggies.js?version=1.0"></script>
+
+
+
+
   <script src="js/contest/culti/cultiText.js?version=1.0"></script>
   <script src="js/contest/culti/culti.js?version=1.0?version=1.0"></script>
+  <script src="js/contest/culti/cultiPageTransitionRegister.js?version=1.0"></script>
+  <script src="js/contest/culti/cultiCulti.js?version=1.0?version=1.0"></script>
+
+
+
+
   <script src="js/contest/techy/techyText.js"></script>
   <script src="js/contest/techy/techy.js"></script>
   <script src="js/contest/infi/infiText.js?version=1.0"></script>
@@ -562,7 +629,7 @@ session_start();
   <script src="js/contest/online/online.js?version=1.0"></script>
   <script src="js/contest/litr/litrText.js?version=1.0"></script>
   <script src="js/contest/litr/litr.js?version=1.0"></script>
-  <script src="../navbar/navbar.js?version=1.0"></script>
+  <script src="../navbar/navbar2.js?version=1.0"></script>
 
 </html>
 

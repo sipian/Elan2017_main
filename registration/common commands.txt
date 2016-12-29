@@ -1,7 +1,8 @@
 drop table users;
 drop table users_unverified;
 drop table elanejung;
-
+drop table manthan;
+drop table breakfree;
 
 CREATE TABLE users(
 	ID varchar(100) PRIMARY KEY,
@@ -27,6 +28,25 @@ create table elanejung(
 	elanId varchar(10),
 	email varchar(100) NOT NULL
 );
+
+create table manthan(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table breakfree(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table looseyourfeet(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
 
 insert into users values('5864195760d96d2fe331d7e7' , '3' , 'prateek' , '$2a$10$B/HXGbZDBjO0CuPIa53eWukK/CDpyvR9QjSaqILDx7kIJ5Hp/7oE2' , 'IITH' , '9876543210' , 'cs15btech11031@iith.ac.in' , 'elanejung,manthan');
 <?php
