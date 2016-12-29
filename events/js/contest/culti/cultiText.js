@@ -2,10 +2,10 @@ function getCultiContent(argument) {
 if (argument == 'breakfree'){
     let ret = `\`
         <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -62,7 +62,7 @@ if (argument == 'breakfree'){
           <br>
           Elan 2017 provides a platform for all the passionate dancers to show their talent and mesmerize the audience.
           <br>
-          If you really dance from the heart, if dance runs through your veins 
+          If you really dance from the heart, if dance runs through your veins
           <br>
           and if dance is in every minute of your life........................... This is where you should be !!!
           <br>
@@ -159,10 +159,10 @@ if (argument == 'breakfree'){
     }
 if (argument == 'looseyourfeet'){
     let ret = `\`
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -219,7 +219,7 @@ if (argument == 'looseyourfeet'){
           <br>
           An event for pro solo dancers​,
           <br>
-          Loose your feet is where you can make the crowd go crazy 
+          Loose your feet is where you can make the crowd go crazy
           <br>with those awesome, super cool moves!!
           <br>
         </div>
@@ -311,14 +311,14 @@ if (argument == 'looseyourfeet'){
     return ret;
     }
 
-    
+
 if (argument == 'nrityanjali')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -354,6 +354,14 @@ return ` \`
     </div>
     <br>
     <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg nrityanjaliButton" style="align:center;">`;
+            ret += (events.indexOf('nrityanjali')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
+        </div>
+    <div class="row">
       <div class="col-lg-5">&nbsp;</div>
       <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
     </div>
@@ -375,10 +383,10 @@ return ` \`
           <br>
           Classical dance is the fusion of mind's emotions and body's articulate movements.
           <br>
-          So, we call upon all the classical dancers to come 
+          So, we call upon all the classical dancers to come
           <br> and produce the medley of most graceful and most expressive.
           <br>
-          Come....drown yourself in divine, grace, beauty, tenderness 
+          Come....drown yourself in divine, grace, beauty, tenderness
           <br>to delight the eyes and souls of the viewers.
         </div>
       </div>
@@ -421,7 +429,7 @@ return ` \`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>You can perform in any Indian classical dance form 
+          <li>You can perform in any Indian classical dance form
             <br>
             [we'd love to see Bharatanatyam, Kuchipudi, Odissi, Mohiniyattam and others].
             <br> However there are no separate judging categories for the different forms.
@@ -438,10 +446,10 @@ return ` \`
 if (argument == 'just-duet')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -494,8 +502,8 @@ return ` \`
           <br>
           An event for pro solo dancers​,Participants need to showcase their talent by dancing in duo.
           <br>
-          Could be couple or anyone who can dance to the grooves 
-          <br> 
+          Could be couple or anyone who can dance to the grooves
+          <br>
           coordinating each other which is by the way very essential part of this event.
           <br>
         </div>
@@ -553,7 +561,7 @@ return ` \`
             Round 2(final round)<br>
             <ul style="list-style-type: circle;margin-left:10%;">
               <li>Participants should dance to the tracks given by the Organizers.</li>
-              <li>Each team will be given time to choreograph for the song, 
+              <li>Each team will be given time to choreograph for the song,
                 <br>which will not exceed 15 minutes.
               </li>
               <li>An additional time of 2 minutes will be given for settling.</li>
@@ -575,10 +583,10 @@ return ` \`
 if (argument == 'vibrazione')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -627,9 +635,9 @@ return ` \`
         <h3 style="text-align: center;">ABOUT</h3>
         <div>
           <br>
-          Wanna put your singing skills to the test? 
+          Wanna put your singing skills to the test?
           <br>
-          Got a versatile voice that can mesmerize everyone? 
+          Got a versatile voice that can mesmerize everyone?
           <br>
           Put your heart to it and sing your way to glory!
           <br>
@@ -681,8 +689,8 @@ return ` \`
           <li>Elimination Round:
             <br>
             To participate in the Vibrazione, you must have 5 songs that you know very well
-            <br> and must be ready to perform any of those 5 songs for the competition. 
-            <br>If someone else has chosen your song, 
+            <br> and must be ready to perform any of those 5 songs for the competition.
+            <br>If someone else has chosen your song,
             <br>or something does not work out with your first choice,
             <br> you will need to be ready to sing your other choice.
             <br>
@@ -708,10 +716,10 @@ return ` \`
 if (argument == 'octaves')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -826,7 +834,7 @@ return ` \`
             Round 1<br>
             <ul style="list-style-type: circle;margin-left:10%;">
               <li>Participants will be given 6 minutes to play anything they want.</li>
-              <li>Based on the scores of the first round 2 participants 
+              <li>Based on the scores of the first round 2 participants
                 <br>from each category progresses into the second round.
               </li>
               <li>Overshooting the time limit will result in a penalty.</li>
@@ -836,10 +844,10 @@ return ` \`
           <li>
             Round 2<br>
             <ul style="list-style-type: circle;margin-left:10%;">
-              <li>*The second round will be a face-off between the top two from each category. 
+              <li>*The second round will be a face-off between the top two from each category.
                 <br>i.e. the first in melody vs the second in melody and similarly for percussion.
               </li>
-              <li>After qualification after the first round, 
+              <li>After qualification after the first round,
                 <br>the finalists will be given tracks to play over.
                 <br> i.e., the melody finalists will be given tracks with percussion to play over and vice-versa.
                 <br>This will be done to ensure fair judging  .
@@ -857,10 +865,10 @@ return ` \`
 if (argument == 'andaazapnapna')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1012,10 +1020,10 @@ return ` \`
 if (argument == 'filmfarefiesta')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1124,11 +1132,11 @@ return ` \`
               <li>Dialogues</li>
               <br>
               <li>Cinematography</li>
-              <br>  
+              <br>
               <li>Sound editing/ mixing</li>
-              <br>  
+              <br>
               <li>Visual effects</li>
-              <br>  
+              <br>
             </ul>
           </li>
           <br>
@@ -1145,7 +1153,7 @@ return ` \`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>Movie should be shot at a minimum resolution of 480 pixels. 
+          <li>Movie should be shot at a minimum resolution of 480 pixels.
             <br>Marks might be reduced due to poor video/ audio quality.
             <br>
           </li>
@@ -1162,7 +1170,7 @@ return ` \`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>Participants should send their videos/youtube links of the videos to 
+          <li>Participants should send their videos/youtube links of the videos to
             <br>nanda@elan.org.in and harsha@elan.org.in
             <br>
           </li>
@@ -1180,10 +1188,10 @@ return ` \`
 if (argument == 'picelectic')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1269,7 +1277,7 @@ return ` \`
         <h3 style="text-align: center;">RULES</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
-          <li>The captures must be only during the 3 days of the ELAN fest 
+          <li>The captures must be only during the 3 days of the ELAN fest
             <br>and only inside IIT Hyderabad premises.
             <br>
           </li>
@@ -1297,10 +1305,10 @@ return ` \`
 if (argument == 'nukkadnatak')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1349,13 +1357,13 @@ return ` \`
         <h3 style="text-align: center;">ABOUT</h3>
         <div>
           <br>
-          Haven't you ever wanted to change the way our country functions? 
+          Haven't you ever wanted to change the way our country functions?
           <br>
           Well, it's time to be the change you want to see!
           <br>
           Elan 2017 is bringing Forward, Nukkad Natak-A Street Play Competition.
           <br>
-          It is all about creating awareness about social problems that plague our soil 
+          It is all about creating awareness about social problems that plague our soil
           <br>and bringing about realization in our youth!.
           <br>
         </div>
@@ -1457,10 +1465,10 @@ return ` \`
 if (argument == 'facepainting')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1509,7 +1517,7 @@ return ` \`
           <br>
           You think you can have a face funkier than infamous "THE MASK".
           <br>
-          Then here's something interesting for you. ELAN 2017's infamous Face Painting is back! 
+          Then here's something interesting for you. ELAN 2017's infamous Face Painting is back!
           <br>
           Grab a brush and make your friend's face funny and beautiful.
           <br>
@@ -1595,10 +1603,10 @@ return ` \`
 if (argument == 'nailart')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1643,7 +1651,7 @@ return ` \`
         <h3 style="text-align: center;">ABOUT</h3>
         <div>
           <br>
-          Can you add your intricate details creatively on much smaller canvas like finger nails? 
+          Can you add your intricate details creatively on much smaller canvas like finger nails?
           <br>
           Then come, show up your talent in 'Nail Art' of ELAN 2017!!
           <br>
@@ -1720,10 +1728,10 @@ return ` \`
 if (argument == 'mehendi')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1768,7 +1776,7 @@ return ` \`
         <h3 style="text-align: center;">ABOUT</h3>
         <div>
           <br>
-          Mehndi adorns the hands and Life takes on a new color. 
+          Mehndi adorns the hands and Life takes on a new color.
           <br>
           So let the henna flow out of your cones and let's see what color it brings to your life.
           <br>
@@ -1867,10 +1875,10 @@ return ` \`
 if (argument == 'claymodelling')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -1917,7 +1925,7 @@ return ` \`
           <br>
           Come!
           <br>
-          Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay! 
+          Bring life to figments of your own thoughts and imaginations by moulding beautiful structures out of clay!
           <br>
           Win exciting prizes!!
           <br>
@@ -2002,10 +2010,10 @@ return ` \`
 if (argument == 'lendmeurvoice')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -2098,7 +2106,7 @@ return ` \`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>After choosing the video the participants will be given another half hour for preparation
-            <br> in which they are supposed to come up with a humorous and entertaining version 
+            <br> in which they are supposed to come up with a humorous and entertaining version
             <br>of the video by putting their own voice into the characters.
             <br>
           </li>
@@ -2127,7 +2135,7 @@ return ` \`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>During the competition, the audio of the clipping will be muted,
-            <Br> and the participants have to make out their own dialogues 
+            <Br> and the participants have to make out their own dialogues
             <br>and deliver it parallel in sequence with the video and must make it as funny as possible.
             <br>
           </li>
@@ -2158,10 +2166,10 @@ return ` \`
 if (argument == 'artexhibition')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -2206,30 +2214,30 @@ return ` \`
         <h3 style="text-align: center;">ABOUT</h3>
         <div>
           <br>
-          Ever visited an art gallery? 
+          Ever visited an art gallery?
           <br>
-          Ever checked out those portraits costing so much? 
+          Ever checked out those portraits costing so much?
           <br>
           Which one of those trillion random colour strokes on the canvas you think makes it so expensive?
           <br>
-          It's all about language of the heart which uses the paints and a brush 
-          <br>to put the emotions flowing in a river of imagination on the canvas. 
+          It's all about language of the heart which uses the paints and a brush
+          <br>to put the emotions flowing in a river of imagination on the canvas.
           <br> And that is "ART".
           <br>
           <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"EVERYTHING YOU CAN IMAGINE IS REAL" -
-          <br> 
+          <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           Pablo Picasso
           <br>
           <br>
-          Art is an expression,a representation of what a person's vivid thoughts and emotions speak. 
+          Art is an expression,a representation of what a person's vivid thoughts and emotions speak.
           <br>
-          Every stroke of the brush dipped, every colour chosen, every shade painted, has its own meaning. 
+          Every stroke of the brush dipped, every colour chosen, every shade painted, has its own meaning.
           <br>
-          So here is ELAN encouraging you to come up with your meaningful strokes to be a part of its colourful art gallery. 
+          So here is ELAN encouraging you to come up with your meaningful strokes to be a part of its colourful art gallery.
           <br>
           The gallery is open to everyone throughout the fest.
           <br>
@@ -2320,8 +2328,8 @@ return ` \`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li> Entries that are received on or before 22 Jan 2017 will be evaluated. 
-            <br>Those received through post during ELAN will not be evaluated, 
+          <li> Entries that are received on or before 22 Jan 2017 will be evaluated.
+            <br>Those received through post during ELAN will not be evaluated,
             <br>only those received in person are evaluated.
             <br>
           </li>
@@ -2348,10 +2356,10 @@ return ` \`
 if (argument == 'djwars')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -2474,10 +2482,10 @@ return ` \`
 if (argument == 'rjhunt')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -2526,9 +2534,9 @@ return ` \`
         <h3 style="text-align: center;">ABOUT</h3>
         <div>
           <br>
-          Ever been called a chatterbox? 
+          Ever been called a chatterbox?
           <br>
-          If you are good at entertaining your friends with non-stop,    
+          If you are good at entertaining your friends with non-stop,
           <br>animated, energetic chatter, here's the right platform to test how good you are!
           <br>
           Entertain the crowd, and you might probably find yourself among the RJ legends!
@@ -2572,7 +2580,7 @@ return ` \`
             <ul style="list-style-type: circle;margin-left:10%;">
               <li>This round will be an online as well as a spot round for spot registered candidates.</li>
               <br>
-              <li>People who have registered online have to send a recorded file 
+              <li>People who have registered online have to send a recorded file
                 <br>(.mp3 or .wav format) where they have to speak on a topic for about two minutes
                 <br> and the people who are selected go to the interview round directly.
                 <br> The recording should be done either in Telugu ,English or Hindi.
@@ -2628,10 +2636,10 @@ return ` \`
 if (argument == 'lendmeurvoice')
 return ` \`
 <p><br></p>
-<div class='contest' 
+<div class='contest'
   style="padding-bottom: 150px;
   padding-left:20px;
-  background-image: url('images/event_details.png');  
+  background-image: url('images/event_details.png');
   background-repeat:  no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -2724,7 +2732,7 @@ return ` \`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>After choosing the video the participants will be given another half hour for preparation
-            <br> in which they are supposed to come up with a humorous and entertaining version 
+            <br> in which they are supposed to come up with a humorous and entertaining version
             <br>of the video by putting their own voice into the characters.
             <br>
           </li>
@@ -2753,7 +2761,7 @@ return ` \`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>During the competition, the audio of the clipping will be muted,
-            <Br> and the participants have to make out their own dialogues 
+            <Br> and the participants have to make out their own dialogues
             <br>and deliver it parallel in sequence with the video and must make it as funny as possible.
             <br>
           </li>

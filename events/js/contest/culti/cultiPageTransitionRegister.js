@@ -8,5 +8,8 @@ function checkCultiInsideRegister() {
         $(".culti").trigger("click");
         $(".cultiBigDiv").html(getCultiContent('looseyourfeet'));
     }
-    
+    if(window.location.href.indexOf("nrityanjali") > -1){
+        $(".culti").trigger("click");
+        $(".cultiBigDiv").html(getCultiContent('nrityanjali'));
+    }
 }

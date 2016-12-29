@@ -47,6 +47,14 @@ create table looseyourfeet(
     email varchar(100) NOT NULL
 );
 
+create table nrityanjali(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+
 
 insert into users values('5864195760d96d2fe331d7e7' , '3' , 'prateek' , '$2a$10$B/HXGbZDBjO0CuPIa53eWukK/CDpyvR9QjSaqILDx7kIJ5Hp/7oE2' , 'IITH' , '9876543210' , 'cs15btech11031@iith.ac.in' , 'elanejung,manthan');
 <?php
@@ -106,10 +114,10 @@ $verifiedEmail;
 
     $_SESSION["id"] = $id;
     $_SESSION["email"] = $email;
-    $_SESSION["verified"] = false;    
-    $_SESSION["name"] = $name;    
-    $_SESSION["mobile"] = $mobile;    
-    $_SESSION["college"] = $college; 
+    $_SESSION["verified"] = false;
+    $_SESSION["name"] = $name;
+    $_SESSION["mobile"] = $mobile;
+    $_SESSION["college"] = $college;
 
 
 if ($verifiedEmail==false)
