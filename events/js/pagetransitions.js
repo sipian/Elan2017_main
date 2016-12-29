@@ -99,6 +99,7 @@ $('body').on("click", ".infi", function() {
             changeContest();
             $('.infiDiv').css("display", "block");
             $('.infiDiv').addClass('animated bounceInUp');
+            checkInfiRegister();
         }, 750);
     });
 });
@@ -109,8 +110,7 @@ $('body').on("click", ".online", function() {
             changeContest();
             $('.onlineDiv').css("display", "block");
             $('.onlineDiv').addClass('animated bounceInUp');
-            if(window.location.href.indexOf("emblazon") > -1)
-                $(".emblazon").trigger("click");
+            checkOnlineRegister();
         }, 750);
     });
 
@@ -122,6 +122,7 @@ $('body').on("click", ".litr", function() {
             changeContest();
             $('.litrDiv').css("display", "block");
             $('.litrDiv').addClass('animated bounceInUp');
+            checkLitrRegister();
         }, 750);
     });
 });
