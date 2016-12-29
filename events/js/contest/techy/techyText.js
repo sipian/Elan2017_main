@@ -3,10 +3,10 @@ function getTechyContent(argument) {
     if (argument == 'robo_soccer')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -42,9 +42,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-5" > &nbsp; </div>
             <div class="col-lg-6">
-            <a href='https://nvision.org.in/events/robosoccer' target='_blank'><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a></div>
+            <a href="https://nvision.org.in/events/robosoccer"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -56,11 +57,11 @@ function getTechyContent(argument) {
                 <br>
                 Do you want to become the Robosoccer League champion?
                 <br>
-                You gotta prove it. 
+                You gotta prove it.
                 <br>
-                Bring on your bots on the field  and lead 
+                Bring on your bots on the field  and lead
                 <br>
-                your soccer team to victory! 
+                your soccer team to victory!
                 <br>
                 </div>
             </div>
@@ -92,11 +93,11 @@ function getTechyContent(argument) {
                 <br>
                 Do you want to become the Robosoccer League champion?
                 <br>
-                You gotta prove it. 
+                You gotta prove it.
                 <br>
-                Bring on your bots on the field  and lead 
+                Bring on your bots on the field  and lead
                 <br>
-                your soccer team to victory! 
+                your soccer team to victory!
                 <br>
                 </div>
             </div>
@@ -111,10 +112,10 @@ function getTechyContent(argument) {
     if (argument == 'robo_wars')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -150,8 +151,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/robowars"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -161,13 +164,13 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                This January, witness the most brutal of all the Robotics competitions 
+                This January, witness the most brutal of all the Robotics competitions
                 <br>
-                when two combat Robots go head to head 
+                when two combat Robots go head to head
                 <br>
                 to earn the Ultimate glory!!!
                 <br>
-                Design and construct a remote controlled robot 
+                Design and construct a remote controlled robot
                 <br>
                 capable of fighting a one on one tournament.
                 <br>
@@ -206,10 +209,10 @@ function getTechyContent(argument) {
     if (argument == 'pirates')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -245,8 +248,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/pirates"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -257,21 +262,21 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                To rule the sun and the galaxy that man’s ancestors feared and worshipped, 
+                To rule the sun and the galaxy that man’s ancestors feared and worshipped,
                 <br>
-                he tries to bring to this world new ideas and technology 
+                he tries to bring to this world new ideas and technology
                 <br>
-                both simple and sophisticated 
+                both simple and sophisticated
                 <br>
                  but the 21st century man faces a dilemma due to rapid decrease in resources,
                 <br>
                  thanks to his belief in limitless comfort,
                 <br>
-                 he has to now struggle to obtain the 
+                 he has to now struggle to obtain the
                  <br>
                  last bit of resources that could sustain his existence.
                 <br>
-                 So now in Elan 2017 we bring to you the event PIRATES 
+                 So now in Elan 2017 we bring to you the event PIRATES
                  <br>
                  in which envisage this future by a fight to death between 21st century man’s best friend “Robots”.
                 </div>
@@ -309,10 +314,10 @@ function getTechyContent(argument) {
     if (argument == 'robo_epic')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -348,8 +353,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/roboquidditch"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -360,9 +367,9 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;margin-left:-70px;">ABOUT</h3>
                 <div>
                 <br>
-                "It’s time to test your basic robotics skills! 
+                "It’s time to test your basic robotics skills!
                 <br>
-                A line follower robot is an automated vehicle capable 
+                A line follower robot is an automated vehicle capable
                 <br>
                 of following a line without any human intervention".
                 <br>
@@ -401,10 +408,10 @@ function getTechyContent(argument) {
     if (argument == 'ojo_cada')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -440,8 +447,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/cadpro"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -454,7 +463,7 @@ function getTechyContent(argument) {
                 <br>
                 Contrive a way to outsmart your opponents
                 <br>
-                 in designing a CAD model. 
+                 in designing a CAD model.
                 <br>
                 It’s time to show off your expertise in designing.
                 <br>
@@ -495,10 +504,10 @@ function getTechyContent(argument) {
     if (argument == 'drift_king')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -534,8 +543,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/driftking"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -547,13 +558,13 @@ function getTechyContent(argument) {
                 <br>
                 Want to try making an IC engine?
                 <br>
-                Drift king gives you a chance to design a machine with given constraints. 
+                Drift king gives you a chance to design a machine with given constraints.
                 <br>
                 In this event, the contestants are expected to make to an IC engine powered machine,
                 <br>
-                that can be controlled remotely using a wireless remote controller, 
+                that can be controlled remotely using a wireless remote controller,
                 <br>
-                which can race against machines of similar construct 
+                which can race against machines of similar construct
                 <br>
                 on an all-terrain track packed with a number of obstacles.
                 </div>
@@ -591,10 +602,10 @@ function getTechyContent(argument) {
     if (argument == 'bridge_builder')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -630,8 +641,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/bridgebuilder"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -642,18 +655,18 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Civil Engineering is an art; 
+                Civil Engineering is an art;
                 <br>
-                 a profession of creative ability and logic. 
+                 a profession of creative ability and logic.
                 <br>
-                Architect provides an opportunity for participants 
+                Architect provides an opportunity for participants
                 <br>
                 to unleash their innovation in designing an object of significance and splendour .
                 <br>
-                This event aims to harness practical design and 
-                <br>constructional abilities of the participants. 
+                This event aims to harness practical design and
+                <br>constructional abilities of the participants.
                 <br>
-                Participants have to design a Bridge using Popsicle sticks 
+                Participants have to design a Bridge using Popsicle sticks
                 <br>(ice-cream sticks) satisfying the given constraints.
                 <br>
                 </div>
@@ -692,10 +705,10 @@ function getTechyContent(argument) {
     if (argument == 'junkyard_wars')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -731,8 +744,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/junkyardwars"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -742,11 +757,11 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;margin-left:-100px;">ABOUT</h3>
                 <div>
                 <br>
-                It’s time for your team to dive into 
+                It’s time for your team to dive into
                 <br>
                 innovation and creativity,
                 <br>
-                 find a good solution and emerge as jugaads. 
+                 find a good solution and emerge as jugaads.
                  <br>
                  So, pile up your enthusiasm to win the battle.
                 <br>
@@ -786,10 +801,10 @@ function getTechyContent(argument) {
     if (argument == 'electronic_champ')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -825,8 +840,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/electronicbloopers"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -839,9 +856,9 @@ function getTechyContent(argument) {
                 <br>
                 As your faults are rectified, your confidence is amplified.
                 <br>
-                Come this January and enjoy one of the most 
+                Come this January and enjoy one of the most
                 <br>
-                fascinating and interesting quizzes you will have ever encountered.  This is an on-spot event, 
+                fascinating and interesting quizzes you will have ever encountered.  This is an on-spot event,
                 <br>
                 an exciting journey which will let you explore the world of electronics.
                 <br>
@@ -881,10 +898,10 @@ function getTechyContent(argument) {
     if (argument == 'dtmf_race')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -920,8 +937,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/driftking"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -940,7 +959,7 @@ function getTechyContent(argument) {
                 <br>
                 competitors and hold the victory cup that is within
                 <br>
-                your hand’s reach. As the name sounds,  
+                your hand’s reach. As the name sounds,
                 <br>
                 this event will be an exciting race with interesting constraints!!
                 <br>
@@ -980,10 +999,10 @@ function getTechyContent(argument) {
     if (argument == 'elixir')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1031,9 +1050,9 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                In the recent decade, world has witnessed 
+                In the recent decade, world has witnessed
                 <br>
-                decrease in fuel resources like coal, petroleum. 
+                decrease in fuel resources like coal, petroleum.
                 <br>
                 Also, energy consumption for human needs has increased, especially ELECTRICITY.
                 <br>
@@ -1041,7 +1060,7 @@ function getTechyContent(argument) {
                 <br>
                 and their prices soar higher and higher, the think tanks of world starts
                 <br>
-                exploring other alternative sources of energy to harness….and so should YOU. 
+                exploring other alternative sources of energy to harness….and so should YOU.
                 <br>
                 So ELAN and ηvision 2k17 provides you the chance to
                 <br>
@@ -1083,10 +1102,10 @@ function getTechyContent(argument) {
     if (argument == 'hack_a_maze')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1122,8 +1141,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/hackamaze"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1134,7 +1155,7 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;margin-left:-70px;">ABOUT</h3>
                 <div>
                 <br>
-                The contestants will have to muddle their way 
+                The contestants will have to muddle their way
                 <br>
                 out of a series of conundrums,
                 <br>
@@ -1174,10 +1195,10 @@ function getTechyContent(argument) {
    if (argument == 'enigma')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1214,8 +1235,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/enigma"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1226,9 +1249,9 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Find the mysterious secret techniques to decrypt the given texts/messages. 
+                Find the mysterious secret techniques to decrypt the given texts/messages.
                 <br>
-                Clear all the levels in the allotted time to become the 
+                Clear all the levels in the allotted time to become the
                 <br>
                 ultimate "cryptacker". It's a pen and paper event.
                  <br>
@@ -1267,10 +1290,10 @@ function getTechyContent(argument) {
    if (argument == 'algo')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1306,8 +1329,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/algorithma"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1318,15 +1343,15 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Algorithma is the perfect event for those who like to 
+                Algorithma is the perfect event for those who like to
                 <br>
-                solve mathematical and logical puzzles as well as design algorithms, 
+                solve mathematical and logical puzzles as well as design algorithms,
                 <br>
                 regardless of your knowledge of programming.
                 <br>
-                Here we will test your problem solving ability in a series of steps. 
+                Here we will test your problem solving ability in a series of steps.
                 <br>
-                You will be given a set of puzzles and algorithmic problems. 
+                You will be given a set of puzzles and algorithmic problems.
                 <br>
                  You have to write pseudo code or steps for solving a problem in words or
                  <br>
@@ -1367,10 +1392,10 @@ function getTechyContent(argument) {
    if (argument == 'pro_quest')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1406,8 +1431,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/proquest"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1422,7 +1449,7 @@ function getTechyContent(argument) {
                 <br>
                 composed of three levels, for participants of all levels of expertise.
                 <br>
-                Experience the beginner, medium and advance levels of programming 
+                Experience the beginner, medium and advance levels of programming
                 <br>
                 from pen and paper programming to a truly challenging problem statement.
                 <br>
@@ -1459,10 +1486,10 @@ function getTechyContent(argument) {
    if (argument == 'quadcopter')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1498,8 +1525,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/quadcopter"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1510,9 +1539,9 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;margin-left:-70px;">ABOUT</h3>
                 <div>
                 <br>
-                Design and build a wireless remote controlled 
+                Design and build a wireless remote controlled
                 <br>
-                flying drone to complete the tasks with 
+                flying drone to complete the tasks with
                 <br>
                 highest points possible. There are two rounds
                 <br>
@@ -1551,10 +1580,10 @@ function getTechyContent(argument) {
    if (argument == 'science_quiz')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1590,8 +1619,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/scitechquiz"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1602,13 +1633,13 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;margin-left:-70px;">ABOUT</h3>
                 <div>
                 <br>
-                General Science Quiz. 
+                General Science Quiz.
                 <br>
                 You Need Not To Be Mad Scientist For It!
                 <br>
                 Out Of A Series Of Conundrums,
                 <br>
-                Just Answer Some Questions Which 
+                Just Answer Some Questions Which
                 <br>
                 99% Of India Doesn't Even Know About.
                 <br>
@@ -1645,10 +1676,10 @@ function getTechyContent(argument) {
    if (argument == 'auto_quiz')
         return `
     \` <p><br></p>
-    <div class='contest' 
+    <div class='contest'
       style="padding-bottom: 150px;
       padding-left:20px;
-      background-image: url('images/event_details.png');  
+      background-image: url('images/event_details.png');
       background-repeat:  no-repeat;
       background-attachment: scroll;
       background-size: contain;
@@ -1684,8 +1715,10 @@ function getTechyContent(argument) {
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-5" > &nbsp; </div>
+            <div class="col-lg-6">
+            <a href="https://nvision.org.in/events/automobilequiz"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></a>
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -1695,11 +1728,11 @@ function getTechyContent(argument) {
                 <h3 style="text-align: center;margin-left:-70px;">ABOUT</h3>
                 <div>
                 <br>
-                Heard About 'the Henry Ford Story'? 
+                Heard About 'the Henry Ford Story'?
                 <br>
                 Oh Yeah! You Must Have After All You're The Infamous Automobile Enthusiast.
                 <br>
-                Calling Everyone (not Only Mechanical Students) 
+                Calling Everyone (not Only Mechanical Students)
                 <br>
                 For Exciting Automobile Quiz At Elan And Ηvision 2017.
                 <br>
