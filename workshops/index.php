@@ -232,7 +232,7 @@ background-image:url(images/workshopBack.jpg);
 
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/andro_engine.html" >
+                    <a href="Workshop_details/andro_engine.html" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
@@ -326,7 +326,7 @@ background-image:url(images/workshopBack.jpg);
 <!-- previous workshops row -->   
 <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://elan.org.in/aiworkshop" class="portfolio-link" >
+                    <a href="#" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
@@ -342,7 +342,7 @@ background-image:url(images/workshopBack.jpg);
 
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://elan.org.in/ethicalhacking" class="portfolio-link" >
+                    <a href="#" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 
@@ -358,7 +358,7 @@ background-image:url(images/workshopBack.jpg);
 
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="http://elan.org.in/hapticsroboarm" class="portfolio-link" >
+                    <a href="#" class="portfolio-link" >
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 

@@ -124,11 +124,11 @@ $(document).ready(function() {
                         return;
                 }
 
-        if(events.indexOf('manthan')==-1){
+        if(events.indexOf('campus_princess')==-1){
         $.post("../registerEvent.php", {id: _id , email: email , elanId:elanId, contest:'campus_princess'}, function(result){
             if(result!="failure"){
-                            alert('Successfully registered for Manthan');
-                            $('.manthanButton').html('UNREGISTER');
+                            alert('Successfully registered for Campus Princess');
+                            $('.campus_princessButton').html('UNREGISTER');
                             events=result;
                         }
             else

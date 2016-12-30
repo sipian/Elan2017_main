@@ -4,7 +4,7 @@ function changeBiggiesContent() {
             <br>
           </p>
 <div class="table-responsive animated bounceInUp biggiesDiv" style="
-            padding-left:35px;
+            padding-left:-100px;
             padding-bottom: 350px;
             background-image: url('images/event_biggies.png');  
             background-repeat: no-repeat;
@@ -23,7 +23,7 @@ function changeBiggiesContent() {
               <tbody>
                 <tr>
                   <div class="row">
-                    <td class="col-lg-4" style="padding-left: 2%;">
+                    <td class="col-lg-4" style="padding-left: 0%;">
                       <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
                         <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                           <div class="flipper">
@@ -37,7 +37,7 @@ function changeBiggiesContent() {
                                   Watch As The Stage Is Converted Into A Battlefield As The Bands Sweat It Out In A Winner-get-all-no-holds-barred Contest
                                 </h3>
                                 <button type="button" class="btn btn-info elan-e-jung clickButton">
-                                ELAN-E-JUNG
+                                More&nbsp;Details
                                 </button>
                               </div>
                             </div>
@@ -45,7 +45,7 @@ function changeBiggiesContent() {
                         </div>
                       </div>
                     </td>
-                    <td class="col-lg-4" style="padding-left: 1%;">
+                    <td class="col-lg-4" style="padding-left: 0%;">
                       <div class="animated bounceInUp col-sm-8 text-center biggiesDiv">
                         <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                           <div class="flipper">
@@ -64,7 +64,7 @@ function changeBiggiesContent() {
                                 <br>
                                 <br>
                                 <button type="button" class="btn btn-info manthan clickButton">
-                                MANTHAN
+                                More&nbsp;Details
                                 </button>
                               </div>
                             </div>
@@ -87,7 +87,7 @@ function changeBiggiesContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info campus_princess">
-                                 CAMPUS&nbsp;PRINCESS
+                                 More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -101,16 +101,16 @@ function changeBiggiesContent() {
                   <div class="row">
                     <td class="col-lg-4">
                       <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                        <span style="margin-left: 60px;">
+                        <span style="margin-left: 30px;">
                         <img src="images/borderImg1.png" class="borderImg"
                           style="margin-bottom: -5px; ">
                         </span>
                         <br>
-                        <span class="contestName" style="margin-left: 72px;
+                        <span class="contestName" style="margin-left: -5px;
                           margin-right: -90px;">Elan-E-jung 
                         </span>
                         <br>
-                        <span style="margin-left: 60px;">
+                        <span style="margin-left: 30px;">
                         <img src="images/borderImg2.png" class="borderImg"
                           style="margin-bottom: -3px; ">
                         </span>
@@ -118,15 +118,15 @@ function changeBiggiesContent() {
                     </td>
                     <td class="col-lg-4 manthan">
                       <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                        <span style="margin-left: 45px;">
+                        <span style="margin-left: 30px;">
                         <img src="images/borderImg1.png" class="borderImg"
                           style="margin-bottom: -5px; ">
                         </span>
                         <br>
-                        <span class="contestName" style="margin-left: 55px;margin-right: -60px;">Manthan 
+                        <span class="contestName" style="margin-left: 25px;margin-right: -60px;">Manthan 
                         </span>
                         <br>
-                        <span style="margin-left: 45px;">
+                        <span style="margin-left: 30px;">
                         <img src="images/borderImg2.png" class="borderImg"
                           style="margin-bottom: -3px; ">
                         </span>
@@ -134,15 +134,15 @@ function changeBiggiesContent() {
                     </td>
                     <td class="col-lg-4 fmi">
                     <div class="animated bounceInUp col-sm-9 text-center biggiesDiv">
-                        <span style="margin-left: 45px;">
+                        <span style="margin-left: 30px;">
                         <img src="images/borderImg1.png" class="borderImg"
                           style="margin-bottom: -5px; ">
                         </span>
                         <br>
-                        <span class="contestName" style="margin-left: 55px;margin-right: -60px;">Campus&nbsp;Princess 
+                        <span class="contestName" style="margin-left: 25px;margin-right: -60px;">Campus&nbsp;Princess 
                         </span>
                         <br>
-                        <span style="margin-left: 45px;">
+                        <span style="margin-left: 30px;">
                         <img src="images/borderImg2.png" class="borderImg"
                           style="margin-bottom: -3px; ">
                         </span>

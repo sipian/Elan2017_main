@@ -410,8 +410,7 @@ function changeInfiContent() {
          </tr>
          <tr>
             <div class="row">
-               <td class="col-lg-4 " style="padding-left: 0%;">
-               </td>
+               <td class="col-lg-4 " style="padding-left: 0%;"></td>
                <td class="col-lg-4 " style="padding-left: 0%;"></td>
                <td class="col-lg-4 " style="padding-left: 0%;"></td>
             </div>
@@ -419,21 +418,6 @@ function changeInfiContent() {
          <tr>
             <div class="row">
                <td class="col-lg-4"  style="padding-left:4%;">
-                  <div class="animated bounceInUp col-sm-8 text-center infiDiv">
-                     <span style="margin-left:  0px;">
-                     <img src="images/borderImg1.png" class="borderImg"
-                        style="margin-bottom: -5px; ">
-                     </span>
-                     <br>
-                     <span class="contestName" style="margin-left: 34px;
-                        margin-right: 0px;">Campus&nbsp;Princess
-                     </span>
-                     <br>
-                     <span style="margin-left:  0px;">
-                     <img src="images/borderImg2.png" class="borderImg"
-                        style="margin-bottom: -3px; ">
-                     </span>
-                  </div>
                </td>
                <td class="col-lg-4"  style="padding-left:4%;"></td>
                <td class="col-lg-4"  style="padding-left:4%;"></td>

@@ -72,7 +72,7 @@ function getBiggiesContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 21st January 2017</div>
+                    <div class="col-lg-10">Date : 212nd January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -385,7 +385,7 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th January 2017</div>
+                    <div class="col-lg-10">Date : 21st January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -658,16 +658,16 @@ src="images/biggies/manthan_small.jpg">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:8.5%;" src="images/biggies/campus_princess.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:2.5%;" src="images/biggies/campus_princess.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
          <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-4">&nbsp;</div>
             <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg campus_princessButton" style="align:center;">`;
+            <button type="button" class="btn btn-primary btn-lg campus_princessButton" style="align:center;margin-left:60px;">`;
             ret += (events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER";
             ret +=`
             </button></div>
@@ -679,26 +679,30 @@ src="images/biggies/manthan_small.jpg">
 
  
             <div class="row about">
-                <h3 style="text-align: center;">ABOUT</h3>
+                <h3 style="text-align: center;margin-left:-68px;">ABOUT</h3>
                 <div>
                 <br>
                 An event for all those pretty ladies out there, here is your chance to get selected 
                 <br>
                 for the Femina Miss India beauty pageant!
                 <br>
-                In this star-studded event, watch as the beauty queens bedazzle you with their grace, 
+                In this star-studded event, watch as the beauty queens bedazzle you with their 
                 <br>
-                show their grit in the Q&A round and go on to take the crown.
+                grace, show their grit in the Q&A round and go on to take the crown.
                 </div>
             </div>
             <br>
                         <div class="row details">
-                <h3 style="text-align: center;">DETAILS</h3>
-                <br>
+                <h3 style="text-align: center;margin-left:-68px;">DETAILS</h3>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                    <div class="col-lg-10">Date : 21st January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 5:00 PM IST</div>
                 </div>
                 <br>
                 <div class="row">
@@ -709,7 +713,9 @@ src="images/biggies/manthan_small.jpg">
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    Prize :&nbsp;Coming&nbsp;Soon
+                    The WINNER gets direct entry into the final round of 
+                    <br>
+                    Miss India 2017 Mumbai Auditions. 
                     <br>
                     <br>
                     </div>
