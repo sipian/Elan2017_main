@@ -1,3 +1,6 @@
+<?php 
+session_start();
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +8,7 @@
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Visceral Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -17,51 +19,76 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/galleryeffect.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
+<script type="text/javascript" src="event.js"></script>
+<script type="text/javascript">
+
+      var track=<?php if(isset($_SESSION['id']))echo "1"; else echo "0"; ?>;
+      var _id="<?php echo $_SESSION['id']; ?>";
+      var email="<?php echo $_SESSION['email']; ?>";
+      var name="<?php echo $_SESSION['name']; ?>";
+      var elanId="<?php echo $_SESSION['elanId']; ?>";
+      var college="<?php echo $_SESSION['college']; ?>";
+      var events="<?php echo $_SESSION['events']; ?>".split(",");
+      var verified=
+      <?php 
+      if(isset($_SESSION['id']))
+          echo $_SESSION['verified']; 
+        else echo 3;
+      ?>;
+      
+  </script>
 
 </head>
 	
 <body>
 <!-- banner -->
-	<div class="banner-1 wthree-1">
-		<div class="container">
-			<div class="banner_top">
-				<div class="logo">
-					<h1><a href="index.html"><img src="images/logo5.png"></a></h1>
-				</div>
-				<div class="banner_top_right">
-					<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				</div>
+  <div class="banner-1 wthree-1">
+    <div class="container">
+      <div class="banner_top">
+        <div class="logo">
+          <h1><a href="index.html"><img src="images/logo5.png"></a></h1>
+        </div>
+        <div class="banner_top_right">
+          <nav class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav cl-effect-14">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="hospitality.html">Hospitality</a></li>
-						<li><a href="workshops.html">Workshops</a></li>
-						<li><a href="events.html" class="active">Events</a></li>
-						<li><a href="http://blog.elan.org.in/">Blog</a></li>
-						<li><a href="team.html">Contact Us</a></li>
-						<li><a href="sponsors.html">Sponsors</a></li>
-						<li><a href="litfest">Litfest</a></li>
-						<li><a href="literanza">Literanza</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->	
-				
-			</nav>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav cl-effect-14">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="events.php" class="active">Events</a></li>
+            <li><a href="sponsors.php">Sponsors</a></li>
+          <li>
+          <?php 
+          if(isset($_SESSION["id"]))
+                echo "<a href=\"dashboard.php\">Dashboard</a>";
+          else
+                echo "<a href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\" >Register</a>";
+           ?>
+            </li>
+            <li><a href="hospitality.php">Hospitality</a></li>
+            <li><a href="workshops.php">Workshops</a></li>
+            <li><a href="http://blog.elan.org.in/">Blog</a></li>
+            <li><a href="team.php">Contact US</a></li>
+            <li><a href="litfest">Litfest</a></li>
+            <li><a href="literanza">Literanza</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->  
+        
+      </nav>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </div>
 <!-- //banner -->
 <!-- gallery -->
 <div class="gallery agile-1">
@@ -73,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="biggies_events">Biggies</h1>
 
 					<li class="grid">
-						<a href="#image-2">
+						<a href="#elanejung">
 							<figure class="effect-apollo">
 								<img src="images/biggies/elan-e-jung.jpg" alt="image2">
 								<figcaption>
@@ -81,23 +108,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</figure>
 						</a>
 						<h3>Elan-E-Jung</h3>
-							<div class="lb-overlay" id="image-2">
+							<div class="lb-overlay" id="elanejung">
 									<img src="images/biggies/elan-e-jung.jpg" alt="image2" />
 									<div class="gal-info">							
 										<h3>Elan-E-Jung</h3>
 										<p>Distorted guitars, emphatic rhythms, dense bass and drums, vigorous vocals, epic riffs and wild headbanging. Elan is back with its signature event, the metal battle. Get ready to turn up your amps and set the stage on fire at Elan-e-Jung! 
+										<br>
 
-<br>Event Format : Consists of two rounds.<br>
+ <button type="button" class="btn btn-primary btn-sm elanejungButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".elanejungButton").html((events.indexOf('elanejung')>-1)?"UNREGISTER":"REGISTER");
+            </script>
+ </button>
+<br>
+<strong>Event Format</strong> : Consists of two rounds.<br>
 
-PRELIMS<br>
+<strong>PRELIMS</strong><br>
 
-Upload your band’s demos/videos and register @ “abc.xyz”. 	!!!! YET TO BE DECIDED 		<br>	 		
+Upload your band’s demos/videos and register .		<br>	 		
 Shortlisted bands get to perform at Elan-e-Jung prelims, Elan 2017.<br>
 		
 Each band will be given ‘m’ minutes to perform including sound check.<br>
 
 
-FINALS:<br>
+<strong>FINALS</strong><br>
 	 		
 x bands will be shortlisted after the preliminary round to perform at the 	Biggies Stage.<br>
 		 		
@@ -105,7 +139,10 @@ Each 	band will be given ‘m’ mins to perform on stage including sound 	check
  		
 The winner and the first runner up will be given prizes. (Not yet decided). <br>
 <br>
-<h8>JUDGING CRITERIA</h8> <br>	
+
+
+<strong>JUDGING CRITERIA</strong><br>
+
 	
 	
 The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>
@@ -122,7 +159,8 @@ Public involvement<br>
 Energy<br>
 Attitude<br><br>
 
-<h7>Rules and Regulations:</h7><br>
+<strong>Rules and Regulations</strong><br>
+
 
 
 Any non-professional band is allowed to register. You need not be a college band to participate in this event.<br>
@@ -155,7 +193,8 @@ The Elan 2017 team holds the right to change the rules at any moment of 	time.
 	
 
 <br>
-<h8>Contact Person:</h8><br>
+<strong>Contact Person</strong>
+<br>
 1.Yash Pitroda	<br>					
 Email : yash@elan.org.in<br>					
 Mob : 9505464597	<br>					
@@ -167,7 +206,7 @@ Mob : 9619497727
 </p>
 									</div>
 
-									<a href="events.html#biggies_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#biggies_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -189,20 +228,27 @@ Mob : 9619497727
 										<p>Every band has a dream. A dream of performing live, on a global scale, in front of fans screaming for more. But the journey of a mile begins with the first step. ELAN 2017 presents Manthan, the ultimate Fusion band contest. //to be changed  
 (Are you not into Heavy Metal Music? ELAN 2017 brings to you the ultimate Fusion Band Contest, Manthan. This is where you perform live competing with other bands trying to live the dream. )
 <br><br>
- Event Format :  Consists of two rounds.<br><br>
+ <button type="button" class="btn btn-primary btn-sm manthanButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".manthanButton").html((events.indexOf('manthan')>-1)?"UNREGISTER":"REGISTER");
+            </script>
+ </button>
+<
+	<br>
+ <strong>Event format</strong> :  Consists of two rounds.<br><br>
 
 
-                   PRELIMS<br>
+                   <strong>PRELIMS</strong><br>
 
 	
-Each band interested in participating should upload their demos/videos and register @ “abc.xyz”. 	!!!! YET TO BE DECIDED 	<br>	
+Each band interested in participating should upload their demos/videos	<br>	
 	 		
 Out of this ‘x’ bands will be shortlisted, and will be performing at Manthan prelims, Elan 2017.<br>
 		
 Each band will be given ‘m’ minutes to perform including sound check.<br><br>
 
 
-FINALS:<br>
+                   <strong>FINALS</strong><br>
 	 		
 ‘x’ bands will be shortlisted from the prelims round to perform at the 		Biggies stage.<br>
 		 		
@@ -210,10 +256,8 @@ Each 	band will be given ‘m’ mins to perform on stage including sound 	check
  		
 The winner and the first runner up will be given prizes. (Not yet decided). 		<br><br>
 
+                   <strong>JUDGING CRITERIA</strong><br>	
 
-JUDGING CRITERIA 	
-	
-<br>
 The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>
 
 All the finalists will be given the participation certificates.<br>
@@ -232,7 +276,8 @@ Attitude<br>
 The winner and the first runner up will be given prizes. (Not yet decided). 	
 
 <br>	<br>
-Rules and Regulations:<br><br>
+
+                   <strong>Rules and Regulations</strong><br>	
 
 
 Any non-professional band is allowed to register. You need not be a college band to participate in this event.<br>
@@ -264,19 +309,21 @@ The decision of the organizers with respect to line-up is final and abiding.<br>
 The Elan 2017 team holds the right to change the rules at any moment of time.<br><br>
 	
 
-
-Contact Person:<br>
+<strong>Contact Person</strong>
+<br>
 1.Yash Pitroda	<br>					
 Email :yash@elan.org.in	<br>				
 Mob : 9505464597	<br>					
 Email :siddharth@elan.org.in<br>
 Mob :9619497727<br>
-2.Siddharth Sonkamble<br>
-.............<br>************
+2.Siddharth Sonkamble<br>	
+Email : siddharth@elan.org.in<br>
+
+Mob : 9619497727
 </p>
 									</div>
 									
-									<a href="events.html#biggies_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#biggies_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -323,6 +370,12 @@ group dance event ​where one can show off their individual talents or spellbin
 
 their coordination. It's time to move n shake n drop.
 <br>
+ <button type="button" class="btn btn-primary btn-sm breakfreeButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".breakfreeButton").html((events.indexOf('breakfree')>-1)?"UNREGISTER":"REGISTER");
+            </script>
+ </button>
+	<br>
 EVENT FORMAT<br>
 
 ● The Event will be conducted in 2 rounds - Prelims and finals<br>
@@ -348,7 +401,7 @@ duration greater than 15 secs/music of their previous performances in coming rou
 2nd position: Rs 15000 + goodies<br>
 ...........<br>***********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -372,6 +425,14 @@ An event for pro solo dancers​, Lose your feet is where you can make the crowd
 
 those awesome, super cool moves!.
 <br>
+
+ <button type="button" class="btn btn-primary btn-sm looseyourfeetButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".looseyourfeetButton").html((events.indexOf('looseyourfeet')>-1)?"UNREGISTER":"REGISTER");
+            </script>
+ </button>
+
+	<br>
 EVENT FORMAT<br>
 
 ● The event comprises of eliminations followed by finals. ( prelims, semi-final and final).<br>
@@ -398,7 +459,7 @@ have to perform at least 2 min on that song.<br>
 
 ● You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.<br>.............<br>*********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -431,6 +492,17 @@ expressive.
 Come....drown yourself in divine, grace, beauty, tenderness to delight the eyes and souls of the
 
 viewers.
+<br>
+ <button type="button" class="btn btn-primary btn-sm nrityanjaliButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".nrityanjaliButton").html((events.indexOf('nrityanjali')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
+<script type="text/javascript">
+
+</script>
+
+
 
 <br>EVENT FORMAT<br>
 
@@ -444,7 +516,7 @@ Kuchipudi, Odissi, Mohiniyattam and others].<br> However there are no separate j
 
 categories for the different forms<br>.............<br>**********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -466,7 +538,12 @@ categories for the different forms<br>.............<br>**********</p>
 duo. Could be couple or anyone who can dance to the grooves coordinating each other which is
 
 by the way very essential part of this event.
-
+<br>
+ <button type="button" class="btn btn-primary btn-sm just_duetButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".just_duetButton").html((events.indexOf('just_duet')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 <br>RULES AND REGULATIONS<br>
 
 ● The team should consist of two participants irrespective of their gender.<br>
@@ -497,7 +574,7 @@ by the way very essential part of this event.
 
 ● Decision taken by the judges will be final.<br>............<br>*********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 					<li class="grid">
@@ -517,6 +594,13 @@ by the way very essential part of this event.
 										<p>Wanna put your singing skills to the test? Got a versatile voice that can mesmerize everyone? Put
 
 your heart to it and sing your way to glory!
+
+<br>
+ <button type="button" class="btn btn-primary btn-sm vibrazioneButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".vibrazioneButton").html((events.indexOf('vibrazione')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 
 <br>EVENT FORMAT<br>
 
@@ -538,7 +622,7 @@ choice, you will need to be ready to sing your other choice.<br>
 
 ● A "People's Choice" award will be given to the winner with the most audience votes*.<br>...........<br>***********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -560,6 +644,14 @@ choice, you will need to be ready to sing your other choice.<br>
 
 come, show up your talent in 'Nail Art' of ELAN 2017!!
 
+
+<br>
+ <button type="button" class="btn btn-primary btn-sm nailartButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".nailartButton").html((events.indexOf('nailart')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
+
 <br>RULES AND REGULATIONS<br>
 
 ● Contestants shall use only the paints provided to them by the organizers.<br>
@@ -576,7 +668,7 @@ JUDGING CRITERIA<br>
 
 ● Attractiveness<br></p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -596,6 +688,13 @@ JUDGING CRITERIA<br>
 										<p>Mehndi adorns the hands and Life takes on a new color. So let the henna flow out of your cones
 
 and let's see what color it brings to your life.
+
+<br>
+ <button type="button" class="btn btn-primary btn-sm mehendiButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".mehendiButton").html((events.indexOf('mehendi')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 
 <br>EVENT FORMAT<br>
 
@@ -623,7 +722,7 @@ JUDGING CRITERIA<br>
 
 ● Neatness<br></p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -645,6 +744,13 @@ JUDGING CRITERIA<br>
 
 structures out of clay! Win exciting prizes!!
 
+<br>
+ <button type="button" class="btn btn-primary btn-sm claymodellingButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".claymodellingButton").html((events.indexOf('claymodelling')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
+
 <br>EVENT FORMAT<br>
 
 ● Registrations will be on the spot during ELAN<br>
@@ -664,7 +770,7 @@ RULES AND REGULATIONS<br>
 
 ● The decision of the organisers is final and binding to all<br>...........<br>******</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -687,6 +793,12 @@ RULES AND REGULATIONS<br>
 "THE MASK". Then here's something interesting for you. ELAN 2017's infamous Face Painting
 
 is back! . Grab a brush and make your friend's face funny and beautiful.
+
+ <button type="button" class="btn btn-primary btn-sm facepaintingButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".facepaintingButton").html((events.indexOf('facepainting')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 
 <br>EVENT FORMAT<br>
 
@@ -712,7 +824,7 @@ RULES AND REGULATIONS<br>
 
 ● Decision of judge shall be final and binding.<br>...........<br>*********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -721,7 +833,7 @@ RULES AND REGULATIONS<br>
 
 
 <li class="grid">
-						<a href="#nukkadNatak">
+						<a href="#nukkadnatak">
 							<figure class="effect-apollo">
 								<img src="images/culti/nukkadNatak.jpg" alt="image61">
 								<figcaption>
@@ -729,7 +841,7 @@ RULES AND REGULATIONS<br>
 							</figure>
 						</a>
                         <h3>Nukkad Naatak</h3>
-							<div class="lb-overlay" id="nukkadNatak">
+							<div class="lb-overlay" id="nukkadnatak">
 									<img src="images/culti/nukkadNatak.jpg" alt="image61" />
 									<div class="gal-info">							
 										<h3>18.Nukkad Naatak: A Street play competition</h3>
@@ -742,6 +854,12 @@ Elan 2016 is bringing Forward, Nukkad Natak-A Street Play Competition.
 It is all about creating awareness about social problems that plague our soil and bringing about
 
 realization in our youth!.<br>
+
+ <button type="button" class="btn btn-primary btn-sm nukkadnatakButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".nukkadnatakButton").html((events.indexOf('nukkadnatak')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 
 <br>RULES AND REGULATIONS<br>
 
@@ -777,7 +895,7 @@ JUDGING CRITERIA<br>
 
 The winner is awarded with prizes worth Rs:10000<br>..........<br>********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -805,6 +923,12 @@ The winner is awarded with prizes worth Rs:10000<br>..........<br>********</p>
 think you have mastered the instrument of your choice, then this is the stage for you. Not just
 
 that, this also tests your creativity and sees if you can come up with your own tune to wow us.
+<br>
+ <button type="button" class="btn btn-primary btn-sm octavesButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".octavesButton").html((events.indexOf('octaves')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 
 <br>RULES AND REGULATIONS<br>
 
@@ -841,7 +965,7 @@ over. Ie, the melody finalists will be given tracks with percussion to play over
 
 vice-versa. This will be done to ensure fair judging.<br>...........<br>********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -868,6 +992,12 @@ An unprecedented opportunity to showcase your pro skills as a "Stand-up Comedian
 "Mono-Actor".A Stage to perform and a huge crowd to be captivated. Step up, and leave the
 
 audience enthralled !.
+<br>
+ <button type="button" class="btn btn-primary btn-sm andaazapnapnaButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".andaazapnapnaButton").html((events.indexOf('andaazapnapna')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 
 <br>EVENT FORMAT<br>
 
@@ -901,7 +1031,7 @@ inform earlier.
 <br>
 ● Judge's decisions are final and binding.<br>........<br>**********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -924,7 +1054,12 @@ inform earlier.
 your own short film, enthral and captivate movie buffs with your creativity. The stage at ELAN
 
 is set for you. Get judged by esteemed people in film industry.
-
+<br>
+ <button type="button" class="btn btn-primary btn-sm filmfarefiestaButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".filmfarefiestaButton").html((events.indexOf('filmfarefiesta')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 <br>EVENT FORMAT<br>
 
 ● The event film fare fiesta is spread over two days<br>
@@ -972,7 +1107,7 @@ and harsha@elan.org.in<br>
 
 ● The decision of the Organizers is final and binding.<br>.........<br>*********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>							</div>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>							</div>
 					</li>
                     
 					<li class="grid">
@@ -994,6 +1129,12 @@ and harsha@elan.org.in<br>
 
 time near the counter that is allocated.
 
+<br>
+ <button type="button" class="btn btn-primary btn-sm picelecticButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".picelecticButton").html((events.indexOf('picelectic')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 <br>RULES AND REGULATIONS<br>
 
 ● The captures must be only during the 3 days of the ELAN fest and only inside IIT
@@ -1008,7 +1149,7 @@ purpose)<br>
 
 Note:: Clarity is not considered until there is a tie b/w pics that are similar.</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
 							</div>
 					</li>
 
@@ -1045,6 +1186,14 @@ meaning. So here is ELAN encouraging you to come up with your meaningful strokes
 
 part of its colourful art gallery. The gallery is open to everyone throughout the fest.
 
+
+<br>
+ <button type="button" class="btn btn-primary btn-sm artexhibitionButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".artexhibitionButton").html((events.indexOf('artexhibition')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
+
 <br>EVENT FORMAT<br>
 
 ● Registrations can be done online or on the spot.<br>
@@ -1080,7 +1229,7 @@ evaluated.<br>
 
 (Note: Organizers are not responsible for any delay or damage caused to the entries.)<br>...................<br>****************</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
 					</li>
 					<li class="grid">
 						<a href="#djwars">
@@ -1104,7 +1253,12 @@ Spin'em to own'em!!
 Battle with beats! Fight with tunes! May the best one win!This is the War of DJ's, where DJ's
 
 compete with each other, on a huge platform, like never before!
-
+<br>
+ <button type="button" class="btn btn-primary btn-sm djwarsButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".djwarsButton").html((events.indexOf('djwars')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 <br>INFRASTRUCTURE SUPPLIED<br>
 
 ● A DJ console(Mark I) and mixer<br>
@@ -1116,7 +1270,7 @@ compete with each other, on a huge platform, like never before!
 
 ● 2 mics<br>..............<br>*******</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
 							</div>
 					</li>
                     
@@ -1145,6 +1299,12 @@ Entertain the crowd, and you might probably find yourself among the RJ legends!
 
 A ramp to your RJ ying future!
 
+<br>
+ <button type="button" class="btn btn-primary btn-sm rjhuntButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".rjhuntButton").html((events.indexOf('rjhunt')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 <br>EVENT FORMAT<br>
 
 ● Online Round:<br>
@@ -1190,7 +1350,7 @@ Contestants are expected to entertain the audiences by telling stories, current 
 ELAN 2017), cinema news, etc. Each contestant has to perform for maximum of 20 minutes. <br>...........<br>************
 </p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -1212,7 +1372,12 @@ ELAN 2017), cinema news, etc. Each contestant has to perform for maximum of 20 m
 mind. Ever thought that you could have delivered the dialogues better than the actors in the movie?
 
 Then this is the right place for you to be. ELAN 2017 presents a unique event "Lend Your Voice".
-
+<br>
+ <button type="button" class="btn btn-primary btn-sm lendmeurvoiceButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".lendmeurvoiceButton").html((events.indexOf('lendmeurvoice')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>
 <br>EVENT FORMAT<br>
 
 ● The contestants are provided with an option of a few ACTION HERO VIDEOS<br>
@@ -1251,7 +1416,7 @@ must make it as funny as possible.<br>
 
 ● The decision of the judges and organizers is final and binding<br>............<br>***********</p>
 									</div>
-									<a href="events.html#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
+									<a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>	
 							</div>
 					</li>
 <!-- 					<li class="grid">
@@ -1269,7 +1434,7 @@ must make it as funny as possible.<br>
 										<h3>Walk The Ramp</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li> -->
 
@@ -1307,7 +1472,7 @@ Akhil Ashref:  <br>
 Akshita ramya: <br><br>................<br>*************<br>
 </p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 <!--                     <li class="grid">
@@ -1325,7 +1490,7 @@ Akshita ramya: <br><br>................<br>*************<br>
 										<h3>Field Kings</h3>
 										<p>Coming Soon</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                      -->
@@ -1366,7 +1531,7 @@ Ayush Negi:
 Supreet Singh
 </p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     <li class="grid">
@@ -1405,7 +1570,7 @@ Nvision brings to you a real treasure, If you can find it!!<br><br><br>
 Aswin Kumar
 </p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1439,7 +1604,7 @@ Mayank Hooda<br>.............<br>**************
 
 </p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1474,7 +1639,7 @@ Mayank Hooda<br>.............<br>**************
 
 </p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1516,7 +1681,7 @@ Deepak Nathani<br>
 
 </p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1560,7 +1725,7 @@ Deepika Gonela<br>
 Tejas Anand
 
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1601,7 +1766,7 @@ Participants will be given 10 minutes with their partners. <br>
 The most correct answers will win. 
 <br> ..........<br>***********</p>
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 		
@@ -1650,12 +1815,12 @@ Judges decision is final. <br>..............<br>**************
  <br>
 
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
 					 <li class="grid">
-						<a href="#campusPrincess">
+						<a href="#campus_princess">
 							<figure class="effect-apollo">
 								<img src="images/infi/campus_princess.jpg" alt="image4">
 								<figcaption>
@@ -1663,7 +1828,7 @@ Judges decision is final. <br>..............<br>**************
 							</figure>
 						</a>
                         <h3>Campus Princess</h3>
-							<div class="lb-overlay" id="campusPrincess">
+							<div class="lb-overlay" id="campus_princess">
 									<img src="images/infi/campus_princess.jpg" alt="image4" />
 									<div class="gal-info">							
 										<h3>Campus Princess</h3>
@@ -1676,7 +1841,12 @@ In this star-studded event, watch as the beauty queens bedazzle you with their g
 show their grit in the Q&A round and go on to take the crown.
  <br>
 
-										
+
+ <button type="button" class="btn btn-primary btn-sm campus_princessButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+            	            $(".campus_princessButton").html((events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>							
 </p>
 <span style="text-align: center;"><h4 style="position: absolute;top: 320px;text-align: center;font-size: 30px">Details</h4	></span>
 <p style="position: absolute;top: 380px;" >
@@ -1688,7 +1858,7 @@ Prize : Coming Soon <br>
  <br>
 
 									</div>
-									<a href="events.html#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -1754,7 +1924,7 @@ ee15btech11006@iith.ac.in<br>
 Elan and ηvision, IIT Hyderabad, here is my photograph. 
 I further nominate ___ and ___ to take the challenge. #Emblazon_IITH"<br> ..........<br>***********</p>
 									</div>
-									<a href="events.html#online_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#online_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1773,7 +1943,7 @@ I further nominate ___ and ___ to take the challenge. #Emblazon_IITH"<br> ......
 										<h3>Poster Presentation</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 		
@@ -1802,14 +1972,19 @@ I further nominate ___ and ___ to take the challenge. #Emblazon_IITH"<br> ......
 										<h3>Mr Detective</h3>
 										<p>Organizer - Sahil Yerawar<br>
 Put your deerstalkers on and get ready to solve the mystery
-</p>
+</p><br>
+ <button type="button" class="btn btn-primary btn-sm mrdetectiveButton" style="text-align:center;margin-left: 5%;">
+            <script type="text/javascript">
+            	            $(".mrdetectiveButton").html((events.indexOf('mrdetective')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>	
 									</div>
-									<a href="events.html#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
                      <li class="grid">
-						<a href="#wheelOfFortune">
+						<a href="#wheel_of_fortune">
 							<figure class="effect-apollo">
 								<img src="images/litr/wheel-of-fortune.jpg" alt="image38">
 								<figcaption>
@@ -1817,15 +1992,21 @@ Put your deerstalkers on and get ready to solve the mystery
 							</figure>
 						</a>
                         <h3>Wheel Of Fortune</h3>
-							<div class="lb-overlay" id="wheelOfFortune">
+							<div class="lb-overlay" id="wheel_of_fortune">
 									<img src="images/litr/wheel-of-fortune.jpg" alt="image38" />
 									<div class="gal-info">							
 										<h3>Wheel Of Fortune</h3>
 										<p>Organizer - Vedhamoorthy
 Just being right won’t help you. Test your luck in this game of chance!
 </p>
+
+ <button type="button" class="btn btn-primary btn-sm wheel_of_fortuneButton" style="text-align:center;margin-left: 5%;">
+            <script type="text/javascript">
+            	            $(".wheel_of_fortuneButton").html((events.indexOf('wheel_of_fortune')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>	
 									</div>
-									<a href="events.html#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                      <li class="grid">
@@ -1849,8 +2030,13 @@ Just being right won’t help you. Test your luck in this game of chance!
 <h4>Tollywood Quiz </h4>- Think you know everything about the world of South Indian cinema? Think you’d like to win some prizes? Well then, this is the place to be!<br> Organizer - Prasad Thota<br>
 <h4>Automobile Quiz</h4> - The greatest human invention was the wheel. Probably the second greatest invention would be quizzes. So, as they say, we just added one and two, and we bring you a quiz on anything that would run on wheels; and then some. <br>Organizer - Kushagra Saxena
 </p>
+ <button type="button" class="btn btn-primary btn-sm quizzesButton" style="text-align:center;margin-left: 5%;">
+            <script type="text/javascript">
+            	            $(".quizzesButton").html((events.indexOf('quizzes')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>	
 									</div>
-									<a href="events.html#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                      <li class="grid">
@@ -1870,8 +2056,14 @@ Just being right won’t help you. Test your luck in this game of chance!
 Participants are given topics on the spot and they have to speak on them. Err and you will be buzzed and relinquished of the mic
 
 </p>
+<br><br>
+ <button type="button" class="btn btn-primary btn-sm jamButton" style="text-align:center;margin-left: 10%;">
+            <script type="text/javascript">
+            	            $(".jamButton").html((events.indexOf('jam')>-1)?"UNREGISTER":"REGISTER");
+            	            </script>
+            </button>	
 									</div>
-									<a href="events.html#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -1897,7 +2089,7 @@ Participants are given topics on the spot and they have to speak on them. Err an
 										<h3>Pixel Adda</h3>
 										<p>Coming Soon...</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 					
@@ -1924,7 +2116,7 @@ Participants are given topics on the spot and they have to speak on them. Err an
 Online treasure hunt where participants have to solve various clues and puzzles to uncover the grand prize
 </p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
  -->
@@ -1950,7 +2142,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 										<h3>Sweet Heart</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li> -->
 <!--                      <li class="grid">
@@ -1968,7 +2160,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 										<h3>Tweet A Tale</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li> -->
 <!--                      <li class="grid">
@@ -1986,7 +2178,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 										<h3>Skip It</h3>
 										<p>Coming Soon</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li> -->
 <!--                      <li class="grid">
@@ -2004,7 +2196,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 										<h3>Tell A Tale</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li> -->
 <!--                      <li class="grid">
@@ -2022,7 +2214,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 										<h3>State Your Status</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li> -->
 
@@ -2042,7 +2234,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 										<h3>Business Quiz</h3>
 										<p>Coming Soon....</p>
 									</div>
-									<a href="events.html" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -2070,6 +2262,11 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 
 										
 </p>
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/robosoccer" target="_blank" style="color: white;">REGISTER</a>
+</button>
 
 <p style="position: absolute;top: 280px;" >
 
@@ -2122,7 +2319,7 @@ Organizers: <br> Kola Sai Dileep<br>(7702693104)<br>
 ................<br>***********</p>
 
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -2144,8 +2341,12 @@ Organizers: <br> Kola Sai Dileep<br>(7702693104)<br>
 										<p style="">
 										The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.
 
- <br>
 
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/robowars" target="_blank" style="color: white;">REGISTER</a>
+</button>
 										
 </p>
 <span style="text-align: center;"><h4 style="position: absolute;top: 320px;text-align: center;font-size: 30px;text-decoration: underline">SPECIFICATIONS:</h4	></span>
@@ -2228,7 +2429,7 @@ Organizers: <br>  Akhil Ashref<br>(9177285214)<br>
 <br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -2252,9 +2453,11 @@ Organizers: <br>  Akhil Ashref<br>(9177285214)<br>
 										Too bored with ground based robot events, you have come to the right place. Pirates is a ‘one of a kind’ event where you are given the platform to create your own robot which floats and navigates on water. Starting from scratch, you get the chance to showcase your creativity and awaken the little engineer in you.
 
 
- <br>
-
-										
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/pirates" target="_blank" style="color: white;">REGISTER</a>
+</button>							
 </p>
 
 
@@ -2377,7 +2580,7 @@ Organizers: <br>  Sahil<br>(9822977832)<br>
 <br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                       <li class="grid">
@@ -2400,7 +2603,11 @@ Organizers: <br>  Sahil<br>(9822977832)<br>
 										Gryffindor or Slytherin? Fascinated by seeing quidditch in Harry potter anytime? Then this one is surely for you. Make a bot that can play quidditch for you. We will make your task easy here, your bot need not fly. It's Quidditch, but on ground :)
 
 
- <br>
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/roboquidditch" target="_blank" style="color: white;">REGISTER</a>
+</button>
 
 										
 </p>
@@ -2464,7 +2671,7 @@ Organizers: <br>  Jayasimha Reddy(<br>(7382923814)<br>
 <br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -2485,6 +2692,12 @@ Organizers: <br>  Jayasimha Reddy(<br>(7382923814)<br>
 										<h4 style="text-align: center;font-size: 25px">Task:</h4>
 										<p style="">In this event ,the contestants are expected to make to an IC engine powered machine ,that can be controlled remotely using a wireless remote controller, which can race against machines of similar construct on an all-terrain track packed with a number of obstacles. <br><br>
 
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/driftking" target="_blank" style="color: white;">REGISTER</a>
+</button>
+
 										<span style="font-size: 20px;">Please follow the below link for the complete details about the event.</span><br>
 
 										<a href="Driftking.pdf" style="font-size: 25px">Clik here</a>
@@ -2494,7 +2707,7 @@ Organizers:<br>  Sekhar Kuruva<br>(7660082174)<br>
 Sarbhav Mittal<br>(9640157759)<br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                       <li class="grid">
@@ -2515,9 +2728,13 @@ Sarbhav Mittal<br>(9640157759)<br>
 										BE A PRO Design Challenge will test your designing skills in 3D design software and here, you have to prove your expertise in a challenging scenario where you race against time.<br>
 										<span style="font-size: 20px">Event Description:</span>
 										It will be an on-spot designing round. Participants will be given a problem statement at the time of event and they have to submit their design in the specified time limit. 
+
+
 <br>
-
-
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/cadpro" target="_blank" style="color: white;">REGISTER</a>
+</button>
 										
 </p>
 <span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules:</h4	></span>
@@ -2548,7 +2765,7 @@ c.Time Taken<br>
 <br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -2574,7 +2791,10 @@ Participants have to design a Bridge using Popsicle sticks (icecream sticks) sat
 										There will be only one round in which bridges will be tested. Participants have to come with their bridges.
 
 <br>
-
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/bridgebuilder" target="_blank" style="color: white;">REGISTER</a>
+</button>
 
 										
 </p>
@@ -2629,7 +2849,7 @@ ER = (Load carried by bridge at failure)/(Weight Of Bridge)
 <br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 					
@@ -2651,7 +2871,11 @@ ER = (Load carried by bridge at failure)/(Weight Of Bridge)
 an exciting world of electronics. Prove your mettle by participating in this quiz.
  <br>
 
-										
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/electronicbloopers" target="_blank" style="color: white;">REGISTER</a>
+</button>
+
 </p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules and regulation:</h4	>
 <p style="position: absolute;top: 380px;" >
 1.It is an offline quiz event.<br> 2.Team size is 1 or 2.<br>
@@ -2660,7 +2884,7 @@ an exciting world of electronics. Prove your mettle by participating in this qui
 Organizers:<br>  Tejas<br>(7032396350)<br>Maroju Rahul<br>9573132671<br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -2681,9 +2905,13 @@ Organizers:<br>  Tejas<br>(7032396350)<br>Maroju Rahul<br>9573132671<br>
 											<h4 style="text-align: center;font-size: 25px">Event Description</h4>
 										<p style="">
 										Gear up with your wireless bot. Here comes the race which will test the strength, stability, and cruelty of your bot. It's all about racing towards the finish line through tough terrain by crushing your opponents. Let's see who’s bot is better equipped, better designed to win. 
- <br>
+										 <br>
 
-										
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/dtmfrace" target="_blank" style="color: white;">REGISTER</a>
+</button>
+
 </p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
 <p style="position: absolute;top: 380px;" >
 
@@ -2696,7 +2924,7 @@ The organisers reserve the right to make changes to the event as/when necessary.
 Organizers:<br>  Shashank Gupta(<br>(8989883801)<br>Narayan Kothari<br>9016545412<br>
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -2715,7 +2943,12 @@ Organizers:<br>  Shashank Gupta(<br>(8989883801)<br>Narayan Kothari<br>901654541
 										<h3>Hack A Maze</h3>
 										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
 										<p style="">Compete against others hackers in exploring different levels of a challenge maze with your hacking skills. You will have to find your way to victory to defeat others. It’s an on the spot event, in which there will a website/portal hosted locally and all the teams will have to navigate the website solving a series of puzzles and challenges. The first team to reach the goal or go the farthest in the time limit bags the prize. <br>
+ <br>
 
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/hackamzae" target="_blank" style="color: white;">REGISTER</a>
+</button>
 										
 </p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
 <p style="position: absolute;top: 380px;" >1. Max Team Size - 2 (Individual participants are welcome) <br>
@@ -2726,7 +2959,7 @@ Organizers:<br>  Ayush Pateria<br>(9424040016)<br>
 ................<br>***********</p>
 
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -2752,6 +2985,12 @@ Organizers:<br>  Ayush Pateria<br>(9424040016)<br>
 
 										
 </p>
+ <br>
+
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/paperplane" target="_blank" style="color: white;">REGISTER</a>
+</button>
 <span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Event Format</h4	></span>
 <p style="position: absolute;top: 380px;" >
 The event shall be conducted in two categories :-
@@ -2790,7 +3029,7 @@ D.Decisive for measurement are the moments when the paper plane leaves the hand 
 ................<br>***********</p>
 
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -2818,6 +3057,13 @@ This event is based on building of a simple terrestrial telescope with given com
 
 										
 </p>
+ <br>
+
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/thegalileoproject" target="_blank" style="color: white;">REGISTER</a>
+</button>
+
 <span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Event Format</h4	></span>
 <p style="position: absolute;top: 380px;" >
 <span style="font-size: 20px">Round 1:</span><br>
@@ -2843,7 +3089,7 @@ Organizers: <br> Siddharth Gautham<br>(9494598849)<br>
 ................<br>***********</p>
 
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -2864,7 +3110,14 @@ Organizers: <br> Siddharth Gautham<br>(9494598849)<br>
 										<p style="">Find the mysterious​ ​secret techniques to decrypt the given texts/messages. Clear all the levels in the allotted time to become the ultimate “cryptacker”. It’s a pen and paper event. Each team has to decode a series of crypted messages.  <br>
 
 										
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
+</p>
+ <br>
+
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/enigma" target="_blank" style="color: white;">REGISTER</a>
+</button>
+<h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
 <p style="position: absolute;top: 380px;" >1. Max Team Size - 2 (Individual participants are welcome)<br>
 2. Event will be conducted as a single timed round. <br>
 3. Tie breakers would be conducted if necessary. <br>
@@ -2874,7 +3127,7 @@ Organizers:<br>   Krishna Priya<br>7032257433<br>Saurabh Gangwar<br>9422333180<b
 ................<br>***********</p>
 
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                     
@@ -2898,6 +3151,10 @@ Organizers:<br>   Krishna Priya<br>7032257433<br>Saurabh Gangwar<br>9422333180<b
 It’s an on spot event.
  <br>
 
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/algorithma" target="_blank" style="color: white;">REGISTER</a>
+</button>
 										
 </p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules and Regulations</h4	>
 <p style="position: absolute;top: 380px;" >
@@ -2911,7 +3168,7 @@ Organizers: <br>Amarnath<br>(8500280547)<br>Sumanth<br>(9642612358)
 <br>............<br>*************
 								
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -2934,6 +3191,11 @@ Organizers: <br>Amarnath<br>(8500280547)<br>Sumanth<br>(9642612358)
 It’s an on spot event.
  <br>
 
+
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/proquest" target="_blank" style="color: white;">REGISTER</a>
+</button>
 										
 </p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
 <p style="position: absolute;top: 380px;" >
@@ -2947,7 +3209,7 @@ It’s an on spot event.
 
 Organizers:<br> Nishant Nivas <br>(8332000710)<br> Srinivas<br>(8978918823)<br>............<br>*************
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
                       
@@ -2970,7 +3232,12 @@ Organizers:<br> Nishant Nivas <br>(8332000710)<br> Srinivas<br>(8978918823)<br>.
 										"Engineers like to solve problems .If there are no problems handily available, they will create their own problems"-Scott Adams.
 It’s time for your team to dive into innovation and creativity, find a good solution and emerge as jugaads. So, pile up your enthusiasm to win the battle.
  <br>
+ <br>
 
+<br>
+<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
+<a href="https://nvision.org.in/events/junkyardwars" target="_blank" style="color: white;">REGISTER</a>
+</button>
 										
 </p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Event Format:</h4	>
 <p style="position: absolute;top: 380px;" >
@@ -3008,7 +3275,7 @@ Vivek<br>(7382725409)<br>
 
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 
@@ -3102,7 +3369,7 @@ Bhanu prakash(8297129699)<br>
 
 ................<br>***********</p>
 									</div>
-									<a href="events.html#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
 <!--  -->

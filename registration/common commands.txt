@@ -3,6 +3,7 @@ drop table users;
 drop table elanejung;
 drop table manthan;
 drop table breakfree;
+drop table looseyourfeet;
 drop table nrityanjali;
 drop table just_duet;
 drop table vibrazione;

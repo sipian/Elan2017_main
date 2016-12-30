@@ -3,7 +3,7 @@ include '../Mobile-Detect-master/Mobile_Detect.php';
 $detect = new Mobile_Detect();
 
 if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in/events.html');
+    header('Location: http://m.elan.org.in/events.php'.substr(strrpos($_SERVER['REQUEST_URI'], "#")));
     exit(0);
 }
 ?>

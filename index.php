@@ -1,4 +1,12 @@
+<?php
+include '../Mobile-Detect-master/Mobile_Detect.php';
+$detect = new Mobile_Detect();
 
+if ($detect->isMobile()) {
+    header('Location: http://m.elan.org.in');
+    exit(0);
+}
+?>
 <!doctype html>
 <html class="no-js" lang="de">
    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
