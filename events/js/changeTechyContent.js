@@ -37,7 +37,7 @@ function changeTechyContent() {
                                     Do You Want To Become The Robo Soccer League Champion? 
                                     Bring On Your Bots On The Field And Lead Your Soccer Team To Victory! 
                                     </h3>
-                                           <a href="https://nvision.org.in/events/robosoccer"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                           <a href="https://nvision.org.in/events/robosoccer" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -60,7 +60,7 @@ function changeTechyContent() {
                                      Design And Construct A Remote Controlled Robot Capable Of Fighting A One On One Tournament.
                                              </h3>
                                             <br>
-                                           <a href="https://nvision.org.in/events/robowars"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                           <a href="https://nvision.org.in/events/robowars" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -84,7 +84,7 @@ function changeTechyContent() {
                                         </h3>
                                             <br>
                                             <!-- Button -->
-                                          <a href="https://nvision.org.in/events/pirates"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/pirates" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -158,7 +158,7 @@ function changeTechyContent() {
                                      It’s Time To Show Off Your Expertise In Designing. An On-the-spot Designing Round.
                                            </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/cadpro"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/cadpro" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -182,7 +182,7 @@ function changeTechyContent() {
                                         </h3>
                                             <br>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/driftking"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/driftking" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -206,7 +206,7 @@ function changeTechyContent() {
                                      Design And Build A Wireless Remote Controlled Flying Drone 
                                      </h3>
                                             <!-- Button -->
-                                          <a href="#"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="#" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -281,7 +281,7 @@ function changeTechyContent() {
                                     Can Your Work Hold Off Against More Than What You Bargained For?
                                     </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/bridgebuilder"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/bridgebuilder" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -308,7 +308,7 @@ function changeTechyContent() {
                                      Find A Good Solution And Emerge As Jugaads.
                                     </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/junkyardwars"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/junkyardwars" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -336,7 +336,7 @@ function changeTechyContent() {
                                         </h3>
                                             <br>
                                             <!-- Button -->
-                                          <a href="https://nvision.org.in/events/electronicbloopers"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/electronicbloopers" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -408,7 +408,7 @@ function changeTechyContent() {
                                      An Exciting Race With Interesting Constraints
                                      </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/dtmfrace"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/dtmfrace" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -434,7 +434,7 @@ function changeTechyContent() {
                                     The contestants will have to muddle their way out of a series of conundrums, which would require profound technical aptitude.
                                         </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/hackamaze"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/hackamaze" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -457,7 +457,7 @@ function changeTechyContent() {
                                     A Competitive Programming Competition For Participants Of All Levels Of Expertise.
                                         </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/proquest"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/proquest" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -535,7 +535,7 @@ function changeTechyContent() {
                                      Clear All The Levels In The Allotted Time To Become The Ultimate "cryptacker". 
                                      </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/enigma"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/enigma" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -559,7 +559,7 @@ function changeTechyContent() {
                                      <br>
                                     </h3>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/algorithma"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/algorithma" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
