@@ -40,7 +40,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info breakfree clickButton">
-                      BREAK FREE
+                       More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info looseyourfeet clickButton">
-                      LOOSE YOUR FEET
+                       More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info nrityanjali clickButton">
-                      NRITYANJALI
+                       More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info just_duet">
-                      JUST&nbsp;-&nbsp;DUET
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info vibrazione">
-                      VIBRAZIONE
+                     More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -217,7 +217,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info octaves">
-                      OCTAVES
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -299,7 +299,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info andaazapnapna clickButton">
-                      ANDAZ&nbsp;APNA&nbsp;APNA
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -322,7 +322,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info filmfarefiesta clickButton">
-                      FILM&nbsp;FARE&nbsp;FIESTA
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -345,7 +345,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info picelectic clickButton">
-                      PICELECTIC
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -429,7 +429,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info nukkadnatak">
-                      NUKKAD&nbsp;NATAK
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -452,7 +452,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info facepainting">
-                      FACE&nbsp;PAINTING
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -475,7 +475,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info nailart">
-                      NAIL&nbsp;ART 
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -557,7 +557,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info mehendi clickButton">
-                      MEHENDI&nbsp;ART
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -579,7 +579,7 @@ function changeCultiContent() {
                         Bring Life To Figments Of Your Own Thoughts And Imaginations By Moulding Beautiful Structures Out Of Clay! 
                       </h3>
                       <button type="button" class="btn btn-info claymodelling clickButton">
-                      CLAY&nbsp;MODELING&nbsp;
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -602,7 +602,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info lendmeurvoice clickButton">
-                      LEND&nbsp;YOUR&nbsp;VOICE
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -684,7 +684,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info artexhibition">
-                      ART&nbsp;EXHIBITION
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -709,7 +709,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info djwars">
-                      DJ&nbsp;WARS
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -732,7 +732,7 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info rjhunt">
-                      RJ&nbsp;HUNT
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>

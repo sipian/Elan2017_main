@@ -40,7 +40,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info foodathon clickButton">
-                                 FOODATHON
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -62,7 +62,7 @@ function changeInfiContent() {
                                     This Contains The Traditional One Minute Games To End A Tiring Day. The Events Will Be Simple And Fun-filled.
                                  </h3>
                                  <button type="button" class="btn btn-info minutetowinit clickButton">
-                                 MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -85,7 +85,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info snake">
-                                 HUMAN&nbsp;SNAKE&&nbsp;LADDERS
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -167,7 +167,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info langaming">
-                                 LAN&nbsp;GAMING
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -190,7 +190,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info finaldestination">
-                                 FINAL&nbsp;DESTINATION
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -213,7 +213,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info madads">
-                                 MAD&nbsp;ADS
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -295,7 +295,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info casino_royale">
-                                 CASINO&nbsp;ROYALE
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -318,7 +318,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br><br>
                                  <button type="button" class="btn btn-info convcoffee">
-                                 CONVERSATION&nbsp;COFFEE
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -343,7 +343,7 @@ function changeInfiContent() {
                                  </h3>
                                  <br>
                                  <button type="button" class="btn btn-info walk_the_ramp">
-                                 WALK&nbsp;THE&nbsp;RAMP
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>
@@ -417,8 +417,7 @@ function changeInfiContent() {
          </tr>
          <tr>
             <div class="row">
-               <td class="col-lg-4"  style="padding-left:4%;">
-               </td>
+               <td class="col-lg-4"  style="padding-left:4%;"></td>
                <td class="col-lg-4"  style="padding-left:4%;"></td>
                <td class="col-lg-4"  style="padding-left:4%;"></td>
             </div>

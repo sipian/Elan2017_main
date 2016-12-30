@@ -15,5 +15,5 @@ var progress = setInterval(function () {
 
 $(window).load(function() {
   $("#bar").width(600);
-  $(".loader").fadeOut(3000);
+  $(".loader").fadeOut(1500);
 });

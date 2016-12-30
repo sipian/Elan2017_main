@@ -37,7 +37,7 @@ function changeLitrContent() {
                                                 Unravel All The Clues Hidden In Plain Sight And Be The First To Get To The Bottom Of The Mystery.
                                             </h3>
                                             <button type="button" class="btn btn-info mrdetective clickButton">
-                                            MR&nbsp;DETECTIVE
+                                             More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@ function changeLitrContent() {
                                             </h3>
                                             <br>
                                             <button type="button" class="btn btn-info jam clickButton">
-                                            JUST&nbsp;A&nbsp;MINUTE
+                                             More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -84,7 +84,7 @@ function changeLitrContent() {
                                                 Set Of Themed Quizzes, And There's One For Everybody. The Jacks Of All Trades Participate In Various Rounds Of The General Quiz.
                                             </h3>
                                             <button type="button" class="btn btn-info quizzes clickButton">
-                                            QUIZ&nbsp;CONCLAVE
+                                            More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -156,7 +156,7 @@ function changeLitrContent() {
                                  Like To Quiz? Here’s A Chance To Put Those Grey Cells To Work.
                                  </h3>
                                  <button type="button" class="btn btn-info wheel_of_fortune clickButton">
-                                 WHEEL&nbsp;OF&nbsp;FORTUNE
+                                  More&nbsp;Details
                                  </button>
                               </div>
                            </div>

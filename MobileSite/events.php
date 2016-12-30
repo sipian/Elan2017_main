@@ -121,27 +121,50 @@ session_start();
             </script>
  </button>
 <br>
-<strong>Event Format</strong> : Consists of two rounds.<br>
+<strong style="margin-left: 38%;">DETAILS</strong>
+<br>
+<strong>Date : </strong>22nd January 2017
+                <br>
 
-<strong>PRELIMS</strong><br>
+<strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                <br>
+<strong>Prize :</strong>&nbsp;1st position : worth Rs 50000<br>
 
-Upload your band’s demos/videos and register .		<br>	 		
-Shortlisted bands get to perform at Elan-e-Jung prelims, Elan 2017.<br>
-		
-Each band will be given ‘m’ minutes to perform including sound check.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (including <strong>studio recording</strong> worth 20000)
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: worth Rs 15000
+<br>
+<strong>No. of Band members allowed :</strong> Maximum 7
+<br>
+<strong style="margin-left: 38%;">Event Format</strong>
+<br>
+Consists of two rounds.<br>
 
+<strong style="margin-left: 38%;">PRELIMS</strong><br>
 
-<strong>FINALS</strong><br>
+Each band interested in participating should mail their demos/videos to <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>
+                        <br>
+
+Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
+                        <br>
+No videos will be considered after the deadline</strong>
+                        <br>
+Only team leader needs to register at elan.org.in
+                        <br>
+Shortlisted bands get to perform at Elan-e-Jung finals, Elan 2017.
+                         <br>
+
+<strong style="margin-left: 38%;">FINALS</strong><br>
 	 		
-x bands will be shortlisted after the preliminary round to perform at the 	Biggies Stage.<br>
+6 bands will be shortlisted after the preliminary round to perform at the 	Biggies Stage.<br>
 		 		
-Each 	band will be given ‘m’ mins to perform on stage including sound 	check (subjected to changes).<br>
+Each band will be given <strong>20</strong> mins to perform on stage including sound 	check (subjected to changes).<br>
  		
-The winner and the first runner up will be given prizes. (Not yet decided). <br>
 <br>
 
 
-<strong>JUDGING CRITERIA</strong><br>
+<strong style="margin-left: 28%;">JUDGING CRITERIA</strong><br>
 
 	
 	
@@ -149,17 +172,17 @@ The winners will be announced by the judges immediately after the event. Judge�
 
 All the finalists will be given the participation certificates.<br>
 
-The prize money will be distributed only among the top 2 contestants.<br>
+The prize money will be distributed only among the top 2 teams.<br>
 
 The crowd‘s response is considered important.<br>
 
-The following will be looked in the contestants/bands performance:<br>
+The following will be looked in the teams/bands performance:<br>
 Entertainment<br>
 Public involvement<br>
 Energy<br>
 Attitude<br><br>
 
-<strong>Rules and Regulations</strong><br>
+<strong style="margin-left: 22%;">RULES AND REGULATIONS</strong><br>
 
 
 
@@ -173,27 +196,24 @@ Bands cannot have more than 7 members. Also, no person can play for more than 2 
 
 Bands cannot share the same frontman. <br>
 
-IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.<br>
+ELAN reserves the right to shift any band's slot timings at any point of time before the prelims.<br>
 
 In case of any damage to the provided equipment, the band will be fined 	for the damage and may be disqualified. <br>	
 	
 The decision is dependent on the nature of the damage and the judge's discretion. 	<br>
 
-IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances. 	<br>
+ELAN reserves the right to cancel the event in case of some unforeseen circumstances. 	<br>
 	
-In case of any dispute the decision of the organizers will be final and binding.
+In case of any dispute the decision of the judges and the organizers will be final and binding.
 		<br>
 Consumption of Alcohol and Drugs is strictly prohibited on Campus.<br>
-
-The Judges' decision shall be final and binding for all.<br>
 	
-The decision of the organizers with respect to line-up is final and 	abiding.
+The decision of the organizers with respect to line-up is final and abiding.
 	<br>
-The Elan 2017 team holds the right to change the rules at any moment of 	time.
-	
-
+The Elan 2017 team holds the right to change the rules at any moment of time.
 <br>
-<strong>Contact Person</strong>
+
+<strong style="margin-left: 30%;">CONTACT PERSON</strong>
 <br>
 1.Yash Pitroda	<br>					
 Email : yash@elan.org.in<br>					
@@ -225,37 +245,56 @@ Mob : 9619497727
 									<img src="images/biggies/manthan.jpg" alt="image1" />
 									<div class="gal-info">							
 										<h3>Manthan</h3>
-										<p>Every band has a dream. A dream of performing live, on a global scale, in front of fans screaming for more. But the journey of a mile begins with the first step. ELAN 2017 presents Manthan, the ultimate Fusion band contest. //to be changed  
-(Are you not into Heavy Metal Music? ELAN 2017 brings to you the ultimate Fusion Band Contest, Manthan. This is where you perform live competing with other bands trying to live the dream. )
+										<p>Every band has a dream. A dream of performing live, on a global scale, in front of fans screaming for more. But the journey of a mile begins with the first step. ELAN 2017 presents Manthan, the ultimate Fusion band contest.
+(Are you not into Heavy Metal Music? ELAN 2017 brings to you the ultimate Fusion Band Contest, Manthan. This is where you perform live competing with other bands trying to live the dream. 
 <br><br>
  <button type="button" class="btn btn-primary btn-sm manthanButton" style="text-align:center;margin-left: 35%;">
             <script type="text/javascript">
             	            $(".manthanButton").html((events.indexOf('manthan')>-1)?"UNREGISTER":"REGISTER");
             </script>
  </button>
-<
-	<br>
- <strong>Event format</strong> :  Consists of two rounds.<br><br>
+<br>
+<strong style="margin-left: 38%;">DETAILS</strong>
+<br>
+<strong>Date : </strong>21st January 2017
+                <br>
 
+<strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                <br>
+<strong>Prize :</strong>&nbsp;1st position : worth Rs 45000<br>
 
-                   <strong>PRELIMS</strong><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (including <strong>studio recording</strong> worth 20000)
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: worth Rs 10000
+<br>
+<strong>No. of Band members allowed :</strong> Maximum 7
+<br><br>
+<strong style="margin-left: 28%;">EVENT FORMAT</strong>
+<br>
+Consists of two rounds.<br>
 
-	
-Each band interested in participating should upload their demos/videos	<br>	
-	 		
-Out of this ‘x’ bands will be shortlisted, and will be performing at Manthan prelims, Elan 2017.<br>
-		
-Each band will be given ‘m’ minutes to perform including sound check.<br><br>
+<strong style="margin-left: 38%;">PRELIMS</strong><br>
 
+Each band interested in participating should mail their demos/videos to <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>
+                        <br>
 
-                   <strong>FINALS</strong><br>
-	 		
-‘x’ bands will be shortlisted from the prelims round to perform at the 		Biggies stage.<br>
+Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
+                        <br>
+No videos will be considered after the deadline</strong>
+                        <br>
+Only team leader needs to register at elan.org.in
+                        <br>
+Shortlisted bands get to perform at Elan-e-Jung finals, Elan 2017.
+                         <br>
+
+<strong style="margin-left: 38%;">FINALS</strong><br>
+
+6 bands will be shortlisted from the prelims round to perform at the 		Biggies stage.<br>
 		 		
-Each 	band will be given ‘m’ mins to perform on stage including sound 	check (subjected to changes);<br>
+Each 	band will be given <strong>20</strong> mins to perform on stage including sound 	check (subjected to changes);<br>
  		
-The winner and the first runner up will be given prizes. (Not yet decided). 		<br><br>
-
+<br>
                    <strong>JUDGING CRITERIA</strong><br>	
 
 The winners will be announced by the judges immediately after the event. Judge’s decision is considered final and should be abided by everyone.<br>
@@ -273,7 +312,6 @@ Public involvement<br>
 Energy<br>
 Attitude<br>
 
-The winner and the first runner up will be given prizes. (Not yet decided). 	
 
 <br>	<br>
 
@@ -316,10 +354,7 @@ Email :yash@elan.org.in	<br>
 Mob : 9505464597	<br>					
 Email :siddharth@elan.org.in<br>
 Mob :9619497727<br>
-2.Siddharth Sonkamble<br>	
-Email : siddharth@elan.org.in<br>
 
-Mob : 9619497727
 </p>
 									</div>
 									

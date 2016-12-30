@@ -72,7 +72,7 @@ function getBiggiesContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 212nd January 2017</div>
+                    <div class="col-lg-10">Date : 22nd January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -143,10 +143,6 @@ function getBiggiesContent(argument) {
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>The winner and the first runner up will be given prizes.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
                 </ul>
 
             </div>
@@ -185,7 +181,7 @@ function getBiggiesContent(argument) {
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.
+                    <li>ELAN reserves the right to shift any band's slot timings at any point of time before the prelims.
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
@@ -200,12 +196,12 @@ function getBiggiesContent(argument) {
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.  
+                    <li>ELAN reserves the right to cancel the event in case of some unforeseen circumstances.  
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>In case of any dispute the decision of the organizers will be final and binding.
+                    <li>In case of any dispute, the decision of the judges and organizers will be final and binding for all.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -215,17 +211,13 @@ function getBiggiesContent(argument) {
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The Judges' decision shall be final and binding for all.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
 
                     <li>The decision of the organizers with respect to line-up is final and abiding.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The Elan 2017 team holds the right to change the rules at any moment of time.
+                    <li>The ELAN 2017 team holds the right to change the rules at any moment of time.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -247,7 +239,7 @@ function getBiggiesContent(argument) {
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>The prize money will be distributed only among the top 2 contestants.
+                    <li>The prize money will be distributed only among the top 2 teams.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -256,7 +248,7 @@ function getBiggiesContent(argument) {
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The following will be looked in the contestants/bands performance:
+                    <li>The following will be looked in the teams/bands performance:
                         <ul style="text-align:center;">
                         <br>
                             <li>Entertainment</li>
@@ -271,32 +263,32 @@ function getBiggiesContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                     </ul>
             </div>
-            <br>   
+
             <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
                 <br>
 
-                <div class="col-lg-1"></div>
+                <div class="col-lg-5"></div>
 
                 <div class="row">
                     <div class="col-lg-3">
-                Yash&nbsp;Pitroda
+                &nbsp;&nbsp;Yash&nbsp;Pitroda
                 <br>
                 yash@elan.org.in                 
                 <br>
-                9505464597 
+                &nbsp;&nbsp;9505464597 
                 </div>
 
                 <div class="col-lg-3">
                 </div>
 
-                <div class="col-lg-3">
+                <!--<div class="col-lg-3">
                 Siddharth&nbsp;Sonkamble
                 <br>
                 siddharth@elan.org.in              
                 <br>
                 9619497727 
-                </div>
+                </div>-->
                 </div>
                 <br><br>
             </div>
@@ -458,10 +450,7 @@ src="images/biggies/manthan_small.jpg">
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>The winner and the first runner up will be given prizes.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
+
                 </ul>
 
             </div>
@@ -500,7 +489,7 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>IIT Hyderabad reserves the right to shift any band's slot timings at any point of time before the prelims.
+                    <li>ELAN reserves the right to shift any band's slot timings at any point of time before the prelims.
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
@@ -515,12 +504,12 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>IIT Hyderabad reserves the right to cancel the event in case of some unforeseen circumstances.  
+                    <li>ELAN reserves the right to cancel the event in case of some unforeseen circumstances.  
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>In case of any dispute the decision of the organizers will be final and binding.
+                    <li>In case of any dispute, the decision of the judges and organizers will be final and binding for all.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -530,10 +519,6 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The Judges' decision shall be final and binding for all.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
 
                     <li>The decision of the organizers with respect to line-up is final and abiding.
                         <br>
@@ -562,7 +547,7 @@ src="images/biggies/manthan_small.jpg">
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>The prize money will be distributed only among the top 2 contestants.
+                    <li>The prize money will be distributed only among the top 2 teams.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -571,7 +556,7 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The following will be looked in the contestants/bands performance:
+                    <li>The following will be looked in the teams/bands performance:
                         <ul style="text-align:center;">
                         <br>
                             <li>Entertainment</li>
@@ -586,32 +571,30 @@ src="images/biggies/manthan_small.jpg">
                     <li style="list-style-type: none;"><br></li>
                     </ul>
             </div>
-            <br>   
             <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
+                <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
 
-                <div class="col-lg-1"></div>
+                <div class="col-lg-5"></div>
 
                 <div class="row" style="font-size:23.5px;">
                     <div class="col-lg-3">
-                Yash&nbsp;Pitroda
+                &nbsp;&nbsp;Yash&nbsp;Pitroda
                 <br>
                 yash@elan.org.in                 
                 <br>
-                9505464597 
+                &nbsp;&nbsp;9505464597 
                 </div>
 
                 <div class="col-lg-3">
                 </div>
 
-                <div class="col-lg-3">
+                <!--<div class="col-lg-3">
                 Siddharth&nbsp;Sonkamble
                 <br>
                 siddharth@elan.org.in              
                 <br>
                 9619497727 
-                </div>
+                </div>-->
                 </div>
                 <br><br>
             </div>
