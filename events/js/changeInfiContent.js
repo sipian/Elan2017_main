@@ -411,27 +411,6 @@ function changeInfiContent() {
          <tr>
             <div class="row">
                <td class="col-lg-4 " style="padding-left: 0%;">
-                  <div class="animated bounceInUp col-sm-8 text-center infiDiv">
-                     <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                        <div class="flipper">
-                           <div class="front">
-                              <img class="img-responsive" alt="CAMPUS PRINCESS" src="images/infi/campus_princess.jpg" style="width: 250px;height: 300px;">
-                           </div>
-                           <div class="back">
-                              <div id="text">
-                                 <br>
-                                 <h3 class="short_description">
-                                  An Event For All Those Pretty Ladies Out There!!
-                                 </h3>
-                                 <br><br>
-                                 <button type="button" class="btn btn-info campus_princess">
-                                 CAMPUS&nbsp;PRINCESS
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
                </td>
                <td class="col-lg-4 " style="padding-left: 0%;"></td>
                <td class="col-lg-4 " style="padding-left: 0%;"></td>

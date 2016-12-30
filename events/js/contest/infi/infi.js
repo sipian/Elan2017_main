@@ -72,13 +72,7 @@ $(document).ready(function() {
        });     
     });
 
-    $('body').on("click", ".campus_princess", function() {
-        $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
-        $(".infiBigDiv").html(getInfiContent('campus_princess'));
-        $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });
-        window.history.pushState("", "", '#campus_princess');
-    });
+    
 
     $('body').on("click", ".campus_princessButton", function() {
         if(track==0){

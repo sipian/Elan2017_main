@@ -42,12 +42,12 @@ $college = $array["college"];
 $mobile = $array["phone"];
 $email = $array["email"];
 $name = $array["name"]["first"];
-$verifiedEmail = 0;
+$verifiedEmail = $array["emailVerified"];
 
-if($_GET["signup"]==1)
+/*if($_GET["signup"]==1)
     $verifiedEmail = 1;
 else
-    $verifiedEmail = $array["emailVerified"];
+    $verifiedEmail = $array["emailVerified"];*/
 
     $_SESSION["id"] = $id;
     $_SESSION["elanId"] = $userId;

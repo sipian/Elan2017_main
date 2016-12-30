@@ -51,7 +51,7 @@ function getBiggiesContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">ENGLISH BAND COMPETITION</h3>
+                <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
                 <br><br>
             </div>
             <div class="row about">
@@ -620,4 +620,112 @@ src="images/biggies/manthan_small.jpg">
   </div>\``
   return ret;
 };
+
+
+
+
+  if(argument=='campus_princess'){
+    let ret = `\`
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1280px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backBiggies">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:-11px;">CAMPUS&nbsp;PRINCESS</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:8.5%;" src="images/biggies/campus_princess.jpg">
+  </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <br>
+         <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg campus_princessButton" style="align:center;">`;
+            ret += (events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+ 
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                An event for all those pretty ladies out there, here is your chance to get selected 
+                <br>
+                for the Femina Miss India beauty pageant!
+                <br>
+                In this star-studded event, watch as the beauty queens bedazzle you with their grace, 
+                <br>
+                show their grit in the Q&A round and go on to take the crown.
+                </div>
+            </div>
+            <br>
+                        <div class="row details">
+                <h3 style="text-align: center;">DETAILS</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    Prize :&nbsp;Coming&nbsp;Soon
+                    <br>
+                    <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+                <br>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+   </div>\``;
+    return ret;
+    }
+
+
+
 }

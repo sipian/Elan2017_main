@@ -61,7 +61,7 @@ if ($detect->isMobile()) {
     font-size: 18px;
     letter-spacing: -1px;
     word-spacing: 3px;
-    font-weight: 1px;
+    font-weight: 10;
     color: white;
     }
     .table-responsive {
