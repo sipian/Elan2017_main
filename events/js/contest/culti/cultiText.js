@@ -2377,10 +2377,7 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li> Paintings will be exhibited throughout the fest in ELAN gallery.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
+          
           <li>The two best paintings will be selected and prizes will be announced on the last day of the fest.
             <br>
           </li>
@@ -2400,6 +2397,13 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+           <li> Colaration skills(for abstract)
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+
           <li>Creativity
             <br>
           </li>
@@ -2430,6 +2434,12 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+          <li> Paints,Pencils and Papers will be provided.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
           <li> Judges decision is final and binding.
             <br>
           </li>
@@ -2554,7 +2564,7 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>4 bin DJ sound system
+          <li>4 pin DJ sound system
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
