@@ -1,9 +1,8 @@
 function getLitrContent(argument) {
 
-    if(argument=='mrdetective')
-        return `\`
-    <div class='contest'>
-                <p><br></p>
+    if(argument=='mrdetective'){
+    let ret = `\`
+        <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -44,7 +43,11 @@ function getLitrContent(argument) {
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg mrdetectiveButton" style="align:center;">`;
+            ret += (events.indexOf('mrdetective')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -102,11 +105,12 @@ function getLitrContent(argument) {
         </div>
     </div>
   </div>\``;
+    return ret;
+    }
 
-  if(argument=='jam')
-        return `\`
-    <div class='contest'>
-                <p><br></p>
+  if(argument=='jam'){
+    let ret = `\`
+        <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -147,7 +151,11 @@ function getLitrContent(argument) {
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg jamButton" style="align:center;">`;
+            ret += (events.indexOf('jam')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -213,10 +221,12 @@ function getLitrContent(argument) {
         </div>
     </div>
   </div>\``;
+    return ret;
+    }
 
-  if(argument=='wheel-of-fortune')
-        return `\`
-    <p><br></p>
+  if(argument=='wheel_of_fortune'){
+    let ret = `\`
+        <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -249,7 +259,7 @@ function getLitrContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/litr/wheel-of-fortune.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/litr/wheel_of_fortune.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -257,7 +267,11 @@ function getLitrContent(argument) {
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg wheel_of_fortuneButton" style="align:center;">`;
+            ret += (events.indexOf('wheel_of_fortune')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -339,11 +353,13 @@ function getLitrContent(argument) {
         </div>
     </div>
   </div>\``;
+    return ret;
+    }
 
 
-  if(argument=='quizzes')
-        return `\`
-    <p><br></p>
+  if(argument=='quizzes'){
+    let ret = `\`
+        <p><br></p>
     <div class='contest' 
       style="padding-bottom: 150px;
       padding-left:20px;
@@ -384,15 +400,16 @@ function getLitrContent(argument) {
         <br>
         <div class="row">
             <div class="col-lg-5">&nbsp;</div>
-            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+            <div class="col-lg-6">
+            <button type="button" class="btn btn-primary btn-lg quizzesButton" style="align:center;">`;
+            ret += (events.indexOf('quizzes')>-1)?"UNREGISTER":"REGISTER";
+            ret +=`
+            </button></div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
             </div>
-
-
-
 
 
              <div class="row details">
@@ -579,5 +596,7 @@ function getLitrContent(argument) {
         </div>
     </div>
   </div>\``;
+    return ret;
+    }
 
 }

@@ -147,7 +147,7 @@ function changeLitrContent() {
                      <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                         <div class="flipper">
                            <div class="front">
-                              <img class="img-responsive" alt="WHEEL OF FORTUNE" src="images/litr/wheel-of-fortune.jpg" style="width: 250px;height: 300px;">
+                              <img class="img-responsive" alt="WHEEL OF FORTUNE" src="images/litr/wheel_of_fortune.jpg" style="width: 250px;height: 300px;">
                            </div>
                            <div class="back">
                               <div id="text">
@@ -155,7 +155,7 @@ function changeLitrContent() {
                                  <h3 class="short_description">
                                  Like To Quiz? Here’s A Chance To Put Those Grey Cells To Work.
                                  </h3>
-                                 <button type="button" class="btn btn-info wheel-of-fortune clickButton">
+                                 <button type="button" class="btn btn-info wheel_of_fortune clickButton">
                                  WHEEL&nbsp;OF&nbsp;FORTUNE
                                  </button>
                               </div>

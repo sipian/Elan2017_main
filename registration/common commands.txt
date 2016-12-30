@@ -1,8 +1,9 @@
+use elanop4y_fest_2017;
 drop table users;
-drop table users_unverified;
 drop table elanejung;
 drop table manthan;
 drop table breakfree;
+drop table looseyourfeet;
 drop table nrityanjali;
 drop table just_duet;
 drop table vibrazione;
@@ -22,6 +23,13 @@ drop table rjhunt;
 drop table lendmeurvoice;
 
 drop table campus_princess;
+
+drop table mrdetective;
+drop table wheel_of_fortune;
+drop table quizzes;
+drop table jam;
+
+
 
 
 CREATE TABLE users(
@@ -174,6 +182,34 @@ create table campus_princess(
     email varchar(100) NOT NULL
 );
 
+
+
+create table mrdetective(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table jam(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table wheel_of_fortune(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table quizzes(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
 
 
 
