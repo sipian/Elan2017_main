@@ -518,7 +518,9 @@ function changeTechyContent() {
                     </td>
                 </div>
             </tr>
-            
+
+            <!-- Start Of one complete row of events -->
+
             <tr>
                 <div class="row">
                     <td class="col-lg-4 " style="padding-left: 0%;">
@@ -568,9 +570,39 @@ function changeTechyContent() {
                             </div>
                         </div>
                     </td>
+
+                    <!-- New Events Update -->
+                      <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="PAPERPRESENTATION" src="images/techy/paperpt.png" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     Paper Presentation is all about how you put your topic or present your topic in front of the audience.
+                                     <br>
+                                    </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/paperpresentation" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                   
+
+                    <!-- New Events Updates End1 -->
                    
                 </div>
             </tr>
+
             <tr>
                 <div class="row">
                     <td class="col-lg-4" style="padding-left:4%;">
@@ -600,11 +632,391 @@ function changeTechyContent() {
                                 </span>
                         </div>
                     </td>
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Paper&nbsp;Presentation</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+              
+                </div>
+            </tr>
+<!-- End of one Complete Row of Events -->
 
+<!-- Start of one Complete Row of Events Delta-->
+
+ <tr>
+                <div class="row">
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="PAPERPLANE" src="images/techy/paperplane.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here --> 
+                                     Please tell some text to keep over here
+                                     </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/paperplane" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="GALILEOPROJECT" src="images/techy/galileo.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here -->
+                                     Please tell some text Here
+                                     <br>
+                                    </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/thegalileoproject" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                    <!-- New Events Update -->
+                      <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="BUSINESSSIMULATIONGAME" src="images/techy/simulation.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     Please enter some text here
+                                     <br>
+                                    </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/businesssimulationgame" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                   
+
+                    <!-- New Events Updates End1 -->
+                   
+                </div>
+            </tr>
+
+            <tr>
+                <div class="row">
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Paper&nbsp;Plane</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">The&nbsp;Galileo&nbsp;Project</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Business&nbsp;Simulation&nbsp;Game</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
               
                 </div>
             </tr>
 
+<!-- End of one Complete Row of Events Delts -->
+
+
+<!-- Start of one Complete Row of Events Gama-->
+
+ <tr>
+                <div class="row">
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="CROWDPITCH" src="images/techy/pitch.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here --> 
+                                     Please tell some text to keep over here
+                                     </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/crowdpitch" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="SALESMANOFFEST" src="images/techy/salesman.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here -->
+                                     Please tell some text Here
+                                     <br>
+                                    </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/salesmanoffest" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                    <!-- New Events Update -->
+                      <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="ROBOQUIDDITCH" src="images/techy/robo_epic.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     Please enter some text here
+                                     <br>
+                                    </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/roboquidditch" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                   
+
+                    <!-- New Events Updates End1 -->
+                   
+                </div>
+            </tr>
+
+            <tr>
+                <div class="row">
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Crowd&nbsp;Pitch</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Salesman&nbsp;Of&nbsp;Fest</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Robo&nbsp;Quidditch</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+              
+                </div>
+            </tr>
+
+<!-- End of one Complete Row of Events Gama -->
+
+<!-- Start of one Complete Row of Events Gama-->
+
+ <tr>
+                <div class="row">
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="SCIENCEQUIZ" src="images/techy/sciencequiz.png" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here --> 
+                                     Please tell some text to keep over here
+                                     </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/scitechquiz" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="AUTOMOBILEQUIZ" src="images/techy/automobile.png" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here -->
+                                     Please tell some text Here
+                                     <br>
+                                    </h3>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/events/automobilequiz" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                    <!-- New Events Update -->
+                    
+                   
+
+                    <!-- New Events Updates End1 -->
+                   
+                </div>
+            </tr>
+
+            <tr>
+                <div class="row">
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Sci-Tech&nbsp;Quiz</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Automobile&nbsp;Quiz</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+                   
+              
+                </div>
+            </tr>
+
+<!-- End of one Complete Row of Events Alpha -->
                         <tr>
                 <div class="row">
 
