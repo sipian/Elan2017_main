@@ -30,7 +30,7 @@ function getOnlineContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-45px;">PAPER&nbsp;PRESENTAION</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:-45px;">PAPER&nbsp;PRESENTATION</strong> </h3>
             </div>
             <br><br><br>
         </div>

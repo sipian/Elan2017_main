@@ -108,7 +108,7 @@ if(!isset($_SESSION["id"])){
           if(isset($_SESSION["id"]))
                 echo "<a href=\"dashboard.php\" class=\"active\">Dashboard</a>";
           else
-                echo "<a href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\"  class=\"active\">Register</a>";
+                echo "<a href=\"https://id.nvision.org.in/signin?url=http://mobile.elan.org.in/token.php\"  class=\"active\">Register</a>";
            ?>
             </li>
             <li><a href="hospitality.php">Hospitality</a></li>

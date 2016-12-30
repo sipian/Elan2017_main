@@ -10,25 +10,25 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-if(isset($_SESSION["id"])){
-    header("Location: dashboard.php");
-    exit();
-}
 
 if(!isset($_GET["token"])){
     header("Location: error.php?err=Invalid Token.");
     exit();
 }
+print_r($_GET["token"]);
+print_r("<br><br><br><br>");
+print_r($_GET["signup"]);
+print_r("<br><br><br><br>");
 
 require_once('vendor/autoload.php');
 use \Firebase\JWT\JWT;
 
 $key = "varyverysecrettokenithinkso";
 try{
-$decoded = JWT::decode($_GET["token"], $key, array('HS256'));
+    $decoded = JWT::decode($_GET["token"], $key, array('HS256'));
 }
 catch(Exception $e){
-     header("Location: error.php?err=Invalid Token");
+     header("Location: error.php?err=Invalid Tokens. ");
      exit();
 }
 $decoded_array = (array) $decoded;
@@ -42,7 +42,13 @@ $college = $array["college"];
 $mobile = $array["phone"];
 $email = $array["email"];
 $name = $array["name"]["first"];
-$verifiedEmail =$array["emailVerified"];
+$verifiedEmail = 0;
+
+if($_GET["signup"]==1)
+    $verifiedEmail = 1;
+else
+    $verifiedEmail = $array["emailVerified"];
+
     $_SESSION["id"] = $id;
     $_SESSION["elanId"] = $userId;
     $_SESSION["email"] = $email;
@@ -56,6 +62,7 @@ else
      $_SESSION["verified"] = 2;
 
 print_r("HELLO");
+print_r($_SESSION);
 
 $sql = "SELECT * FROM users WHERE ID='$id'";
 $result = mysqli_query($conn, $sql);

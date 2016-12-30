@@ -3,7 +3,7 @@ include '../Mobile-Detect-master/Mobile_Detect.php';
 $detect = new Mobile_Detect();
 
 if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in/litfest');
+    header('Location: http://mobile.elan.org.in/litfest');
     exit(0);
 }
 ?>

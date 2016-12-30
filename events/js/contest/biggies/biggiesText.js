@@ -22,7 +22,7 @@ function getBiggiesContent(argument) {
         ">
         <div class="heading">
             <div class="col-lg-1" id="backBiggies">
-<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
@@ -328,7 +328,7 @@ function getBiggiesContent(argument) {
         ">
         <div class="heading">
             <div class="col-lg-1" id="backBiggies">
-<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">

@@ -3,7 +3,7 @@ include '../Mobile-Detect-master/Mobile_Detect.php';
 $detect = new Mobile_Detect();
 
 if ($detect->isMobile()) {
-    header('Location: http://m.elan.org.in/hospitality.php');
+    header('Location: http://mobile.elan.org.in/hospitality.php');
     exit(0);
 }
 ?>
@@ -246,7 +246,7 @@ b{
   <svg height=\"40\" width=\"150\">
   <rect id=\"shape1\" height=\"40\" width=\"150\" />
   <div id=\"text7\">
-    <a href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>REGISTER</a>
+    <a href=\"https://id.nvision.org.in/signin?url=http://elan.org.in/token.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>REGISTER</a>
   </div>
   </svg>
   </div>

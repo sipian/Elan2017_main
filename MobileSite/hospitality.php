@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           if(isset($_SESSION["id"]))
                 echo "<a href=\"dashboard.php\">Dashboard</a>";
           else
-                echo "<a href=\"https://id.nvision.org.in/signin?url=http://trial.elan.org.in/token.php\">Register</a>";
+                echo "<a href=\"https://id.nvision.org.in/signin?url=http://mobile.elan.org.in/token.php\">Register</a>";
            ?>
             </li>
             <li><a href="hospitality.php" class="active">Hospitality</a></li>
