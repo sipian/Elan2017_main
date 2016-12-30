@@ -214,7 +214,7 @@ background-image:url(images/workshopBack.jpg);
                         <img src="images/android-app-workshop.jpg" style="width :100%; height :100%;"  class="img-fluid" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Android Engine</h4>
+                        <h4>Andro Engine</h4>
                         <p class="text-muted">Workshop<br>14th and 15th jan2017</p>
                     </div>
                 </div>
