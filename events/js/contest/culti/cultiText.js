@@ -2415,10 +2415,18 @@ let ret = `\`
         <h3 style="text-align: center;">RULES</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
+
           <li>Paintings can be either brought in person or can be sent by post*.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+          <li>Paintings can be either brought in person or can be sent by post*.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          
           <li> Entries that are received on or before 22 Jan 2017 will be evaluated.
             <br>Those received through post during ELAN will not be evaluated,
             <br>only those received in person are evaluated.
