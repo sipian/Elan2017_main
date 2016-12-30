@@ -61,7 +61,8 @@ if ($detect->isMobile()) {
             left:70%;
         }
         </style>
-        <?php
+
+<?php
                         session_start();
                              if(isset($_SESSION["id"]))
                              echo "

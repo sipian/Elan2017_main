@@ -51,7 +51,7 @@ function getBiggiesContent(argument) {
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
-                <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
+                <h3 style="text-align: center;font-weight: 900;">ENGLISH BAND COMPETITION</h3>
                 <br><br>
             </div>
             <div class="row about">

@@ -83,7 +83,7 @@ if(!isset($_SESSION["id"])){
     <div class="container">
       <div class="banner_top">
         <div class="logo">
-          <h1><a href="index.html"><img src="images/logo5.png"></a></h1>
+          <h1><a href="index.php"><img src="images/logo5.png"></a></h1>
         </div>
         <div class="banner_top_right">
           <nav class="navbar navbar-default">

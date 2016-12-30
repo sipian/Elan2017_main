@@ -37,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
       <div class="banner_top">
         <div class="logo">
-          <h1><a href="index.html"><img src="images/logo5.png"></a></h1>
+          <h1><a href="index.php"><img src="images/logo5.png"></a></h1>
         </div>
         <div class="banner_top_right">
           <nav class="navbar navbar-default">
@@ -71,6 +71,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li><a href="team.php">Contact US</a></li>
             <li><a href="litfest">Litfest</a></li>
             <li><a href="literanza">Literanza</a></li>
+            <?php 
+          if(isset($_SESSION["id"]))
+                echo "<li><a href=\"signout.php\">Sign Out</a></li>";
+           ?>
           </ul>
         </div><!-- /.navbar-collapse -->  
         
