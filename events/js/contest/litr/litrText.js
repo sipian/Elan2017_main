@@ -69,7 +69,7 @@ function getLitrContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -178,7 +178,7 @@ function getLitrContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -298,7 +298,7 @@ function getLitrContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -418,7 +418,7 @@ function getLitrContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
                 </div>
                 <br>
                 <div class="row">

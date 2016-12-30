@@ -72,7 +72,7 @@ function getBiggiesContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 21st January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -82,8 +82,14 @@ function getBiggiesContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Prize : Coming Soon.<br>
-                    </div>
+                    <div class="col-lg-10">
+                            Prize :&nbsp;1st position : worth Rs 50000<br>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (including <strong>studio recording</strong> worth 20000)
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: worth Rs 15000
+          </div>
                 </div>
                 <br>
                 <div class="row">
@@ -98,29 +104,42 @@ function getBiggiesContent(argument) {
                 <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
-                    <li>Upload your band’s demos/videos and register @ “abc.xyz”.
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                    <li>Each band interested in participating should mail their demos/videos to <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Shortlisted bands get to perform at Elan-e-Jung prelims, Elan 2017.
+
+                    <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>No videos will be considered after the deadline</strong>
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Only team leader needs to register at elan.org.in
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Shortlisted bands get to perform at Elan-e-Jung finals, Elan 2017.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Each band will be given ‘m’ minutes to perform including sound check.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
+
                 </ul>
 
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
-                    <li>x bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                    <li>6 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Each band will be given ‘m’ mins to perform on stage including sound check (subjected to changes).
+                    <li>Each band will be given <strong>20</strong> mins to perform on stage including sound check (subjected to changes).
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -136,7 +155,7 @@ function getBiggiesContent(argument) {
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
                         You need not be a college band to participate in this event.
@@ -206,7 +225,7 @@ function getBiggiesContent(argument) {
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>The Elan 2017 team holds the right to change the rules at any moment of     time.
+                    <li>The Elan 2017 team holds the right to change the rules at any moment of time.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -360,13 +379,13 @@ src="images/biggies/manthan_small.jpg">
                 </div>
             </div>
             <br>
-                        <div class="row details">
+                                        <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 20th January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -376,8 +395,14 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Prize : Coming Soon.<br>
-                    </div>
+                    <div class="col-lg-10">
+                            Prize :&nbsp;1st position : worth Rs 45000<br>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (including <strong>studio recording</strong> worth 20000)
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: worth Rs 10000
+          </div>
                 </div>
                 <br>
                 <div class="row">
@@ -387,34 +412,49 @@ src="images/biggies/manthan_small.jpg">
                 <br>
             </div>
             <br>
+            </div>
+            <br>
                                     <div class="row rules">
                 <h3 style="text-align: center;">EVENT FORMAT</h3>
                 <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
-                    <li>Upload your band’s demos/videos and register @ “abc.xyz”.
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                    <li>Each band interested in participating should mail their demos/videos to <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Shortlisted bands get to perform at Elan-e-Jung prelims, Elan 2017.
+
+                    <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>No videos will be considered after the deadline</strong>
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Only team leader needs to register at elan.org.in
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Shortlisted bands get to perform at Manthan finals, Elan 2017.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Each band will be given ‘m’ minutes to perform including sound check.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
+                    
                 </ul>
 
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
-                    <li>x bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                    <li>6 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Each band will be given ‘m’ mins to perform on stage including sound check (subjected to changes).
+                    <li>Each band will be given <strong>20</strong> mins to perform on stage including sound check (subjected to changes).
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -430,7 +470,7 @@ src="images/biggies/manthan_small.jpg">
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
                         You need not be a college band to participate in this event.
@@ -439,9 +479,9 @@ src="images/biggies/manthan_small.jpg">
                     <li style="list-style-type: none;"><br></li>
                     <li>Language is no criterion.
                         <br>
-                        The band can be fully instrumental as   well.
+                        We are looking for band that play fusion music.
                         <br>
-                         The genre of the band can be any variation of metal. 
+                         (anything except metal).
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -511,7 +551,7 @@ src="images/biggies/manthan_small.jpg">
                         <div class="row rules">
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
+                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
                          Judge’s decision is considered final and should be abided by everyone.
@@ -553,7 +593,7 @@ src="images/biggies/manthan_small.jpg">
 
                 <div class="col-lg-1"></div>
 
-                <div class="row">
+                <div class="row" style="font-size:23.5px;">
                     <div class="col-lg-3">
                 Yash&nbsp;Pitroda
                 <br>

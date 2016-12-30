@@ -76,7 +76,7 @@ function getOnlineContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2016</div>
+                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -286,7 +286,7 @@ function getOnlineContent(argument) {
                 </div>
                 <br><br>
 
-                 <div class="row about">
+                 <div class="row about" style="margin-left:15px;">
                 <h3 style="text-align: center;"></h3>
                 <div>
                 <br>
