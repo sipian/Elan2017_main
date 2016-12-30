@@ -2369,7 +2369,7 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li> Participants are to submit finished works of art.(origami, abstract painting, pencil sketch )
+          <li> Participants are to submit finished works of art.(abstract painting, pencil sketch )
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -2415,7 +2415,7 @@ let ret = `\`
         <h3 style="text-align: center;">RULES</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
-        
+
           <li>Paintings can be either brought in person or can be sent by post*.
             <br>
           </li>
