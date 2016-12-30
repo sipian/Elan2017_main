@@ -39,7 +39,7 @@ function changeOnlineContent() {
                                             <br>
                                             <br>
                                             <button type="button" class="btn btn-info paper clickButton">
-                                                PAPER&nbsp;PRESENTATION
+                                                More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -64,7 +64,7 @@ function changeOnlineContent() {
                                             <br>
                                             <br>
                                             <button type="button" class="btn btn-info emblazon clickButton">
-                                                EMBLAZON
+                                                 More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@ function changeOnlineContent() {
                                             <br>
                                             <br>
                                             <button type="button" class="btn btn-info sweetheart clickButton">
-                                                SWEET&nbsp;HEART
+                                                 More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -187,7 +187,7 @@ function changeOnlineContent() {
                                </h3>
                                             <br>
                                             <button type="button" class="btn btn-info twistit clickButton">
-                                                TWIST&nbsp;IT
+                                                 More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
@@ -215,7 +215,7 @@ function changeOnlineContent() {
                                     </h3>
                                             <br>
                                             <button type="button" class="btn btn-info skipit clickButton">
-                                                SKIP&nbsp;IT
+                                                 More&nbsp;Details
                                             </button>
                                         </div>
                                     </div>
