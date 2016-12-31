@@ -402,7 +402,7 @@ background-image:url(images/workshopBack.jpg);
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="../litfest" class="linkBT"><span class="spot"></span>LITFEST</a>
+                           <a href="../events/#emblazon" class="linkBT"><span class="spot"></span>EMBLAZON</a>
                         </div>
                      </svg>
                   </div>
