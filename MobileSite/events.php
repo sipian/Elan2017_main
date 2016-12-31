@@ -2560,17 +2560,17 @@ Online treasure hunt where participants have to solve various clues and puzzles 
               
           </li>
 
-          <!-- Bring it back -->
+          <!-- Jugaad it-->
 
             <li class="grid">
-            <a href="https://nvision.org.in/events/bringitback" target="_blank">
+            <a href="https://nvision.org.in/events/jugaadit" target="_blank">
               <figure class="effect-apollo">
                 <img src="images/techy/bringitback.jpg" alt="image4">
                 <figcaption>
                 </figcaption>     
               </figure>
             </a>
-                    <h3>Bring&nbsp;It&nbsp;Back</h3>
+                    <h3>Jugaad&nbsp;It</h3>
               
           </li>
 
