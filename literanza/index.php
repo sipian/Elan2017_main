@@ -36,7 +36,11 @@ if ($detect->isMobile()) {
 								<p>
 								Date: 7th January , 2017 
  									<br>
-								Venue: --- </p>
+								Venue: Kalinga Cultural Trust,
+								<br>
+								Banjara Hills Rd no 12,
+								<br>
+								Hyderabad </p>
 							</div>
 						</div>
 						<nav>
@@ -61,6 +65,14 @@ if ($detect->isMobile()) {
 								<br>
 								Quizmaster Lokesh is sure to send your brain cells firing with his questions.
 								</p>
+						<div style="text-align: center;">						
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSeCUPIbuUYjnqP3qzNjQuwfNXM_BOfMJEBqesaEwVlnYczYhg/viewform" target="_blank">
+	<button>REGISTER</button>
+								</a>
+								
+						</div>
+
+
 							</article>
 
 
@@ -76,6 +88,12 @@ if ($detect->isMobile()) {
 								 <br>
 								  The questions will be on everything from Wagon-R to West Indies, to Terracotta and toffee.
 								</p>
+								<div style="text-align: center;">					
+								<button>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeCUPIbuUYjnqP3qzNjQuwfNXM_BOfMJEBqesaEwVlnYczYhg/viewform" target="_blank">REGISTER
+								</a>
+								</button>
+						</div>
 							</article>
 
 							<article id="jam">
@@ -87,6 +105,12 @@ if ($detect->isMobile()) {
 								 <br>
 								  Still don't get it? Well, just join us and you'll find out for yourself!
 								</p>
+								<div style="text-align: center;">					
+								<button>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeCUPIbuUYjnqP3qzNjQuwfNXM_BOfMJEBqesaEwVlnYczYhg/viewform" target="_blank">REGISTER
+								</a>
+								</button>
+						</div>
 							</article>
 
 							
@@ -97,6 +121,12 @@ if ($detect->isMobile()) {
 									<br>
 									 Solve the mystery, win the prize. Simple? 
 								</p>
+								<div style="text-align: center;">					
+								<button>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeCUPIbuUYjnqP3qzNjQuwfNXM_BOfMJEBqesaEwVlnYczYhg/viewform" target="_blank">REGISTER
+								</a>
+								</button>
+						</div>
 							</article>
 
 	
@@ -105,14 +135,14 @@ if ($detect->isMobile()) {
 							<article id="contact">
 								<h2 class="major">For Any Queries ,<br> Feel Free To Contact Us</h2>
 								
-								<p>Siddharth Sonkamble  <br>
-									Workshop Co-ordinator <br>
-					siddharth@elan.org.in  <br>
-+91-96-1949-7727</p>
-<p>Kasula Medha  <br>
-Publicity & Hospitality Core <br>
-medha@elan.org.in  <br>
-+91-97-0496-9799</p>
+								<p>Abhinau Kumar<br>
+									Litr Events Co-ordinator <br>
+					abhi@elan.org.in  <br>
++91-94-4532-9736</p>
+<p>Anand Swain  <br>
+Infi Events Co-ordinator <br>
+anand@elan.org.in  <br>
++91-94-9018-9175</p>
 </article>
 
 					</div>

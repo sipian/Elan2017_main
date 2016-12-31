@@ -418,7 +418,7 @@ if ($detect->isMobile()) {
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="#emblazon" class="linkBT"><span class="spot"></span>EMBLAZON</a>
+                           <a href="http://elan.org.in/events/#emblazon" class="linkBT"><span class="spot"></span>EMBLAZON</a>
                         </div>
                      </svg>
                   </div>
