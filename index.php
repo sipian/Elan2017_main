@@ -12,16 +12,21 @@ if ($detect->isMobile()) {
   <head>
       <meta charset="utf-8">
       <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
+
       <meta name="author" content="ELAN 2017">
+
       <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr">  
+
       <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
       <link rel='shortcut icon' href=favicon.ico type='image/x-icon'/>
+
       <meta name="theme-color" content="#000000">
       <meta property=og:url content='http://elan.org.in/' />
       <meta property=og:type content=website />
       <meta property=og:title content="ELAN 2017"/>
       <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
+
 
       <title>ELAN 2017</title>
       <link rel="stylesheet" href="styles/main.css">
@@ -30,7 +35,7 @@ if ($detect->isMobile()) {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- pre loader link sheets -->
-<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+      <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/loader.css">
 <!-- pre loader link sheets ends  -->

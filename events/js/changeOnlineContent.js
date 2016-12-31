@@ -28,7 +28,7 @@ function changeOnlineContent() {
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="PIXEL ADDA" src="images/online/paper.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="PAPER PRESENTATION" src="images/online/paper.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
@@ -38,9 +38,11 @@ function changeOnlineContent() {
                                     </h3>
                                             <br>
                                             <br>
+                                            <a href='https://nvision.org.in/paperpresentation' target='_blank'>
                                             <button type="button" class="btn btn-info paper clickButton">
                                                 More&nbsp;Details
                                             </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

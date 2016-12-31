@@ -448,7 +448,7 @@ function getLitrContent(argument) {
                 </div>
             </div>
             
-            <div class="row rules">
+            <!--<div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
                 <div class="col-lg-4"></div>
@@ -458,9 +458,9 @@ function getLitrContent(argument) {
                 <br>
                 </div>
                 </div>
-                <br><br>
-            </div>
-            
+                
+            </div>-->
+            <br><br>
              <div class="row about">
                 <h3 style="text-align: center;">SCI&nbsp;TECH&nbsp;QUIZ</h3>
                 <div>
@@ -568,31 +568,6 @@ function getLitrContent(argument) {
                 <br><br>
             </div>
 
-            <div class="row about">
-                <h3 style="text-align: center;">AUTOMOBILE&nbsp;QUIZ</h3>
-                <div>
-                <br>
-                The greatest human invention was the wheel. Probably the second greatest invention would be quizzes.
-                <br>
-                So, as they say, we just added one and two, and we bring you a quiz on anything that would run on wheels; 
-                <br>
-                and then some.
-                <br>
-                </div>
-            </div>
-            
-            <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
-                <div class="col-lg-4"></div>
-                <div class="row">
-                <div class="col-lg-4">
-                &nbsp;&nbsp;Kushagra&nbsp;Saxena
-                <br>
-                </div>
-                </div>
-                <br><br>
-            </div>
         </div>
     </div>
   </div>\``;
