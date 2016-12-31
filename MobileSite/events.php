@@ -1963,24 +1963,7 @@ I further nominate ___ and ___ to take the challenge. #Emblazon_IITH"<br> ......
 							</div>
 					</li>
 
-					<li class="grid">
-						<a href="#image-53">
-							<figure class="effect-apollo">
-								<img src="images/techy/poster_presentation.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Poster Presentation</h3>
-							<div class="lb-overlay" id="image-53">
-									<img src="images/techy/poster_presentation.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Poster Presentation</h3>
-										<p>Coming Soon....</p>
-									</div>
-									<a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
-					</li>
+				
 		
 
 
@@ -2278,248 +2261,323 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 
 
                     <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
-                    
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/robosoccer" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/robo_soccer.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Robo Soccer</h3>
-						
-					</li>
 
 
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/robowars" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/robo_wars.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Robo War</h3>
-							
-					</li>
-                    
-                    
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/pirates" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/pirates.png" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Pirates</h3>
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Online</h3>
+
+                       <li class="grid">
+  <a href="https://nvision.org.in/paperpresentation" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/paperpt.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Paper&nbsp;Presentation</h3>
+            
+          </li>
 
 
-					</li>
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/roboquidditch" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/robo_epic.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-            <h3>Robo Quidditch</h3>
-					</li>
-          
-                    
 
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/driftking" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/drift_king.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Drift King</h3>
-							
-					</li>
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/cadpro" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/ojo_cada.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Cad pro</h3>
-						
-					</li>
-                    
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/bridgebuilder" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/bridge_builder.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Bridge Builder</h3>
-							
-					</li>
-					
-					<li class="grid">
-						<a href="https://nvision.org.in/events/electronicbloopers" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/electronic_champ.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-										<h3>Electronic Bloopers</h3>
-							
-					</li>
-                    
+                    <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
 
-                          <li class="grid">
-						<a href="https://nvision.org.in/events/dtmfrace" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/dtmf_race.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>DTMF Race</h3>
-					</li>
 
-                      <li class="grid">
-						<a href="https://nvision.org.in/events/hackamaze" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/hack_a_maze.png" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">KLUDGE</h3>
+
+
+   <li class="grid">
+            <a href="https://nvision.org.in/events/enigma" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/enigma.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+            <h3>Enigma</h3>
+                       
+          </li>
+
+                  <li class="grid">
+            <a href="https://nvision.org.in/events/hackamaze" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/hack_a_maze.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
                 <h3>Hack A Maze</h3>
-					</li>
+          </li>
 
+
+                  <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">CEPHEID</h3>
 
 <!-- Paper Plane -->
   <li class="grid">
-						
-						<a href="https://nvision.org.in/events/paperplane" target="_blank">	<figure class="effect-apollo">
-								<img src="images/techy/paperplane.jpg" alt="image4">								<figcaption>
-								</figcaption>			
-							</figure></a>
+            
+            <a href="https://nvision.org.in/events/paperplane" target="_blank"> <figure class="effect-apollo">
+                <img src="images/techy/paperplane.jpg" alt="image4">                <figcaption>
+                </figcaption>     
+              </figure></a>
 
               <h3>Paper Plane</h3>
-						
+            
 </li>
-			<!-- Galileo Project -->		
+
+
+      <!-- Galileo Project -->    
 
   <li class="grid">
-						<a href="https://nvision.org.in/events/thegalileoproject" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/galileo.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
+            <a href="https://nvision.org.in/events/thegalileoproject" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/galileo.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
             <h3>Galileo Project</h3>
                     
-					</li>
+          </li>
+
+               <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">INFERO</h3>
+
+     <li class="grid">
+            <a href="https://nvision.org.in/events/proquest" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/pro_quest.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                      <h3>Pro Quest</h3>
+          </li>
+                  
+
+                              <li class="grid">
+            <a href="https://nvision.org.in/events/algorithma" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/algo.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Algorithma</h3>
+              
+          </li>
+
+
+            <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">ROBOTICS</h3>
+
+       <li class="grid">
+            <a href="https://nvision.org.in/events/roboquidditch" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/robo_epic.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+            <h3>Robo Quidditch</h3>
+          </li>
 
            <li class="grid">
-						<a href="https://nvision.org.in/events/enigma" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/enigma.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-            <h3>Enigma</h3>
-                       
-					</li>
-                    
+            <a href="https://nvision.org.in/events/robowars" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/robo_wars.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Robo War</h3>
+              
+          </li>
+                  
+
                       <li class="grid">
-						<a href="https://nvision.org.in/events/algorithma" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/algo.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Algorithma</h3>
-							
-					</li>
+            <a href="https://nvision.org.in/events/robosoccer" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/robo_soccer.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Robo Soccer</h3>
+            
+          </li>
 
 
-					       <li class="grid">
-						<a href="https://nvision.org.in/events/proquest" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/pro_quest.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                      <h3>Pro Quest</h3>
-					</li>
-                      
+             
                     
                       <li class="grid">
-						<a href="https://nvision.org.in/events/junkyardwars" target="_blank">
-							<figure class="effect-apollo">
-								<img src="images/techy/junkyard_wars.png" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
+            <a href="https://nvision.org.in/events/pirates" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/pirates.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Pirates</h3>
+
+
+          </li>
+               
+          
+           <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">EQUILIBRIA</h3>
+
+            <li class="grid">
+            <a href="https://nvision.org.in/events/junkyardwars" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/junkyard_wars.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
                         <h3>Junkyard Wars</h3>
-							
-					</li>
-
-					      <li class="grid">
-						<a href="#quadcopter">
-							<figure class="effect-apollo">
-								<img src="images/techy/quadcopter.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Quadcopter Challenge</h3>
-						
-					</li>
+              
+          </li>
 
                   <li class="grid">
-            <a href="https://nvision.org.in/events/businesssimulationgame" target="_blank">
+            <a href="https://nvision.org.in/events/bridgebuilder" target="_blank">
               <figure class="effect-apollo">
-                <img src="images/techy/simulation.jpg" alt="image4">
+                <img src="images/techy/bridge_builder.jpg" alt="image4">
                 <figcaption>
                 </figcaption>     
               </figure>
             </a>
-                        <h3>Business&nbsp;Simulation&nbsp;Game</h3>
+                        <h3>Bridge Builder</h3>
+              
+          </li>
+
+
+                <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">TORQUE</h3>
+
+
+                      <li class="grid">
+            <a href="https://nvision.org.in/events/driftking" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/drift_king.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Drift King</h3>
+              
+          </li>
+                      <li class="grid">
+            <a href="https://nvision.org.in/events/cadpro" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/ojo_cada.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Cad pro</h3>
             
           </li>
+                    
+
+        <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">ELECTRONICA</h3>
+
+               <!-- DTMF Race -->
+
+
+                          <li class="grid">
+            <a href="https://nvision.org.in/events/dtmfrace" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/dtmf_race.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>DTMF Race</h3>
+          </li>
+
+
+ <!-- Electronic Bloopers -->
+
+              
 <li class="grid">
-            <a href="https://nvision.org.in/events/crowdpitch" target="_blank">
+            <a href="https://nvision.org.in/events/electronicbloopers" target="_blank">
               <figure class="effect-apollo">
-                <img src="images/techy/pitch.jpg" alt="image4">
+                <img src="images/techy/electronic_champ.jpg" alt="image4">
                 <figcaption>
                 </figcaption>     
               </figure>
             </a>
-                        <h3>Crowd&nbsp;Pitch</h3>
-            
+                    <h3>Electronic Bloopers</h3>
+              
           </li>
-<li class="grid">
-             <a href="https://nvision.org.in/events/salesmanoffest" target="_blank">
+        
+          <!-- Electri circuit -->
+            <li class="grid">
+            <a href="https://nvision.org.in/events/bringitback" target="_blank">
               <figure class="effect-apollo">
-                <img src="images/techy/salesman.jpg" alt="image4">
+                <img src="images/techy/circuit.jpg" alt="image4">
                 <figcaption>
                 </figcaption>     
               </figure>
             </a>
-                        <h3>Salesman&nbsp;Of&nbsp;Fest</h3>
+                    <h3>Circuit&nbsp;Hunt</h3>
+              
+          </li>
+
+          <!-- Bring it back -->
+
+            <li class="grid">
+            <a href="https://nvision.org.in/events/bringitback" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/bringitback.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                    <h3>Bring&nbsp;It&nbsp;Back</h3>
+              
+          </li>
+
+             <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">LAMBDA</h3>
+
+ <!-- Quadcopter -->
+
+  
+      <li class="grid">
+            <a href="https://nvision.org.in/events/quadcopterchallenge">
+              <figure class="effect-apollo">
+                <img src="images/techy/quadcopter.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Quadcopter Challenge</h3>
             
           </li>
+
+
+     <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+
+ <!-- Sci-Tech Quiz -->
+
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">QUIZ</h3>
+        
           <li class="grid">
             <a href="https://nvision.org.in/events/scitechquiz" target="_blank">
               <figure class="effect-apollo">
@@ -2531,6 +2589,8 @@ Online treasure hunt where participants have to solve various clues and puzzles 
                         <h3>Sci-Tech&nbsp;Quiz</h3>
             
           </li>
+           <!-- AutoMobile Quiz -->
+
 <li class="grid">
   <a href="https://nvision.org.in/events/automobilequiz" target="_blank">
               <figure class="effect-apollo">
@@ -2543,18 +2603,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
             
           </li>
 
-          <li class="grid">
-  <a href="https://nvision.org.in/paperpresentation" target="_blank">
-              <figure class="effect-apollo">
-                <img src="images/techy/paperpt.png" alt="image4">
-                <figcaption>
-                </figcaption>     
-              </figure>
-            </a>
-                        <h3>Paper&nbsp;Presentation</h3>
-            
-          </li>
-
+       
 
 
 <!--END Techy -->
