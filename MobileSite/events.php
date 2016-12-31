@@ -361,6 +361,50 @@ Mob :9619497727<br>
 									<a href="events.php#biggies_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
 							</div>
 					</li>
+ <li class="grid">
+            <a href="#campus_princess">
+              <figure class="effect-apollo">
+                <img src="images/infi/campus_princess.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Campus Princess</h3>
+              <div class="lb-overlay" id="campus_princess">
+                  <img src="images/infi/campus_princess.jpg" alt="image4" />
+                  <div class="gal-info">              
+                    <h3>Campus Princess</h3>
+                    
+
+                        <h4 style="text-align: center;font-size: 25px">About</h4>
+                    <p style="">
+                    An event for all those pretty ladies out there, here is your chance to get selected for the Femina Miss India beauty pageant! 
+In this star-studded event, watch as the beauty queens bedazzle you with their grace, 
+show their grit in the Q&A round and go on to take the crown.
+ <br>
+
+
+ <button type="button" class="btn btn-primary btn-sm campus_princessButton" style="text-align:center;margin-left: 35%;">
+            <script type="text/javascript">
+                          $(".campus_princessButton").html((events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER");
+                          </script>
+            </button>             
+</p>
+<span style="text-align: center;"><h4 style="position: absolute;top: 320px;text-align: center;font-size: 30px">Details</h4  ></span>
+<p style="position: absolute;top: 380px;" >
+
+Date : 20th , 21st and 22nd of January 2016<br>
+Venue : IIT Hyderabad Permanent Campus<br>
+Prize : Coming Soon <br>
+ <br>..............<br>**************
+ <br>
+
+                  </div>
+                  <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+              </div>
+          </li>
+                    
+                    
 
 
 <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="culti_events">Culti</h1>
@@ -1854,51 +1898,7 @@ Judges decision is final. <br>..............<br>**************
 							</div>
 					</li>
 
-					 <li class="grid">
-						<a href="#campus_princess">
-							<figure class="effect-apollo">
-								<img src="images/infi/campus_princess.jpg" alt="image4">
-								<figcaption>
-								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Campus Princess</h3>
-							<div class="lb-overlay" id="campus_princess">
-									<img src="images/infi/campus_princess.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Campus Princess</h3>
-										
-
-												<h4 style="text-align: center;font-size: 25px">About</h4>
-										<p style="">
-										An event for all those pretty ladies out there, here is your chance to get selected for the Femina Miss India beauty pageant! 
-In this star-studded event, watch as the beauty queens bedazzle you with their grace, 
-show their grit in the Q&A round and go on to take the crown.
- <br>
-
-
- <button type="button" class="btn btn-primary btn-sm campus_princessButton" style="text-align:center;margin-left: 35%;">
-            <script type="text/javascript">
-            	            $(".campus_princessButton").html((events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER");
-            	            </script>
-            </button>							
-</p>
-<span style="text-align: center;"><h4 style="position: absolute;top: 320px;text-align: center;font-size: 30px">Details</h4	></span>
-<p style="position: absolute;top: 380px;" >
-
-Date : 20th , 21st and 22nd of January 2016<br>
-Venue : IIT Hyderabad Permanent Campus<br>
-Prize : Coming Soon <br>
- <br>..............<br>**************
- <br>
-
-									</div>
-									<a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
-					</li>
-                    
-                    
-
+					
 
 <!-- Online Events -->
 
@@ -2560,17 +2560,17 @@ Online treasure hunt where participants have to solve various clues and puzzles 
               
           </li>
 
-          <!-- Bring it back -->
+          <!-- Jugaad it-->
 
             <li class="grid">
-            <a href="https://nvision.org.in/events/bringitback" target="_blank">
+            <a href="https://nvision.org.in/events/jugaadit" target="_blank">
               <figure class="effect-apollo">
                 <img src="images/techy/bringitback.jpg" alt="image4">
                 <figcaption>
                 </figcaption>     
               </figure>
             </a>
-                    <h3>Bring&nbsp;It&nbsp;Back</h3>
+                    <h3>Jugaad&nbsp;It</h3>
               
           </li>
 
