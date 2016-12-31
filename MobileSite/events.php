@@ -2279,7 +2279,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 
 
 
-                    <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+                    
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">KLUDGE</h3>
@@ -2309,7 +2309,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
           </li>
 
 
-                  <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+              
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">CEPHEID</h3>
@@ -2341,7 +2341,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
                     
           </li>
 
-               <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+              
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">INFERO</h3>
@@ -2371,8 +2371,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
           </li>
 
 
-            <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
-
+            
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">ROBOTICS</h3>
 
@@ -2428,8 +2427,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 
           </li>
                
-          
-           <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+        
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">EQUILIBRIA</h3>
@@ -2459,7 +2457,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
           </li>
 
 
-                <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+                
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">TORQUE</h3>
@@ -2489,7 +2487,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
           </li>
                     
 
-        <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+        
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">ELECTRONICA</h3>
@@ -2551,7 +2549,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
               
           </li>
 
-             <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+            
 
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">LAMBDA</h3>
@@ -2572,7 +2570,7 @@ Online treasure hunt where participants have to solve various clues and puzzles 
           </li>
 
 
-     <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
+   
 
  <!-- Sci-Tech Quiz -->
 
