@@ -4,7 +4,7 @@ function changeTechyContent() {
 <div class="table-responsive animated bounceInUp techyDiv" style="
   padding-left: 28px;
   padding-bottom: 140px;
-  background-image: url('images/event_culti7.png');  
+  background-image: url('images/event_techy.png');  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -59,9 +59,8 @@ function changeTechyContent() {
                                         <div id="text">
                                             <br>
                                              <h3 class="short_description">
-                                    The contestants will have to muddle their way out of a series of conundrums, which would require profound technical aptitude.
+                                    The Contestants Will Have To Muddle Their Way Out Of A Series Of Conundrums, Which Would Require Profound Technical Aptitude.
                                         </h3>
-                                             <br>
                                              <!-- Button -->
                                           <a href="https://nvision.org.in/events/hackamaze" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
@@ -84,7 +83,8 @@ function changeTechyContent() {
                                             <br>
                                             <h3 class="short_description">
                                      <!-- ENter some Text Here --> 
-                                     Please tell some text to keep over here
+                                     <br>
+                                     Fly A Plane Made From Standard A4 Sheet According To The Undermentioned Conditions.
                                      </h3>
                                              <br>
                                              <!-- Button -->
@@ -155,16 +155,16 @@ function changeTechyContent() {
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="GALILEOPROJECT" src="images/techy/galileo.jpg" style="width: 250px;height: 300px;">
+                                        <img Class="img-responsive" alt="GALILEOPROJECT" src="images/techy/galileo.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
                                      <!-- ENter some Text Here -->
-                                     Build of a simple terrestrial telescope with given components.
+                                     Build Of A Simple Terrestrial Telescope With Given Components.
                                      <br>
-                                     Also, test your talent in physics by participating in a challenging quiz.
+                                     Also, Test Your Talent In Physics By Participating In A Challenging Quiz.
                                      <br>
                                     </h3>
                                              <!-- Button -->
@@ -598,13 +598,13 @@ function changeTechyContent() {
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="DRIFT KING" src="images/techy/drift_king.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="Drift KING" src="images/techy/drift_king.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
                                             <br>
                                              <h3 class="short_description">
-                                    Drift King Gives You A Chance To Design An IC Engine With Given Constraints.
+                                    Drift King Gives You A Chance To Design An Ic Engine With Given Constraints.
                                         </h3>
                                             <br>
                                              <br>
@@ -851,9 +851,9 @@ function changeTechyContent() {
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                     One of the important works of an electric student is to debug a circuit.
+                                     One Of The Important Works Of An Electric Student Is To Debug A Circuit.
                                      <br>
-                                     This event will test your ability to understand the circuit and debug it.
+                                     This Event Will Test Your Ability To Understand The Circuit And Debug It.
                                      <br>
                                      </h3>
                                              <!-- Button -->
@@ -964,9 +964,9 @@ function changeTechyContent() {
                                             <br>
                                             <h3 class="short_description">
                                      <!-- ENter some Text Here --> 
-                                     Explore the world around you in a new way.
-                                      Learn things that your friends have not even heard of by participating 
-                                      in this enthralling quiz.
+                                     Explore The World Around You In A New Way.
+                                      Learn Things That Your Friends Have Not Even Heard Of By Participating 
+                                      In This Enthralling Quiz.
                                      </h3>
                                              <!-- Button -->
                                           <a href="https://nvision.org.in/events/scitechquiz" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
@@ -990,9 +990,9 @@ function changeTechyContent() {
                                             <br>
                                             <h3 class="short_description">
                                      <!-- ENter some Text Here -->
-                                     If petrol and diesel be your lifeblood, and the piston beat your heart beat, 
+                                     If Petrol And Diesel Be Your Lifeblood, And The Piston Beat Your Heart Beat, 
                                      <br>
-                                     this quiz shall be tailor made for you.
+                                     This Quiz Shall Be Tailor Made For You.
                                      <br>
                                     </h3>
                                     <br>

@@ -664,10 +664,6 @@ if ($detect->isMobile()) {
 
 
 
-<!--   <script src="js/contest/techy/techyText.js"></script>
-  <script src="js/contest/techy/techy.js"></script> -->
-
-
   <script src="js/contest/infi/infiText.js?version=1.0"></script>
   <script src="js/contest/infi/infi.js?version=1.0"></script>
 

@@ -85,7 +85,7 @@ function getBiggiesContent(argument) {
                     <div class="col-lg-10">
                             Prizes :
                             <br>
-                            1st position : 
+                            &nbsp;&nbsp;&nbsp;&nbsp;1st position : 
                                     <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 30000
@@ -108,7 +108,7 @@ function getBiggiesContent(argument) {
                                    <strong>MTV Indies Channel</strong>
                                    <br><br>
                                     
-            2nd position : 
+            &nbsp;&nbsp;&nbsp;&nbsp;2nd position : 
                                     <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 15000
@@ -419,7 +419,7 @@ src="images/biggies/manthan_small.jpg">
                     <div class="col-lg-10">
                             Prizes :
                             <br>
-                            1st position : 
+                            &nbsp;&nbsp;&nbsp;&nbsp;1st position : 
                                     <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 25000
@@ -431,7 +431,7 @@ src="images/biggies/manthan_small.jpg">
                                    (Hyderabad)
                                    <br><br>
                                     
-            2nd position : 
+            &nbsp;&nbsp;&nbsp;&nbsp;2nd position : 
                                     <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 10000
@@ -443,9 +443,10 @@ src="images/biggies/manthan_small.jpg">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;No. of Band members allowed : Maximum 7</div>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                    &nbsp;&nbsp;No. of Band members allowed : Maximum 7</div>
                 </div>
                 <br>
             </div>
@@ -457,7 +458,7 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>In first Round of Screening participants have to upload their music performance on 
                     <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>
                     ArtistAloud.com</a> 
@@ -492,12 +493,13 @@ src="images/biggies/manthan_small.jpg">
 
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>6 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    <li>Each band will be given <strong>20</strong> mins to perform on stage including sound check (subjected to changes).
+                    <li>Each band will be given <strong>20</strong> mins to perform on stage including sound check 
+                    <br>(subjected to changes).
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -509,7 +511,7 @@ src="images/biggies/manthan_small.jpg">
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
                         You need not be a college band to participate in this event.
@@ -586,7 +588,7 @@ src="images/biggies/manthan_small.jpg">
                         <div class="row rules">
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
                          Judge’s decision is considered final and should be abided by everyone.
@@ -653,7 +655,7 @@ src="images/biggies/manthan_small.jpg">
             </div>
         </div>
     </div>
-  </div>\``
+  </div>`;
   return ret;
 };
 
