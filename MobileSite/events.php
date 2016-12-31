@@ -2275,10 +2275,12 @@ Online treasure hunt where participants have to solve various clues and puzzles 
                     
                      -->
                     <!-- Techy -->
+
+
                     <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
                     
                       <li class="grid">
-						<a href="#roboSoccer">
+						<a href="https://nvision.org.in/events/robosoccer" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/robo_soccer.jpg" alt="image4">
 								<figcaption>
@@ -2286,81 +2288,12 @@ Online treasure hunt where participants have to solve various clues and puzzles 
 							</figure>
 						</a>
                         <h3>Robo Soccer</h3>
-							<div class="lb-overlay" id="roboSoccer">
-									<img src="images/techy/robo_soccer.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Robo Soccer</h3>
-												<h4 style="text-align: center;font-size: 25px">PROBLEM STATEMENT:</h4>
-										<p style="">
-										Build two bots that can kick a table tennis ball into the opponent’s Goalpost following the rules. Use your creativity and come up with innovative kicking mechanisms to smash the ball into the goal post. 
- <br>
-
-										
-</p>
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/robosoccer" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-<p style="position: absolute;top: 280px;" >
-
-<span style="font-size: 30px;color: red; text-decoration: underline;text-align: center">Event Format
-</span><br><br>
-<span style="font-size: 20px">GAME FIELD: ll 
-</span><br>
-[The picture of the arena will be uploaded later] <br>
-<span style="font-size: 20px">The Arena: 1</span><br>
- 1.The soccer field is 2 m x 1 m. <br>
- 2. Blue field is 50 cm x 50 cm.<br>
-  3. Goal post is 40 cm in length and 30 cm in height.<br>
-   4. Boundary of the field will be covered by 15cms high wall<br>
-   5.There are two regions in the field, green field and blue field.<br>
-   6. Plastic Table Tennis ball will be used. <br>
- <br>
-<span style="font-size: 20px">Bot Specifications:</span><br>
-1. Each team is allowed to have a maximum of two bots. <br>2. Bot must fit into a cube of (25 X 25 X 24)cm at all times. It may not expand beyond these dimensions during any point of the match. Violating this will cause immediate disqualification. <br>3. 10% tolerance will be allowed in any one dimension. <br>4. A battery with the voltage rating not exceeding 12 volts is allowed. This is an on-board power supply. <br> 5. The weight of the bot should not exceed 3 kgs(this is including battery, motors etc., except spare components and the remote to control)<br> 6. The remote control for the bot could be a wired or a wireless one.<br> 7. Grabbing the ball is not allowed. So, any such mechanisms are not allowed. <br>8. In case of a  wireless Bot, you must be able to control it with two different frequencies. <br><br>
-<span style="font-size: 20px">RULES for game play:</span><br>
- 1. Every match is 5 minutes in the first round. The duration for the matches in the next rounds will be decided by the organizers. <br>2. In case of a tie, an extra time of 90 seconds will be given, the winner will be the one who first scores a goal. If no one scores a goal, another tie breaker of 90 seconds will<br> be held. Still if no one scores, the team with more negative points will lose. 3. <br>Match will start from the center of the field with the TT ball kept in the yellow circle. <br>4. A goal will be considered only if the ball crosses the goal line completely.<br> 5. Two manual bots of each team can enter into the green field at any time, once the match starts.<br><br>
-<span style="font-size: 20px">Fouls and Penalties:</span><br>
-
-1. Any kind of intentional damage to the opponent bot(s) will be considered as a foul. <br>
-2. Two bots should not be in contact for more than 5 seconds, in any case, otherwise a penalty of –2 points will be awarded to the team which blocked the other bot.<br>
-3. Two manual bots of the same team should not enter into any of the blue fields together. Only one at a time from each team can enter into the blue field. In the blue field, it is entirely one on one match. If more than 50% of the second Bot enters the blue region a penalty of -5 points will be given, and opponent bot which is outside blue region gets the ball, and the game is continued from the same position. If one Bot gets ‘pushed’ into the blue region which already has another Bot of the same team, penalty won’t be given.<br>
-4. The bot should not cross the opponent’s field before the start of the match. Violation leads -5 points. <br>
-5. Teams have to take care of their wirings. The wirings should be at the height of at least 30cms from the game field. Wirings shouldn’t touch the game field. If any team tries to disturb the game intentionally using wires or if wires are in contact with the arena for 5 seconds continuously penalty of -2 points will be given, and the opponent gets the ball and the game is continued from the same position.  <br>
- 6. None of the bots should grab the ball and hold it for more than 5secs. If it holds more than the prescribed time ball a penalty of -5 will be awarded, and the ball will be passed to opponent team and game restarts from center.<br><br>
-<span style="font-size: 20px">General Rules:</span><br>
-
-1. At the starting of the match, one of the bots should be in the blue field. The other Bot of the same team should be in the green field.<br>
- 2. For every goal, 20 points will be awarded.<br>
-3. Any bot can score a goal from anywhere on the game field following all the above mentioned rules.<br>
-4. If the ball goes outside the field then opponent will start the match from that point without any timeout. <br>
-5. Finally, the winner is the team who scores more points at the end of the match. The winning team will be qualified to the next rounds<br>
- 
-P.S:<br>
-​ In case of any discrepancy, organizers’ decision is final. Arguing with organizer will lead to immediate disqualification. <br>>br>
-
-<span style="font-size: 20px"> Eligibility: </span><br>
-
-All students with a valid identity card of their respective educational institutes are eligible to participate. A team should consist of 2 members. Students from different educational institutes can form a team. <br>
-<span style="font-size: 20px">Certificate Policy:  </span><br>
-The top 3 teams emerging from this competition will be awarded a Certificate of Excellence. All teams who have registered online will be awarded a Participation Certificate, and for on spot registered teams, participation certificate will be awarded if they have a minimum of 40 points( including all games they have played ).
- 
-
-Organizers: <br> Kola Sai Dileep<br>(7702693104)<br>
-                      Shivarag Reddy<br>(9010774589)
-<br>
-................<br>***********</p>
-
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+						
 					</li>
 
 
                       <li class="grid">
-						<a href="#roboWars">
+						<a href="https://nvision.org.in/events/robowars" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/robo_wars.jpg" alt="image4">
 								<figcaption>
@@ -2368,109 +2301,12 @@ Organizers: <br> Kola Sai Dileep<br>(7702693104)<br>
 							</figure>
 						</a>
                         <h3>Robo War</h3>
-							<div class="lb-overlay" id="roboWars">
-									<img src="images/techy/robo_wars.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Robo War</h3>
-												<h4 style="text-align: center;font-size: 25px;text-decoration: underline">PROBLEM STATEMENT:</h4>
-										<p style="">
-										The challenge is to create a robot (manually controlled / autonomous) whose sole purpose is to immobilize or otherwise move your opponent out of the arena within a stipulated time. This event aims to test your Robot against another in a field of combat where brute strength and cat-like reflexes hold the key to success.
-
-
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/robowars" target="_blank" style="color: white;">REGISTER</a>
-</button>
-										
-</p>
-<span style="text-align: center;"><h4 style="position: absolute;top: 320px;text-align: center;font-size: 30px;text-decoration: underline">SPECIFICATIONS:</h4	></span>
-<p style="position: absolute;top: 380px;" >
-<span style="font-size: 20px">Bot Specifications
-</span><br>
-1.The bot should not exceed the dimension 750mm x 750mm x 1000mm (l x b x h) at any point during the match. <br>
-2.External device used for control are not included in the size constraint. <br>
-3.The weight of bot should not exceed 60kg , including the weight of pneumatic sourse/tanks <br>
-4.The weight of adapters and the remote controller will not be included in this constraint Mobility <br>
-5.All robots must have easily visible and controlled mobility in order to compete. <br><br>
-
-Methods of mobility include: <br>
-
-1.Rolling (wheels, tracks or the whole robot).<br> 
-2.Walking (linear actuated legs with no rolling or cam operated motion). <br>
-3.Ground effect air cushions (hovercrafts) 
-Jumping and hopping is NOT allowed. <br>
-4.Flying (airfoil using, helium balloons, ornithopters, etc.) is NOT allowed<br>
-IC engines, Inflammable, chemical, explosive weapons should not be used. Pneumatic devices are allowed.
-
- <br><br>
-<span style="font-size: 20px">Control Requirements </span><br>
- 1.Bot can be controlled wirelessly or with wires. <br>
-2.In case of wired bot, wires should be stacked into a single unit and should be slack at every moment of the competition. <br>
-3.All the robots with wireless control should be able to change frequencies (if required) or coded channels to prevent any radio conflicts , it may be changed before the start of the match to avoid frequency interference with other teams.<br> 
-4.Remote controls available in market can also be used. <br>
-
- <br>
-<span style="font-size: 20px">Power Source</span><br>
-1.Batteries, if used, should not be damaged and non-leak proof as it may lead to disqualification. <br>
-2.Special care should be taken for protecting the on-board batteries. <br>
-3.You won’t be allowed to change batteries during the match. <br>
-4.It is suggested to have extra battery ready and charged up during competition so that the team, on advancing to next level, have their robots ready on time. <br>
-5.The machine can be powered electrically only. Use of an IC engine in any form is not allowed. On board batteries if used, must be sealed, immobilized-electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells). 
- <br><br>
-
-
-<span style="font-size: 20px">Pneumatics : </span><br>
-1.Robot can use pneumatic devices actuated by pressurized non-inflammable gases. Maximum allowed outlet nozzle pressure is 8 bar. The storage tank and pressure regulators used by teams need to be certified. <br>
-2.Participants must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge. Also there should be provision to check the cylinder pressure on the bot. <br>
-3.The maximum pressure in cylinder should not exceed the rated pressure at any point of time. <br>
-4.Entire pneumatic setup should be on-board, no external input (from outside the arena) can be given to the robot for functioning of its pneumatic system. 
-
-<br><br>
-
-
-<span style="font-size: 20px">Weapons:</span><br>
-1.Wedge bots and pneumatic flippers are allowed.<br>
-2.Drums, vertical spinners, cutters, horizontal spinners and any other harmful weapon is not allowed due to safety problems.<br><br>
-
-
-<span style="font-size: 20px">Gameplay: </span><br>
-
-1. A robot is declared victorious if its opponent is immobilized. <br>
-2. A robot will be declared immobile if it cannot display linear motion of at least two inches in a timed period of 30 seconds. <br>
-3. In case both the robots remain mobile after the end of the round then the winner will be decided based on the points(criteria for points allocation is mentioned below). <br>
-4. Every match will consist of 3 rounds of 3 min each and each subsequent round will have a time gap of 1 min. <br>
-5. If a robot is thrown out of the arena, that particular round will stop immediately, and the robot still inside the arena will automatically be declared as the winner of that round and the other rounds will continue as usual.<br>
-6. Robots cannot win by merely lifting their opponents. Organizers will allow lifting for a maximum of 20 seconds for each lift and then the attacker robot will be instructed to release the opponent. If, after being instructed to do so, the attacker is unable to release, they will be awarded -10 points. <br>
-7. If two or more robots become entangled due to any reason and becomes trapped within another robot, then the competitors should make the timekeeper aware and the fight should be stopped and the robots should be separated by the safest means. <br>
-8. Points will be given on the basis of attack and defense.
-
-<br><br>
-<span style="font-size: 20px">Aggression and attack-</span><br>
-
-Aggression is judged by the frequency, severity, boldness and effectiveness of attacks deliberately initiated by the robot against its opponent. If a robot appears to have accidentally attacked an opponent or if the attack doesn’t have any impact on the enemy bot, that act will not be considered Aggression. For every attack, the bot will be given 15 points. Once a round is finished, whichever bot, the organizers feel is aggressive in that particular round, that bot is given 50 points.
-
-<span style="font-size: 20px"> Defense</span><br>
-
- A good defense means, being able to escape or minimize the damage caused by the opponent or its weapons. For every successful defense performed, the bot will be given 10 points.
- <br><br>
-<span style="font-size: 20px">Note:  </span><br>
-1. A robot that is unsafe, as deemed by the judges, will be disqualified immediately and the opponent robot will be declared as the winner. <br>
-2. The bot is not allowed to leave anything behind during the run. It should not leave any mark on the arena. Any bot found damaging the arena will be immediately disqualified. <br>
-3. If there is any kind of ambiguity in selection of weapon systems, please clarify the same with the event organizers to avoid further confusion. <br><br>
-
-Organizers: <br>  Akhil Ashref<br>(9177285214)<br>
-                       Emil Joseph<br>(9446328940)
-<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+							
 					</li>
                     
                     
                       <li class="grid">
-						<a href="#pirates">
+						<a href="https://nvision.org.in/events/pirates" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/pirates.png" alt="image4">
 								<figcaption>
@@ -2478,241 +2314,24 @@ Organizers: <br>  Akhil Ashref<br>(9177285214)<br>
 							</figure>
 						</a>
                         <h3>Pirates</h3>
-							<div class="lb-overlay" id="pirates">
-									<img src="images/techy/pirates.png" alt="image4" />
-									<div class="gal-info">							
-										<h3>Pirates</h3>
-										
-												<h4 style="text-align: center;font-size: 25px">Event description:</h4>
-										<p style="">
-										Too bored with ground based robot events, you have come to the right place. Pirates is a ‘one of a kind’ event where you are given the platform to create your own robot which floats and navigates on water. Starting from scratch, you get the chance to showcase your creativity and awaken the little engineer in you.
 
 
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/pirates" target="_blank" style="color: white;">REGISTER</a>
-</button>							
-</p>
-
-
-<p style="position: absolute;top: 300px;" >
-<span style="font-size: 20px">Task </span><br>
-Make a wired/wireless which can float on water and can perform pick-n-place task …Like manipulating cubes and balls…….
-
-
- <br><br>
-<span style="font-size: 20px">Arena: </span><br><br>
-
-<img src="images/techy/pirates1.png" style="width: 100%">
-
-<br>
-<span style="font-size: 20px"> Arena Specifications:
-</span><br>
-Arena consists of two zones:<br>
-
- A: Deposit zone: This zone is specific for each team, in which they have to store their treasure.<br>
-B: Treasure zone: This zone is further divided into two zone i.e.<br>
-B1: This is the common treasure zone from where both teams can collect the treasure. This zone is a floating platform as a ship. 	<br>
-B2: This treasure zone is specific for each team from where they can collect their treasure without the intervention of other team.  This zone is the fixed surface just above the water level at the opposite side of the participant’s start zone indicated by the respective color.   
-
-
- <br>
-<span style="font-size: 20px"> Arena Dimensions:</span><br>
-1.   The size of arena is 1800mm X 1200mm, completely filled with water.<br>
-2.   The height of arena is more than the 300 mm.<br>
-3.   There are two start zones for each team at diagonally opposite corners indicated by RED and BLUE color.  <br>
-4.   The zone B1 will have four (4) cubes as a common treasure and B2 will have 5 cubes as treasure with color respective to the team.<br>
-5.   The size of Deposit zone is 300mm X 300 mm. This is exactly at the center of the participant’s start zone and the zone B2 corresponding to the participant.<br>
-6.   The size of cubes is of size (80mm X 80mm X 80mm). The color of cubes at common zone is white and the cubes at fixed zone B2 are of the same color as that of the starting zone. 
-
-<img src="images/techy/pirates2.png" style="width: 100%">
-
-<!-- pu one image here -->
- <br><br>
-
-
-<span style="font-size: 20px">Bot specifications: </span><br>
-
-<span style="font-size: 20px">1. Dimensions and Fabrication </span><br>
- a. The machine must fit within an area of dimensions 250mm X 250mm X 250mm at the beginning of the game.<br>
-b. The external remote control is not included in this size constraint.<br>
-c. The onboard power on the machine must fit within the aforementioned box.<br>
-d. During the game, the machine cannot detach itself into multiple parts nor damage the arena in any way. The judges hold the right to subjectively determine if the machine violates this clause.<br>
-e. The machine cannot be constructed using readymade Lego kits or any readymade mechanism. But you can make use of readymade gear assemblies. Violating this clause will lead to the disqualification of the machine.<br>
-f. The bot shouldn’t sink at any point of time. This malfunction will lead to immediate disqualification.<br>
-
-<span style="font-size: 20px">2. Power Supply and Propulsion </span><br>
-a. In case of using electric energy for propulsion and drive, the potential difference between any two points of the machine should not exceed 24 Volts, at any time.<br>
-b. Use of air compressors is not allowed. However, the power supply must be non-polluting and must satisfy the safety constraints determined by the judges.
-c. In case the machine is using a non-electric power supply, kindly get it <br>approved from the organizers beforehand via email. Organizers are not responsible for inconvenience if approval is not sought.
-
-<br><br>
-
-
-<span style="font-size: 20px">3. Controls</span><br>
-a. The machine can be both wired as well as wireless. However those bringing a wireless machine will be given extra points on completing the task at least once, but this point are considered only for the best design category.<br>
-b. The participants building a wireless machine have to bring 2 remote controls of distinct frequencies or a dual-frequency remote control, which can be switched to either frequency just before the start of the run. This is done to avoid frequency interference with competing machines.<br>
-c. The controller for the single bot is not allowed.<br>
-d. Wired bots should have the wire of length greater enough to cover the entire arena and the wire should remain slack during the complete run.
-<br><br>
-
-
-<span style="font-size: 20px">Gameplay</span><br><br>
-<span style="font-size: 20px">1. Game Procedure:</span><br>
-a. The participant will be given a time limit of 3 minutes for the entire game.<br>
-b. The time will begin when the machine begins its run for the first time from the starting zone.<br>
-c. The game will start from the starting zone.<br>
-d. They have to collect the treasure from the zone B1 and B2 to score maximum points.<br>
-e. Teams are allowed to collect the cubes from the water if they are dropped in water.<br>
-f. In allotted time if both of the teams are unable to score then both will be disqualified.<br><br>
-<span style="font-size: 20px">2. Rounds:</span><br>
-There will be two rounds for the competition.<br>
-<span style="font-size: 20px">Round 1</span><br>
-a.   Round 1 will be the qualifying round in which the team must be able to score to qualify. This will be of
-2 minutes.<br>
-b.   In this Round only the treasure of zone B2 is present in the arena. 
-<br>
-<span style="font-size: 20px">Round 2</span><br>
-a.   Round 2 will be the knockout round; it will proceed in the format specified above.<br>
-b.   The winners will be advanced to the further rounds.<br>
-c.   In round 2 all the treasure zones are available.<br>
-
-<span style="font-size: 20px">3. Scoring and Penalty</span><br>
-
-
-    a. The treasure at zone B1 will carry 40 points for each cube.<br>
-    b. The treasure at zone B2 will carry 50 points for each cube.<br>
-    c. If any team drops the cube in the water the 20 points will be deducted from their total.<br>  
-
-    <span style="font-size: 20px">4. Winning criterion</span><br>
-    a. The team who score maximum points in 4 minutes will be the winner of that knockout round.<br>
-b. If at any moment score of any team exceeds 350 then it will be the winner. <br>
-c. In case of TIE, teams will be given extra time, during which the team who scores first will be the winner of that round.<br>
-
-    <span style="font-size: 20px">5. General Rules</span><br>
-    a. The teams must adhere to the spirit of healthy competition. The teams must not damage the opponent's machine in any way. Judges reserve the right to disqualify any team indulging in misbehavior.<br>
-b. The mechanism used cannot be changed completely during the competition. Only parts can be replaced in case of repair.  <br>
-c. Any team that is not ready at the time specified will be disqualified from the competition automatically.<br>
-d. The machine would be checked for its safety before the race and would be discarded if found unsafe for other teams and spectators.<br>
-e. Decision of the judges shall be treated as final and binding on all.<br>
-
-
-    <span style="font-size: 20px">6. Team Specification:</span><br>
-
-A team must consist of 3 or less participants. Students from different educational institutes can form a team.<br>
- <span style="font-size: 20px">7. Eligibility:</span><br>
- All students with a valid identity card of their respective educational institutes are eligible to participate in the event.<br>
-  <span style="font-size: 20px">8. Certificate Policy</span><br>
-  8. Certificate Policy<br>
-   <span style="font-size: 20px">6. Team Specification:</span><br>
-   Certificate of Excellence will be awarded to all winners (only first and second).Certificate of best design will also be awarded. Certificates of Participation will be given to all the teams who have qualified. Disqualified teams will not be considered for any certificates.
-
-<br><br>
-
-Organizers: <br>  Sahil<br>(9822977832)<br>
-                        Sambit Rath<br>(8895942346)
-<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
 					</li>
                       <li class="grid">
-						<a href="#RoboQuidditch">
+						<a href="https://nvision.org.in/events/roboquidditch" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/robo_epic.jpg" alt="image4">
 								<figcaption>
 								</figcaption>			
 							</figure>
 						</a>
-                        <h3>Robo quidditch</h3>
-							<div class="lb-overlay" id="RoboQuidditch">
-									<img src="images/techy/robo_epic.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Robo quidditch</h3>
-										
-
-												<h4 style="text-align: center;font-size: 25px;text-decoration: underline;">General description:</h4>
-										<p style="">
-										Gryffindor or Slytherin? Fascinated by seeing quidditch in Harry potter anytime? Then this one is surely for you. Make a bot that can play quidditch for you. We will make your task easy here, your bot need not fly. It's Quidditch, but on ground :)
-
-
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/roboquidditch" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-										
-</p>
-<span style="text-align: center;"><h4 style="position: absolute;top: 300px;text-align: center;font-size: 30px">Game play:</h4	></span>
-<p style="position: absolute;top: 350px;" >
-
-• Each team has to make two manually controlled bots : A ‘Seeker Bot’ and a ‘Thrower Bot’. <br>
- • There are two halves of 10 mins each. Each half begins with the ‘snitch’ in possession of one of the teams <br>
-. • The Arena has 4 fixed hoops ( Poles with a circular ring on top of them) at different spots with rings of different radius .  <br>
-• The Thrower bot should throw the snitch into any of the hoops by standing outside the circular region around hoop.  <br>
-• Seeker bot should catch the snitch thrown by opponent. 
-
-
- <br><br>
-<span style="font-size: 20px">Points Scheme : </span><br><br>
-<span style="font-size: 20px">  Throwing :</span><br>
-  • Hoop 1 : 30 points<br>
- • Hoop 2 : 25 points <br>
-• Hoop 3 : 20 points<br>
- • Hoop 4 : 15 points <br>
-• Partial collision with the ring : 5 points
- <br>
-<span style="font-size: 20px"> Catching :</span><br>
- • Before ball touches ground: 40 points <br>
-• After one collision with ground: 20 points <br>
-• If ball touches ground more than once: 0 points • Foul : All the following actions are considered as foul <br>
-• If a bot disturbs other team’s bot while throwing or catching (-20 points)<br>
- • Possession of the snitch for more than 20 seconds without throwing/passing (-10 points) <br>
-• If ball goes out of arena (-10 points to the thrower bot team) <br>
-• If more than one fourth of the thrower bot lies in the circular region around the hoop it is throwing at (-5 points) and no points will be awarded even if the ball passes through hoop. 
-
- <br><br>
-
-
-<span style="font-size: 20px">Guidelines and restrictions: </span><br>
- • The objective of the game is to score as many points as you can in 20 minutes of gameplay. <br>
-• In case of any foul, ball will be passed to opponent team. <br>
-• You’re allowed to pass the snitch to your thrower bot manually after catching, at a cost of -2.5 points.
-
-
-<br><br>
-
-
-<span style="font-size: 20px">Arena:</span><br>
-pic<br><br>
-
-
-<span style="font-size: 20px">Bot specifications:</span><br>
-
-• Max bot dimensions : <br>
-25cm x 25cm x 25cm<br>
-No restrictions on weight.<br>
- 
-• Wired / Non - wired ( Preferred ). In case of wireless bots, operational frequencies should be adjustable, so as to not cause interference with other team’s bot frequencies.
-
-
-<br><br>
-
-Organizers: <br>  Jayasimha Reddy(<br>(7382923814)<br>
-                       Siddhartha Mishra<br>(9556412669)
-<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+            <h3>Robo Quidditch</h3>
 					</li>
+          
                     
 
                       <li class="grid">
-						<a href="#image-46">
+						<a href="https://nvision.org.in/events/driftking" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/drift_king.jpg" alt="image4">
 								<figcaption>
@@ -2720,33 +2339,10 @@ Organizers: <br>  Jayasimha Reddy(<br>(7382923814)<br>
 							</figure>
 						</a>
                         <h3>Drift King</h3>
-							<div class="lb-overlay" id="image-46">
-									<img src="images/techy/drift_king.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Drift King</h3>
-										<h4 style="text-align: center;font-size: 25px">Task:</h4>
-										<p style="">In this event ,the contestants are expected to make to an IC engine powered machine ,that can be controlled remotely using a wireless remote controller, which can race against machines of similar construct on an all-terrain track packed with a number of obstacles. <br><br>
-
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/driftking" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-										<span style="font-size: 20px;">Please follow the below link for the complete details about the event.</span><br>
-
-										<a href="Driftking.pdf" style="font-size: 25px">Clik here</a>
-<br>
-
-Organizers:<br>  Sekhar Kuruva<br>(7660082174)<br>
-Sarbhav Mittal<br>(9640157759)<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+							
 					</li>
                       <li class="grid">
-						<a href="#cadPro">
+						<a href="https://nvision.org.in/events/cadpro" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/ojo_cada.jpg" alt="image4">
 								<figcaption>
@@ -2754,58 +2350,11 @@ Sarbhav Mittal<br>(9640157759)<br>
 							</figure>
 						</a>
                         <h3>Cad pro</h3>
-							<div class="lb-overlay" id="cadPro">
-									<img src="images/techy/ojo_cada.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Cad Pro</h3>
-										<h4 style="text-align: center;font-size: 25px">INTRODUCTION:</h4>
-										<p style="">
-										BE A PRO Design Challenge will test your designing skills in 3D design software and here, you have to prove your expertise in a challenging scenario where you race against time.<br>
-										<span style="font-size: 20px">Event Description:</span>
-										It will be an on-spot designing round. Participants will be given a problem statement at the time of event and they have to submit their design in the specified time limit. 
-
-
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/cadpro" target="_blank" style="color: white;">REGISTER</a>
-</button>
-										
-</p>
-<span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules:</h4	></span>
-<p style="position: absolute;top: 380px;" >
- 1.Each team can have a maximum of two participants.<br>
- 2.Each Question will carry some points according to the type of question and its level of difficulty.<br>
- 3.Models can be prepared in any CAD software (CATIA/ProE/AutoCad/Solidworks/Solidedge) and the final file must be prepared in IGES or STEP format.<br>
- 4.Computers will be provided, in which Solid edge is installed. If you want to use other software you can bring you own laptop.<br>
-5.There will be a prelim round in case the participation exceeds 20.<br>
-6.Decision of Judges will be final and binding.<br>
-
-<br>
-
-<span style="font-size: 20px">Judging criteria:</span><br>
-
-  1.Any sign of plagiarism from internet or from other participant will lead to direct disqualification.<br>
- 2.Participant can only submit once. In case of multiple submissions only the first entry will be considered for evaluation.<br>
-3.The design will be evaluated on the following aspects :<br>
- a.Originality of the Design<br>
-  b.Clear and easily comprehensible design<br>
-c.Time Taken<br>
- 4.Decision of the organizers will be final and binding. No claim will be entertained against the announced results.<br><br>
-
-<span style="font-size: 20px">Organisers</span><br> <br> Kushagra<br>(9451382264)
-<br>
-                       Divya bala<br>(8978706500)
-
-<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+						
 					</li>
                     
                       <li class="grid">
-						<a href="#bridgeBuilder">
+						<a href="https://nvision.org.in/events/bridgebuilder" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/bridge_builder.jpg" alt="image4">
 								<figcaption>
@@ -2813,83 +2362,11 @@ c.Time Taken<br>
 							</figure>
 						</a>
                         <h3>Bridge Builder</h3>
-							<div class="lb-overlay" id="bridgeBuilder">
-									<img src="images/techy/bridge_builder.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Bridge Builder</h3>
-											<h4 style="text-align: center;font-size: 25px">Event description:</h4>
-										<p style="">
-										Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendour .This event aims to harness practical design and constructional abilities of the participants.
-Participants have to design a Bridge using Popsicle sticks (icecream sticks) satisfying the given constraints
-<br>
-										<span style="font-size: 20px">Event Format:</span>
-										There will be only one round in which bridges will be tested. Participants have to come with their bridges.
-
-<br>
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/bridgebuilder" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-										
-</p>
-<span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Material Used:</h4	></span>
-<p style="position: absolute;top: 380px;" >
- 1.Popsicle sticks with dimensions (11cm X 1.2cm X 0.2cm).
-2.Only Fevicol can be used as adhesive, use of other adhesives may lead to disqualifications.
-3.Use of thread is not allowed.
-
-
-<br>
-
-<span style="font-size: 20px">Dimensions of Bridge:</span><br>
-
- <span style="font-size: 20px;color: red" >1.Length:</span> 56-60 cm<br>
-<span style="font-size: 20px;color: red">2.Width:</span> 10-11 cm<br>
-<span style="font-size: 20px;color: red">3.Height:</span> 11-15 cm<br>
-<span style="font-size: 20px;color: red">4.Clearance:</span> A minimum clearance of 8 cm high and 5 cm wide should be provided for the passage of a small toy car.<br>
-<span style="font-size: 20px;color: red">5.Weight:</span> Not More than 450gm 
-<br><br>
-<span style="font-size: 20px">Rules:</span><br>
-
-
-1.Team size could be of 3-5 members.<br>
-
-2.All sticks must be visible to inspection and may not be painted or stained in anyway.<br>
-
-3.All members of the team should be enrolled as students in an educational institute.<br>
-
-4.No person can be a part of more than one team.<br>
-
-5.No other reinforcement material (like steel wires, wire mesh) will be allowed.<br>
-
-6.Bridges not meeting the requirements listed in these rules will be subject to disqualification<br>
-
-7.Each bridge must be able to hold the weight of the testing equipment which is about 4 kg.<br>
-
-8.Loading will be done at the centre of Bridge.<br>
-
-Decision of Judges will be final and binding.<br>
-<span style="font-size: 20px">Judging criteria:</span><br>
-Each bridge will be scored in accordance to an Efficiency Rating (ER) which will be calculated by the following equation:
-ER = (Load carried by bridge at failure)/(Weight Of Bridge)
-
-
-
-<span style="font-size: 20px">Organisers</span><br> <br> Joseph<br>(9133139048)
-<br>
-                       Jayanth<br>(9494296400)<br>
-                         Ravi Teja<br>(9100403979)
-
-<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+							
 					</li>
 					
 					<li class="grid">
-						<a href="#eBloopers">
+						<a href="https://nvision.org.in/events/electronicbloopers" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/electronic_champ.jpg" alt="image4">
 								<figcaption>
@@ -2897,35 +2374,12 @@ ER = (Load carried by bridge at failure)/(Weight Of Bridge)
 							</figure>
 						</a>
 										<h3>Electronic Bloopers</h3>
-							<div class="lb-overlay" id="eBloopers">
-									<img src="images/techy/electronic_champ.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Electronic Bloopers</h3>
-											<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">Passionate about Electronics? Then this one is for you. This January, come and get immersed in
-an exciting world of electronics. Prove your mettle by participating in this quiz.
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/electronicbloopers" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules and regulation:</h4	>
-<p style="position: absolute;top: 380px;" >
-1.It is an offline quiz event.<br> 2.Team size is 1 or 2.<br>
-3.The event consists of two rounds. Top three teams based on the points are declared as winners.<br>
-4.Participation certificates are given for all those who register online and for on the spot registered people, certificates are given if they have a minimum score of 20.<br><br>
-Organizers:<br>  Tejas<br>(7032396350)<br>Maroju Rahul<br>9573132671<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+							
 					</li>
                     
 
                           <li class="grid">
-						<a href="#dtmfRace">
+						<a href="https://nvision.org.in/events/dtmfrace" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/dtmf_race.jpg" alt="image4">
 								<figcaption>
@@ -2933,241 +2387,59 @@ Organizers:<br>  Tejas<br>(7032396350)<br>Maroju Rahul<br>9573132671<br>
 							</figure>
 						</a>
                         <h3>DTMF Race</h3>
-							<div class="lb-overlay" id="dtmfRace">
-									<img src="images/techy/dtmf_race.jpg" alt="image4" />
-									<div class="gal-info">							
-                        <h3>DTMF Race</h3>
-											<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">
-										Gear up with your wireless bot. Here comes the race which will test the strength, stability, and cruelty of your bot. It's all about racing towards the finish line through tough terrain by crushing your opponents. Let's see who’s bot is better equipped, better designed to win. 
-										 <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/dtmfrace" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
-<p style="position: absolute;top: 380px;" >
-
-The team cannot have more than 3 participants. <br>
-The teams will be revealed the race circuit on the day of the event.<br>
-The organisers reserve the right to make changes to the event as/when necessary.
- <br>
-
-
-Organizers:<br>  Shashank Gupta(<br>(8989883801)<br>Narayan Kothari<br>9016545412<br>
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
 					</li>
 
                       <li class="grid">
-						<a href="#hack_a_maze">
+						<a href="https://nvision.org.in/events/hackamaze" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/hack_a_maze.png" alt="image4">
 								<figcaption>
 								</figcaption>			
 							</figure>
 						</a>
-                        <h3>Hack A Maze</h3>
-							<div class="lb-overlay" id="hack_a_maze">
-									<img src="images/techy/hack_a_maze.png" alt="image4" />
-									<div class="gal-info">							
-										<h3>Hack A Maze</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">Compete against others hackers in exploring different levels of a challenge maze with your hacking skills. You will have to find your way to victory to defeat others. It’s an on the spot event, in which there will a website/portal hosted locally and all the teams will have to navigate the website solving a series of puzzles and challenges. The first team to reach the goal or go the farthest in the time limit bags the prize. <br>
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/hackamzae" target="_blank" style="color: white;">REGISTER</a>
-</button>
-										
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
-<p style="position: absolute;top: 380px;" >1. Max Team Size - 2 (Individual participants are welcome) <br>
-2. There will be only a single round.<br>
-3. The first team to reach the goal or go the farthest in the time limit bags the prize. <br>
-4. Incase no team is able to clear the maze then team to reach the highest level will be declared winner. <br>5. The decision of the organizers will be final and binding. <br>
-Organizers:<br>  Ayush Pateria<br>(9424040016)<br>
-................<br>***********</p>
-
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+                <h3>Hack A Maze</h3>
 					</li>
 
 
 <!-- Paper Plane -->
   <li class="grid">
-						<a href="#paperPlane">
-							<figure class="effect-apollo">
-								<img src="images/techy/paperplane.jpg" alt="image4">
-								<figcaption>
+						
+						<a href="https://nvision.org.in/events/paperplane" target="_blank">	<figure class="effect-apollo">
+								<img src="images/techy/paperplane.jpg" alt="image4">								<figcaption>
 								</figcaption>			
-							</figure>
-						</a>
-                        <h3>Paper Plane</h3>
-							<div class="lb-overlay" id="paperPlane">
-									<img src="images/techy/paperplane.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Paper Plane</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">
-										With no technical prerequisite, paper plane is an event in which participants from any age group can participate. All they have to do is to fly a plane made from standard A4 sheet according to the undermentioned conditions.
+							</figure></a>
 
-
-										
-</p>
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/paperplane" target="_blank" style="color: white;">REGISTER</a>
-</button>
-<span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Event Format</h4	></span>
-<p style="position: absolute;top: 380px;" >
-The event shall be conducted in two categories :-
-<br>
-1.Long Distance Category<br>
-2.Longest Airtime Category<br>
-This is an individual event, where one can participate in both the events separately. Each participant shall be provided with two pieces of plain A4 paper (297x210mm). Paper planes must only be constructed out of one piece of plain A4 paper on site, and two trials per participant are allowed
-<br>
-
-<span style="font-size: 20px">1.Long Distance Category</span><br>
-
-A.The aircraft must be launched by one person throwing the aircraft unaided from behind a straight launch line marked on the floor. Passing over the launch line leads to an invalid attempt. Touching the launch line or any point beyond during the launch, leads to an invalid attempt.<br>
-B.The distance is measured from the starting line to the furthermost part of the plane after it has come to rest. Planes may strike inanimate objects (wall, ceiling, fixtures, floor, etc) along the way. We measure the horizontal displacement (e.g. if a plane gets hung up on the ceiling or flies into a corner, we will not measure a diagonal distance).
-<br>
-<span style="font-size: 20px">2.Longest Airtime Category</span><br>
-C.The aircraft must be launched by one person throwing the aircraft unaided from a reasonably static position. The participant needs to have both feet firm on the ground during the attempt.
-D.Decisive for measurement are the moments when the paper plane leaves the hand and the first time it hits the ground or any object.
-<br>
-<span style="font-size: 20px">Event Rules:</span><br>
-1.Paper planes must only be constructed out of one piece of plain A4 paper (297x210mm) weighing no more than 100 gms.<br>
-2.The plane must be made by folding the sheet only! No ripping, gluing, cutting or stapling is allowed!<br>
-3.Paper planes have to be built on site on event day with the provided official paper.<br>
-4.A run-up or fast walk as part of the launch is not permitted, nor the use of ramps or like devices.<br>
-5.Two trials per participant are allowed. Different planes can be used, the better attempt counts.
-<br>
-<span style="font-size: 20px">Judgement Criteria:</span><br>
-1.First Category - The plane having longest traveled distance will be the winner.<br>
-2.Second Category -  The plane having largest airtime will be the winner.<br>
-3.All final abiding decisions resides with the Organizers of the event.<br>
-
-<span style="font-size: 20px">Organisers</span><br> <br> Sameer<br>(9503317412)
-<br>
-                       Divya bala<br>(7032400396)
-
-<br>
-................<br>***********</p>
-
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
-					</li>
-
+              <h3>Paper Plane</h3>
+						
+</li>
 			<!-- Galileo Project -->		
 
   <li class="grid">
-						<a href="#galileo">
+						<a href="https://nvision.org.in/events/thegalileoproject" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/galileo.jpg" alt="image4">
 								<figcaption>
 								</figcaption>			
 							</figure>
 						</a>
-                        <h3>The Galileo Project</h3>
-							<div class="lb-overlay" id="galileo">
-									<img src="images/techy/galileo.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>The Galileo Project</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">
-										“By taking the sense our sense of sight far beyond the realm of our forebear’s imagination, these wonderful instruments, the telescopes, open the way to a deeper and more perfect understanding of nature.”   -  Rene Descartes.<br>
-Make your own Optical tube.   <br>                                                                                                                
-This event is based on building of a simple terrestrial telescope with given components.
- <br>
-
-										
-</p>
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/thegalileoproject" target="_blank" style="color: white;">REGISTER</a>
-</button>
-
-<span style="text-align: center;"><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Event Format</h4	></span>
-<p style="position: absolute;top: 380px;" >
-<span style="font-size: 20px">Round 1:</span><br>
-A quiz will be conducted to screen the participants. This quiz is based mostly on optics and physics of light.<br>
-<span style="font-size: 20px">Round 2:</span><br>
-Another quiz will be conducted to screen the participants. This quiz is based on Skymap and a few stellar objects.<br>
-<span style="font-size: 20px">Round 3:</span><br>
-The top ten teams from the quizzes will qualify to the third round. The teams have to make a terrestrial telescope with the components and infrastructure provided by the organizers.<br>
-<span style="font-size: 20px">Judgement Criteria:</span><br>
- 1.Magnification<br>
- 2.Clarity of the image<br>
- 3.Overall Design<br>
-<span style="font-size: 20px">Rules and Regulations:</span><br>
-1.Each team is allowed to have a maximum of three members.<br>
-2.Members of a team can be from different colleges<br>
-3.If a member is found using any other components, other than the ones provided by the organizers, the team shall be disqualified<br>
-4.The Organizers reserve all rights to change any of the mentioned rules as they deem fit.<br>
-5.Changes in the rules, if any, will be highlighted on the website.<br>
-6.In case of any discrepancy, the decision of the organizers shall be final.<br>
-Organizers: <br> Siddharth Gautham<br>(9494598849)<br>
-                       Akanksha Dhaygude<br>(9421269720)
-<br>
-................<br>***********</p>
-
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+            <h3>Galileo Project</h3>
+                    
 					</li>
 
-                      <li class="grid">
-						<a href="#enigma">
+           <li class="grid">
+						<a href="https://nvision.org.in/events/enigma" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/enigma.jpg" alt="image4">
 								<figcaption>
 								</figcaption>			
 							</figure>
 						</a>
-                        <h3>Engima</h3>
-							<div class="lb-overlay" id="enigma">
-									<img src="images/techy/enigma.jpg" alt="image4" />
-									<div class="gal-info">							
-                        <h3>Engima</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">Find the mysterious​ ​secret techniques to decrypt the given texts/messages. Clear all the levels in the allotted time to become the ultimate “cryptacker”. It’s a pen and paper event. Each team has to decode a series of crypted messages.  <br>
-
-										
-</p>
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/enigma" target="_blank" style="color: white;">REGISTER</a>
-</button>
-<h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
-<p style="position: absolute;top: 380px;" >1. Max Team Size - 2 (Individual participants are welcome)<br>
-2. Event will be conducted as a single timed round. <br>
-3. Tie breakers would be conducted if necessary. <br>
-4. There are points associated with each message and the team to accumulate maximum number of points wins. <br>
-5. The decision of the organizers will be final and binding. <br>
-Organizers:<br>   Krishna Priya<br>7032257433<br>Saurabh Gangwar<br>9422333180<br>
-................<br>***********</p>
-
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+            <h3>Enigma</h3>
+                       
 					</li>
                     
                       <li class="grid">
-						<a href="#Algorithma">
+						<a href="https://nvision.org.in/events/algorithma" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/algo.jpg" alt="image4">
 								<figcaption>
@@ -3175,82 +2447,24 @@ Organizers:<br>   Krishna Priya<br>7032257433<br>Saurabh Gangwar<br>9422333180<b
 							</figure>
 						</a>
                         <h3>Algorithma</h3>
-							<div class="lb-overlay" id="Algorithma">
-									<img src="images/techy/algo.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Algorithma</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">Algorithma is the perfect event for those who like to solve mathematical and logical puzzles as well as design algorithms, regardless of your knowledge of programming. Here we will test your problem solving ability in a series of steps. You will be given a set of puzzles and algorithmic problems. You have to write pseudocode or steps for solving a problem in words or draw a flowchart highlighting the approach for solving the problem anything which clearly describes your logic.
-
-<br>
-It’s an on spot event.
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/algorithma" target="_blank" style="color: white;">REGISTER</a>
-</button>
-										
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules and Regulations</h4	>
-<p style="position: absolute;top: 380px;" >
-1.This is an individual event. No teams are allowed.<br>
-2.The organisers reserve the right to make any change to the event whenever deemed necessary.<br>
-3.Any participants indulging in plagiarism or sharing code with others in any form will be immediately disqualified.<br>
-4.All programs will be judged in person and winners will be announced before the fest ends.<br>
-5.All decisions made by the judges will be final and binding.<br>
-
-Organizers: <br>Amarnath<br>(8500280547)<br>Sumanth<br>(9642612358)
-<br>............<br>*************
-								
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+							
 					</li>
 
 
 					       <li class="grid">
-						<a href="#proQuest">
+						<a href="https://nvision.org.in/events/proquest" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/pro_quest.jpg" alt="image4">
 								<figcaption>
 								</figcaption>			
 							</figure>
 						</a>
-                        <h3>Pro Quest</h3>
-							<div class="lb-overlay" id="proQuest">
-									<img src="images/techy/pro_quest.jpg" alt="image4" />
-									<div class="gal-info">							
-										<h3>Pro Quest</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">Proquest is a competitive programming competition composed of three levels, for participants of all levels of expertise. Experience the beginner, medium and advance levels of programming from pen and paper programming to a truly challenging problem statement.<br>
-It’s an on spot event.
- <br>
-
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/proquest" target="_blank" style="color: white;">REGISTER</a>
-</button>
-										
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Rules</h4	>
-<p style="position: absolute;top: 380px;" >
-1.This is an individual event. No teams are allowed.<br>
-2.The organisers reserve the right to make any change to the event whenever deemed necessary.<br>
-3.Any participants indulging in plagiarism or found looking into each others <br>4.papers will be disqualified.<br>
-5.Winners will be announced before the fest ends.<br>
-6.All decisions made by the judges will be final and binding.<br>
-7.It will be a 3 hour event.<br>
-
-
-Organizers:<br> Nishant Nivas <br>(8332000710)<br> Srinivas<br>(8978918823)<br>............<br>*************
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+                      <h3>Pro Quest</h3>
 					</li>
                       
                     
                       <li class="grid">
-						<a href="#Junkyard">
+						<a href="https://nvision.org.in/events/junkyardwars" target="_blank">
 							<figure class="effect-apollo">
 								<img src="images/techy/junkyard_wars.png" alt="image4">
 								<figcaption>
@@ -3258,60 +2472,7 @@ Organizers:<br> Nishant Nivas <br>(8332000710)<br> Srinivas<br>(8978918823)<br>.
 							</figure>
 						</a>
                         <h3>Junkyard Wars</h3>
-							<div class="lb-overlay" id="Junkyard">
-									<img src="images/techy/junkyard_wars.png" alt="image4" />
-									<div class="gal-info">							
-										<h3>Junkyard Wars</h3>
-										<h4 style="text-align: center;font-size: 25px">Event Description</h4>
-										<p style="">
-										"Engineers like to solve problems .If there are no problems handily available, they will create their own problems"-Scott Adams.
-It’s time for your team to dive into innovation and creativity, find a good solution and emerge as jugaads. So, pile up your enthusiasm to win the battle.
- <br>
- <br>
-
-<br>
-<button type="button" class="btn btn-primary btn-sm" style="text-align:center;margin-left: 0%;">
-<a href="https://nvision.org.in/events/junkyardwars" target="_blank" style="color: white;">REGISTER</a>
-</button>
-										
-</p><h4 style="position: absolute;top: 350px;text-align: center;font-size: 30px">Event Format:</h4	>
-<p style="position: absolute;top: 380px;" >
-1.This is a on the spot event where participants will asked to make model using the given components..<br>
-2.There are two rounds to this event..<br>
-<span style="font-size: 20px;color: red">A.First Round:</span><br>
-i) Teams have to present their design in two hours. .<br>
-ii) Teams will be allowed to use the internet facilities available in forming ideas..<br>
-iii) Five teams will be shortlisted for next round..<br>
-<span style="font-size: 20px;color: red">B.Second Round:</span><br>
-i) The shortlisted teams will have to manufacture their product (on the design provided by them) using only the materials from a pile of junk within a certain time limit.<br>
-
-<span style="font-size: 20px">Certification Policy:</span><br>
-1.Certificate of Merit will be given to all the winners..<br>
-2.Certificates of Excellence will be given to all the teams who qualify for the second round..<br>
-3.Rest of the Participants will be given Certificate of Participation..<br>
-4.The teams which get disqualified due to disobeying any of the competition rules will not be considered for the certificate..<br>
-
-<span style="font-size: 20px">Rules and Regulations:</span><br>
-The teams must have at least 3 members and a maximum of 5 members.<br>
-Every member on the team must register for the event on the website<br>
-The decision made by the judges will be final and binding.<br>
-The organisers reserve the right to make changes to the event as/when necessary.<br><br>
-
-<span style="font-size: 20px">Judging criteria:
-</span><br>
-1.Originality of the design<br>
-2.Its simplicity<br>
-3.The science involved<br>
-4.The efficiency of the machine<br>
-
-Organizers:<br> Vamshi<br>(9515235789)<br>
-Neti rajesh<br>(9177426872)<br>
-Vivek<br>(7382725409)<br>
-
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+							
 					</li>
 
 					      <li class="grid">
@@ -3323,91 +2484,80 @@ Vivek<br>(7382725409)<br>
 							</figure>
 						</a>
                         <h3>Quadcopter Challenge</h3>
-							<div class="lb-overlay" id="quadcopter">
-									<img src="images/techy/quadcopter.jpg" alt="image4" />
-									<div class="gal-info">							
-                        <h3>Quadcopter Challenge</h3>
-												
-										<p style=" text-align: left;position: absolute;top: 80px">
-										<span style="font-size: 25px;">Problem Statement</span><br>
-										The event is based on finding the most agile and fastest drone. The problem statement is simple:- pass through three rounds and the team with maximum number of points wins.
-
- <br>
-
-										
-</p>
-
-<p style="position: absolute;top: 280px;" >
-<span style="font-size: 25px">Quadcopter Specifications</span><br>
-The quadcopter should fit within the dimensions, 60x 60x 30 cm 
-The vehicle needs to be controlled by a wireless remote control system at all times during the competition. 
-Organizers won’t be responsible if the frequencies of two drones match and there is a frequency interference. Participants must have a secondary remote in such a case. 
-Propellers cannot be made of metal. 
-Usage of Ready-to-fly kits is strictly prohibited. 
-
-<span style="font-size: 25px">Rounds</span><br>
-<span style="font-size: 20px">Round 0</span><br>
-
-1.Participants must submit a video of the working model through e-mail to nvision@iith.ac.in before January 14, 2017. <br>
-2.The length of the video should be between 1 and 2 minutes showing the quadcopter taking off and landing and taking a left and a right turn. <br>
-3.The video should also cover the pilot. <br><br>
-
-
-<span style="font-size: 20px">Round 1</span><br>
-Pass through all the flags situated at different heights in a sequential manner within stipulated time.
-<br>
-
-<span style="font-size: 20px">Round 2:
-</span><br>
-Rotate the drone by 90 degrees both clockwise and anti-clockwise near the highest flag.Time will be considered while giving points.
-<span style="font-size: 20px">Round 2:
-</span><br>
-Pass through all the hoops situated at different heights and then land at the starting point.
-<br>
-<span style="font-size: 20px">Point Scheme</span><br>
-1.In all the three events, time will be considered while giving points. The average of all timings of each participant will be calculated and points will allocated based on the comparison between participant’s time and average. 
-If the drone is more faster than the average, you will get more points!!!
-<br>
-2.This point scheme will be applied for each event and separate points for each event will be calculated.
-
-
-<span style="font-size: 20px">Level 2:
-</span><br>
-<span style="font-size: 20px">Bonus Points
-</span><br>
-<span style="font-size: 20px">Round 1:
-</span><br>
-<span style="font-size: 20px">Round 2:
-</span><br>
-Special points will be awarded if the drone is capable of doing 360 degrees clockwise and anti-clockwise rotation. Note that if the drone does 360 degrees rotation in either direction, points for both 90 degree and 360 degree(the special points) will be given.<br><br>
-
-<span style="font-size: 20px">Round 3:
-</span><br>
-Special hoops will be set up offset of the path. Passing through those hoops will result in awarding fixed number of points to that team.<br><br>
-
-
-<span style="font-size: 20px">Fouls and penalties
-</span><br>
-Destruction of arena of each round of any type will lead to immediate disqualification.<br>
-Obstruction of other participant’s drone in any manner whatsoever will cause huge penalty in their points tally.<br>
-In any case of dispute, the decision of organizers will be final.<br>
-
-
-<span style="font-size: 20px">Organizers:
-</span><br>
-
-
-Prateek(9700389391)<br>
-Chandra Kiran(9701589374)    <br>                                                                                
-Bhanu prakash(8297129699)<br>
-
-
-................<br>***********</p>
-									</div>
-									<a href="events.php#techy_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-							</div>
+						
 					</li>
-<!--  -->
+
+                  <li class="grid">
+            <a href="https://nvision.org.in/events/businesssimulationgame" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/simulation.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Business&nbsp;Simulation&nbsp;Game</h3>
+            
+          </li>
+<li class="grid">
+            <a href="https://nvision.org.in/events/crowdpitch" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/pitch.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Crowd&nbsp;Pitch</h3>
+            
+          </li>
+<li class="grid">
+             <a href="https://nvision.org.in/events/salesmanoffest" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/salesman.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Salesman&nbsp;Of&nbsp;Fest</h3>
+            
+          </li>
+          <li class="grid">
+            <a href="https://nvision.org.in/events/scitechquiz" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/sciencequiz.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Sci-Tech&nbsp;Quiz</h3>
+            
+          </li>
+<li class="grid">
+  <a href="https://nvision.org.in/events/automobilequiz" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/auto_quiz.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Automobile&nbsp;Quiz</h3>
+            
+          </li>
+
+          <li class="grid">
+  <a href="https://nvision.org.in/paperpresentation" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/paperpt.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Paper&nbsp;Presentation</h3>
+            
+          </li>
+
+
+
+<!--END Techy -->
                     
                     
                     
