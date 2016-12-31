@@ -845,20 +845,20 @@ function changeTechyContent() {
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="Bring It Back" src="images/techy/bringitback.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="Jugaad It" src="images/techy/jugaadit.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                     <!-- ENter some Text Here --> 
+                                     One of the important works of an electric student is to debug a circuit.
                                      <br>
+                                     This event will test your ability to understand the circuit and debug it.
                                      <br>
                                      </h3>
-                                             <br>
                                              <!-- Button -->
-                                          <a href="https://nvision.org.in/events/bringitback" target="_blank"> 
-                                          <button type="button" class="btn btn-info" style="margin-left:75px;margin-top:65px;">
+                                          <a href="https://nvision.org.in/events/jugaadit" target="_blank"> 
+                                          <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -884,7 +884,7 @@ function changeTechyContent() {
                                      </h3>
                                             <br>
                                              <!-- Button -->
-                                          <a href="#" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                          <a href="https://nvision.org.in/events/quadcopterchallenge" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
                                                 More Details
                                             </button></a>
                                         </div>
@@ -922,7 +922,7 @@ function changeTechyContent() {
                                         <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
                                 </span>
                                 <br>
-                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Bring&nbsp;It&nbsp;Back</span>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Jugaad&nbsp;It</span>
                                 <br>
                                 <span style="margin-left: 0px;">
                                         <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">

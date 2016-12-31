@@ -83,12 +83,36 @@ function getBiggiesContent(argument) {
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                            Prize :&nbsp;1st position : worth Rs 50000<br>
-
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            (including <strong>studio recording</strong> worth 20000)
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: worth Rs 15000
+                            Prizes :
+                            <br>
+                            1st position : 
+                                    <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   Prizes worth Rs 30000
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   A chance to record their music in <strong>Soundkraft Recording Studio
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </strong>(Hyderabad)
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   A chance to perform at any <strong>Hard Rock Cafe</strong> across india for one
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   A chance to get featured in the main event of <strong>Mtv Xtreme</strong> or on
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <strong>MTV Indies Channel</strong>
+                                   <br><br>
+                                    
+            2nd position : 
+                                    <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   Prizes worth Rs 15000
+                                   <br>
           </div>
                 </div>
                 <br>
@@ -105,8 +129,13 @@ function getBiggiesContent(argument) {
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
-                    <li>Each band interested in participating should mail their demos/videos to <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>
-                        <br>
+                    <li>In first Round of Screening participants have to upload their music performance on 
+                    <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>
+                    ArtistAloud.com</a> 
+                     by downloading the app and use the college code 
+                     <br>
+                     that will be given once the event registration will be done. 
+                        
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
@@ -160,9 +189,9 @@ function getBiggiesContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                     <li>Language is no criterion.
                         <br>
-                        The band can be fully instrumental as   well.
+                        The band can be fully instrumental as well.
                         <br>
-                         The genre of the band can be any variation of metal. 
+                         The genre of the band can be any variation of metal/hard rock. 
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -268,27 +297,27 @@ function getBiggiesContent(argument) {
                 <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
                 <br>
 
-                <div class="col-lg-5"></div>
+                <div class="col-lg-2"></div>
 
                 <div class="row">
                     <div class="col-lg-3">
-                &nbsp;&nbsp;Yash&nbsp;Pitroda
+                Yash&nbsp;Pitroda
                 <br>
-                yash@elan.org.in                 
+                <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>                 
                 <br>
-                &nbsp;&nbsp;9505464597 
+                9505464597 
+                </div>
+
+                <div class="col-lg-2">
                 </div>
 
                 <div class="col-lg-3">
+                Harshwardhan&nbsp;Praveen
+                <br>
+                <a href='mailto:me15btech11015@iith.ac.in'>me15btech11015@iith.ac.in</a>
+                <br>
+                9515223051 
                 </div>
-
-                <!--<div class="col-lg-3">
-                Siddharth&nbsp;Sonkamble
-                <br>
-                siddharth@elan.org.in              
-                <br>
-                9619497727 
-                </div>-->
                 </div>
                 <br><br>
             </div>
@@ -388,18 +417,35 @@ src="images/biggies/manthan_small.jpg">
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                            Prize :&nbsp;1st position : worth Rs 45000<br>
-
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            (including <strong>studio recording</strong> worth 20000)
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: worth Rs 10000
-          </div>
+                            Prizes :
+                            <br>
+                            1st position : 
+                                    <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   Prizes worth Rs 25000
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   A chance to record their music in <strong>Soundkraft Recording Studio</strong>
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   (Hyderabad)
+                                   <br><br>
+                                    
+            2nd position : 
+                                    <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   Prizes worth Rs 10000
+                                   <br>
                 </div>
-                <br>
+                <div>
+
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">No. of Band members allowed : Maximum 7</div>
+                    <div class="col-lg-10">
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;No. of Band members allowed : Maximum 7</div>
                 </div>
                 <br>
             </div>
@@ -411,9 +457,14 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
-                    <li>Each band interested in participating should mail their demos/videos to <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>
-                        <br>
+                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
+                    <li>In first Round of Screening participants have to upload their music performance on 
+                    <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>
+                    ArtistAloud.com</a> 
+                     by downloading the app and use the college code 
+                     <br>
+                     that will be given once the event registration will be done. 
+                        
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
@@ -436,12 +487,12 @@ src="images/biggies/manthan_small.jpg">
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-                    
+
                 </ul>
 
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
                     <li>6 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
@@ -450,7 +501,6 @@ src="images/biggies/manthan_small.jpg">
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
-
                 </ul>
 
             </div>
@@ -459,7 +509,7 @@ src="images/biggies/manthan_small.jpg">
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
                         You need not be a college band to participate in this event.
@@ -470,7 +520,7 @@ src="images/biggies/manthan_small.jpg">
                         <br>
                         We are looking for band that play fusion music.
                         <br>
-                         (anything except metal).
+                         (anything except metal) and in any language.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -536,7 +586,7 @@ src="images/biggies/manthan_small.jpg">
                         <div class="row rules">
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
                 <br>
-                <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
+                <ul style="list-style-type: disc;margin-left:30px;font-size:23.5px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
                          Judge’s decision is considered final and should be abided by everyone.
@@ -561,6 +611,8 @@ src="images/biggies/manthan_small.jpg">
                         <br>
                             <li>Entertainment</li>
                             <br>
+                            <li>Originality</li>
+                            <br>
                             <li>Public involvement</li>
                             <br>
                             <li>Energy</li>
@@ -573,28 +625,29 @@ src="images/biggies/manthan_small.jpg">
             </div>
             <div class="row rules">
                 <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
+                <br>
 
-                <div class="col-lg-5"></div>
+                <div class="col-lg-2"></div>
 
-                <div class="row" style="font-size:23.5px;">
+                <div class="row">
                     <div class="col-lg-3">
-                &nbsp;&nbsp;Yash&nbsp;Pitroda
+                Yash&nbsp;Pitroda
                 <br>
-                yash@elan.org.in                 
+                <a href='mailto:yash@elan.org.in'>yash@elan.org.in</a>                 
                 <br>
-                &nbsp;&nbsp;9505464597 
+                9505464597 
+                </div>
+
+                <div class="col-lg-2">
                 </div>
 
                 <div class="col-lg-3">
+                Harshwardhan&nbsp;Praveen
+                <br>
+                <a href='mailto:me15btech11015@iith.ac.in'>me15btech11015@iith.ac.in</a>
+                <br>
+                9515223051 
                 </div>
-
-                <!--<div class="col-lg-3">
-                Siddharth&nbsp;Sonkamble
-                <br>
-                siddharth@elan.org.in              
-                <br>
-                9619497727 
-                </div>-->
                 </div>
                 <br><br>
             </div>
