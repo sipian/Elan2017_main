@@ -1963,6 +1963,18 @@ I further nominate ___ and ___ to take the challenge. #Emblazon_IITH"<br> ......
 							</div>
 					</li>
 
+                      <li class="grid">
+  <a href="https://nvision.org.in/paperpresentation" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/paperpt.png" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Paper&nbsp;Presentation</h3>
+            
+          </li>
+
 				
 		
 
@@ -2263,20 +2275,9 @@ Online treasure hunt where participants have to solve various clues and puzzles 
                     <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Techy</h1>
 
 
-<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">Online</h3>
 
-                       <li class="grid">
-  <a href="https://nvision.org.in/paperpresentation" target="_blank">
-              <figure class="effect-apollo">
-                <img src="images/techy/paperpt.png" alt="image4">
-                <figcaption>
-                </figcaption>     
-              </figure>
-            </a>
-                        <h3>Paper&nbsp;Presentation</h3>
-            
-          </li>
 
+ 
 
 
                     
@@ -2370,8 +2371,32 @@ Online treasure hunt where participants have to solve various clues and puzzles 
               
           </li>
 
+<!-- ECELL EVENTS -->
+<h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 2px" id="techy_events">E-CELL</h3>
 
-            
+                 <li class="grid">
+            <a href="https://nvision.org.in/events/crowdpitch" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/pitch.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                      <h3>Crowd Pitch</h3>
+          </li>
+                  
+
+                              <li class="grid">
+            <a href="https://nvision.org.in/events/salesmanoffest" target="_blank">
+              <figure class="effect-apollo">
+                <img src="images/techy/salesman.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Salesman Of Fest</h3>
+              
+          </li>
 
 <h3 style="text-align: center;background-color: red;font-size: 25px;padding-top: 2px;padding-bottom: 4px" id="techy_events">ROBOTICS</h3>
 
