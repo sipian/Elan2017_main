@@ -27,11 +27,19 @@ if(!isset($_SESSION["id"])){
 <html lang="en-IN">
   <head>
       <meta charset="utf-8">
+        <title>Dashboard | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+
       <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
+
       <meta name="author" content="ELAN 2017">
-      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr">  
+
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
+
       <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
-      <link rel='shortcut icon' href=favicon.ico type='image/x-icon'/>
+      <link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
       <meta name="theme-color" content="#000000">
       <meta property=og:url content='http://elan.org.in/' />
       <meta property=og:type content=website />
@@ -39,7 +47,6 @@ if(!isset($_SESSION["id"])){
       <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
 
-      <title>DASHBOARD</title>
     <link rel="stylesheet" href="navbar/navbar2.css">
     <link rel="stylesheet" href="styles/footer3.css">
 
@@ -169,9 +176,7 @@ if(!isset($_SESSION["id"])){
                                 </div>";
                         ?>
         </div>
-        <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
-               <img src="images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
-        </div>
+
 
         </nav>
     </div>
@@ -185,7 +190,7 @@ if(!isset($_SESSION["id"])){
     <div class="row">
         <div class="col-lg-1"></div>
         
-        <div class="col-lg-3">
+        <div class="col-lg-4">
             <h3>Name&nbsp;:&nbsp;<?php echo $_SESSION["name"]; ?></h3>
             <h3>Email&nbsp;:&nbsp;<?php echo $_SESSION["email"]; ?></h3>
             <h3 id="elId"></h3>
@@ -196,7 +201,7 @@ if(!isset($_SESSION["id"])){
             <h3>College&nbsp;:&nbsp;<?php echo $_SESSION["college"]; ?></h3>
             <h3>Mobile&nbsp;:&nbsp;<?php echo $_SESSION["mobile"]; ?></h3>
         </div> 
-        <div class="col-lg-2"></div>
+        <div class="col-lg-1"></div>
         <div class="col-lg-4">
             <h2 style="text-align: center;">REGISTERED&nbsp;EVENTS</h2>
 
@@ -207,12 +212,14 @@ if(!isset($_SESSION["id"])){
                        P.S. If you did\'nt receive the mail , please check your spam or promotion or updates or social folder!
                        </h4>');
                 else{
+                      $name = json_decode(file_get_contents('name.json') , true);
                         $answer = "<ul class='list-group'>";
                         if(isset($_SESSION["events"])){
                                 $array = explode(",",$_SESSION["events"]);
-                             foreach ($array as $value) {
-                                $answer .= "<li class='list-group-item'><a href='events/#$value'>$value</a></li>";
-                                } 
+                                if(sizeof($array) == 1)
+                                  $answer .= "<li class='list-group-item'><strong>No Registered Events</strong></li>";
+                                else  foreach ($array as $value)
+                                        $answer .= "<li class='list-group-item'><a href='events/#$value'>$name[$value]</a></li>";
                                 $answer .= "</ul>";  
                         }
                         else{
@@ -224,9 +231,12 @@ if(!isset($_SESSION["id"])){
                           $_SESSION["events"] = $row['registered_events'];
                           $array = explode(",",$row['registered_events']);
                           
-                          $answer = "<ul>";
+                          $answer = "<ul class='list-group'>";
+                          if(sizeof($array) == 1)
+                                  $answer .= "<li class='list-group-item'><strong>No Registered Events</strong></li>";
+                          else
                          foreach ($array as $value) {
-                                $answer .= "<li class='list-group-item'><a href='events/#$value'>$value</a></li>";
+                                $answer .= "<li class='list-group-item'><a href='events/#$value'>$name[$value]</a></li>";
                         }
                           $answer .= "</ul>";
                   }             

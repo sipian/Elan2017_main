@@ -2,19 +2,33 @@
 <?php 
 session_start();
  ?>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Sponsors</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Visceral Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!doctype html>
+<html lang="en-IN">
+  <head>
+      <meta charset="utf-8">
+        <title>Sponsors | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+
+      <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
+
+      <meta name="author" content="ELAN 2017">
+
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
+
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
+      <link rel='shortcut icon' href=favicon.ico type='image/x-icon'/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+      <meta name="theme-color" content="#000000">
+      <meta property=og:url content='http://elan.org.in/' />
+      <meta property=og:type content=website />
+      <meta property=og:title content="ELAN 2017"/>
+      <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
+      <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
@@ -62,8 +76,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li><a href="workshops.php">Workshops</a></li>
             <li><a href="http://blog.elan.org.in/">Blog</a></li>
             <li><a href="team.php">Contact US</a></li>
-            <li><a href="litfest">Litfest</a></li>
             <li><a href="literanza">Literanza</a></li>
+            <?php 
+          if(isset($_SESSION["id"]))
+                echo "<li><a href=\"signout.php\">Sign Out</a></li>";
+           ?>
           </ul>
         </div><!-- /.navbar-collapse -->  
         

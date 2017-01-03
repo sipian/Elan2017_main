@@ -79,17 +79,19 @@ function changeCultiContent() {
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                 <div class="flipper">
                   <div class="front">
-                    <img class="img-responsive" alt="NRITYANJALI" src="images/culti/nrityanjali.jpg" style="width: 250px;height: 300px;">
+                    <img class="img-responsive" alt="DJ WARS" src="images/culti/djwars.jpg" style="width: 250px;height: 300px;">
                   </div>
                   <div class="back">
                     <div id="text">
                       <br>
                       <h3 class="short_description">
-                        A Perfect Traditional Touch For The Cultural Extravaganza.
+                        For All The Aspiring Dj's Out There!! 
+                        <br>
+                        Can You Mix'em Good Enough?!
                       </h3>
                       <br>
-<button type="button" class="btn btn-info nrityanjali clickButton">
-                       More&nbsp;Details
+<button type="button" class="btn btn-info djwars">
+                      More&nbsp;Details
                       </button>
                     </div>
                   </div>
@@ -142,8 +144,8 @@ function changeCultiContent() {
                 style="margin-bottom: -5px; ">
               </span>
               <br>
-              <span class="contestName" style="margin-left: 63px;
-                margin-right: 0px;">Nrityanjali
+              <span class="contestName" style="margin-left: 80px;
+                margin-right: 0px;">Dj&nbsp;Wars
               </span>
               <br>
               <span style="margin-left:  0px;">
@@ -156,6 +158,29 @@ function changeCultiContent() {
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="NRITYANJALI" src="images/culti/nrityanjali.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        A Perfect Traditional Touch For The Cultural Extravaganza.
+                      </h3>
+                      <br>
+<button type="button" class="btn btn-info nrityanjali clickButton">
+                       More&nbsp;Details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td class="col-lg-4 " style="padding-left: 0%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -202,34 +227,28 @@ function changeCultiContent() {
               </div>
             </div>
           </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                <div class="flipper">
-                  <div class="front">
-                    <img class="img-responsive" alt="OCTAVES" src="images/culti/octaves.jpg" style="width: 250px;height: 300px;">
-                  </div>
-                  <div class="back">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                        This Event Pits The Best Against The Best On The Cultural Stage. 
-                      </h3>
-                      <br>
-<button type="button" class="btn btn-info octaves">
-                      More&nbsp;Details
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </td>
         </div>
       </tr>
       <tr>
         <div class="row">
           <td class="col-lg-4" style="padding-left: 4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 63px;
+                margin-right: 0px;">Nrityanjali
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
+          <td class="col-lg-4" style="padding-left:4%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <span style="margin-left:  0px;">
               <img src="images/borderImg1.png" class="borderImg"
@@ -263,27 +282,33 @@ function changeCultiContent() {
               </span>
             </div>
           </td>
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg1.png" class="borderImg"
-                style="margin-bottom: -5px; ">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 80px;
-                margin-right: 0px;">Octaves
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg2.png" class="borderImg"
-                style="margin-bottom: -3px; ">
-              </span>
-            </div>
-          </td>
         </div>
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="OCTAVES" src="images/culti/octaves.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        This Event Pits The Best Against The Best On The Cultural Stage. 
+                      </h3>
+                      <br>
+<button type="button" class="btn btn-info octaves">
+                      More&nbsp;Details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td class="col-lg-4 " style="padding-left: 0%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -330,33 +355,27 @@ function changeCultiContent() {
               </div>
             </div>
           </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                <div class="flipper">
-                  <div class="front">
-                    <img class="img-responsive" alt="PICELECTIC" src="images/culti/picelectic.jpg" style="width: 250px;height: 300px;">
-                  </div>
-                  <div class="back">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                        Portray Your Photography Skills By Shooting Pictures In,on And About Elan 2017. 
-                      </h3>
-                      <br>
-<button type="button" class="btn btn-info picelectic clickButton">
-                      More&nbsp;Details
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </td>
         </div>
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 80px;
+                margin-right: 0px;">Octaves
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
           <td class="col-lg-4" style="padding-left:4%;">
             <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
               <span style="margin-left:  0px;">
@@ -391,27 +410,33 @@ function changeCultiContent() {
               </span>
             </div>
           </td>
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg1.png" class="borderImg"
-                style="margin-bottom: -5px; ">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 70px;
-                margin-right: 0px;">Picelectic
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg2.png" class="borderImg"
-                style="margin-bottom: -3px; ">
-              </span>
-            </div>
-          </td>
         </div>
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="PICELECTIC" src="images/culti/picelectic.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Portray Your Photography Skills By Shooting Pictures In,on And About Elan 2017. 
+                      </h3>
+                      <br>
+<button type="button" class="btn btn-info picelectic clickButton">
+                      More&nbsp;Details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td class="col-lg-4 " style="padding-left: 0%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -442,39 +467,16 @@ function changeCultiContent() {
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                 <div class="flipper">
                   <div class="front">
-                    <img class="img-responsive" alt="FACE PAINTING" src="images/culti/facepainting.jpg" style="width: 250px;height: 300px;">
+                    <img class="img-responsive" alt=" LEND ME YOUR VOICE" src="images/culti/lendmeurvoice.jpg" style="width: 250px;height: 300px;">
                   </div>
                   <div class="back">
                     <div id="text">
                       <br>
                       <h3 class="short_description">
-                        You Think You Can Have A Face Funkier Than Infamous "the Mask". 
+                      Ever thought that you could have delivered the dialogues better than the actors in the movie?
                       </h3>
                       <br>
-<button type="button" class="btn btn-info facepainting">
-                      More&nbsp;Details
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                <div class="flipper">
-                  <div class="front">
-                    <img class="img-responsive" alt="NAIL ART " src="images/culti/nailart.jpg" style="width: 250px;height: 300px;">
-                  </div>
-                  <div class="back">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                        Can You Add Your Intricate Details Creatively On Much Smaller Canvas Like Finger Nails? 
-                      </h3>
-                      <br>
-<button type="button" class="btn btn-info nailart">
+<button type="button" class="btn btn-info lendmeurvoice clickButton">
                       More&nbsp;Details
                       </button>
                     </div>
@@ -487,6 +489,23 @@ function changeCultiContent() {
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 70px;
+                margin-right: 0px;">Picelectic
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
           <td class="col-lg-4" style="padding-left:4%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <span style="margin-left:  0px;">
@@ -511,25 +530,8 @@ function changeCultiContent() {
                 style="margin-bottom: -5px; ">
               </span>
               <br>
-              <span class="contestName" style="margin-left: 55px;
-                margin-right: 0px;">Face&nbsp;Painting
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg2.png" class="borderImg"
-                style="margin-bottom: -3px; ">
-              </span>
-            </div>
-          </td>
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg1.png" class="borderImg"
-                style="margin-bottom: -5px; ">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 70px;
-                margin-right: 0px;">Nail&nbsp;Art
+              <span class="contestName" style="margin-left: 37px;
+                margin-right: 0px;">Lend&nbsp;Your&nbsp;Voice
               </span>
               <br>
               <span style="margin-left:  0px;">
@@ -542,6 +544,29 @@ function changeCultiContent() {
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="NAIL ART " src="images/culti/nailart.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        Can You Add Your Intricate Details Creatively On Much Smaller Canvas Like Finger Nails? 
+                      </h3>
+                      <br>
+<button type="button" class="btn btn-info nailart">
+                      More&nbsp;Details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td class="col-lg-4 " style="padding-left: 0%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -587,33 +612,27 @@ function changeCultiContent() {
               </div>
             </div>
           </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                <div class="flipper">
-                  <div class="front">
-                    <img class="img-responsive" alt=" LEND ME YOUR VOICE" src="images/culti/lendmeurvoice.jpg" style="width: 250px;height: 300px;">
-                  </div>
-                  <div class="back">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                      Ever thought that you could have delivered the dialogues better than the actors in the movie?
-                      </h3>
-                      <br>
-<button type="button" class="btn btn-info lendmeurvoice clickButton">
-                      More&nbsp;Details
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </td>
         </div>
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4" style="padding-left:4%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg1.png" class="borderImg"
+                style="margin-bottom: -5px; ">
+              </span>
+              <br>
+              <span class="contestName" style="margin-left: 70px;
+                margin-right: 0px;">Nail&nbsp;Art
+              </span>
+              <br>
+              <span style="margin-left:  0px;">
+              <img src="images/borderImg2.png" class="borderImg"
+                style="margin-bottom: -3px; ">
+              </span>
+            </div>
+          </td>
           <td class="col-lg-4" style="padding-left:4%;">
             <div class="animated bounceInUp col-sm-9 text-center cultiDiv">
               <span style="margin-left:  0px;">
@@ -648,27 +667,33 @@ function changeCultiContent() {
               </span>
             </div>
           </td>
-          <td class="col-lg-4" style="padding-left:4%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg1.png" class="borderImg"
-                style="margin-bottom: -5px; ">
-              </span>
-              <br>
-              <span class="contestName" style="margin-left: 37px;
-                margin-right: 0px;">Lend&nbsp;Your&nbsp;Voice
-              </span>
-              <br>
-              <span style="margin-left:  0px;">
-              <img src="images/borderImg2.png" class="borderImg"
-                style="margin-bottom: -3px; ">
-              </span>
-            </div>
-          </td>
         </div>
       </tr>
       <tr>
         <div class="row">
+          <td class="col-lg-4 " style="padding-left: 0%;">
+            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
+              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                <div class="flipper">
+                  <div class="front">
+                    <img class="img-responsive" alt="FACE PAINTING" src="images/culti/facepainting.jpg" style="width: 250px;height: 300px;">
+                  </div>
+                  <div class="back">
+                    <div id="text">
+                      <br>
+                      <h3 class="short_description">
+                        You Think You Can Have A Face Funkier Than Infamous "the Mask". 
+                      </h3>
+                      <br>
+<button type="button" class="btn btn-info facepainting">
+                      More&nbsp;Details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td class="col-lg-4 " style="padding-left: 0%;">
             <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
               <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
@@ -684,31 +709,6 @@ function changeCultiContent() {
                       </h3>
                       <br>
 <button type="button" class="btn btn-info artexhibition">
-                      More&nbsp;Details
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </td>
-          <td class="col-lg-4 " style="padding-left: 0%;">
-            <div class="animated bounceInUp col-sm-8 text-center cultiDiv">
-              <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
-                <div class="flipper">
-                  <div class="front">
-                    <img class="img-responsive" alt="DJ WARS" src="images/culti/djwars.jpg" style="width: 250px;height: 300px;">
-                  </div>
-                  <div class="back">
-                    <div id="text">
-                      <br>
-                      <h3 class="short_description">
-                        For All The Aspiring Dj's Out There!! 
-                        <br>
-                        Can You Mix'em Good Enough?!
-                      </h3>
-                      <br>
-<button type="button" class="btn btn-info djwars">
                       More&nbsp;Details
                       </button>
                     </div>
@@ -751,8 +751,8 @@ function changeCultiContent() {
                 style="margin-bottom: -5px; ">
               </span>
               <br>
-              <span class="contestName" style="margin-left: 49px;
-                margin-right: 0px;">Art&nbsp;Exhibition
+              <span class="contestName" style="margin-left: 55px;
+                margin-right: 0px;">Face&nbsp;Painting
               </span>
               <br>
               <span style="margin-left:  0px;">
@@ -768,8 +768,8 @@ function changeCultiContent() {
                 style="margin-bottom: -5px; ">
               </span>
               <br>
-              <span class="contestName" style="margin-left: 80px;
-                margin-right: 0px;">Dj&nbsp;Wars
+              <span class="contestName" style="margin-left: 49px;
+                margin-right: 0px;">Art&nbsp;Exhibition
               </span>
               <br>
               <span style="margin-left:  0px;">

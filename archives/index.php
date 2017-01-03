@@ -8,20 +8,29 @@ if ($detect->isMobile()) {
 }
 ?>
 <!doctype html>
-<html lang="en">
-<head>
-<title>ELAN ARCHIVES</title>
-        <meta charset=utf-8>
-        <meta name=viewport content="width=device-width, initial-scale=1.0">
-        <meta name=description content="Elan 2017 Website">
-        <meta name="Web Coordinators" content=elan> 
-        <meta property=og:url content='http://elan.org.in/' />
-        <meta property=og:type content=website />
-        <meta property=og:title content="ELAN 2017"/>
-        <meta property=og:description content="ELAN 2017 Beta Website"/>
-        <meta property=og:image content="http://elan.org.in/assets/img/bg/bg.jpg"/>
-        <meta name="theme-color" content="#000000">
-        <link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
+<html lang="en-IN">
+  <head>
+      <meta charset="utf-8">
+        <title>Archives | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+
+      <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
+
+      <meta name="author" content="ELAN 2017">
+
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
+
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
+      <link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+      <meta name="theme-color" content="#000000">
+      <meta property=og:url content='http://elan.org.in/' />
+      <meta property=og:type content=website />
+      <meta property=og:title content="ELAN 2017"/>
+      <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
+      <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -135,9 +144,6 @@ if ($detect->isMobile()) {
                                     </div>
                                 </div>";
                         ?>
-        </div>
-        <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
-               <img src="../images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
         </div>
 
         </nav>

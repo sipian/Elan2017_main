@@ -97,9 +97,7 @@ if (argument == 'breakfree'){
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 25000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 15000 + goodies
+            Prizes :&nbsp;worth Rs 55000
           </div>
         </div>
         <br>
@@ -243,9 +241,7 @@ if (argument == 'looseyourfeet'){
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 7000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 3000 + goodies
+            Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
         <br>
@@ -405,9 +401,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 7000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 3000 + goodies
+            Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
         <br>
@@ -530,9 +524,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 7000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 3000 + goodies
+            Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
         <br>
@@ -672,9 +664,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 3000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 1000 + goodies
+            Prizes :&nbsp;worth Rs 10000
           </div>
         </div>
         <br>
@@ -814,9 +804,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 3000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 1000 + goodies
+            Prizes :&nbsp;worth Rs 8000
           </div>
         </div>
         <br>
@@ -971,9 +959,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 3500
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 1500 + goodies worth 3000
+            Prizes :&nbsp;worth Rs 10000
           </div>
         </div>
         <br>
@@ -1131,7 +1117,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp; Rs 10000 + goodies
+            Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
         <br>
@@ -1307,7 +1293,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;Rs 5000 + goodies
+            Prizes :&nbsp;worth Rs 5000
           </div>
         </div>
         <br>
@@ -1435,7 +1421,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;worth Rs 10000
+            Prizes :&nbsp;worth Rs 10000
           </div>
         </div>
         <br>
@@ -1597,9 +1583,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 1000
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 1000(worth) + goodies
+            Prizes :&nbsp;worth Rs 2000
           </div>
         </div>
         <br>
@@ -1738,9 +1722,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 750
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 750(worth) + goodies
+            Prizes :&nbsp;worth Rs 1500
           </div>
         </div>
         <br>
@@ -1870,9 +1852,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 750
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 750(woth) + goodies
+            Prizes :&nbsp;worth Rs 1500
           </div>
         </div>
         <br>
@@ -2026,9 +2006,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 750
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 750(worth)
+            Prizes :&nbsp;worth Rs 1500
           </div>
         </div>
         <br>
@@ -2168,9 +2146,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 750
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 750(worth)
+            Prizes :&nbsp;worth Rs 2000
           </div>
         </div>
         <br>
@@ -2352,9 +2328,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 2500
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 1500 + goodies worth 9000
+            Prizes :&nbsp;worth Rs 24000
           </div>
         </div>
         <br>
@@ -2548,8 +2522,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;Rs 20000 + goodies
-            <br>
+            Prizes :&nbsp;worth Rs 25000
           </div>
         </div>
         <br>
@@ -2679,8 +2652,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;position : Rs 5000 + goodies
-            <br>
+            Prizes :&nbsp;worth Rs 8000
           </div>
         </div>
         <br>
@@ -2736,6 +2708,7 @@ let ret = `\`
               <li> The Contestants are expected to entertain the audiences
                 <br> by telling stories, current affairs (about ELAN 2017), cinema news, etc.
               </li>
+              <br>
               <li> Each contestant has to perform for maximum of 20 minutes.</li>
               <br>
             </ul>
@@ -2833,9 +2806,7 @@ let ret = `\`
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            Prize :&nbsp;1st position : Rs 750
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd position: Rs 750(worth)
+            Prizes :&nbsp;worth Rs 2000
           </div>
         </div>
         <br>

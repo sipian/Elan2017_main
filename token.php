@@ -12,9 +12,11 @@ if (!$conn) {
 }
 
 if(!isset($_GET["token"])){
-    header("Location: error.php?err=Invalid Token.");
+    header("Location: index.php");
     exit();
 }
+
+
 print_r($_GET["token"]);
 print_r("<br><br><br><br>");
 print_r($_GET["signup"]);
@@ -44,10 +46,10 @@ $email = $array["email"];
 $name = $array["name"]["first"];
 $verifiedEmail = $array["emailVerified"];
 
-/*if($_GET["signup"]==1)
+if($_GET["signup"]==1)
     $verifiedEmail = 1;
 else
-    $verifiedEmail = $array["emailVerified"];*/
+    $verifiedEmail = $array["emailVerified"];
 
     $_SESSION["id"] = $id;
     $_SESSION["elanId"] = $userId;
@@ -61,7 +63,7 @@ if ($verifiedEmail == 1)
 else
      $_SESSION["verified"] = 2;
 
-print_r("HELLO");
+print_r("<br><br><br><br>HELLO<br><br><br><br><br>");
 print_r($_SESSION);
 
 $sql = "SELECT * FROM users WHERE ID='$id'";

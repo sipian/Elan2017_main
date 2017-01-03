@@ -195,4 +195,188 @@ function getOnlineContent(argument) {
     </div>
   </div>\``;
   
+
+
+      if(argument=='football')
+        return `
+    \`
+
+<div class='contest'>
+                <p><br></p>
+    <div class='contest' 
+      style="padding-bottom: 150px;
+      padding-left:20px;
+      background-image: url('images/event_details.png');  
+      background-repeat:  no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+    ">
+    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="container" style="
+        width:1040px;
+        padding-left:35px;
+        text-align:left;
+        max-height: 1280px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        ">
+        <div class="heading">
+            <div class="col-lg-1" id="backOnline">
+<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-5">
+                <h3><strong style="font-weight: 900;margin-left:-50px;">FANTASY&nbsp;FOOTBALL&nbsp;LEAGUE</strong> </h3>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="photo">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+                <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/online/football.png">
+                <h4 style="font-size:20px;margin-left:18%">Powered by Fanzoo Sports</h4>
+                <img  class="img-thumbnail img-responsive" alt="event"  style="width:30%;height:100px;margin-left:18%;" src="images/online/logo_10_12_2016_17_57.png">
+  </div>
+                <div class="col-lg-3"></div>
+            </div18
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5">&nbsp;</div>
+            <!--<div class="col-lg-6"><button type="button" class="btn btn-primary btn-lg" style="align:center;">REGISTER</button></div>-->
+        </div>
+        <br>
+        <div class="text"  style="font-size:23.5px;">
+            <div class="row title">
+            </div>
+
+
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT</h3>
+                <div>
+                <br>
+                 Elan, the premier cultural fest of IIT Hyderabad, is partnering up with Fanzoo Sports, 
+                 <br>
+                 India’s first completely customizable fantasy sports platform to give you the Elan 
+                 <br>
+                 Fantasy Football League. Play for free at <a href='http://www.fanzoosports.com/' target='_blank'>fanzoosports.com</a> and stand a chance to win awesome prizes! Game On!
+                 <br>
+                </div>
+            </div>
+
+            <div class="row about">
+                <h3 style="text-align: center;">ABOUT FANTASY SPORTS</h3>
+                <div>
+                <br>
+                 Fantasy Sports are fun filled online games, in which you create and manage a virtual
+                 <br>
+                  team of your favourite professional athletes from a particular sport. These teams
+                  <br>
+                  compete based on the statistical performance of those players. You choose the team, 
+                  <br>
+                  the players perform and you get the points!  
+                 <br>
+                </div>
+            </div>
+            <br>
+            <div class="row about">
+                <h3 style="text-align: center;">PRIZES</h3>
+                <div>
+                <br>
+                 Each Week you have a chance to win upto Rs. 4000 worth of PayTM Vouchers! 
+                 <br>
+                 Even if you team doesn't do well,
+                 <br>
+                 we give you discount coupons. The overall winner of the two week league gets a 
+                 <br>
+                 grand prize as well! As we say - At Fanzoo, the Fan always wins!
+                 <br>
+                </div>
+            </div>
+            <br>
+   <div class="row about">
+                <h3 style="text-align: center;">DATES</h3>
+                <div>
+                <br>
+                 Week 1 - 14 and 15 Jan
+                 <br>
+                 Week 2 - 21 and 22 Jan
+                 <br>
+                </div>
+            </div>
+
+            <br>
+                 <div class="row rules">
+                <h3 style="text-align: center;">HOW TO PLAY</h3>
+                <br>
+                <ul style="list-style-type: disc;margin-left:25px;">
+                    <li>Sign up at <a href='http://www.fanzoosports.com/' target='_blank'>www.fanzoosports.com</a> and Join the Elan Fantasy League
+                    <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Choose your Formation. Hint: Formation 4-3-3 gives you most attackers!
+                    <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+                    <li>Choose your Players. Hint: Star players like Zlatan are more costly and you need to 
+                    <br>
+                    stay within budget. Choose Wisely!
+                    <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Submit your team before the first EPL game on Jan 14th. Your Team is then set 
+                    <br>
+                    for Week 1.
+                    <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                     <li>Check our Live Leaderboard during and after the games to see how your team did!
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+
+                    <li>It's the same simple process for Week 2! Submit your team before the 
+                    <br>
+                    EPL matches begins on 21 Jan. 
+                    <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+  
+                </ul>
+
+            </div>
+
+
+
+             <div class="row about">
+                <h3 style="text-align: center;">ABOUT FANZOO SPORTS</h3>
+                <div>
+                <br>
+                 Fanzoo Sports is an online gaming platform which is revolutionizing fantasy sports in India.
+                 <br>
+                 They offer weekly fantasy sports games where the sports fan can win amazing prizes just for participating. 
+                 <br>
+                 With a live and dynamic leaderboard and new smack talk options, Fanzoo has the best Fantasy Gaming Interface in India. 
+                 <br>
+                 What’s more, it’s always free to play. 
+                 <br>
+                 At Fanzoo, the Fan always wins! See more at <a href='http://www.fanzoosports.com/' target='_blank'>www.fanzoosports.com</a> 
+                 <br>
+                </div>
+            </div>
+
+
+            <br><br>
+        </div>
+            </div>
+
+    </div>
+  </div>\``;
 }
+
+

@@ -11,11 +11,13 @@ if ($detect->isMobile()) {
 <html lang="en-IN">
   <head>
       <meta charset="utf-8">
+        <title>ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+
       <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
 
       <meta name="author" content="ELAN 2017">
 
-      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr">  
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
 
       <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
       <link rel='shortcut icon' href=favicon.ico type='image/x-icon'/>
@@ -28,7 +30,6 @@ if ($detect->isMobile()) {
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
 
 
-      <title>ELAN 2017</title>
       <link rel="stylesheet" href="styles/main.css">
       <link rel="stylesheet" href="styles/footer3.css">
       <link rel="stylesheet" href="navbar/navbar2.css">
@@ -83,10 +84,6 @@ if ($detect->isMobile()) {
         <area shape="rect" coords="30,0,370,160" href="" alt="alttext" style="outline: none;">
       </map>
       </div>
-      <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
-               <img src="images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
-        </div>
-
          </nav>
       </div>
       

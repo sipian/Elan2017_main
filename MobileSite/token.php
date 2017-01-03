@@ -12,9 +12,11 @@ if (!$conn) {
 }
 
 if(!isset($_GET["token"])){
-    header("Location: error.php?err=Invalid Token.");
+    header("Location: index.php");
     exit();
 }
+
+
 print_r($_GET["token"]);
 print_r("<br><br><br><br>");
 print_r($_GET["signup"]);
@@ -25,10 +27,10 @@ use \Firebase\JWT\JWT;
 
 $key = "varyverysecrettokenithinkso";
 try{
-$decoded = JWT::decode($_GET["token"], $key, array('HS256'));
+    $decoded = JWT::decode($_GET["token"], $key, array('HS256'));
 }
 catch(Exception $e){
-     header("Location: error.php?err=Invalid Token");
+     header("Location: error.php?err=Invalid Tokens. ");
      exit();
 }
 $decoded_array = (array) $decoded;
@@ -42,7 +44,7 @@ $college = $array["college"];
 $mobile = $array["phone"];
 $email = $array["email"];
 $name = $array["name"]["first"];
-$verifiedEmail = 0;
+$verifiedEmail = $array["emailVerified"];
 
 if($_GET["signup"]==1)
     $verifiedEmail = 1;
@@ -61,7 +63,7 @@ if ($verifiedEmail == 1)
 else
      $_SESSION["verified"] = 2;
 
-print_r("HELLO");
+print_r("<br><br><br><br>HELLO<br><br><br><br><br>");
 print_r($_SESSION);
 
 $sql = "SELECT * FROM users WHERE ID='$id'";

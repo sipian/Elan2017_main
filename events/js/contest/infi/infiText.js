@@ -28,7 +28,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:55px;">FOODATHON</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:70px;">FOODATHON</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -62,7 +62,7 @@ function getInfiContent(argument) {
                 <br>
                 ELAN invites all the foodies for a real competition.
                 <br>
-                  Let’s see who is the biggest foodie..But wait, Is it so simple!! 
+                  Let’s see who is the biggest foodie. But wait, Is it so simple!! 
                   <br>
                   We don’t think so
                 <br>
@@ -113,6 +113,20 @@ function getInfiContent(argument) {
             </div>
                 <br><br>
             </div>
+            <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+                <div class="row">
+                <div class="col-lg-5"></div>
+                <div class="col-lg-4" style="font-size:23.5px;margin-left:-20px;">
+                Deepak&nbsp;Nathani
+                <br>
+                &nbsp;+91-9177289949
+                <br>
+                </div>
+                </div>
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -144,7 +158,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-15px;">MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:30px;">MINUTE&nbsp;TO&nbsp;WIN&nbsp;IT</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -186,7 +200,6 @@ function getInfiContent(argument) {
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -226,7 +239,32 @@ function getInfiContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                 </ul>
             </div>
+            <div class="row rules">
+                <h3 style="text-align: center;margin-left:-20px;">&nbsp;&nbsp;ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-2"></div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                Akhil&nbsp;Ashref
+                <br>
+                +91-9177285214
+                <br>
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Akshita&nbsp;Ramya
+                <br>
+                +91-9100084766
+                <br>
+                </div>
+                </div>
                 <br><br>
+
             </div>
         </div>
     </div>
@@ -259,7 +297,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:50px;">LAN&nbsp;GAMING</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:55px;">LAN&nbsp;GAMING</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -267,7 +305,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/langaming.png">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:7%;" src="images/infi/langaming.png">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -299,7 +337,6 @@ function getInfiContent(argument) {
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -318,9 +355,7 @@ function getInfiContent(argument) {
                     <br>
                     </div>
                 </div>
-                <br>
             </div>
-            <br>
             <div class="row rules">
                 <h3 style="text-align: center;">GAMES</h3>
                 <br>
@@ -362,6 +397,29 @@ function getInfiContent(argument) {
                 </ul>
             </div>
 
+                 <div class="row rules">
+                <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-2"></div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                Ayush&nbsp;Negi
+                <br>
+                +91-8280032282 
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Supreet&nbsp;Singh
+                <br>
+                +91-9652889870
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
         </div>
@@ -397,7 +455,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-22px;">FINAL&nbsp;DESTINATION</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:8px;">FINAL&nbsp;DESTINATION</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -405,7 +463,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/finaldestination.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:7%;" src="images/infi/finaldestination.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -419,7 +477,6 @@ function getInfiContent(argument) {
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
                 <h3 style="text-align: center;font-weight: 900;">TREASURE&nbsp;HUNT&nbsp;COMPETITION</h3>
-                <br><br>
             </div>
 
  
@@ -439,7 +496,6 @@ function getInfiContent(argument) {
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -454,7 +510,6 @@ function getInfiContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
                     <br>
                     </div>
                 </div>
@@ -503,6 +558,17 @@ function getInfiContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                 </ul>
             </div>
+                           <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+                <div class="row">
+                <div class="col-lg-5"></div>
+                <div class="col-lg-4" style="font-size:23.5px;">
+                Aswin&nbsp;Kumar
+                <br>
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
         </div>
@@ -546,7 +612,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/infi/madads.png">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:7%;" src="images/infi/madads.png">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -560,7 +626,7 @@ function getInfiContent(argument) {
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
                 <h3 style="text-align: center;font-weight: 900;">CRAZY&nbsp;ADVERTISING&nbsp;SKILLS</h3>
-                <br><br>
+
             </div>
 
  
@@ -579,7 +645,7 @@ function getInfiContent(argument) {
             <br>
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
-                <br>
+
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
@@ -595,15 +661,15 @@ function getInfiContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
+
+
                     </div>
                 </div>
-                <br>
+
             </div>
             <br>
                                     <div class="row rules">
-                <h3 style="text-align: center;">RULES</h3>
+                <h3 style="text-align: center;">RULES</h3><br>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>This is a group event-group of 4-5.
                         <br>
@@ -639,11 +705,35 @@ function getInfiContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                 </ul>
             </div>
+                  <div class="row rules">
+                <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-2"></div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                Deepika&nbsp;Gonela
+                <br>
+                +91-9963079992
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Tejas&nbsp;Anand
+                <br>
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
         </div>
     </div>
   </div>\``;
+
+
 
 
 
@@ -674,7 +764,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:20px;">CASINO&nbsp;ROYALE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:40px;">CASINO&nbsp;ROYALE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -682,7 +772,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:10.5%;" src="images/infi/casino_royale.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:8.5%;" src="images/infi/casino_royale.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -714,16 +804,15 @@ function getInfiContent(argument) {
                 <br>
                 Whether it’s the spin of the roulette wheel that catches your eye,
                 <br>
-                or the shouts of ‘hit’ and ‘stay’ from the blackjack table that draw you in, the casino just won’t let you leave.
+                or the shouts of ‘hit’ and ‘stay’ from the blackjack table that draw you in, the 
                 <br>
-                  May the odds be ever in your favour!
+                casino just won’t let you leave. May the odds be ever in your favour!
                   <br>
                 </div>
             </div>
             <br>
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
-                <br>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
@@ -739,17 +828,39 @@ function getInfiContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
                     </div>
                 </div>
                 <br>
             </div>
+               
+                 <div class="row rules">
+                <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-2"></div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                Vidhan&nbsp;Jain
+                <br>
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Mayank&nbsp;Hooda
+                <br>
+                +91-965892682
+                <br>
+                </div>
+                </div>
                 <br><br>
             </div>
         </div>
     </div>
   </div>\``;
+
 
 
   if(argument=='snake')
@@ -779,7 +890,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-60px;">HUMAN&nbsp;SNAKE&nbsp;&&nbsp;LADDERS</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:-47px;">HUMAN&nbsp;SNAKE&nbsp;&&nbsp;LADDERS</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -787,7 +898,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:10.5%;" src="images/infi/snake.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/infi/snake.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -817,7 +928,6 @@ function getInfiContent(argument) {
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -832,14 +942,11 @@ function getInfiContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
                     </div>
                 </div>
-                <br>
             </div>
                 <br>                                   <div class="row rules">
-                <h3 style="text-align: center;">RULES</h3>
+                <h3 style="text-align: center;">RULES</h3><br>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Onspot registration.
                         <br>
@@ -852,8 +959,20 @@ function getInfiContent(argument) {
                 </ul>
             </div>
             </div>
-            <br>
-            <br>
+            <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+                <div class="row">
+                <div class="col-lg-5"></div>
+                <div class="col-lg-4" style="font-size:23.5px;">
+                &nbsp;Jeel&nbsp;Bhavsar
+                <br>
+                +91-9100283774
+                <br>
+                </div>
+                </div>
+                <br><br>
+            </div>
         </div>
     </div>
   </div>\``;
@@ -886,7 +1005,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-60px;">CONVERSATION&nbsp;COFFEE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:-17px;">CONVERSATION&nbsp;COFFEE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -894,7 +1013,7 @@ function getInfiContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:10.5%;" src="images/infi/convcoffee.png">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:7.5%;" src="images/infi/convcoffee.png">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -930,7 +1049,6 @@ function getInfiContent(argument) {
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -945,14 +1063,12 @@ function getInfiContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
                     </div>
                 </div>
-                <br>
             </div>
                 <br>            <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
+                <br>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Partners will be assigned by random chits.
                         <br>
@@ -964,14 +1080,11 @@ function getInfiContent(argument) {
                     <li style="list-style-type: none;"><br></li>
 
                     <li>The most correct answers will win.
-                         <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
+                    <li style="list-style-type: none;"></li>
                 </ul>
             </div>
             </div>
-            <br>
-            <br>
         </div>
     </div>
   </div>\``;
@@ -1004,7 +1117,7 @@ function getInfiContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left: -8px;">WALK&nbsp;THE&nbsp;RAMP</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left: 32px;">WALK&nbsp;THE&nbsp;RAMP</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -1048,7 +1161,6 @@ function getInfiContent(argument) {
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1067,24 +1179,20 @@ function getInfiContent(argument) {
                     <br>
                     </div>
                 </div>
-                <br>
             </div>
-                <br>                                   <div class="row rules">
-                <h3 style="text-align: center;">RULES</h3>
+<div class="row rules">
+                <h3 style="text-align: center;">RULES</h3><br>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>Online as well as on-spot registration. (3 hours before the event)
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
                     <li>Judges decision is final.
-                         <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
+                    <li style="list-style-type: none;"></li>
                 </ul>
             </div>
             </div>
-            <br>
-            <br>
         </div>
     </div>
   </div>\``;

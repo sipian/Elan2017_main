@@ -58,7 +58,8 @@ function getBiggiesContent(argument) {
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
                 <br>
-                Distorted guitars, emphatic rhythms, dense bass and drums, vigorous vocals, epic riffs and wild headbanging. 
+                Distorted guitars, emphatic rhythms, dense bass and drums, vigorous vocals, epic
+                <br> riffs and wild headbanging. 
                 <br>
                 Elan is back with its signature event, the metal battle. 
                 <br>
@@ -84,11 +85,10 @@ function getBiggiesContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                             Prizes :
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;1st position : 
+   
                                     <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   Prizes worth Rs 30000
+                                   Prizes worth Rs 45000
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    A chance to record their music in <strong>Soundkraft Recording Studio
@@ -107,12 +107,7 @@ function getBiggiesContent(argument) {
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    <strong>MTV Indies Channel</strong>
                                    <br><br>
-                                    
-            &nbsp;&nbsp;&nbsp;&nbsp;2nd position : 
-                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   Prizes worth Rs 15000
-                                   <br>
+
           </div>
                 </div>
                 <br>
@@ -130,8 +125,8 @@ function getBiggiesContent(argument) {
                 <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>In first Round of Screening participants have to upload their music performance on 
-                    <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>
-                    ArtistAloud.com</a> 
+                    <a href='#' target='_blank'>
+                    SongDew.com</a> 
                      by downloading the app and use the college code 
                      <br>
                      that will be given once the event registration will be done. 
@@ -145,11 +140,6 @@ function getBiggiesContent(argument) {
                     <li style="list-style-type: none;"><br></li>
 
                     <li>No videos will be considered after the deadline</strong>
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-
-                    <li>Only team leader needs to register at elan.org.in
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -418,11 +408,9 @@ src="images/biggies/manthan_small.jpg">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                             Prizes :
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;1st position : 
                                     <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   Prizes worth Rs 25000
+                                   Prizes worth Rs 35000
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    A chance to record their music in <strong>Soundkraft Recording Studio</strong>
@@ -430,12 +418,7 @@ src="images/biggies/manthan_small.jpg">
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    (Hyderabad)
                                    <br><br>
-                                    
-            &nbsp;&nbsp;&nbsp;&nbsp;2nd position : 
-                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   Prizes worth Rs 10000
-                                   <br>
+
                 </div>
                 <div>
 
@@ -460,8 +443,8 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>In first Round of Screening participants have to upload their music performance on 
-                    <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>
-                    ArtistAloud.com</a> 
+                    <a href='#' target='_blank'>
+                    SongDew.com</a> 
                      by downloading the app and use the college code 
                      <br>
                      that will be given once the event registration will be done. 
@@ -479,10 +462,6 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>Only team leader needs to register at elan.org.in
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
 
                     <li>Shortlisted bands get to perform at Manthan finals, Elan 2017.
                          <br>
@@ -696,7 +675,7 @@ src="images/biggies/manthan_small.jpg">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:2.5%;" src="images/biggies/campus_princess.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:2.5%;" src="images/biggies/campus_princess.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>

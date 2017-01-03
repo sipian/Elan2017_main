@@ -8,16 +8,30 @@ if ($detect->isMobile()) {
 }
 ?>
 
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-IN">
   <head>
-    <title>ELAN EVENTS</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Elan Events 2017" />
-    <meta name="author" content="" />
-    <link rel="shortcut icon" href="../favicon.ico">
+      <meta charset="utf-8">
+        <title>Events | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+
+      <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
+
+      <meta name="author" content="ELAN 2017">
+
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
+
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
+      <link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+      <meta name="theme-color" content="#000000">
+      <meta property=og:url content='http://elan.org.in/' />
+      <meta property=og:type content=website />
+      <meta property=og:title content="ELAN 2017"/>
+      <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
+      <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
+
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
 
@@ -89,6 +103,18 @@ if ($detect->isMobile()) {
     height: 20px;
     box-shadow: none;
     }
+    body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
   </style>
 
 <?php
@@ -153,9 +179,6 @@ if ($detect->isMobile()) {
                                     </div>
                                 </div>";
                         ?>
-        </div>
-        <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
-               <img src="../images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
         </div>
 
         </nav>
@@ -664,8 +687,11 @@ if ($detect->isMobile()) {
 
 
 
-  <script src="js/contest/infi/infiText.js?version=1.0"></script>
   <script src="js/contest/infi/infi.js?version=1.0"></script>
+  <script src="js/contest/infi/infiPageTransitionRegister.js?version=1.0"></script>
+  <script src="js/contest/infi/infiInfi.js?version=1.0?version=1.0"></script>
+  <script src="js/contest/infi/infiText.js?version=1.0"></script>
+
 
 
 

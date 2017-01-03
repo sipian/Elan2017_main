@@ -107,7 +107,7 @@ function changeTechyContent() {
                                         <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
                                 </span>
                                 <br>
-                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Engima</span>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Enigma</span>
                                 <br>
                                 <span style="margin-left: 0px;">
                                         <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">

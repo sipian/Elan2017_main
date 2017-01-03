@@ -99,6 +99,7 @@ $('body').on("click", ".infi", function() {
             changeContest();
             $('.infiDiv').css("display", "block");
             $('.infiDiv').addClass('animated bounceInUp');
+            checkInfiRegister();
         }, 750);        
     });
 });
@@ -111,6 +112,8 @@ $('body').on("click", ".online", function() {
             $('.onlineDiv').addClass('animated bounceInUp');
             if(window.location.href.indexOf("emblazon") > -1)
                 $(".emblazon").trigger("click");
+            else if(window.location.href.indexOf("football") > -1)
+                $(".football").trigger("click");
         }, 750);
     });
 

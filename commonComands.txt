@@ -1,0 +1,253 @@
+use elanop4y_fest_2017;
+drop table users;
+drop table elanejung;
+drop table manthan;
+drop table breakfree;
+drop table looseyourfeet;
+drop table nrityanjali;
+drop table just_duet;
+drop table vibrazione;
+drop table octaves;
+drop table andaazapnapna;
+drop table nukkadnatak;
+drop table filmfarefiesta;
+drop table picelectic;
+drop table lightscamera;
+drop table facepainting;
+drop table nailart;
+drop table mehendi;
+drop table claymodelling;
+drop table artexhibition;
+drop table djwars;
+drop table rjhunt;
+drop table lendmeurvoice;
+
+drop table campus_princess;
+
+drop table mrdetective;
+drop table wheel_of_fortune;
+drop table quizzes;
+drop table jam;
+
+
+
+
+CREATE TABLE users(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    name text NOT NULL,
+    password text NOT NULL,
+    college text NOT NULL,
+    mobile varchar(13) NOT NULL,
+    email varchar(100) NOT NULL,
+    registered_events text
+);
+
+CREATE TABLE users_special(
+    ID varchar(100) PRIMARY KEY,
+    email varchar(100) NOT NULL
+);
+
+insert into users_special VALUES('586650005ee72139b9e8f39d' , 'ch14btech11013@iith.ac.in');
+
+insert into users_special VALUES('5865f505fb302a2d6d41f3c0' , 'abhishekr@elan.org.in');
+
+
+
+create table elanejung(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table manthan(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table breakfree(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table looseyourfeet(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table nrityanjali(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+create table just_duet(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+create table vibrazione(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table octaves(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table andaazapnapna(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table nukkadnatak(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table filmfarefiesta(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table picelectic(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table lightscamera(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table facepainting(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table nailart(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table mehendi(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table claymodelling(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table artexhibition(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table djwars(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table rjhunt(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table lendmeurvoice(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table campus_princess(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+
+create table mrdetective(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table jam(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table wheel_of_fortune(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+create table quizzes(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://localhost/Elan2017_main/token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7Il9pZCI6IjU4NjQxOTU3NjBkOTZkMmZlMzMxZDdlNyIsInVzZXJpZCI6MywiZW1haWwiOiJjczE1YnRlY2gxMTAzMUBpaXRoLmFjLmluIiwicGFzc3dvcmQiOiIkMmEkMTAkQlwvSFhHYlpEQmpPMEN1UElhNTNlV3VrS1wvQ0RweXZSOVFqU2FxSUxEeDdrSUo1SHBcLzdvRTIiLCJjb2xsZWdlIjoiaWl0aCIsInBob25lIjo5ODc2NTQzMjEwLCJ2ZXJpZmljYXRpb25Ub2tlbiI6IkdKRlJSTGVLdW5LQmxRU0tXblMzdEUwaVpreGcxV0tvbGVNNlFTVEJ3UlBheWJ0Q0c1TmdWNDYySjRhMklMS2EiLCJfX3YiOjAsImVtYWlsVmVyaWZpZWQiOnRydWUsImNhbkFjY2Vzc0tleXN0b25lIjpmYWxzZSwibmFtZSI6eyJmaXJzdCI6InByYXRlZWsiLCJsYXN0IjoiIn19LCJpYXQiOjE0ODI5NTUwOTYsImV4cCI6MTk4Mjk1NTk5Nn0.hu2EFV1J3eyvqtiBWDmrKO6gO0ZJr7miabxhrBC9a9c

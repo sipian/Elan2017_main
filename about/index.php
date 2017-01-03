@@ -8,11 +8,28 @@ if ($detect->isMobile()) {
 }
 ?>
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>ABOUT</title>
-<link rel="shortcut icon" href="../favicon.ico">
+<html lang="en-IN">
+  <head>
+      <meta charset="utf-8">
+        <title>About | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+
+      <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
+
+      <meta name="author" content="ELAN 2017">
+
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
+
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
+      <link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+      <meta name="theme-color" content="#000000">
+      <meta property=og:url content='http://elan.org.in/' />
+      <meta property=og:type content=website />
+      <meta property=og:title content="ELAN 2017"/>
+      <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
+      <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
 
 
 <!-- pre loader link sheets -->
@@ -141,9 +158,6 @@ body {
                                     </div>
                                 </div>";
                         ?>
-        </div>
-        <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
-               <img src="../images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
         </div>
 
         </nav>
@@ -320,7 +334,7 @@ body {
   $(document).ready(function () {
     $("#start").html(`
     <p> <strong>Energy , Style And Enthusiasm</strong></p>
-    <p> <strong>ELAN</strong> , a mesmerizing unification of Energy, Style and Enthusiasm <br> is all set to hold Hyderabad spellbound once again, with it's <br> <strong>eigth edition</strong> being launched at the <strong>start of 2017.</strong></p>
+    <p> <strong>ELAN</strong> , a mesmerizing unification of Energy, Style and Enthusiasm <br> is all set to hold Hyderabad spellbound once again, with it's <br> <strong>eighth edition</strong> being launched at the <strong>start of 2017.</strong></p>
     <p> This Annual Inter­College <strong>“Techno­Cultural”</strong> festival of IIT Hyderabad 
     <br>promises a plethora of events to stupefy and ensorcell
     <br> both epicurean and boisterous tastes alike.</p>

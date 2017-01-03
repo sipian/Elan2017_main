@@ -1,10 +1,12 @@
 $(document).ready(function() {
 
+    checkInfiInsideRegister();
     $('body').on("click", ".foodathon", function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('foodathon'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
        });     
+        window.history.pushState("", "", '#foodathon');
     });
 
    
@@ -13,13 +15,15 @@ $(document).ready(function() {
         $(".infiBigDiv").html(getInfiContent('minutetowinit'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
        });     
+         window.history.pushState("", "", '#minutetowinit');
     });
 
     $('body').on("click", ".langaming", function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('langaming'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       });    
+       window.history.pushState("", "", '#langaming'); 
     });
 
      
@@ -28,7 +32,8 @@ $(document).ready(function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('finaldestination'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       });  
+       window.history.pushState("", "", '#finaldestination');   
     });
 
      
@@ -37,7 +42,8 @@ $(document).ready(function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('madads'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       });   
+       window.history.pushState("", "", '#madads');  
     });
 
      
@@ -46,7 +52,8 @@ $(document).ready(function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('casino_royale'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       });  
+       window.history.pushState("", "", '#casino_royale');   
     });
 
 
@@ -54,7 +61,8 @@ $(document).ready(function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('snake'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       }); 
+       window.history.pushState("", "", '#snake');    
     });
 
 
@@ -63,13 +71,15 @@ $(document).ready(function() {
         $(".infiBigDiv").html(getInfiContent('convcoffee'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
        });     
+        window.history.pushState("", "", '#convcoffee');
     });
 
     $('body').on("click", ".walk_the_ramp", function() {
         $(".infiBigDiv").hide("slide",{direction:"up"}, 450 , function(){
         $(".infiBigDiv").html(getInfiContent('walk_the_ramp'));
         $(".infiBigDiv").show('slide',{direction:"down"},450);
-       });     
+       });  
+       window.history.pushState("", "", '#walk_the_ramp');   
     });
 
 

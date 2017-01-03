@@ -27,7 +27,7 @@ function getLitrContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:25px;">MR&nbsp;DETECTIVE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:45px;">MR&nbsp;DETECTIVE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -60,12 +60,11 @@ function getLitrContent(argument) {
                 <div>
                 <br>
                  Put your deerstalkers on and get ready to solve the mystery.
-                <br>
+                <br><br>
                 </div>
             </div>
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
-                <br>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
@@ -81,23 +80,21 @@ function getLitrContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
                     </div>
                 </div>
-                <br>
             </div>
             <br>
                 <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
 
-                <div class="col-lg-1"></div>
+                <div class="col-lg-5"></div>
 
                 <div class="row">
-                    <div class="col-lg-3">
-                Sahil&nbsp;Yerawar
+                    <div class="col-lg-3"  style="margin-left:-12px;">
+                &nbsp;Sahil&nbsp;Yerawar
                 <br>
+                +91-9822977832
                 </div>
                 </div>
                 <br><br>
@@ -143,7 +140,7 @@ function getLitrContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:6.5%;" src="images/litr/jam.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:5.5%;" src="images/litr/jam.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -169,12 +166,11 @@ function getLitrContent(argument) {
                     Participants are given topics on the spot and they have to speak on them.
                     <br>
                     Err and you will be buzzed and relinquished of the mic
-                <br>
+                <br><br>
                 </div>
             </div>
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
-                <br>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
@@ -190,11 +186,8 @@ function getLitrContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
                     </div>
                 </div>
-                <br>
             </div>
             <br>
                 <div class="row rules">
@@ -207,12 +200,17 @@ function getLitrContent(argument) {
                 <div class="col-lg-3">
                 Shashank&nbsp;Varanasi
                 <br>
+                +91-8179303345
+                <br>
                 </div>
 
                  <div class="col-lg-3"></div>
 
                  <div class="col-lg-3">
                 Gitanjali&nbsp;M
+                <br>
+
+                +91-9705512183
                 <br>
                 </div>
                 </div>
@@ -339,11 +337,12 @@ function getLitrContent(argument) {
             <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
-                <div class="col-lg-1"></div>
+                <div class="col-lg-5"></div>
                 <div class="row">
                 <div class="col-lg-3">
-                Vedhamoorthy
+                &nbsp;Vedhamoorthy
                 <br>
+                +91-8903900986
                 </div>
                 </div>
                 <br><br>
@@ -384,7 +383,7 @@ function getLitrContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:20px;">QUIZ&nbsp;CONCLAVE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:30px;">QUIZ&nbsp;CONCLAVE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -392,7 +391,7 @@ function getLitrContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:8.5%;" src="images/litr/quizzes.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/litr/quizzes.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
@@ -415,7 +414,6 @@ function getLitrContent(argument) {
              <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -431,7 +429,6 @@ function getLitrContent(argument) {
                     <div class="col-lg-10">
                     Prize :&nbsp;Coming&nbsp;Soon
                     <br>
-                    <br>
                     </div>
                 </div>
                 <br>
@@ -440,7 +437,6 @@ function getLitrContent(argument) {
             <div class="row about">
                 <h3 style="text-align: center;">GENERAL&nbsp;QUIZ</h3>
                 <div>
-                <br>
                 We know you haven’t been living under a rock,
                 <br>
                 so this quiz should be an easy one for you. Or should it?
@@ -448,23 +444,20 @@ function getLitrContent(argument) {
                 </div>
             </div>
             
-            <!--<div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
-                <div class="col-lg-4"></div>
+            <div class="row rules">
+                <h3 style="text-align: center;">QUIZMASTER</h3>
+                <div class="col-lg-5"></div>
                 <div class="row">
                 <div class="col-lg-4">
-                &nbsp;&nbsp;Arjun&nbsp;D’&nbsp;Cunha
-                <br>
+                Rajiv&nbsp;Sanyal
                 </div>
                 </div>
-                
-            </div>-->
+            </div>
+
             <br><br>
              <div class="row about">
                 <h3 style="text-align: center;">SCI&nbsp;TECH&nbsp;QUIZ</h3>
                 <div>
-                <br>
                 Come on, this is an IIT. 
                 <br>
                 We were bound to explore developments in the world of science and technology. 
@@ -474,16 +467,21 @@ function getLitrContent(argument) {
             
             <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
-                
                 <div class="row">
-                <div class="col-lg-3"></div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-3">
-                Asvin&nbsp;Kumar
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jnapika
+                <br>
+                +91-9494354710
+                </div>
+                <div class="col-lg-3">
+                &nbsp;&nbsp;&nbsp;&nbsp;Sreeja<br>
+                +91-9397373839
                 <br>
                 </div>
                 <div class="col-lg-3">
-                Shashank&nbsp;Varanasi
+                &nbsp;&nbsp;Durgakeerthi<br>
+                +91-9603723130
                 <br>
                 </div>
                 </div>
@@ -494,7 +492,6 @@ function getLitrContent(argument) {
              <div class="row about">
                 <h3 style="text-align: center;">MELAS&nbsp;QUIZ</h3>
                 <div>
-                <br>
                 Enter the world of pop culture. 
                 <br>
                 This quiz spans exactly five domains - Music, Entertainment, Literature, Art, Sports. 
@@ -514,7 +511,6 @@ function getLitrContent(argument) {
                 </div>
                 <div class="col-lg-3">
                 Aisha&nbsp;Dantuluri
-                <br>
                 </div>
                 </div>
                 <br><br>
@@ -523,7 +519,6 @@ function getLitrContent(argument) {
              <div class="row about">
                 <h3 style="text-align: center;">HARRY&nbsp;POTTER&nbsp;QUIZ</h3>
                 <div>
-                <br>
                 Calling all potterheads. Can’t get enough of the world of the boy who lived?
                 <br>
                  Well, we couldn’t either, so we made a quiz about it.
@@ -533,12 +528,10 @@ function getLitrContent(argument) {
             
             <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-5"></div>
                 <div class="row">
-                <div class="col-lg-4">
-                &nbsp;&nbsp;Tanya&nbsp;Marwah
-                <br>
+                <div class="col-lg-4" style="margin-left:-15px;">
+                Tanya&nbsp;Marwah
                 </div>
                 </div>
                 <br><br>
@@ -557,11 +550,20 @@ function getLitrContent(argument) {
             
             <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
-                <div class="col-lg-4"></div>
                 <div class="row">
-                <div class="col-lg-4">
-                &nbsp;&nbsp;Prasad&nbsp;Thota
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                Prasad Thota
+                <br>
+                </div>
+                <div class="col-lg-3">
+                Bhanu&nbsp;Prakash<br>
+                +91-9989532541
+                <br>
+                </div>
+                <div class="col-lg-3">
+                &nbsp;Aishwarya&nbsp;GM<br>
+                +91-9603088406
                 <br>
                 </div>
                 </div>

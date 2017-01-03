@@ -77,24 +77,23 @@ function changeOnlineContent() {
 
 
 
-                    <td class="col-lg-4 " style="padding-left: 0%;display:none;">
+                    <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="SWEET HEART" src="images/online/sweetheart.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="LIT FEST" src="images/online/football.png" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                       Pour Your Soul Into The Paper
+                                            Elan & Fanzoo Are Bringing You The Ultimate Football Fan Experience
                                        <br>
-                                        And Tell Your Beloved How Much You Care.
                                     </h3>
                                             <br>
                                             <br>
-                                            <button type="button" class="btn btn-info sweetheart clickButton">
+                                            <button type="button" class="btn btn-info football clickButton">
                                                  More&nbsp;Details
                                             </button>
                                         </div>
@@ -132,7 +131,7 @@ function changeOnlineContent() {
                         style="margin-bottom: -5px; ">
                      </span>
                      <br>
-                     <span class="contestName" style="margin-left: 42px;
+                     <span class="contestName" style="margin-left: 62px;
                         margin-right: 0px;">Emblazon
                      </span>
                      <br>
@@ -144,6 +143,21 @@ function changeOnlineContent() {
                     </td>
 
                     <td class="col-lg-4" style="padding-left:4%;">
+                    <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
+                            <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: -12px;
+                        margin-right: 0px;">Fantasy&nbsp;Football&nbsp;League
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                         </div>
                     </td>
                 </div>
             </tr>
@@ -153,44 +167,24 @@ function changeOnlineContent() {
 
                     <td class="col-lg-4 " style="padding-left: 0%;">
                         <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
-                            <div class="flip-container" style="margin-left: 40px;">
-                                <div class="flipper">
-                                    <div class="front1">
-                                    </div>
-                                    <div class="back1">
-                                        <div id="text">
-                                            <br>
-                                            <h3 class="short_description">
-                                    <br>
-                              </h3>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-
-
-                    <td class="col-lg-4 " style="padding-left: 0%;display:none;">
-                        <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="TWIST IT" src="images/online/twistit.jpg" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="GOT QUOZ" src="images/online/got.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">
                                             <br>
                                             <h3 class="short_description">
-                                    Ever Wondered What Would’ve Happened If Cinderella Never Left Her Shoe Behind? 
-                                    <br>
-                                    Or, If Snow White Hadn’t Met The Dwarves?
-                               </h3>
+                                       An Online Event For All The Game Of Thrones Fans Out There
+                                       <br>
+                                    </h3>
                                             <br>
-                                            <button type="button" class="btn btn-info twistit clickButton">
-                                                 More&nbsp;Details
+                                            <br>
+                                            <button type="button" class="btn btn-info GOT" style="margin-top:-5px;">
+                                                More Details
                                             </button>
+
                                         </div>
                                     </div>
                                 </div>
@@ -198,6 +192,33 @@ function changeOnlineContent() {
                         </div>
                     </td>
 
+
+                    <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="LIT FEST" src="images/online/twistit.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                       An Online Litr Event For All The Writers Out There
+                                       <br>
+                                    </h3>
+                                            <br>
+                                            <br>
+                                            <a href="../litfest" target="_blank">
+                                            <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
 
 
                     <td class="col-lg-4 " style="padding-left: 0%;display:none;">
@@ -230,9 +251,42 @@ function changeOnlineContent() {
             <tr>
                 <div class="row">
                     <td class="col-lg-4" style="padding-left:4%;">
+                    <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
+                            <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: -25px;
+                        margin-right: 0px;">Game&nbsp;Of&nbsp;Thrones&nbsp;Fanatic
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                         </div>
+                    </td>
+                </div>
+                    
                     </td>
 
                     <td class="col-lg-4" style="padding-left:4%;">
+                    <div class="animated bounceInUp col-sm-8 text-center onlineDiv">
+                            <span style="margin-left:  0px;">
+                     <img src="images/borderImg1.png" class="borderImg"
+                        style="margin-bottom: -5px; ">
+                     </span>
+                     <br>
+                     <span class="contestName" style="margin-left: 82px;
+                        margin-right: 0px;">Litfest
+                     </span>
+                     <br>
+                     <span style="margin-left:  0px;">
+                     <img src="images/borderImg2.png" class="borderImg"
+                        style="margin-bottom: -3px; ">
+                     </span>
+                         </div>
                     </td>
 
                     <td class="col-lg-4" style="padding-left:4%;">

@@ -8,18 +8,29 @@ if ($detect->isMobile()) {
     exit(0);
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-IN">
+  <head>
+      <meta charset="utf-8">
+        <title>Workshops | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
 
-<head>
+      <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <meta name="author" content="ELAN 2017">
 
-    <title>WORKSHOPS</title>
+      <meta name="keyword" content="elan,vision,techno,cultural,management,technical,iit hyderabad, iit,fest, competitions,events,event,hyderabad,iith,students,dance,song , drama , dj , informal , fun,sponsors,games,awesome,workshops,biggies,culti,techy,infi,online,litr , workshop , android , app , development , andro , engine , quadcopter , auto mobile , autonomous , robotics , team">  
+
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimal-ui">  
+      <link rel='shortcut icon' href=../favicon.ico type='image/x-icon'/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+      <meta name="theme-color" content="#000000">
+      <meta property=og:url content='http://elan.org.in/' />
+      <meta property=og:type content=website />
+      <meta property=og:title content="ELAN 2017"/>
+      <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
+      <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -190,10 +201,6 @@ background-image:url(images/workshopBack.jpg);
                                 </div>";
                         ?>
         </div>
-        <div  style="position:fixed;right:-15px;top:-5px;" class="qwerDIV">
-               <img src="../images/date.png" class="qwer" style="float: left;width: 150px;height:55px;">
-        </div>
-
         </nav>
     </div>
 
