@@ -36,7 +36,7 @@ if ($detect->isMobile()) {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- pre loader link sheets -->
-      <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+      <link rel='stylesheet prefetch' href='http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/loader.css">
 <!-- pre loader link sheets ends  -->
@@ -263,9 +263,7 @@ if ($detect->isMobile()) {
       <img src="images/explosion.png" style="display: none;">
    </body>
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
 
    <script src="scripts/vendor.js"></script>
     <script src="navbar/navbar1.js"></script>
@@ -276,32 +274,6 @@ if ($detect->isMobile()) {
                  $(document).ready(function () {
                   $('.center').html(`<img src="images/logo6.png" style="float: left;margin-top: 50px; margin-left: -105px;width: 400px;height: 145px;" id="logo" usemap="#mapname">`);
 
-               /*  if($(window).height()<400){
-                    $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
-                    $(".qwer").css({"width": "150px" , "height" : "55px"});
-                }
-                else if($(window).height()<500){
-                    $("#logo").css({"margin-left":"-108px","width": "450px" , "height": "155px"});
-                    $(".qwer").css({"width": "150px" , "height" : "55px"});
-                }
-                else{
-                    $("#logo").css({"margin-left":"-135px","width": "500px" , "height": "175px"});
-                    $(".qwer").css({"width": "150px" , "height" : "55px"});
-                }
-            $(window).resize(function () {
-                 if($(window).height()<400){
-                    $("#logo").css({"margin-left":"-132px","width": "300px" , "height": "105px"});
-                    $(".qwer").css({"width": "150px" , "height" : "55px"});
-                }
-                else if($(window).height()<500){
-                    $("#logo").css({"margin-left":"-108px","width": "450px" , "height": "155px"});
-                    $(".qwer").css({"width": "150px" , "height" : "55px"});
-                }
-                else{
-                    $("#logo").css({"margin-left":"-105px","width": "500px" , "height": "175px"});
-                    $(".qwer").css({"width": "150px" , "height" : "55px"});
-                }
-            });*/
 
             })
                 
