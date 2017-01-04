@@ -82,7 +82,7 @@ function changeOnlineContent() {
                             <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img class="img-responsive" alt="LIT FEST" src="images/online/football.png" style="width: 250px;height: 300px;">
+                                        <img class="img-responsive" alt="LIT FEST" src="images/online/funzoo.jpg" style="width: 250px;height: 300px;">
                                     </div>
                                     <div class="back">
                                         <div id="text">

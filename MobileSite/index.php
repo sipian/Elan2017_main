@@ -122,44 +122,7 @@ Its an odyssey worth enduring !!!.</p>
 		</div>
 	</div>
 </div>
-<!-- <div class="feature1 agileits">
-	<div class="container">
-		<h3 class="tittle-one">Archives</h3>
-		<div class="feature-grids">
-			<div class="col-md-3 feature-grid text-center wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
 
-
-
-				<div class="feature-grid-two">
-					<img class="hi-icon" src="images/archives/1.jpg">
-
-					<h4>2011</h4>
-					<p> Web link to our site</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 feature-grid text-center wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-				<div class="feature-grid-two">
-					<img class="hi-icon" src="images/archives/2.jpg">
-
-					<h4>2012</h4>
-					<p> Web link to our site</p>
-				</div>
-			</div>
-
-=======
->>>>>>> d2967a48fce9c99858b3da7b6fa177716f1e5e76
-
-
-<<<<<<< HEAD
-					<h4>2015</h4>
-					<p> Web link to our site</p>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div> -->
 
 
 

@@ -1,12 +1,6 @@
-
-
-
 <?php 
-
 session_start();
 require 'connect.php';
-require_once 'lib/swift_required.php';
-
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
@@ -17,7 +11,6 @@ if(!isset($_SESSION["id"])){
     header("Location: ../index.php?t=f");
     exit();
 }
-
 if(!isset($_SESSION["verified"])){
     header("Location: ../index.php?t=r");
     exit();
@@ -29,7 +22,6 @@ if(mysqli_query($conn, $sql)){
     array_push($temp,$_POST[contest]);
     $registered_events = implode(",",$temp);
     $_SESSION["events"]= $registered_events;
-
     $sql = "UPDATE users SET registered_events='$registered_events' WHERE ID='$_POST[id]';";
     if(mysqli_query($conn, $sql)){
         echo $registered_events;
@@ -39,6 +31,4 @@ if(mysqli_query($conn, $sql)){
 }
 else
     echo "failure";
-
-
  ?>

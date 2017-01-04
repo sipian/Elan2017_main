@@ -48,10 +48,10 @@ CREATE TABLE users_special(
     email varchar(100) NOT NULL
 );
 
-insert into users_special VALUES('586650005ee72139b9e8f39d' , 'ch14btech11013@iith.ac.in');
 
-insert into users_special VALUES('5865f505fb302a2d6d41f3c0' , 'abhishekr@elan.org.in');
+use elanop4y_fest_2017;
 
+insert into users_special VALUES('586cf54983bef55f78a0d8ec' , 'yash@elan.org.in');
 
 
 create table elanejung(

@@ -57,11 +57,12 @@ if ($detect->isMobile()) {
    </head>
    <body class="site de" style="height: 100%;">
 
-
   <!-- Preloader with Bootstrap Progress Bar -->
 <div class='loader'>
    <div class='loader-container'>  
+   <div style="text-align: center;">
    <img src="images/loading.png" id="loadImg" style='width:100%;' border="0" alt="Null">
+   </div>
     <div class='progress progress-striped active'>
       <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
     </div>

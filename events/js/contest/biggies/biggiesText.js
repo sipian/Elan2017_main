@@ -26,7 +26,7 @@ function getBiggiesContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:55px;">ELAN-E-JUNG</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:60px;">ELAN-E-JUNG</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -34,18 +34,18 @@ function getBiggiesContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:4%;" src="images/biggies/elan-e-jung_small.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:7%;" src="images/biggies/elan-e-jung_small.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-4">&nbsp;</div>
             <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg elan-e-jungButton" style="align:center;">`;
+            <button type="button" class="btn btn-primary btn-lg elan-e-jungButton" style=" align:center; margin-left:70px; ">`;
             ret += (events.indexOf('elanejung')>-1)?"UNREGISTER":"REGISTER";
-            ret +=`
+            ret += `
             </button></div>
         </div>
         <br>
@@ -106,7 +106,6 @@ function getBiggiesContent(argument) {
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    <strong>MTV Indies Channel</strong>
-                                   <br><br>
 
           </div>
                 </div>
@@ -124,15 +123,25 @@ function getBiggiesContent(argument) {
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
-                    <li>In first Round of Screening participants have to upload their music performance on 
-                    <a href='#' target='_blank'>
-                    SongDew.com</a> 
-                     by downloading the app and use the college code 
-                     <br>
-                     that will be given once the event registration will be done. 
-                        
+                    <li>In first Round of Screening participants have to upload their music 
+                    <br>
+                    performance on 
+                    <a href='https://songdew.com/opportunities/elan_metalband_competion/275' target='_blank'>
+                    SongDew.com
+                    </a>                        
                     </li>
                     <li style="list-style-type: none;"><br></li>
+
+
+                    <li>To avail the offer of performing at any hard rock cafe across india 
+                    <br> 
+                    the band also needs to download <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>ArtistAloud</a> app and upload their video 
+                    <br>
+                    using code "ELAA06"                                            
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+
 
                     <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
                         <br>
@@ -140,6 +149,11 @@ function getBiggiesContent(argument) {
                     <li style="list-style-type: none;"><br></li>
 
                     <li>No videos will be considered after the deadline</strong>
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
+
+                    <li>Only the team leader needs to register at elan.org.in</strong>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -343,7 +357,7 @@ function getBiggiesContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:90px;">MANTHAN</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:70px;">MANTHAN</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -351,7 +365,7 @@ function getBiggiesContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" 
+                    <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:7%;" 
 src="images/biggies/manthan_small.jpg">
                 </div>
                 <div class="col-lg-3"></div>
@@ -359,13 +373,13 @@ src="images/biggies/manthan_small.jpg">
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
+            <div class="col-lg-4">&nbsp;</div>
             <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg manthanButton" style="align:center;">`;
+            <button type="button" class="btn btn-primary btn-lg manthanButton" style=" align:center; margin-left:90px; ">`;
             ret += (events.indexOf('manthan')>-1)?"UNREGISTER":"REGISTER";
-            ret +=`
+            ret += `
             </button></div>
-            </div>
+        </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
@@ -417,7 +431,6 @@ src="images/biggies/manthan_small.jpg">
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    (Hyderabad)
-                                   <br><br>
 
                 </div>
                 <div>
@@ -442,15 +455,15 @@ src="images/biggies/manthan_small.jpg">
                 <h3 style="text-align: center;">PRELIMS</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
-                    <li>In first Round of Screening participants have to upload their music performance on 
-                    <a href='#' target='_blank'>
-                    SongDew.com</a> 
-                     by downloading the app and use the college code 
-                     <br>
-                     that will be given once the event registration will be done. 
-                        
+                    <li>In first Round of Screening participants have to upload their music 
+                    <br>
+                    performance on 
+                    <a href='https://songdew.com/opportunities/bandcompetition_iithyderabad_manthan/274' target='_blank'>
+                    SongDew.com
+                    </a>                        
                     </li>
                     <li style="list-style-type: none;"><br></li>
+
 
                     <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
                         <br>
@@ -462,8 +475,12 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
+                    <li>Only the team leader needs to register at elan.org.in</strong>
+                        <br>
+                    </li>
+                    <li style="list-style-type: none;"><br></li>
 
-                    <li>Shortlisted bands get to perform at Manthan finals, Elan 2017.
+                    <li>Shortlisted bands get to perform at Elan-e-Jung finals, Elan 2017.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -473,7 +490,9 @@ src="images/biggies/manthan_small.jpg">
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
-                    <li>6 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
+                    <li>6 bands will be shortlisted after the preliminary round to perform
+                    <br>
+                     at the Biggies Stage.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>

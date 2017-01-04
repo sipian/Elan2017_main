@@ -227,7 +227,7 @@ function getOnlineContent(argument) {
             </div>
             <div class="col-lg-3"></div>
             <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-50px;">FANTASY&nbsp;FOOTBALL&nbsp;LEAGUE</strong> </h3>
+                <h3><strong style="font-weight: 900;margin-left:-45px;">FANTASY&nbsp;FOOTBALL&nbsp;LEAGUE</strong> </h3>
             </div>
             <br><br><br>
         </div>
@@ -235,7 +235,7 @@ function getOnlineContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/online/football.png">
+                <img  class="img-thumbnail img-responsive" alt="event"  style="width:70%;height:300px;margin-left:-2%;" src="images/online/funzoo_cover.jpg">
                 <h4 style="font-size:20px;margin-left:18%">Powered by Fanzoo Sports</h4>
                 <img  class="img-thumbnail img-responsive" alt="event"  style="width:30%;height:100px;margin-left:18%;" src="images/online/logo_10_12_2016_17_57.png">
   </div>
@@ -287,11 +287,11 @@ function getOnlineContent(argument) {
                 <br>
                  Each Week you have a chance to win upto Rs. 4000 worth of PayTM Vouchers! 
                  <br>
-                 Even if you team doesn't do well,
+                 Even if your team doesn't do well, we give you discount coupons. 
                  <br>
-                 we give you discount coupons. The overall winner of the two week league gets a 
+                 The overall winner of the two week league gets a  grand prize 
                  <br>
-                 grand prize as well! As we say - At Fanzoo, the Fan always wins!
+                 as well! As we say - At Fanzoo, the Fan always wins!
                  <br>
                 </div>
             </div>
