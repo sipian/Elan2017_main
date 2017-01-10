@@ -45,7 +45,7 @@ function getLitrContent(argument) {
             <div class="col-lg-5">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg mrdetectiveButton" style="align:center;">`;
-            ret += (events.indexOf('mrdetective')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('mrdetective')>-1)?"DEREGISTER":"REGISTER";
             ret +=`
             </button></div>
         </div>
@@ -150,7 +150,7 @@ function getLitrContent(argument) {
             <div class="col-lg-5">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg jamButton" style="align:center;">`;
-            ret += (events.indexOf('jam')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('jam')>-1)?"DEREGISTER":"REGISTER";
             ret +=`
             </button></div>
         </div>
@@ -267,7 +267,7 @@ function getLitrContent(argument) {
             <div class="col-lg-5">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg wheel_of_fortuneButton" style="align:center;">`;
-            ret += (events.indexOf('wheel_of_fortune')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('wheel_of_fortune')>-1)?"DEREGISTER":"REGISTER";
             ret +=`
             </button></div>
         </div>
@@ -401,7 +401,7 @@ function getLitrContent(argument) {
             <div class="col-lg-5">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg quizzesButton" style="align:center;">`;
-            ret += (events.indexOf('quizzes')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('quizzes')>-1)?"DEREGISTER":"REGISTER";
             ret +=`
             </button></div>
         </div>

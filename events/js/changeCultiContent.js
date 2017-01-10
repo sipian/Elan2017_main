@@ -38,7 +38,6 @@ function changeCultiContent() {
                       <h3 class="short_description">
                         A Competition Where The Dancers Must Captivate The Audience With Their Immense Dancing Talent.
                       </h3>
-                      <br>
 <button type="button" class="btn btn-info breakfree clickButton">
                        More&nbsp;Details
                       </button>
@@ -452,7 +451,6 @@ function changeCultiContent() {
                         <br>
                         Well, it's time to be the change you want to see!
                       </h3>
-                      <br>
 <button type="button" class="btn btn-info nukkadnatak">
                       More&nbsp;Details
                       </button>
@@ -475,7 +473,6 @@ function changeCultiContent() {
                       <h3 class="short_description">
                       Ever thought that you could have delivered the dialogues better than the actors in the movie?
                       </h3>
-                      <br>
 <button type="button" class="btn btn-info lendmeurvoice clickButton">
                       More&nbsp;Details
                       </button>
@@ -730,7 +727,6 @@ function changeCultiContent() {
                       <h3 class="short_description">
                         The Participants Need To Produce An Ad For The Product (funny Or Crazy) Given To Them.
                       </h3>
-                      <br>
 <button type="button" class="btn btn-info rjhunt">
                       More&nbsp;Details
                       </button>

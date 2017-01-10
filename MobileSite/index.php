@@ -47,6 +47,7 @@ session_start();
 </head>
 	
 <body>
+<?php include 'analyticstracking.php'; ?>
 <!-- banner -->
   <div class="banner-1 wthree-1">
     <div class="container">

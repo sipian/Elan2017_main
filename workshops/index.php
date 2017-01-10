@@ -151,6 +151,7 @@ background-image:url(images/workshopBack.jpg);
 </head>
 
 <body id="page-top">
+<?php include '../analyticstracking.php'; ?>
 
 
     <!-- Preloader with Bootstrap Progress Bar -->

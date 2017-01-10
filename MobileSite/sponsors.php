@@ -35,16 +35,21 @@ session_start();
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
-
+<style type="text/css">
+  .row{
+    text-align: center;
+  }
+</style>
 </head>
 	
 <body>
+<?php include 'analyticstracking.php'; ?>
 <!-- banner -->
   <div class="banner-1 wthree-1">
     <div class="container">
       <div class="banner_top">
         <div class="logo">
-          <h1><a href="index.php"><img src="images/logo5.png"></a></h1>
+          <h1><a href="index.php"><img  src="images/logo5.png"></a></h1>
         </div>
         <div class="banner_top_right">
           <nav class="navbar navbar-default">
@@ -90,32 +95,152 @@ session_start();
       </div>
     </div>
   </div>
+  <br>
 <!-- //banner -->
 <!-- about -->
-<div class="about-page agile-1">
-	<div class="container">
-		
-			<div class="about-grids">
-				
-				<div class="col-md-6 about-grid">
-					<h3 class="tittle">Sponsors</h3>
-					
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<div class="history agileits-1">
-		<div class="container">
-		<h2 class="tittle">Details Comming Soon</h2>
-			<div class="col-md-6 history-left">	
-				
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+
+
+
+
+<div class="container">
+  <h1 style="font-family: chelsea;color:#F06D06;font-size:400%;text-align: center;">SPONSORS</h1>
+
+
+  <div class="row">
+  <h3>TITLE SPONSOR</h3>
+  <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+    <a href="www.cyient.com" target="_blank"><img class="img-responsive img-thumbnail" class="img-responsive img-thumbnail" src="sponsors/cyient.jpg" alt="CYIENT" style="width: 80%;" /></a>
+  </div>
+  </div>
+  <br>
+   <div class="row">
+  <h3>POWERED BY</h3>
+  <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+    <a href="http://www.mtvindia.com/campusdiaries/" target="_blank">
+    <img class="img-responsive img-thumbnail" src="sponsors/mtv_campus_diaries.png" alt="MTV CAMPUS PRINCESS" style="width: 60%;" /></a>
+  </div>
+  </div>
+  <br>
+   <div class="row">
+  <h3>ONLINE MUSIC PARTNER</h3>
+  <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+    <a href="http://awesong.in/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/awesong.png" alt="AWESONG" style="width: 80%;" /></a><br><br>
+  </div>
+  <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+    <a href="http://www.musicmalt.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/music_malt.png" alt="MUSICMALT" style="width: 80%;" /></a>
+  </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4"><h3>WEB HOSTING SPONSOR</h3><a href="https://www.bigrock.in" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/big_rock.jpg" alt="BIG ROCK" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>SMS SPONSOR</h3><a href="http://www.wegusinfotech.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/wegus_infotech.jpg" alt="WEGUS INFOTECH" style="height: 170px;" ></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE TICKETING PARTNER</h3><a href="http://www.meraevents.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/meraenevts.jpg" alt="MERA EVENTS"   ></a><br><br></div>
+  </div>
+  <br>
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>ELAN-E-JUNG TITLE SPONSOR</h3><a href="http://www.mtvixtreme.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/mtvixtreme.jpg" alt="MTV EXTREME" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>TALENT PARTNER</h3><a href="http://mtvindia.com/labs/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/MTV_Nescafe_Labs.png" alt="MTV Nescafe Labs"></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>MUSIC MEDIA PARTNER</h3><a href="https://songdew.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/songdew.png" alt="SONG DEW"></a><br><br></div>
+  </div>
+  <br>
+   <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>DIGITAL TALENT SPONSOR</h3><a href="https://artistaloud.wordpress.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/ArtistAloud.jpg" alt="ARTIST ALOUD" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>FURNITURE SPONSOR</h3><a href="https://www.godrejinterio.com/Godrejinterio/index.aspx" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/Godrej_Interio.jpg" alt="GODREJ INTERIO"></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>EDUCATION PARTNER</h3><a href="http://aceenggacademy.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/ace.png" alt="ACE ENGINERRING "></a><br><br></div>
+  </div>
+  <br>
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>WALK THE RAMP TITLE SPONSOR</h3><a href="http://www.relianceretail.com/reliance-trends.html" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/reliance.jpg" alt="RELIANCE RETAIL" /></a><br><br></div>
+    
+    <div class="col-xs-12 col-sm-4"><h3>FASHION AND APPAREL PARTNER</h3><a href="http://www.relianceretail.com/reliance-trends.html" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/reliance.jpg" alt="RELIANCE RETAIL" /></a><br><br></div>
+
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE GAMING PARTNER</h3><a href="https://www.adda52.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/adda50.png" alt="ADDA 52"></a><br><br></div>
+  </div>
+  <br>
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>GIFTING SPONSORS</h3><a href="http://www.lovelychocos.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/lovelychocos.jpg" alt="LOVELY CHOCOS" /></a><br><br></div>
+   <div class="col-xs-12 col-sm-4"><h3>STUDY ABROAD PARTNER</h3><a href="http://www.manyagroup.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/manaya-logo-new.png" alt="MANYA GROUP" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://www.techtrontechnologies.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/techtron.png" alt="TECHTRON TECHNOLOGIES"></a><br><br></div>
+  </div>
+  <br>
+  <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://entrench.in/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/entrench.jpg" alt="ENTRENCH ELECTRONICS"></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://azureskynet.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/azure.jpg" alt="AZURE SKYNET"></a><br><br></div>
+
+    <div class="col-xs-12 col-sm-4"><h3>INFORMAL EVENTS PARTNER</h3><a href="http://www.stichio.co.in/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/Stichio_Full_Logo_Red.png" alt="STICHIO"></a><br><br></div>
+  </div>
+  <br>
+  <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE PHOTOGRAPHY EVENT PARTNER</h3><a href="http://www.nikon.co.in/en_IN" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/nikon.png" alt="NIKON" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="http://embassies.gov.il/delhi/Pages/default.aspx" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/IsraelEmbassyLogo.jpg" alt="EMBASSY OF ISRAEL" /></a><br><br></div>
+     <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="https://hyderabad.afindia.org/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/alliance-francaise.jpg" alt="ALLIANCE FRANCAISE" /></a><br><br></div>
+  </div>
+  <br>
+    <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>LEADS SPONSOR</h3><a href="http://www.dataguru.in/home.do" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/dataguru.png" alt="DATA GURU" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>PHOTGRAPHY PARTNER</h3><a href="https://www.facebook.com/felectrikk/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/felectrikk.jpg" alt="F-ELECTRIKK" /></a><br><br></div>
+     <div class="col-xs-12 col-sm-4"><h3>YOUTH MAGAZINE PARTNER</h3><a href="http://www.youthincorporated.org/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/Youth-Incorporated.png" alt="YOUTH INCORPORATED" /></a><br><br></div>
+  </div>
+  <br>
+   <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>CINEMATOGRAPHY PARTNER</h3><a href="http://www.flyingdreamfilmerz.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/flyingdreamfilmerz.png" alt="FLYING DREAM FILMERZ" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"><h3>OFFICIAL SUPPLY CHAIN PARTNER</h3><a href="http://www.safexpress.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/safexpressa.png" alt="safexpress" /></a><br><br></div>
+     <div class="col-xs-12 col-sm-4"><h3>SPONSORSHIP PARTNER</h3><a href="http://www.onspon.com/index.php" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/onspon.png" alt="ONSPON" /></a><br><br></div>
+  </div>
+  <br>
+
+   <div class="row">
+    <div class="col-xs-12 col-sm-4"></div>
+    <div class="col-xs-12 col-sm-4"><h3>MISS INDIA ORGANISATION</h3><a href="http://beautypageants.indiatimes.com/" target="_blank"><img class="img-responsive img-thumbnail" src="sponsors/femina.jpg" alt="FEMINA MISS INDIA" /></a><br><br></div>
+    <div class="col-xs-12 col-sm-4"></div>
+  </div>
+  <br>
+
+  
+  </div>
 <!-- about -->
 
 <!-- //footer -->
+      <div class="footer">
+    <div class="container">
+        
+      <div class="footer-info">
+      <div class="col-md-3 col-sm-3 footer-info-grid wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+          <h4>FOLLOW US</h4>
+          
+          <div class="social">
+            <ul>
+              <li><a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" class="facebook"> </a></li>
+                <li><a href="https://twitter.com/ELAN_IITH" class="facebook twitter"> </a></li>
+                
+            </ul>   
+            </div>
+          
+        </div>
+        
+
+        
+      
+        <div class="clearfix"> </div>
+      </div>
+      
+    </div>
+    <div class="copyright wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+      <p>© 2017 ELAN . All Rights Reserved | Design by WebTeam</p>
+    </div>
+  </div>
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->

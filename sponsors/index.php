@@ -1,16 +1,7 @@
-<?php
-include '../Mobile-Detect-master/Mobile_Detect.php';
-$detect = new Mobile_Detect();
-
-if ($detect->isMobile()) {
-    header('Location: http://mobile.elan.org.in/sponsors.php');
-    exit(0);
-}
-?>
-<!doctype html>
-<html lang="en-IN">
-  <head>
-      <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
         <title>Sponsors | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
 
       <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
@@ -31,84 +22,114 @@ if ($detect->isMobile()) {
       <meta property=og:description content="ELAN IIT Hyderabad Techno Cultural Fest">
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
 
-
-<!-- pre loader link sheets -->
-<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
-
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="../navbar/navbar2.css">
     <link rel="stylesheet" href="../styles/footer3.css">
     <link rel="stylesheet" href="../css/loader.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- pre loader link sheets ends  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style>
-    @font-face {
+  <style>
+    body{
+    text-align:center;
+    background-image:url(../images/aboutus1.png);
+    background-size: contain;
+    color:#aaa;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+      @font-face {
     font-family: chelsea;
     src: url('../fonts/chelsea2/ChelseaAlternates.ttf');
     }
-body {
-  background: url(../images/aboutus1.png) no-repeat 0% 0% fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
+  .row{
+        margin: 4% 0%;
+  }
+  @media screen and (max-width: 768px) {
+   .col-xs-12{
+     margin: 4% 0%;
+  }
 }
-.info {
-  width: 80%;
-  margin: 0 auto;
-  font-family: 'chelsea', sans-serif;
+  
+    img{
+    width:55%;
+    margin:0 auto;
+  }
+  body::-webkit-scrollbar {
+display: none;
 }
-.aboutimg {
-    font-family: 'chelsea', sans-serif;
-    color: #F06D06; 
+h3{
+  color: white;
+  font-family: chelsea;
 }
-b{
-  font-family: 'chelsea';
-      color: #F06D06; 
-
-}
-.aboutcontent {
-  padding: 10%;
-  padding-top: 2%;
-  overflow-x: hidden;
-  color: black;
-  font-size: 130%;
-  text-align: justify;
-}
-.video-wrap {
+  </style>
+<style type="text/css">
+#nav-toggle {
   position: absolute;
-  left: 10%;
-  top: 76%;
-  width: 80%;
-  padding-bottom: 4%;
+  left: 50%;
+  top: 50%;
 }
-.vid {
-  border: none;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+#nav-toggle {
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
 }
-
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 4px;
+  width: 40px;
+  background: #aaa;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 0.3s ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+.contain {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  height: 5%;
+  width: 8%;
+}
+.box {
+  display: table;
+}
+.box span {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.box:hover {
+  background-color: #aaa;
+}
 </style>
-
-
-<?php
-                        session_start();
-                             if(isset($_SESSION["id"]))
-                             echo "
-                                <style>
-                                        .right{
-                                        margin-right: 9.5%;
-                                        margin-top: 1.15%;
-                                        }
-                                        @media screen and (max-width: 1000px) {
-
-                                        }
-                                </style>";
-                        ?>
-
 </head>
 <body>
+<?php include '../analyticstracking.php'; ?>
 
 
 
@@ -120,6 +141,7 @@ b{
     </div>
   </div>
 </div>
+
 
     <div id="nav-outter"  style="z-index: 1;">
         <nav id="topNavBar">
@@ -160,24 +182,114 @@ b{
         </nav>
     </div>
 
-<div style="margin-bottom: -10%;">&nbsp;</div>
-<br><br><br>
-<br><br><br>
-   <div class="back_cover">
-      <br><br><br><br>
-      <br><br>
-         <div class="container">
-            <h1 style="font-family: chelsea;font-size:400%;color: #F06D06;text-align: center;" >SPONSORS<br>Coming Soon...</h1>         
-           
-         </div>
-      </div>
 
 
 
+<div style="margin-bottom: -2%;">&nbsp;</div>
 <br><br><br>
+<br><br><br>
+<div class="container">
+  <h1 style="font-family: chelsea;color:#F06D06;font-size:400%">SPONSORS</h1>
+
+
+  <div class="row">
+  <h3>TITLE SPONSOR</h3>
+  <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+    <a href="www.cyient.com" target="_blank"><img src="images/cyient.jpg" alt="CYIENT" style="width: 80%;" /></a>
+  </div>
+  </div>
+   <div class="row">
+  <h3>POWERED BY</h3>
+  <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+    <a href="http://www.mtvindia.com/campusdiaries/" target="_blank">
+    <img src="images/mtv_campus_diaries.png" alt="MTV CAMPUS PRINCESS" style="width: 60%;" /></a>
+  </div>
+  </div>
+   <div class="row">
+  <h3>ONLINE MUSIC PARTNER</h3>
+  <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+    <a href="http://awesong.in/" target="_blank"><img src="images/awesong.png" alt="AWESONG" style="width: 80%;" /></a>
+  </div>
+  <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+    <a href="http://www.musicmalt.com/" target="_blank"><img src="images/music_malt.png" alt="MUSICMALT" style="width: 80%;" /></a>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4"><h3>WEB HOSTING SPONSOR</h3><a href="https://www.bigrock.in" target="_blank"><img src="images/big_rock.jpg" alt="BIG ROCK" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>SMS SPONSOR</h3><a href="http://www.wegusinfotech.com/" target="_blank"><img src="images/wegus_infotech.jpg" alt="WEGUS INFOTECH" style="height: 170px;" ></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE TICKETING PARTNER</h3><a href="http://www.meraevents.com/" target="_blank"><img src="images/meraenevts.jpg" alt="MERA EVENTS"   ></a></div>
+  </div>
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>ELAN-E-JUNG TITLE SPONSOR</h3><a href="http://www.mtvixtreme.com/" target="_blank"><img src="images/mtvixtreme.jpg" alt="MTV EXTREME" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>TALENT PARTNER</h3><a href="http://mtvindia.com/labs/" target="_blank"><img src="images/MTV_Nescafe_Labs.png" alt="MTV Nescafe Labs"></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>MUSIC MEDIA PARTNER</h3><a href="https://songdew.com/" target="_blank"><img src="images/songdew.png" alt="SONG DEW"></a></div>
+  </div>
+   <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>DIGITAL TALENT SPONSOR</h3><a href="https://artistaloud.wordpress.com/" target="_blank"><img src="images/ArtistAloud.jpg" alt="ARTIST ALOUD" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>FURNITURE SPONSOR</h3><a href="https://www.godrejinterio.com/Godrejinterio/index.aspx" target="_blank"><img src="images/Godrej_Interio.jpg" alt="GODREJ INTERIO"></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>EDUCATION PARTNER</h3><a href="http://aceenggacademy.com/" target="_blank"><img src="images/ace.png" alt="ACE ENGINERRING "></a></div>
+  </div>
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>WALK THE RAMP TITLE SPONSOR</h3><a href="http://www.relianceretail.com/reliance-trends.html" target="_blank"><img src="images/reliance.jpg" alt="RELIANCE RETAIL" /></a></div>
+    
+    <div class="col-xs-12 col-sm-4"><h3>FASHION AND APPAREL PARTNER</h3><a href="http://www.relianceretail.com/reliance-trends.html" target="_blank"><img src="images/reliance.jpg" alt="RELIANCE RETAIL" /></a></div>
+
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE GAMING PARTNER</h3><a href="https://www.adda52.com/" target="_blank"><img src="images/adda50.png" alt="ADDA 52"></a></div>
+  </div>
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-4"><h3>GIFTING PARTNERS</h3><a href="http://www.lovelychocos.com/" target="_blank"><img src="images/lovelychocos.jpg" alt="LOVELY CHOCOS" /></a></div>
+   <div class="col-xs-12 col-sm-4"><h3>STUDY ABROAD PARTNER</h3><a href="http://www.manyagroup.com/" target="_blank"><img src="images/manaya-logo-new.png" alt="MANYA GROUP" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://www.techtrontechnologies.com/" target="_blank"><img src="images/techtron.png" alt="TECHTRON TECHNOLOGIES"></a></div>
+  </div>
+  <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://entrench.in/" target="_blank"><img src="images/entrench.jpg" alt="ENTRENCH ELECTRONICS"></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://azureskynet.com/" target="_blank"><img src="images/azure.jpg" alt="AZURE SKYNET"></a></div>
+
+    <div class="col-xs-12 col-sm-4"><h3>INFORMAL EVENTS PARTNER</h3><a href="http://www.stichio.co.in/" target="_blank"><img src="images/Stichio_Full_Logo_Red.png" alt="STICHIO"></a></div>
+  </div>
+  <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE PHOTOGRAPHY EVENT PARTNER</h3><a href="http://www.nikon.co.in/en_IN" target="_blank"><img src="images/nikon.png" alt="NIKON" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="http://embassies.gov.il/delhi/Pages/default.aspx" target="_blank"><img src="images/IsraelEmbassyLogo.jpg" alt="EMBASSY OF ISRAEL" /></a></div>
+     <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="https://hyderabad.afindia.org/" target="_blank"><img src="images/alliance-francaise.jpg" alt="ALLIANCE FRANCAISE" /></a></div>
+  </div>
+    <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>LEADS SPONSOR</h3><a href="http://www.dataguru.in/home.do" target="_blank"><img src="images/dataguru.png" alt="DATA GURU" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>PHOTGRAPHY PARTNER</h3><a href="https://www.facebook.com/felectrikk/" target="_blank"><img src="images/felectrikk.jpg" alt="F-ELECTRIKK" /></a></div>
+     <div class="col-xs-12 col-sm-4"><h3>YOUTH MAGAZINE PARTNER</h3><a href="http://www.youthincorporated.org/" target="_blank"><img src="images/Youth-Incorporated.png" alt="YOUTH INCORPORATED" /></a></div>
+  </div>
+   <div class="row">
+  
+    
+    <div class="col-xs-12 col-sm-4"><h3>CINEMATOGRAPHY PARTNER</h3><a href="http://www.flyingdreamfilmerz.com/" target="_blank"><img src="images/flyingdreamfilmerz.png" alt="FLYING DREAM FILMERZ" /></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>OFFICIAL SUPPLY CHAIN PARTNER</h3><a href="http://www.safexpress.com/" target="_blank"><img src="images/safexpressa.png" alt="safexpress" /></a></div>
+     <div class="col-xs-12 col-sm-4"><h3>SPONSORSHIP PARTNER</h3><a href="http://www.onspon.com/index.php" target="_blank"><img src="images/onspon.png" alt="ONSPON" /></a></div>
+  </div>
+
+   <div class="row">
+    <div class="col-xs-12 col-sm-4"></div>
+    <div class="col-xs-12 col-sm-4"><h3>MISS INDIA ORGANISATION</h3><a href="http://beautypageants.indiatimes.com/" target="_blank"><img src="images/femina.jpg" alt="FEMINA MISS INDIA" /></a></div>
+    <div class="col-xs-12 col-sm-4"></div>
+  </div>
+
+  
+  </div>
+   
+</div>
+
+
 <div class="footer">
 <div class="container"  style="float: left;">
-    <div class="row" >
+    <div>
   
     <div class="bottomLinkDiv">
                   <div class="svg-wrapper1" >
@@ -293,65 +405,6 @@ b{
 
 </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../js/index.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-
-  $(document).ready(function () {
-                $("#start").html(`
-                  <br>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <strong>Coming Soon.</strong></p>
-                        `);
-               if($(window).height()<500){
-                    $(".aboutcontent").css({"margin-left":"11%","margin-top":"1%"});
-                    $("#hello").css("margin-top","38.5%");
-                }
-
-                else if($(window).height()<600){
-                    $(".aboutcontent").css({"margin-left":"11%","margin-top":"5%"});
-                    $("#hello").css("margin-top","30%");
-                }
-                else if($(window).height()<700){
-                    $(".aboutcontent").css({"margin-left":"11%","margin-top":"4%"});
-                    $("#hello").css("margin-top","30%");
-                }
-                else if($(window).height()<1000){
-                    $(".aboutcontent").css({"margin-left":"18%","margin-top":"4%"});
-                    $("#hello").css("margin-top","30%");
-                }
-                else{
-                    $(".aboutcontent").css({"margin-left":"15.5%","margin-top":"1%"});
-                    $("#hello").css("margin-top","30%");
-                }
-
-            $(window).resize(function () {
-                if($(window).height()<500){
-                    $(".aboutcontent").css({"margin-left":"11%","margin-top":"1%"});
-                    $("#hello").css("margin-top","38.5%");
-                }
-
-                else if($(window).height()<600){
-                    $(".aboutcontent").css({"margin-left":"11%","margin-top":"5%"});
-                    $("#hello").css("margin-top","30%");
-                }
-                else if($(window).height()<700){
-                    $(".aboutcontent").css({"margin-left":"11%","margin-top":"4%"});
-                    $("#hello").css("margin-top","30%");
-                }
-                else if($(window).height()<1000){
-                    $(".aboutcontent").css({"margin-left":"18%","margin-top":"4%"});
-                    $("#hello").css("margin-top","30%");
-                }
-                else{
-                    $(".aboutcontent").css({"margin-left":"15.5%","margin-top":"1%"});
-                    $("#hello").css("margin-top","30%");
-                }
-            });
-  })
-</script>
-
 
 </html>

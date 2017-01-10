@@ -95,6 +95,7 @@ if ($detect->isMobile()) {
         background-size: cover;
         overflow-x: hidden;
         ">
+<?php include '../analyticstracking.php'; ?>
 
           <!-- Preloader with Bootstrap Progress Bar -->
 
@@ -330,7 +331,7 @@ if ($detect->isMobile()) {
 <script type="text/javascript" src="./js/flip.js"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
  <link rel="stylesheet" href="../navbar/navbar.js">
  <script type="text/javascript">
 

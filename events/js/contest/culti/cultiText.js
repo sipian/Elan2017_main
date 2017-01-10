@@ -44,7 +44,7 @@ if (argument == 'breakfree'){
             <div class="col-lg-5">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg breakfreeButton" style="align:center;">`;
-            ret += (events.indexOf('breakfree')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('breakfree')>-1)?"DEREGISTER":"REGISTER";
             ret +=`
             </button></div>
         </div>
@@ -52,7 +52,7 @@ if (argument == 'breakfree'){
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
         <h3 style="text-align: center;font-weight: 900;">GROUP DANCE COMPETITION</h3>
-        <br><br>
+        <br>
       </div>
       <div class="row about">
         <h3 style="text-align: center;">ABOUT</h3>
@@ -83,7 +83,6 @@ if (argument == 'breakfree'){
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -105,14 +104,12 @@ if (argument == 'breakfree'){
           <div class="col-lg-1"></div>
           <div class="col-lg-10">No. of  members allowed : Minimum 6</div>
         </div>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
-          <li>The Event will be conducted in 2 rounds - Prelims and Finals.
+          <li>The Event will be conducted in 3 rounds - Video , Prelims and Finals.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -120,11 +117,25 @@ if (argument == 'breakfree'){
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>All the registered teams shall participate in prelims.
+
+          <li>In the video round , the video can be any 3-10 minutes sequence.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>Six teams will be shortlisted from the prelims and will be performing in the finals.
+
+          <li>The video should be emailed to <a href="mailto:nanda@elan.org.in">nanda@elan.org.in</a>
+              <br>
+              by 13th January 2017 , 11:59 PM.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+
+          <li>All the selected teams from the video round shall participate in prelims.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>5 teams will be shortlisted from the prelims and will be performing in the finals.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -132,22 +143,131 @@ if (argument == 'breakfree'){
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>During the prelims each team will be given 3-5mins to perform.
+          <li>During the prelims each team will be given 3-5 mins to perform.<br>
+          Exceeding the time limit will result in a penalty.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>The song must be of 6-9 minutes long for finale.
+          <li>The song must be of 7-10 minutes long for finale.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Participants should not perform the song (or part of the song) which was performed during the prelims in the finals.
             <br>
             This means, they cannot use the movement sequences of duration greater than 15 secs/music of their previous performances in coming rounds.
+          </li>
+        </ul>
+      </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">REGISTRATION</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Registrations must be done online through the video.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>       
+              <li>For online registrations just the team leader needs to register for breakfree at elan.org.in
+              <br>
+              </li>
+              <li style="list-style-type: none;"><br></li>
+          </li>
+          <li>On spot registrations will also be allowed till one hour before the event starts.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+          <li>If the registrations exceed 20 the intake will be decided by the organisers by considering
+          <br>
+          your previous performance videos.
+          </li>
         </ul>
       </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">RULES</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Each team should contain a head to represent the team
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>All forms of dance are permitted
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li><strong>ORGANISERS</strong> will not provide the songs that participants require.
+          <br>
+           Teams should bring their own songs
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Teams should bring their own props but they should use them only with the approval of the organisers
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Any kind of fluid or flame is not allowed on the stage
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>The decision of the organisers and judges shall be final and binding
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>The result for the event will be declared immediately after all the performances have been completed
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>If the participation is less than 5, organisers have the right to reduce the price money.
+          </li>
+        </ul>
+      </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">JUDGING CRITERIA</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Group coordination
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Expressions
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Versatility
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Movement finishing
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Timing
+          </li>
+        </ul>
+      </div>
+
+       <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                    SriLaxmi&nbsp;Ganna
+                <br>
+                <a href="mailto:ee16btech11008@iith.ac.in">ee16btech11008@iith.ac.in</a>
+                <br>
+                +91-8790523845
+                </div>
+                </div>
+                <br>
+
+
       <br><br>
     </div>
   </div>
@@ -200,7 +320,7 @@ if (argument == 'looseyourfeet'){
             <div class="col-lg-5">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg looseyourfeetButton" style="align:center;">`;
-            ret += (events.indexOf('looseyourfeet')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('looseyourfeet')>-1)?"DEREGISTER":"REGISTER";
             ret +=`
             </button></div>
         </div>
@@ -208,7 +328,6 @@ if (argument == 'looseyourfeet'){
     <div class="text"  style="font-size:23.5px;">
       <div class="row title">
         <h3 style="text-align: center;font-weight: 900;">PRO&nbsp;SOLO&nbsp;DANCE&nbsp;COMPETITION</h3>
-        <br><br>
       </div>
       <div class="row about">
         <h3 style="text-align: center;">ABOUT</h3>
@@ -220,13 +339,10 @@ if (argument == 'looseyourfeet'){
           <br>
           Loose your feet is where you can make the crowd go crazy
           <br>with those awesome, super cool moves!!
-          <br>
         </div>
       </div>
-      <br>
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
-        <br>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
@@ -244,22 +360,28 @@ if (argument == 'looseyourfeet'){
             Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
-          <li>The event comprises of eliminations followed by finals.( prelims, semi-final and final)
+          <li>The event comprises of eliminations followed by finals.
+                <br>
+                (prelims (video round), semi-final and final)
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>Registration can be done online or on the spot.
+          <li>The team leader should register and send their entries(video) to the mail 
+          <a href="mailto:ee16btech11002@iith.ac.in">ee16btech11002@iith.ac.in</a>
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+          <li>Subject of the mail should be  "Loose Your Feet entry ‘elanid’ "
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
           <li>Performance duration should be 3-5 min for prelims, 5-7 min for semi-final and for 2-3 min final.
             <br>
           </li>
@@ -295,16 +417,105 @@ if (argument == 'looseyourfeet'){
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>You can perform any type of non-classical dance like hip-hop, stepping, popping, etc.
+          </li>
+        </ul>
+      </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">RULES</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>No “on spot registrations” is encouraged.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+          <li>Props are allowed but heavy props like chairs, tables can be arranged.
+          <br>But you have to inform the event organiser by mail or on phone at least 1 day before event
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>No fire, water and heavy objects be used in stage.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>No indecency/obscenity will be tolerated on stage.
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Judges and coordinators decisions will be final and binding. There are no arguments in this regard.       
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>If the participation is less than 5, organisers have the right to reduce the price money.
+          </li>
         </ul>
       </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">JUDGING CRITERIA</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Choreography
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Footwork
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Finishing of movements
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Versatility
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Timing and rhythm
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Energy level
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Stage utilization
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Overall impact.
+          </li>
+        </ul>
+      </div>
+
+       <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Subhash&nbsp;Khanna
+                <br>
+                <a href="mailto:ee16btech11002@iith.ac.in">ee16btech11002@iith.ac.in</a>
+                <br>
+                +91-9515233213
+                </div>
+                </div>
+                <br>
+
+
       <br><br>
     </div>
   </div>
 </div>
   </div>\``;
+
     return ret;
     }
 
@@ -354,7 +565,7 @@ let ret = `\`
               <div class="col-lg-5">&nbsp;</div>
               <div class="col-lg-6">
               <button type="button" class="btn btn-primary btn-lg nrityanjaliButton" style="align:center;">`;
-              ret += (events.indexOf('nrityanjali')>-1)?"UNREGISTER":"REGISTER";
+              ret += (events.indexOf('nrityanjali')>-1)?"DEREGISTER":"REGISTER";
               ret +=`
               </button></div>
           </div>
@@ -387,7 +598,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -404,10 +614,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -424,16 +631,127 @@ let ret = `\`
             <br>
             [we'd love to see Bharatanatyam, Kuchipudi, Odissi, Mohiniyattam and others].
             <br> However there are no separate judging categories for the different forms.
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="row rules">
+        <h3 style="text-align: center;">RULES</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Semi-classical/ classical on Bollywood songs are strictly not allowed.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+          <li>Live music is not allowed.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>The participants will perform on pre-recorded music which should be brought in
+          <br>
+           a CD/DVD or a pen drive by the participants.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Participants would be given a maximum performance time of 8 minutes, any one 
+          <br>
+          exceeding this time limit will get penalty of points.
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Participants need not wear the formal dance costumes but can wear any traditional
+          <br> classical dance wear (dance sari or kurta with dupatta for girls and panchakacham for guys).   
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>Dance should consist of both Nritya and Abhinaya.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Participants will have to bring their own costumes, accessories and make-up for the competition.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Any illegal or unethical act related to the competition and or on its stage, auditorium premises
+          <br>
+           will lead to immediate disqualification.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Points will be awarded for rhythm, choice of song and dance, expression, costumes and synchronization.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Organisers decision is final and binding to all.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Obscenity of any kind is not allowed and will lead to immediate disqualification.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>If the participation is less than 5, organisers have the right to reduce the price money.
+          </li>
         </ul>
       </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">JUDGING CRITERIA</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Rhythm
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Choice of song and dance
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Expressions
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Costumes
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Synchronization
+          </li>
+        </ul>
+      </div>
+
+       <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Janga&nbsp;Jnapika
+                <br>
+                <a href="mailto:ee15btech11012@iith.ac.in">ee15btech11012@iith.ac.in</a>
+                <br>
+                +91-9494354710
+                </div>
+                </div>
+                <br>
+
+
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
+
 return ret;
    }
 
@@ -482,7 +800,7 @@ let ret = `\`
                 <div class="col-lg-5">&nbsp;</div>
                 <div class="col-lg-6">
                 <button type="button" class="btn btn-primary btn-lg just_duetButton" style="align:center;">`;
-                ret += (events.indexOf('just_duet')>-1)?"UNREGISTER":"REGISTER";
+                ret += (events.indexOf('just_duet')>-1)?"DEREGISTER":"REGISTER";
                 ret +=`
                 </button></div>
             </div>
@@ -510,7 +828,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -527,8 +844,6 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
-        <br>
-        <br>
       </div>
       <br>
       <div class="row rules">
@@ -544,23 +859,19 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>
-            Round 1(preliminary round)<br>
+            Round 1(video round)<br>
             <ul style="list-style-type: circle;margin-left:10%;">
               <li>Participants can perform any style of dance for any song of their choice.</li>
+              <li>Team Leader should register and send their entries(video) to the mail <a href="mailto:es15btech11006@iith.ac.in">es15btech11006@iith.ac.in</a></li>
               <li>Time of performance should not exceed 4 minutes.</li>
-              <li>Participants will be given an extra time of 1 minute for settling down.</li>
-              <li>A total of 7 teams will get selected for the final round</li>
+              <li>Subject of the mail should be " JUST DUET ENTRY ‘ELANID’ ".</li>
             </ul>
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>
             Round 2(final round)<br>
             <ul style="list-style-type: circle;margin-left:10%;">
-              <li>Participants should dance to the tracks given by the Organizers.</li>
-              <li>Each team will be given time to choreograph for the song,
-                <br>which will not exceed 15 minutes.
-              </li>
-              <li>An additional time of 2 minutes will be given for settling.</li>
+              <li>Participants should come prepared with their own songs.</li>
               <li>Time of performance should not exceed 3 minutes</li>
             </ul>
           </li>
@@ -569,13 +880,32 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+          <li>If the participation is less than 5, organisers have the right to reduce the price money.
+          </li>
         </ul>
       </div>
+       <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Anirudh&nbsp;
+                <br>
+                <a href="mailto:es15btech11006@iith.ac.in">es15btech11006@iith.ac.in</a>
+                <br>
+                +91-9441178324
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 
@@ -624,7 +954,7 @@ let ret = `\`
                   <div class="col-lg-5">&nbsp;</div>
                   <div class="col-lg-6">
                   <button type="button" class="btn btn-primary btn-lg vibrazioneButton" style="align:center;">`;
-                  ret += (events.indexOf('vibrazione')>-1)?"UNREGISTER":"REGISTER";
+                  ret += (events.indexOf('vibrazione')>-1)?"DEREGISTER":"REGISTER";
                   ret +=`
                   </button></div>
               </div>
@@ -650,7 +980,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -667,10 +996,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 10000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -700,20 +1026,96 @@ let ret = `\`
           <li>Finals:
             <br>
             For finals participant must sing one slow song and one fast song.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
-          <li>A "People's Choice" award will be given to the winner with the most audience votes*.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">RULES</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>On Spot Registrations closes half hour before the start of the event.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Songs containing vulgar or explicit lyrics will not be allowed. Contestants who, during
+          <br>their performance, use vulgar lyrics or perform in an obscene manner will be disqualified
+          <br>from the competition, <strong>NO RAP</strong>.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Participant exceeding prescribed time limit will invite a penalty.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>For Elimination round time limit is 2 minutes and for finals there is a 3:30 minute time
+          <br> limit on all songs. <strong>NO EXCEPTIONS</strong>.
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Decisions of the judges are final. No arguing with judges is allowed. Any contestant, their
+          <br>or associates who argue with a judge may be deemed to be using offensive behavior and the contestant 
+          <br>
+          may be disqualified from competition.
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>The Organising team has the right to change any or all the rules mentioned above.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>If the participation is less than 5, organisers have the right to reduce the price money.
+          </li>
+        </ul>
+      </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">JUDGING CRITERIA</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>Contestants will be scored using a 50 point system
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Vocal Ability (rhythm/pitch/phrasing): 1-30 points
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Stage Presence (movement/confidence/command): 1-10 points
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Appearance (costume/attire): 1-10 points
+          </li>
+        </ul>
+      </div>
+
+       <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;G&nbsp;M&nbsp;Aishwarya
+                <br>
+                <a href="mailto:cs16btech11013@iith.ac.in">cs16btech11013@iith.ac.in</a>
+                <br>
+                +91-9603088406
+                </div>
+                </div>
+                <br>
+
+
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
+
 return ret;
    }
 if (argument == 'octaves')
@@ -762,7 +1164,7 @@ let ret = `\`
                     <div class="col-lg-5">&nbsp;</div>
                     <div class="col-lg-6">
                     <button type="button" class="btn btn-primary btn-lg octavesButton" style="align:center;">`;
-                    ret += (events.indexOf('octaves')>-1)?"UNREGISTER":"REGISTER";
+                    ret += (events.indexOf('octaves')>-1)?"DEREGISTER":"REGISTER";
                     ret +=`
                     </button></div>
                 </div>
@@ -790,7 +1192,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -807,12 +1208,9 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 8000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
-        <h3 style="text-align: center;">RULES</h3>
+        <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
           <li>This being a solo competition allows no more than one person per team.
@@ -860,14 +1258,58 @@ let ret = `\`
               </li>
             </ul>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+
+      <div class="row rules">
+        <h3 style="text-align: center;">RULES</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+          <li>A participant can stick to ONLY ONE instrument for the entire competition.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Electric instruments are allowed.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Keyboards can be played only in the piano patch.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Availability of the following instruments is assured (if required) : A keyboard
+          <br> (in piano tune), acoustic guitar, and drums.
+          <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+          <li>Decision of the event organisers will be final.
+          </li>
+        </ul>
+      </div>
+        
+        <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;JOSHUA&nbsp;Julian
+                <br>
+                <a href="mailto:ms14btech11005@iith.ac.in">ms14btech11005@iith.ac.in</a>
+                <br>
+                +91-9704701947
+                </div>
+                </div>
+                <br>
+
+
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'andaazapnapna')
@@ -916,7 +1358,7 @@ let ret = `\`
                     <div class="col-lg-5">&nbsp;</div>
                     <div class="col-lg-6">
                     <button type="button" class="btn btn-primary btn-lg andaazapnapnaButton" style="align:center;">`;
-                    ret += (events.indexOf('andaazapnapna')>-1)?"UNREGISTER":"REGISTER";
+                    ret += (events.indexOf('andaazapnapna')>-1)?"DEREGISTER":"REGISTER";
                     ret +=`
                     </button></div>
                 </div>
@@ -945,7 +1387,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -962,10 +1403,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 10000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -987,12 +1425,9 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Registration can be done online or on-spot during Elan-2017.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1018,16 +1453,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <liJudge's decisions are final and binding.
-          <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+        <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Akash&nbsp;Aeruva
+                <br>
+                <a href="mailto:cs16btech11001@iith.ac.in">cs16btech11001@iith.ac.in</a>
+                <br>
+                +91-7702921369
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 
@@ -1077,7 +1526,7 @@ let ret = `\`
                      <div class="col-lg-5">&nbsp;</div>
                      <div class="col-lg-6">
                      <button type="button" class="btn btn-primary btn-lg filmfarefiestaButton" style="align:center;">`;
-                     ret += (events.indexOf('filmfarefiesta')>-1)?"UNREGISTER":"REGISTER";
+                     ret += (events.indexOf('filmfarefiesta')>-1)?"DEREGISTER":"REGISTER";
                      ret +=`
                      </button></div>
                  </div>
@@ -1103,7 +1552,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1120,10 +1568,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 15000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -1158,12 +1603,9 @@ let ret = `\`
               <br>
             </ul>
           </li>
-          <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1195,15 +1637,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>The decision of the Organizers is final and binding.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+        <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Sagar&nbsp;Balla
+                <br>
+                <a href="mailto:ce16btech11009@iith.ac.in">ce16btech11009@iith.ac.in</a>
+                <br>
+                +91-9010860164
+                </div>
+                </div>
+                <br>
+      <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 
@@ -1253,7 +1710,7 @@ let ret = `\`
                      <div class="col-lg-5">&nbsp;</div>
                      <div class="col-lg-6">
                      <button type="button" class="btn btn-primary btn-lg picelecticButton" style="align:center;">`;
-                     ret += (events.indexOf('picelectic')>-1)?"UNREGISTER":"REGISTER";
+                     ret += (events.indexOf('picelectic')>-1)?"DEREGISTER":"REGISTER";
                      ret +=`
                      </button></div>
                  </div>
@@ -1279,7 +1736,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1296,10 +1752,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 5000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1319,16 +1772,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Clarity is not considered until there is a tie b/w pics that are similar.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+              <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Sai&nbsp;Raj
+                <br>
+                <a href="mailto:me15btech11006@iith.ac.in">me15btech11006@iith.ac.in</a>
+                <br>
+                +91-7660801623
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 
@@ -1378,7 +1845,7 @@ let ret = `\`
                    <div class="col-lg-5">&nbsp;</div>
                    <div class="col-lg-6">
                    <button type="button" class="btn btn-primary btn-lg nukkadnatakButton" style="align:center;">`;
-                   ret += (events.indexOf('nukkadnatak')>-1)?"UNREGISTER":"REGISTER";
+                   ret += (events.indexOf('nukkadnatak')>-1)?"DEREGISTER":"REGISTER";
                    ret +=`
                    </button></div>
                </div>
@@ -1407,7 +1874,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1424,10 +1890,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 10000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1459,12 +1922,9 @@ let ret = `\`
           <li style="list-style-type: none;"><br></li>
           <li>Plays can be based on any theme.
             <br>Any content directed against a certain political group or religious community is strictly prohibited.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
@@ -1486,17 +1946,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Overall impact
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
-      <br>
+                    <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Nanda&nbsp;Kumar
+                <br>
+                <a href="mailto:es15btech11007@iith.ac.in">es15btech11007@iith.ac.in</a>
+                <br>
+                +91-9573950314
+                </div>
+                </div>
+                <br>
+      <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'facepainting')
@@ -1545,7 +2018,7 @@ let ret = `\`
                      <div class="col-lg-5">&nbsp;</div>
                      <div class="col-lg-6">
                      <button type="button" class="btn btn-primary btn-lg facepaintingButton" style="align:center;">`;
-                     ret += (events.indexOf('facepainting')>-1)?"UNREGISTER":"REGISTER";
+                     ret += (events.indexOf('facepainting')>-1)?"DEREGISTER":"REGISTER";
                      ret +=`
                      </button></div>
                  </div>
@@ -1569,7 +2042,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1586,10 +2058,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 2000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -1612,12 +2081,9 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Duration of the Event will be 2 hours.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1635,11 +2101,27 @@ let ret = `\`
           </li>
         </ul>
       </div>
+                          <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Battini&nbsp;Thanuja
+                <br>
+                <a href="mailto:ee15btech11005@iith.ac.in">ee15btech11005@iith.ac.in</a>
+                <br>
+                +91-9052116313
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'nailart')
@@ -1688,7 +2170,7 @@ let ret = `\`
                       <div class="col-lg-5">&nbsp;</div>
                       <div class="col-lg-6">
                       <button type="button" class="btn btn-primary btn-lg nailartButton" style="align:center;">`;
-                      ret += (events.indexOf('nailart')>-1)?"UNREGISTER":"REGISTER";
+                      ret += (events.indexOf('nailart')>-1)?"DEREGISTER":"REGISTER";
                       ret +=`
                       </button></div>
                   </div>
@@ -1708,7 +2190,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1725,10 +2206,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 1500
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1741,12 +2219,9 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li> Judges decision is final and binding.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
@@ -1760,16 +2235,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Attractiveness
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+                          <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Srinidhi&nbsp;
+                <br>
+                <a href="mailto:ch16btech11029@iith.ac.in">ch16btech11029@iith.ac.in</a>
+                <br>
+                +91-8978361825
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'mehendi')
@@ -1818,7 +2307,7 @@ let ret = `\`
                       <div class="col-lg-5">&nbsp;</div>
                       <div class="col-lg-6">
                       <button type="button" class="btn btn-primary btn-lg mehendiButton" style="align:center;">`;
-                      ret += (events.indexOf('mehendi')>-1)?"UNREGISTER":"REGISTER";
+                      ret += (events.indexOf('mehendi')>-1)?"DEREGISTER":"REGISTER";
                       ret +=`
                       </button></div>
                   </div>
@@ -1838,7 +2327,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -1855,8 +2343,6 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 1500
           </div>
         </div>
-        <br>
-        <br>
       </div>
       <br>
       <div class="row rules">
@@ -1872,12 +2358,9 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Designs are of your own choice.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -1894,12 +2377,9 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Judges' decision is final and binding
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">JUDGING CRITERIA</h3>
         <br>
@@ -1912,16 +2392,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>Neatness
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+                                <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Srinidhi&nbsp;
+                <br>
+                <a href="mailto:ch16btech11029@iith.ac.in">ch16btech11029@iith.ac.in</a>
+                <br>
+                +91-8978361825
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'claymodelling')
@@ -1970,7 +2464,7 @@ let ret = `\`
                       <div class="col-lg-5">&nbsp;</div>
                       <div class="col-lg-6">
                       <button type="button" class="btn btn-primary btn-lg claymodellingButton" style="align:center;">`;
-                      ret += (events.indexOf('claymodelling')>-1)?"UNREGISTER":"REGISTER";
+                      ret += (events.indexOf('claymodelling')>-1)?"DEREGISTER":"REGISTER";
                       ret +=`
                       </button></div>
                   </div>
@@ -1992,7 +2486,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -2009,10 +2502,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 1500
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -2034,11 +2524,9 @@ let ret = `\`
           <li>One can select his/her own theme or model.
             <br> Every participant will be given limited amount of clay and time,
             <br> so one has to really plan out his model so as to not run out of clay.
-            <br>
           </li>
         </ul>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
@@ -2052,16 +2540,31 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li> The decision of the organisers is final and binding to all.<br>
+          <li> The decision of the organisers is final and binding to all.
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+                                <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Battini&nbsp;Thanuja
+                <br>
+                <a href="mailto:ee15btech11005@iith.ac.in">ee15btech11005@iith.ac.in</a>
+                <br>
+                +91-9052116313
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'lendmeurvoice')
@@ -2110,7 +2613,7 @@ let ret = `\`
                         <div class="col-lg-5">&nbsp;</div>
                         <div class="col-lg-6">
                         <button type="button" class="btn btn-primary btn-lg lendmeurvoiceButton" style="align:center;">`;
-                        ret += (events.indexOf('lendmeurvoice')>-1)?"UNREGISTER":"REGISTER";
+                        ret += (events.indexOf('lendmeurvoice')>-1)?"DEREGISTER":"REGISTER";
                         ret +=`
                         </button></div>
                     </div>
@@ -2132,7 +2635,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -2149,10 +2651,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 2000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -2213,16 +2712,30 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>The decision of the judges and organizers is final and binding.
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
+                          <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Arvind&nbsp;Ganesh
+                <br>
+                <a href="mailto:ee16btech11026@iith.ac.in">ee16btech11026@iith.ac.in</a>
+                <br>
+                +91-9490329561
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'artexhibition')
@@ -2271,7 +2784,7 @@ let ret = `\`
                        <div class="col-lg-5">&nbsp;</div>
                        <div class="col-lg-6">
                        <button type="button" class="btn btn-primary btn-lg artexhibitionButton" style="align:center;">`;
-                       ret += (events.indexOf('artexhibition')>-1)?"UNREGISTER":"REGISTER";
+                       ret += (events.indexOf('artexhibition')>-1)?"DEREGISTER":"REGISTER";
                        ret +=`
                        </button></div>
                    </div>
@@ -2314,7 +2827,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -2331,10 +2843,8 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 24000
           </div>
         </div>
-        <br>
-        <br>
+
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -2347,7 +2857,13 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li> Paintings will be exhibited throughout the fest in ELAN gallery.
+          <li> Paintings and pencil arts will be exhibited throughout the fest in ELAN gallery.
+            <br>
+          </li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li> Paints, papers, pencils will be provided for the participants but your work should be
+          <br> submitted before 5 PM , 21st January, 2017.
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
@@ -2356,10 +2872,8 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
-          <li>There are 3 different prizes as mentioned below for the 3 divisions.
-            <br>
+          <li>There are 3 different prizes as mentioned below for the 2 divisions.
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
       <br>
@@ -2372,20 +2886,14 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
 
-           <li> Colaration skills(for abstract)
+           <li> Colaration skills
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
 
 
           <li>Creativity
-            <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
-          <li> Coloration Skills
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
       <br>
@@ -2422,13 +2930,32 @@ let ret = `\`
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+           <li>If the participation is less than 5 (for particular event),organisers have the right to reduce the prize money
+          </li>
         </ul>
       </div>
-      <br>
+                                <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Julakanti&nbsp;sai&nbsp;harika
+                <br>
+                <a href="mailto:ee15btech11013@iith.ac.in">ee15btech11013@iith.ac.in</a>
+                <br>
+                +91-8142304650
+                </div>
+                </div>
+                <br>
+      <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'djwars')
@@ -2477,7 +3004,7 @@ let ret = `\`
                       <div class="col-lg-5">&nbsp;</div>
                       <div class="col-lg-6">
                       <button type="button" class="btn btn-primary btn-lg djwarsButton" style="align:center;">`;
-                      ret += (events.indexOf('djwars')>-1)?"UNREGISTER":"REGISTER";
+                      ret += (events.indexOf('djwars')>-1)?"DEREGISTER":"REGISTER";
                       ret +=`
                       </button></div>
                   </div>
@@ -2508,7 +3035,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -2525,10 +3051,7 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 25000
           </div>
         </div>
-        <br>
-        <br>
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">INFRASTRUCTURE SUPPLIED</h3>
         <br>
@@ -2550,17 +3073,107 @@ let ret = `\`
           </li>
           <li style="list-style-type: none;"><br></li>
           <li>2 mics
+          </li>
+        </ul>
+      </div>
+
+            <div class="row rules">
+        <h3 style="text-align: center;">EVENT FORMAT</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+           <li>
+            1 Online round:<br>
+            <ul style="list-style-type: circle;margin-left:10%;">
+              <li>Participants should e-mail their new and own tracks to <a href="mailto:me15btech11002@iith.ac.in">me15btech11002@iith.ac.in</a>
+              <br>
+              , selected participants will be called for finals</li>
+              <li>Participants need to submit their tracks before 11:59 PM ,13th January.<br></li>
+              <li>Subject of the mail should be DJ WARS ENTRY “ELANID”</li>
+            </ul>
             <br>
           </li>
           <li style="list-style-type: none;"><br></li>
+
+          <li>
+            1 Preliminary round:<br>
+            <ul style="list-style-type: circle;margin-left:10%;">
+              <li>Participants should perform for 10 minutes.</li>
+              <br>
+              <li>Participants selected in the preliminary round will get the chance to perform in the final round.</li>
+            </ul>
+            <br>
+          <li style="list-style-type: none;"><br></li>
+
+
+           <li>
+            One FINAL round:<br>
+            <ul style="list-style-type: circle;margin-left:10%;">
+              <li>Each DJ will be given a maximum time of 15 mins to perform.</li>
+              <br>
+              <li>5 mins would be given as a spare time for each of them before their performance to settle down.</li>
+            </ul>
+            <br>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Registrations should be done before 11:59 PM ,13th January</li>
         </ul>
       </div>
-      <br>
+
+
+                  <div class="row rules">
+        <h3 style="text-align: center;">RULES</h3>
+        <br>
+        <ul style="list-style-type: disc;margin-left:15px;">
+           <li>This is an individual event. No DJ duos are allowed.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+           <li>Time limit should be strictly followed by the participants. Participant will be 
+           <br>penalized by judges for not doing so.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>A minimum of three genres to be used. Language is not a barrier.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>A minimum of six songs to be played and 4 CDs to be changed.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Participants should have their own music. No music will be provided by the organizers.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Props or costumes will have to be arranged by the participants.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Obscenity in any form is strictly prohibited and would lead to disqualification.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Decision of judges will be final and abiding.<br></li>
+          <li style="list-style-type: none;"><br></li>
+
+          <li>Style statement will also be rewarded.</li>
+        </ul>
+      </div>
+
+                                      <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Sitanshu
+                <br>
+                <a href="mailto:me15btech11002@iith.ac.in">me15btech11002@iith.ac.in</a>
+                <br>
+                +91-9912342355
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
    }
 if (argument == 'rjhunt')
@@ -2609,7 +3222,7 @@ let ret = `\`
                        <div class="col-lg-5">&nbsp;</div>
                        <div class="col-lg-6">
                        <button type="button" class="btn btn-primary btn-lg rjhuntButton" style="align:center;">`;
-                       ret += (events.indexOf('rjhunt')>-1)?"UNREGISTER":"REGISTER";
+                       ret += (events.indexOf('rjhunt')>-1)?"DEREGISTER":"REGISTER";
                        ret +=`
                        </button></div>
                    </div>
@@ -2638,7 +3251,6 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <br>
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
@@ -2655,10 +3267,8 @@ let ret = `\`
             Prizes :&nbsp;worth Rs 8000
           </div>
         </div>
-        <br>
-        <br>
+
       </div>
-      <br>
       <div class="row rules">
         <h3 style="text-align: center;">EVENT FORMAT</h3>
         <br>
@@ -2710,179 +3320,62 @@ let ret = `\`
               </li>
               <br>
               <li> Each contestant has to perform for maximum of 20 minutes.</li>
-              <br>
             </ul>
             <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
         </ul>
       </div>
-      <br><br>
-    </div>
-  </div>
-</div>
-</div>\``;
-return ret;
-   }
-if (argument == 'lendmeurvoice')
-{
-let ret = `\`
-<p><br></p>
-<div class='contest'
-  style="padding-bottom: 150px;
-  padding-left:20px;
-  background-image: url('images/event_details.png');
-  background-repeat:  no-repeat;
-  background-attachment: scroll;
-  background-size: contain;
-  ">
-  <br><br><br><br><br><br><br>
-  <br><br><br><br>
-  <div class="container" style="
-    width:1040px;
-    padding-left:35px;
-    text-align:left;
-    max-height: 1280px;
-    overflow-y:auto;
-    overflow-x:hidden;
-    ">
-    <div class="heading">
-      <div class="col-lg-1" id="backCulti">
-        <img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-      </div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-5">
-        <h3><strong style="font-weight: 900;margin-left:-28px;">LEND&nbsp;YOUR&nbsp;VOICE</strong> </h3>
-      </div>
-      <br><br><br>
-    </div>
-    <div class="photo">
-      <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-9">
-          <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/lendmeurvoice.jpg">
-        </div>
-        <div class="col-lg-3"></div>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-                        <div class="col-lg-5">&nbsp;</div>
-                        <div class="col-lg-6">
-                        <button type="button" class="btn btn-primary btn-lg lendmeurvoiceButton" style="align:center;">`;
-                        ret += (events.indexOf('lendmeurvoice')>-1)?"UNREGISTER":"REGISTER";
-                        ret +=`
-                        </button></div>
-                    </div>
-    <br>
-    <div class="text"  style="font-size:23.5px;">
-      <div class="row about">
-        <h3 style="text-align: center;">ABOUT</h3>
-        <div>
-          <br>
-          A perfect opportunity to test your ability to be creative and prompt together with the presence of mind.
-          <br>
-          Ever thought that you could have delivered the dialogues better than the actors in the movie?
-          <br>
-          Then this is the right place for you to be. ELAN 2017 presents a unique event "Lend Your Voice".
-          <br>
-        </div>
-      </div>
-      <br>
-      <div class="row details">
-        <h3 style="text-align: center;">DETAILS</h3>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-            Prizes :&nbsp;worth Rs 2000
-          </div>
-        </div>
-        <br>
-        <br>
-      </div>
-      <br>
-      <div class="row rules">
-        <h3 style="text-align: center;">EVENT FORMAT</h3>
-        <br>
-        <ul style="list-style-type: disc;margin-left:15px;">
-          <li>The contestants are provided with an option of a few ACTION HERO VIDEOS.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
-          <li>They will be given half hour to choose the video.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
-          <li>After choosing the video the participants will be given another half hour for preparation
-            <br> in which they are supposed to come up with a humorous and entertaining version
-            <br>of the video by putting their own voice into the characters.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
-          <li>They are then supposed to perform it on stage while the video is being played,
-            <br> with the actual dialogues muted
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
-          <li>All the videos will be 1 min long.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
-        </ul>
-      </div>
-      <div class="row rules">
+
+
+                  <div class="row rules">
         <h3 style="text-align: center;">RULES</h3>
         <br>
         <ul style="list-style-type: disc;margin-left:15px;">
-          <li>It consists of only one round.
-            <br>
-          </li>
+           <li>Registrations can be done online or On Spot.<br></li>
           <li style="list-style-type: none;"><br></li>
-          <li>The participants will be given a given a movie clipping one hour before the competition.
-            <br>
-          </li>
+
+           <li>Maximum number of on-spot registrations is 10.<br></li>
           <li style="list-style-type: none;"><br></li>
-          <li>During the competition, the audio of the clipping will be muted,
-            <Br> and the participants have to make out their own dialogues
-            <br>and deliver it parallel in sequence with the video and must make it as funny as possible.
-            <br>
-          </li>
+
+          <li>On Spot Registrations will close 1 hour before the commencement of the event<br></li>
           <li style="list-style-type: none;"><br></li>
-          <li>The clippings will be given in English, Telugu or Hindi as per your choice.
-            <br>
-          </li>
+
+          <li>This is an individual event.<br></li>
           <li style="list-style-type: none;"><br></li>
-          <li>You will be judged based on the dialogues you make and the way you present it.
-            <br>
-          </li>
+
+          <li>Time limit should be strictly followed. Participant will be heavily penalized by judges for
+          <br> not doing so.<br></li>
           <li style="list-style-type: none;"><br></li>
-          <li>Use of unparliamentary language is strictly prohibited and will lead to disqualification.
-            <br>
-          </li>
+
+          <li>The Participants can speak in Telugu, Hindi or English. Other languages are not allowed.<br></li>
           <li style="list-style-type: none;"><br></li>
-          <li>The decision of the judges and organizers is final and binding.
-            <br>
-          </li>
-          <li style="list-style-type: none;"><br></li>
+
+          <li>Decision of judges will be final and abiding.</li>
+
         </ul>
       </div>
+
+                                      <div class="row rules">
+                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <br>
+
+                <div class="col-lg-5"></div>
+
+                <div class="row">
+                    <div class="col-lg-3"  style="text-align:center;margin-left:-40px;">
+                &nbsp;Deepika&nbsp;Gonela
+                <br>
+                <a href="mailto:cs16btech11015@iith.ac.in">cs16btech11015@iith.ac.in</a>
+                <br>
+                +91-9963079992
+                </div>
+                </div>
+                <br>
       <br><br>
     </div>
   </div>
 </div>
-</div>\``;
+  </div>\``;
 return ret;
-   }
+}
 }

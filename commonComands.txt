@@ -33,14 +33,15 @@ drop table jam;
 
 
 CREATE TABLE users(
-    ID varchar(100) PRIMARY KEY,
+    ID varchar(100),
     elanId varchar(10),
     name text NOT NULL,
     password text NOT NULL,
     college text NOT NULL,
     mobile varchar(13) NOT NULL,
     email varchar(100) NOT NULL,
-    registered_events text
+    registered_events text,
+    sent varchar(3) DEFAULT 'NO'
 );
 
 CREATE TABLE users_special(
@@ -50,8 +51,9 @@ CREATE TABLE users_special(
 
 
 use elanop4y_fest_2017;
+insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in','');
 
-insert into users_special VALUES('586cf54983bef55f78a0d8ec' , 'yash@elan.org.in');
+
 
 
 create table elanejung(
@@ -225,6 +227,7 @@ create table quizzes(
 
 
 
+update users set email='cs15btech11019@iith.ac.in';
 
 
 
@@ -239,13 +242,96 @@ create table quizzes(
 
 
 
+insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan');
+
+
+insert into users values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','');
+
+
+insert into users values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan');
+
+
+insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera');
+
+
+insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree');
 
 
 
 
 
+insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan');
 
 
+insert into users values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','');
+
+
+insert into users values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan');
+
+
+insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera');
+
+
+insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree');
+
+
+
+
+
+insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan');
+
+
+insert into users values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','');
+
+
+insert into users values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan');
+
+
+insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera');
+
+
+insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree');
+
+
+
+CREATE TABLE users_temp(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    name text NOT NULL,
+    password text NOT NULL,
+    college text NOT NULL,
+    mobile varchar(13) NOT NULL,
+    email varchar(100) NOT NULL,
+    registered_events text,
+    sent varchar(3) DEFAULT 'NO'
+);
+
+
+
+insert into users_temp values('5864195760d96d2fe331d7e5','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan','NO');
+
+
+insert into users_temp values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','','NO');
+
+
+insert into users_temp values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan','NO');
+
+
+insert into users_temp values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera','NO');
+
+
+insert into users_temp values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree','NO');
+
+
+select * from users_temp;
+select COUNT(*) from users_temp;
+
+
+
+
+
+ALTER TABLE users
+ADD sent varchar(3) DEFAULT 'NO';
 
 
 

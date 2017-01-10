@@ -35,6 +35,7 @@ if ($detect->isMobile()) {
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body>
+<?php include '../analyticstracking.php'; ?>
 
 		<!-- Wrapper -->
 			<div id="wrapper"  style="outline: none;">

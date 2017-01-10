@@ -38,6 +38,8 @@ session_start();
 </head>
 	
 <body>
+<?php include 'analyticstracking.php'; ?>
+
 <!-- banner -->
 <!-- banner -->
   <div class="banner-1 wthree-1">
@@ -228,6 +230,7 @@ session_start();
 		</div>
 	</div>
 <!-- //footer -->
+
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->

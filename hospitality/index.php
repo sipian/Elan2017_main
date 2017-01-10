@@ -111,6 +111,7 @@ b ,h2{
 </head>
 <body>
 
+<?php include '../analyticstracking.php'; ?>
 
 
 <div class='loader'>
@@ -213,6 +214,8 @@ Buses will be provided on the days of the festival. Specific bus details will be
 
 <span class="glyphicon glyphicon-star"></span>  Mattress, bed sheets and pillows would be provided in accommodation. Please bring your own blankets if needed.
 <br>
+
+<span class="glyphicon glyphicon-star"></span>  Accommodation charges - INR 300/night. <br>
 
 <span class="glyphicon glyphicon-star"></span> Safety deposit of INR 200 has to be paid at the registration desk. It would be reimbursed at the time of check out. 
 <br>

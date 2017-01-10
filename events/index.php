@@ -133,6 +133,7 @@ body::-webkit-scrollbar-thumb {
                         ?>
   <body style="overflow-y: hidden;">
 
+<?php include '../analyticstracking.php'; ?>
 
 
 <div class='loader'>

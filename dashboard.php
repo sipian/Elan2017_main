@@ -129,6 +129,7 @@ if(!isset($_SESSION["id"])){
     background-attachment: fixed;
     background-size: cover;
     ">
+<?php include 'analyticstracking.php'; ?>
 
 
 <div class='loader'>

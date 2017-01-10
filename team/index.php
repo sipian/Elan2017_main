@@ -95,6 +95,7 @@ if ($detect->isMobile()) {
 <!--Adobe Edge Runtime End-->
 </head>
 <body style="margin:0;padding:0;height:100%;">
+<?php include '../analyticstracking.php'; ?>
 
 
 

@@ -8,7 +8,7 @@ function getBiggiesContent(argument) {
       background-image: url('images/event_details.png');  
       background-repeat:  no-repeat;
       background-attachment: scroll;
-      background-size: contain;
+      background-size: cover;
     ">
     <br><br><br><br><br><br><br>
     <br><br><br><br>
@@ -17,7 +17,7 @@ function getBiggiesContent(argument) {
         padding-left:35px;
         text-align:left;
         max-height: 1280px;
-        overflow-y:scroll;
+        overflow-y:auto;
         overflow-x:hidden;
         ">
         <div class="heading">
@@ -44,7 +44,7 @@ function getBiggiesContent(argument) {
             <div class="col-lg-4">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg elan-e-jungButton" style=" align:center; margin-left:70px; ">`;
-            ret += (events.indexOf('elanejung')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('elanejung')>-1)?"DEREGISTER":"REGISTER";
             ret += `
             </button></div>
         </div>
@@ -137,13 +137,13 @@ function getBiggiesContent(argument) {
                     <br> 
                     the band also needs to download <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en' target='_blank'>ArtistAloud</a> app and upload their video 
                     <br>
-                    using code "ELAA06"                                            
+                    using code "ELAA06".This is <strong>MANDATORY</strong> for all the participants.                                            
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
 
 
-                    <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
+                    <li>Deadline to upload videos is <strong>13th January 2017 , 11:59PM</strong>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -168,7 +168,7 @@ function getBiggiesContent(argument) {
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
-                    <li>6 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
+                    <li>5 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -376,7 +376,7 @@ src="images/biggies/manthan_small.jpg">
             <div class="col-lg-4">&nbsp;</div>
             <div class="col-lg-6">
             <button type="button" class="btn btn-primary btn-lg manthanButton" style=" align:center; margin-left:90px; ">`;
-            ret += (events.indexOf('manthan')>-1)?"UNREGISTER":"REGISTER";
+            ret += (events.indexOf('manthan')>-1)?"DEREGISTER":"REGISTER";
             ret += `
             </button></div>
         </div>
@@ -410,7 +410,7 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 21st January 2017</div>
+                    <div class="col-lg-10">Date : 20th January 2017</div>
                 </div>
                 <br>
                 <div class="row">
@@ -427,7 +427,7 @@ src="images/biggies/manthan_small.jpg">
                                    Prizes worth Rs 35000
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   A chance to record their music in <strong>Soundkraft Recording Studio</strong>
+                                   A chance to record their music video in <strong>Soundkraft Recording Studio</strong>
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    (Hyderabad)
@@ -465,7 +465,7 @@ src="images/biggies/manthan_small.jpg">
                     <li style="list-style-type: none;"><br></li>
 
 
-                    <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM</strong>
+                    <li>Deadline to upload videos is <strong>13th January 2017 , 11:59PM</strong>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -480,7 +480,7 @@ src="images/biggies/manthan_small.jpg">
                     </li>
                     <li style="list-style-type: none;"><br></li>
 
-                    <li>Shortlisted bands get to perform at Elan-e-Jung finals, Elan 2017.
+                    <li>Shortlisted bands get to perform at Manthan finals, Elan 2017.
                          <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -490,7 +490,7 @@ src="images/biggies/manthan_small.jpg">
                 <h3 style="text-align: center;">FINALS</h3>
                 <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
-                    <li>6 bands will be shortlisted after the preliminary round to perform
+                    <li>5 bands will be shortlisted after the preliminary round to perform
                     <br>
                      at the Biggies Stage.
                         <br>
@@ -703,10 +703,14 @@ src="images/biggies/manthan_small.jpg">
          <div class="row">
             <div class="col-lg-4">&nbsp;</div>
             <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg campus_princessButton" style="align:center;margin-left:60px;">`;
-            ret += (events.indexOf('campus_princess')>-1)?"UNREGISTER":"REGISTER";
-            ret +=`
-            </button></div>
+            
+            <a href="https://form.jotform.me/70083840315450" target="_blank">
+            <button type="button" class="btn btn-primary btn-lg" style="align:center;margin-left:60px;"> 
+                    REGISTER
+            </button>
+            </a>
+
+            </div>
         </div>
         <br>
         <div class="text"  style="font-size:23.5px;">
@@ -727,10 +731,8 @@ src="images/biggies/manthan_small.jpg">
                 grace, show their grit in the Q&A round and go on to take the crown.
                 </div>
             </div>
-            <br>
                         <div class="row details">
                 <h3 style="text-align: center;margin-left:-68px;">DETAILS</h3>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 21st January 2017</div>
@@ -752,13 +754,18 @@ src="images/biggies/manthan_small.jpg">
                     The WINNER gets direct entry into the final round of 
                     <br>
                     Miss India 2017 Mumbai Auditions. 
-                    <br>
-                    <br>
+        
                     </div>
                 </div>
-                <br>
             </div>
+                 <div class="row about" style="margin-left:15px;">
+                <h3 style="text-align: center;">RULES & REGULATIONS</h3>
+                <div style="text-align: center;">
                 <br>
+                <a href="../campus_princess.docx">Click Here To Know About The Rules For Campus Princess</a>
+                 <br>
+                </div>
+            </div>
             </div>
             <br>
             <br>
