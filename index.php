@@ -52,21 +52,79 @@ if ($detect->isMobile()) {
     color: #F06D06;
     font: 200 30px/1em chelsea;
     }
-    #element_to_pop_up , #element_to_pop_up_image { 
+    #element_to_pop_up { 
     background-color:#fff;
-    border-radius:15px;
+    border-radius: 5px;
     color:#000;
     display:none; 
     padding:20px;
     min-width:400px;
     min-height: 180px;
 }
+
+  #element_to_pop_up_image  {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    
+    margin-top: 3em; /*set to a negative number 1/2 of your height*/
+}
+
 .b-close{
     cursor:pointer;
     position:absolute;
     right:10px;
     top:5px;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-image: url(http://benague.ca/files/pw_pattern.png);
+}
+
+
+
+.btn {
+  border-radius: 5px;
+  font-size: 22px;
+  text-decoration: none;
+  top: -10px;
+
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+  background-color: #48E68B;
+}
+
+.
+
+
+/* copyright stuffs.. */
+
+p {
+  text-align: center;
+  color: #55acee;
+  padding-top: 20px;
+}
+
       </style>
 
    </head>
@@ -98,15 +156,16 @@ if ($detect->isMobile()) {
         </a>
         </div>
         
-        <div class="right" style="background-color: black; text-align: center;">
+        <div class="right" style="text-align: center;">
 
-                <a href="#" style="font-family: chelsea;padding-right: 10px;letter-spacing: 1.5px;font-weight: lighter;color: white;"> UPDATES</a>
+<a href="#" class="btn green" style="font-family: chelsea;letter-spacing: 1.5px;font-weight: lighter;"> 
+<p style="margin-top: -5px;">UPDATES</p></a>
         </div>
 
         </nav>
     </div>
-    <div id="element_to_pop_up" style="display: none;">
-    <a class="b-close"><span class="glyphicon glyphicon-remove"></span><a/>
+    <div id="element_to_pop_up" style="display: none;font-family: chelsea;">
+    <a class="b-close"  ><span class="glyphicon glyphicon-remove"  style=" font-size: 30px;"></span></a>
     <h2>UPDATES</h2>
     <ul style="list-style-type: none;float: left;">
       <li><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;&nbsp;EVENT 1 IS Going To HAppen</li>
@@ -120,7 +179,7 @@ if ($detect->isMobile()) {
 
 
    <div id="element_to_pop_up_image" style="display: none;">
-    <a class="b-close"><span class="glyphicon glyphicon-remove"></span><a/>
+    <a class="b-close"><span class="glyphicon glyphicon-remove"  style="color:white;font-size: 30px;"></span><a/>
     <img src="images/test13.jpg"/>
 </div>
 
@@ -380,4 +439,59 @@ if ($detect->isMobile()) {
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script src="js/index_main.js"></script>
+
+    <script type="text/javascript">
+      // a key map of allowed keys
+var allowedKeys = {
+  37: 'left',
+  38: 'up',
+  39: 'right',
+  40: 'down',
+  65: 'a',
+  66: 'b',
+  67: 'c'
+};
+
+// the 'official' Konami Code sequence
+var konamiCode = ['a', 'b', 'a', 'c', 'a', 'b', 'b'];
+
+// a variable to remember the 'position' the user has reached so far.
+var konamiCodePosition = 0;
+
+// add keydown event listener
+document.addEventListener('keydown', function(e) {
+  // get the value of the key code from the key map
+  var key = allowedKeys[e.keyCode];
+  // get the value of the required key from the konami code
+  var requiredKey = konamiCode[konamiCodePosition];
+
+  // compare the key with the required key
+  if (key == requiredKey) {
+
+    // move to the next key in the konami code sequence
+    konamiCodePosition++;
+
+    // if the last key is reached, activate cheats
+    if (konamiCodePosition == konamiCode.length)
+      activateCheats();
+  } else
+    konamiCodePosition = 0;
+});
+
+function activateCheats() {
+  document.body.innerHTML = `
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in orci nec sem viverra lobortis et eget erat. Suspendisse in purus ut dui pellentesque elementum. Morbi eget ullamcorper turpis. Fusce tincidunt lacus enim, vel facilisis ipsum euismod vel. Nam finibus tellus velit, nec venenatis leo bibendum et. Aenean faucibus, ante a viverra fermentum, ligula metus convallis magna, nec ultrices enim augue in urna. Sed sit amet pulvinar odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut eu justo ac lacus laoreet lacinia ut id enim. Integer varius imperdiet interdum. Duis sed posuere ipsum. Morbi eu rhoncus felis, vel fermentum nunc. Nunc aliquet fermentum diam, vitae malesuada risus sollicitudin quis. Ut placerat, lectus vel hendrerit scelerisque, erat nisi faucibus dolor, vel lacinia dui dui sed erat. Suspendisse nec bibendum risus.
+
+Ut tincidunt fermentum pretium. Duis volutpat dui ac arcu luctus, at volutpat orci semper. Aliquam erat volutpat. Sed a luctus eros. Maecenas dictum ipsum eget convallis dignissim. Mauris mattis rutrum quam eget efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+Aenean congue leo ipsum, in commodo lectus tempor mollis. Donec sed accumsan ante, at finibus mi. Etiam laoreet, mi ac efficitur consectetur, metus augue efficitur leo, vitae placerat nunc est sed ipsum. Aliquam vitae turpis eget urna placerat convallis eget eu neque. Sed facilisis tellus felis, in rutrum metus mollis ac. Curabitur efficitur aliquam libero, eu porttitor dolor porta vitae. Nam fermentum neque massa, et semper libero dictum sit amet. Nunc et lacus eget mauris ultrices interdum. Duis convallis iaculis nunc quis ultricies. Quisque at elit laoreet, cursus metus luctus, aliquam dui. Vivamus commodo commodo tincidunt.
+
+Suspendisse potenti. Suspendisse potenti. Nulla rutrum odio eget odio ultrices, a dictum lacus lobortis. Donec sodales turpis eu interdum commodo. Mauris et viverra mi. Vestibulum sagittis odio vitae laoreet vehicula. Ut nibh magna, gravida a viverra sit amet, consequat sed metus. Nunc non bibendum lorem, ac ultricies magna. Fusce sed dictum dui. Pellentesque sit amet faucibus dui, id sollicitudin purus. Vestibulum quis facilisis tellus, vestibulum mollis mauris. Praesent leo nisi, pharetra ut iaculis volutpat, ullamcorper interdum nisl. Nulla metus leo, sollicitudin eu pharetra vel, accumsan ut neque. Curabitur ornare, ligula non viverra malesuada, tellus odio accumsan lacus, et viverra ex est vitae purus.
+
+Vivamus egestas interdum felis, nec faucibus lacus venenatis luctus. Vestibulum mattis lectus vitae velit blandit laoreet. Donec vestibulum odio ac vehicula ullamcorper. Praesent dignissim augue sed magna imperdiet, eu scelerisque libero laoreet. Praesent non lacus quis odio elementum sodales iaculis eget risus. Ut viverra est eu vestibulum accumsan. Suspendisse non consequat nisi. Duis vitae nisl et nisi imperdiet varius vel vel orci. Mauris tristique, nisl nec imperdiet lobortis, enim quam pellentesque massa, ac sagittis nunc leo sit amet purus. Vestibulum fermentum eros nec lectus consectetur imperdiet. Phasellus vel nibh eget neque luctus egestas sed in felis. Cras non elementum magna, quis posuere sapien. Pellentesque lorem nisi, finibus commodo dui ac, dictum vehicula lorem. Cras rhoncus lectus sed ex ullamcorper, quis commodo lacus varius.
+  `;
+}
+
+    </script>
 </html>

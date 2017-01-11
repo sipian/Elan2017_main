@@ -250,7 +250,7 @@ background-image:url(images/workshopBack.jpg);
                     </a>
                     <div class="portfolio-caption">
                         <h4>Andro Engine</h4>
-                        <p class="text-muted">Workshop<br>14th and 15th jan2017</p>
+                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
                     </div>
                 </div>
 
@@ -266,7 +266,7 @@ background-image:url(images/workshopBack.jpg);
                     </a>
                     <div class="portfolio-caption">
                         <h4>Quadcopter</h4>
-                        <p class="text-muted">Workshop<br>14th and 15th jan2017</p>
+                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
                     </div>
                 </div>
 
@@ -282,7 +282,7 @@ background-image:url(images/workshopBack.jpg);
                     </a>
                     <div class="portfolio-caption">
                         <h4>Android App Development</h4>
-                        <p class="text-muted">Workshop<br>14th and 15th jan2017</p>
+                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
                     </div>
                 </div>
 
@@ -298,7 +298,7 @@ background-image:url(images/workshopBack.jpg);
                     </a>
                     <div class="portfolio-caption">
                         <h4>Automobile Engine Mechanics</h4>
-                        <p class="text-muted">Workshop<br>20th and 21st jan2017</p>
+                        <p class="text-muted">Workshop<br>20th and 21st Jan 2017</p>
                     </div>
                 </div>
 
@@ -314,7 +314,7 @@ background-image:url(images/workshopBack.jpg);
                     </a>
                     <div class="portfolio-caption">
                         <h4>Autonomous Robotics</h4>
-                        <p class="text-muted">Workshop<br>20th and 21st jan2017</p>
+                        <p class="text-muted">Workshop<br>20th and 21st Jan 2017</p>
                     </div>
                 </div>
 
