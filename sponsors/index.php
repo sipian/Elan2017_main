@@ -39,7 +39,8 @@
     background-size: contain;
     color:#aaa;
     font-family: 'Josefin Sans', sans-serif;
-
+  overflow-x: hidden;
+  overflow-y: hidden;
   }
       @font-face {
     font-family: chelsea;
@@ -58,9 +59,6 @@
     width:55%;
     margin:0 auto;
   }
-  body::-webkit-scrollbar {
-display: none;
-}
 h3{
   color: white;
   font-family: chelsea;
@@ -126,64 +124,45 @@ h3{
 .box:hover {
   background-color: #aaa;
 }
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+body::-moz-scrollbar  {
+    width: 0.6em;
+}
+
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px white;
+}
+body::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px white;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: brown;
+  outline: 1px solid black;
+}
+body::-moz-scrollbar-thumb{
+  background-color: green;
+  outline: 1px solid black;
+}
+
+<?php
+                        session_start();
+                             if(isset($_SESSION["id"]))
+                             echo ".right{
+                                        margin-right: 9.5%;
+                                        margin-top: 1.15%;
+                                        }
+                                        @media screen and (max-width: 1000px) {
+
+                                        }";
+                        ?>
 </style>
 </head>
 <body>
 <?php include '../analyticstracking.php'; ?>
-
-
-
-<div class='loader'>
-   <div class='loader-container'>  
-   <img src="../images/loading.png" id="loadImg" style='width:100%;' border="0" alt="Null">
-    <div class='progress progress-striped active'>
-      <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
-    </div>
-  </div>
-</div>
-
-
-    <div id="nav-outter"  style="z-index: 1;">
-        <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;" class="qwerDIV">
-               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-               <map name="cyient">
-                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-               </map>
-        </div>
-        <div class="left">
-                        <a class="scroll" href="../about">About</a>
-                        <a class="scroll" href="../events">Events</a>
-                        
-        </div>
-        
-        <div class="center1">
-        <a href="../">
-            <img src="../images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo">
-        </a>
-        </div>
-        
-        <div class="right">
-                        <a class="scroll" href="../team">Team</a>
-                        <a class="scroll" href="../sponsors">Sponsors</a>
-                        <?php
-                        session_start();
-                             if(isset($_SESSION["id"]))
-                             echo "
-                                <div class=\"dropdown\">
-                                    <a class=\"dropbtn\" href=\"#\"><span class=\"glyphicon glyphicon-user\"></span></a>
-                                    <div class=\"dropdown-content\">
-                                        <a class=\"scroll\" href=\"../dashboard.php\">Dashboard</a>
-                                        <a class=\"scroll\" href=\"../signout.php\">Sign Out</a>
-                                    </div>
-                                </div>";
-                        ?>
-        </div>
-        </nav>
-    </div>
-
-
-
+<?php include '../header.php'; ?>
 
 <div style="margin-bottom: -2%;">&nbsp;</div>
 <br><br><br>
@@ -209,59 +188,79 @@ h3{
     <div class="row">
     <div class="col-xs-12 col-sm-4"><h3>ELAN-E-JUNG TITLE SPONSOR</h3><a href="http://www.mtvixtreme.com/" target="_blank"><img src="images/mtvixtreme.jpg" alt="MTV EXTREME" /></a></div>
     <div class="col-xs-12 col-sm-4"><h3>TALENT PARTNER</h3><a href="http://mtvindia.com/labs/" target="_blank"><img src="images/MTV_Nescafe_Labs.png" alt="MTV Nescafe Labs"></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>FURNITURE SPONSOR</h3><a href="https://www.godrejinterio.com/Godrejinterio/index.aspx" target="_blank"><img src="images/Godrej_Interio.jpg" alt="GODREJ INTERIO"></a></div>
+     <div class="col-xs-12 col-sm-4"><h3>RADIO PARTNER</h3><a href="https://www.redfmindia.in/mumbai" target="_blank"><img src="images/red.jpg" alt="RED FM" /></a></div>
+
   </div>
 
   <div class="row">
-    <div class="col-xs-12 col-sm-4"><h3>EDUCATION PARTNER</h3><a href="http://aceenggacademy.com/" target="_blank"><img src="images/ace.png" alt="ACE ENGINERRING "></a></div>
-     <div class="col-xs-12 col-sm-4"><h3>FASHION & APPAREL PARTNER</h3><a href="http://www.relianceretail.com/reliance-trends.html" target="_blank"><img src="images/reliance.png" alt="RELIANCE RETAIL" style="width: 25em; height: 5em;"  /></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>ONLINE GAMING PARTNER</h3><a href="https://www.adda52.com/" target="_blank"><img src="images/adda50.jpg" alt="ADDA 52"></a></div>
+
+    <div class="col-xs-12 col-sm-4"><h3>FURNITURE SPONSOR</h3><a href="https://www.godrejinterio.com/Godrejinterio/index.aspx" target="_blank"><img src="images/INTERIO.jpg" alt="GODREJ INTERIO"></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>EDUCATION PARTNER</h3><a href="http://aceenggacademy.com/" target="_blank"><img src="images/ACE.jpg" alt="ACE ENGINERRING "></a></div>
+     <div class="col-xs-12 col-sm-4"><h3>FASHION PARTNER</h3>
+     <div style="   vertical-align: middle;">
+     <br>
+       <a href="https://www.facebook.com/RelianceTrends/?__mref=message_bubble" target="_blank"><img src="images/reliance.png" alt="RELIANCE RETAIL" style="width:65%;height: 65%;" /></a>
+     </div>
+     </div>
+ 
   </div>
   <div class="row">
+     <div class="col-xs-12 col-sm-4"><h3>ONLINE GAMING PARTNER</h3><a href="https://www.adda52.com/" target="_blank"><img src="images/adda50.jpg" alt="ADDA 52"></a></div>
   
     <div class="col-xs-12 col-sm-4"><h3>ONLINE PHOTOGRAPHY EVENT PARTNER</h3><a href="http://www.nikon.co.in/en_IN" target="_blank"><img src="images/nikon.png" alt="NIKON" /></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>STUDY ABROAD PARTNER</h3><a href="http://www.manyagroup.com/" target="_blank"><img src="images/manaya-logo-new.png" alt="MANYA GROUP" /></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>DIGITAL TALENT SPONSOR</h3><a href="https://artistaloud.wordpress.com/" target="_blank"><img src="images/ArtistAloud.jpg" alt="ARTIST ALOUD" /></a></div>
+     
+    <div class="col-xs-12 col-sm-4">
+
+    <h3>STUDY ABROAD PARTNER</h3>
+    <br><br>
+    <a href="http://www.manyagroup.com/" target="_blank"><img src="images/manaya-logo-new.png" alt="MANYA GROUP" /></a></div>
+
   </div>
    <div class="row">
+
+
+    <div class="col-xs-12 col-sm-4"><h3>DIGITAL TALENT SPONSOR</h3><a href="https://artistaloud.wordpress.com/" target="_blank"><img src="images/ArtistAloud.jpg" alt="ARTIST ALOUD" /></a></div>
   
     <div class="col-xs-12 col-sm-4"><h3>GIFTING PARTNER</h3><a href="http://www.lovelychocos.com/" target="_blank"><img src="images/lovelychocos.jpg" alt="LOVELY CHOCOS" /></a></div>
     <div class="col-xs-12 col-sm-4"><h3>ONLINE TICKETING PARTNER</h3><a href="http://www.meraevents.com/" target="_blank"><img src="images/meraenevts.jpg" alt="MERA EVENTS"   ></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>WEB HOSTING SPONSOR</h3><a href="https://www.bigrock.in" target="_blank"><img src="images/big_rock.jpg" alt="BIG ROCK" /></a></div>
+
   </div>
   <div class="row">
+      <div class="col-xs-12 col-sm-4"><h3>WEB HOSTING SPONSOR</h3><a href="https://www.bigrock.in" target="_blank"><img src="images/big_rock.jpg" alt="BIG ROCK" /></a></div>
   
-    <div class="col-xs-12 col-sm-4"><h3>INFORMAL EVENTS PARTNER</h3><a href="http://www.stichio.co.in/" target="_blank"><img src="images/Stichio_Full_Logo_Red.png" alt="STICHIO"></a></div>
+    <div class="col-xs-12 col-sm-4"><h3>DARE PARTNER</h3><a href="http://www.stichio.co.in/" target="_blank"><img src="images/Stichio_Full_Logo_Red.png" alt="STICHIO"></a></div>
 
     
     <div class="col-xs-12 col-sm-4"><h3>OFFICIAL SUPPLY CHAIN PARTNER</h3><a href="http://www.safexpress.com/" target="_blank"><img src="images/safexpressa.png" alt="safexpress" /></a></div>
 
-    <div class="col-xs-12 col-sm-4"><h3>YOUTH MAGAZINE PARTNER</h3><a href="http://www.youthincmag.com/" target="_blank"><img src="images/Youth-Incorporated.jpg" alt="YOUTH INCORPORATED" /></a></div>
+   
   </div>
   <div class="row">
   
+   <div class="col-xs-12 col-sm-4"><h3>YOUTH MAGAZINE PARTNER</h3><a href="http://www.youthincmag.com/" target="_blank"><img src="images/Youth-Incorporated.jpg" alt="YOUTH INCORPORATED" /></a></div>
     <div class="col-xs-12 col-sm-4"><h3>PHOTOGRAPHY PARTNER</h3><a href="https://www.facebook.com/felectrikk/" target="_blank"><img src="images/felectrikk.jpg" alt="F-ELECTRIKK" /></a></div>
      <div class="col-xs-12 col-sm-4"><h3>AFTERMOVIE PARTNER</h3><a href="http://www.flyingdreamfilmerz.com/" target="_blank"><img src="images/flyingdreamfilmerz.png" alt="FLYING DREAM FILMERZ" /></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="http://embassies.gov.il/delhi/Pages/default.aspx" target="_blank"><img src="images/israel.jpg" alt="EMBASSY OF ISRAEL" /></a></div>
+
   </div>
   <div class="row">
   
-    
+        <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="http://embassies.gov.il/delhi/Pages/default.aspx" target="_blank"><img src="images/israel.jpg" alt="EMBASSY OF ISRAEL" /></a></div>
     <div class="col-xs-12 col-sm-4"><h3>CULTURAL PARTNER</h3><a href="https://hyderabad.afindia.org/" target="_blank"><img src="images/alliance-francaise.jpg" alt="ALLIANCE FRANCAISE" /></a></div>
     <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://www.techtrontechnologies.com/" target="_blank"><img src="images/techtron.jpg" alt="TECHTRON TECHNOLOGIES"></a></div>
 
-    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://entrench.in/" target="_blank"><img src="images/entrench.jpg" alt="ENTRENCH ELECTRONICS"></a></div>
+  
 
   </div>
   <div class="row">
+    <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://entrench.in/" target="_blank"><img src="images/entrench.jpg" alt="ENTRENCH ELECTRONICS"></a></div>
     <div class="col-xs-12 col-sm-4"><h3>OUTREACH WORKSHOP PARTNER</h3><a href="http://azureskynet.com/" target="_blank"><img src="images/azure.jpg" alt="AZURE SKYNET"></a></div>
     <div class="col-xs-12 col-sm-4"><h3>SMS SPONSOR</h3><a href="http://www.wegusinfotech.com/" target="_blank"><img src="images/wegus_infotech.jpg" alt="WEGUS INFOTECH" style="height: 170px;" ></a></div>
-    <div class="col-xs-12 col-sm-4"><h3>ONLINE QUIZZING SPONSOR</h3><a href="http://dare2compete.com/" target="_blank"><img src="images/dare2compete.png" alt="DARE 2 COMPETE"  ></a></div>
- 
+
   </div>
     <div class="row">
      
-
+    <div class="col-xs-12 col-sm-4"><h3>ONLINE QUIZZING SPONSOR</h3><a href="http://dare2compete.com/" target="_blank"><img src="images/dare2compete.png" alt="DARE 2 COMPETE"  ></a></div>
+ 
      <div class="col-xs-12 col-sm-4"><h3>MUSIC MEDIA PARTNER</h3><a href="https://songdew.com/" target="_blank"><img src="images/songdew.png" alt="SONG DEW"></a></div>
     
     <div class="col-xs-12 col-sm-4">
@@ -269,37 +268,57 @@ h3{
     <a href="http://awesong.in/" target="_blank"><img src="images/Awesong_logo_White.png" alt="AWESONG" style="width: 80%;" /></a>
   </div>
 
+
+
+  </div>
+   <div class="row">
   <div class="col-xs-12 col-sm-4">
     <h3>ONLINE MUSIC PARTNER</h3>
     <a href="http://www.musicmalt.com/" target="_blank"><img src="images/music_malt.png" alt="MUSICMALT" style="width: 80%;" /></a>
   </div>
-
-  </div>
-   <div class="row">
-
     <div class="col-xs-12 col-sm-4"><h3>LEADS SPONSOR</h3><a href="http://www.dataguru.in/home.do" target="_blank"><img src="images/dataguru.png" alt="DATA GURU" /></a></div>
 
   <div class="col-xs-12 col-sm-4"><h3>SPONSORSHIP PARTNER</h3><a href="http://www.onspon.com/index.php" target="_blank"><img src="images/onspon.png" alt="ONSPON" /></a></div>
-  <div class="col-xs-12 col-sm-4"><h3>MISS INDIA ORGANISATION</h3><a href="http://beautypageants.indiatimes.com/" target="_blank"><img src="images/femina.jpg" alt="FEMINA MISS INDIA" /></a></div>
+
      
   </div>
 
    <div class="row">
+     <div class="col-xs-12 col-sm-4"><h3>MISS INDIA ORGANISATION</h3><a href="http://beautypageants.indiatimes.com/" target="_blank"><img src="images/femina.jpg" alt="FEMINA MISS INDIA" /></a></div>
    <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="http://www.knowafest.com/college-fests/events" target="_blank"><img src="images/knowAfest.png" alt="KNOW A FEST" /></a></div>
    
   <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="http://www.igniteengineers.com/" target="_blank"><img src="images/ignite.png" alt="IGNITE ENGINEERS" /></a></div>
 
- <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="http://beingstudent.com/" target="_blank"><img src="images/beingStudent.png" alt="BEING STUDENT" /></a></div>
 
  
   </div>
 
-     <div class="row"><div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="https://www.brainbuxa.com/" target="_blank"><img src="images/brainBuxa.png" alt="BRAIN BUXA" /></a></div>
+     <div class="row">
+
+ <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="http://beingstudent.com/" target="_blank"><img src="images/beingStudent.png" alt="BEING STUDENT" /></a></div>
+
+     <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="https://www.brainbuxa.com/" target="_blank"><img src="images/brainBuxa.png" alt="BRAIN BUXA" /></a></div>
+
+
+
+ <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="https://www.facebook.com/hyddanceadda/" target="_blank"><img class="img-responsive img-thumbnail" src="images/hyd_dance_adda.jpg" alt="HYD DANCE ADDA" /><br><br></a></div>
+
+
+
+</div>
+     <div class="row">
+
+      <div class="col-xs-12 col-sm-4"><h3>ONLINE MEDIA PARTNER</h3><a href="https://www.facebook.com/dubsmashyderabad/" target="_blank"><img src="images/dub_smash.png" class="img-responsive img-thumbnail"  alt="DUB SMASH HYD" /></a></div> 
+
 
  <div class="col-xs-12 col-sm-4"><h3>ONLINE SHOPPING PARTNER</h3><a href="http://www.shopclues.com/" target="_blank"><img src="images/shopclues.jpg" alt="SHOPCLUES" /></a></div>
 
- <div class="col-xs-12 col-sm-4"></div>
+
+  <div class="col-xs-12 col-sm-4"><h3>DRAMA EVENT PARTNER</h3><a href="https://www.facebook.com/VidurActingInstituteOfficialPage/" target="_blank"><img src="images/vidur.png" class="img-responsive img-thumbnail"  alt="VIDUR ACTING INSTITUTE" /></a></div> 
   </div>
+
+  <div class="row">
+        <div class="col-xs-12 col-sm-4"><h3>ART EXHIBITION SPONSOR</h3><a href="http://nrityadance.com/" target="_blank"><img class="img-responsive img-thumbnail" src="images/nrithya.png" alt="NRITYA DANCE FORUM" /><br><br></a></div> </div>
   
 
   
@@ -307,123 +326,10 @@ h3{
    
 </div>
 
-
-<div class="footer">
-<div class="container"  style="float: left;">
-    <div>
-  
-    <div class="bottomLinkDiv">
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text1">
-                           <a href="../literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv">
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text2">
-                           <a href="../events/#emblazon" class="linkBT"><span class="spot"></span>EMBLAZON</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv" >
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text3">
-                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv" >
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text4">
-                           <a href="../hospitality"  class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-
-    <div class="bottomLinkDiv">
-  <div class="svg-wrapper1" >
-  <svg height="40" width="150">
-  <rect id="shape1" height="40" width="150" />
-  <div id="text5">
-    <a href="../workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOPS</a>
-  </div>
-  </svg>
-  </div>
-    </div>
-
-
-
-
-
-  <div class="bottomLinkDiv">
-  <div class="svg-wrapper1" >
-  <svg height="40" width="150">
-  <rect id="shape1" height="40" width="150" />
-  <div id="text6">
-    <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
-  </div>
-  </svg>
-  </div>
-    </div>
-
-        <?php
-                        session_start();
-                             if(!isset($_SESSION["id"]))
-                             echo "
-<div class=\"bottomLinkDiv\">
-  <div class=\"svg-wrapper1\"  style=\"background-color:white;\">
-  <svg height=\"40\" width=\"150\">
-  <rect id=\"shape1\" height=\"40\" width=\"150\" />
-  <div id=\"text7\">
-    <a href=\"https://id.nvision.org.in/signin?url=http://elan.org.in/token.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>REGISTER</a>
-  </div>
-  </svg>
-  </div>
-    </div>";
-                        ?>
-
-
-    </div>
-</div>
-<main>
-  <ul id='services'>
-    <li>
-  <a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" target="_blank" style="text-decoration: none;">
-       <div class='fa fa-facebook'></div>
-  </a>
-    </li>
-    <li>
-  <a href="https://twitter.com/ELAN_IITH" target="_blank" style="text-decoration: none;">
-      <div class='fa fa-twitter'></div>
-  </a>
-    </li>
-    <li>
-  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" style="text-decoration: none;">
-      <div class='fa fa-youtube'></div>
-  </a>
-    </li>
-    <li>
-  <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
-      <div class='fa fa-instagram'></div>
-  </a>
-    </li>
-  </ul>
-</main>
-</div>
-
+<?php 
+      $sponsorPage = 1;
+      include '../footer.php';
+?>
 </body>
 
 <script src="../js/index.js"></script>

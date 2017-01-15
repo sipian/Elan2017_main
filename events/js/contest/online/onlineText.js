@@ -15,12 +15,11 @@ function getOnlineContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -38,7 +37,7 @@ function getOnlineContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/online/emblazon.jpg">
+                <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:6.5%;" src="images/online/emblazon.jpg">
                 <h4 style="font-size:20px;margin-left:22%">Powered by Nikon</h4>
                 <img  class="img-thumbnail img-responsive" alt="event"  style="width:25%;height:150px;margin-left:20%;" src="images/online/Nikon_Logo.png">
   </div>
@@ -212,12 +211,11 @@ function getOnlineContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -235,7 +233,7 @@ function getOnlineContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-                <img  class="img-thumbnail img-responsive" alt="event"  style="width:70%;height:300px;margin-left:-2%;" src="images/online/funzoo_cover.jpg">
+                <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:-2%;" src="images/online/funzoo_cover.jpg">
                 <h4 style="font-size:20px;margin-left:18%">Powered by Fanzoo Sports</h4>
                 <img  class="img-thumbnail img-responsive" alt="event"  style="width:30%;height:100px;margin-left:18%;" src="images/online/logo_10_12_2016_17_57.png">
   </div>

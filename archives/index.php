@@ -66,26 +66,41 @@ if ($detect->isMobile()) {
                 height: auto;
                 font-size: 16px;
             }
-                     b {
-    color: #F06D06;
-    font: 200 30px/1em chelsea;
-    }
-            
-</style>
-<?php
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+body::-moz-scrollbar  {
+    width: 0.6em;
+}
+
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px white;
+}
+body::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px white;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: brown;
+  outline: 1px solid black;
+}
+body::-moz-scrollbar-thumb{
+  background-color: green;
+  outline: 1px solid black;
+}
+
+    <?php
                         session_start();
                              if(isset($_SESSION["id"]))
-                             echo "
-                                <style>
-                                        .right{
+                             echo ".right{
                                         margin-right: 9.5%;
                                         margin-top: 1.15%;
                                         }
                                         @media screen and (max-width: 1000px) {
+                                        }";
+                        ?> 
+</style>
 
-                                        }
-                                </style>";
-                        ?>
 
 </head>
 <body style="background-image: url('archives images/bg_archive.png');  
@@ -94,62 +109,11 @@ if ($detect->isMobile()) {
         background-attachment: fixed;
         background-size: cover;
         overflow-x: hidden;
+        overflow-y: hidden;
         ">
 <?php include '../analyticstracking.php'; ?>
+<?php include '../header.php'; ?>
 
-          <!-- Preloader with Bootstrap Progress Bar -->
-
-
-
-<div class='loader'>
-   <div class='loader-container'>  
-   <img src="../images/loading.png" id="loadImg" style='width:100%;' border="0" alt="Null">
-    <div class='progress progress-striped active'>
-      <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
-    </div>
-  </div>
-</div>
-
-    <div id="nav-outter"  style="z-index: 2;">
-        <nav id="topNavBar">
-        <div  style="position:fixed;left:4px;top:-5px;" class="qwerDIV">
-               <img src="../images/cyient.png" class="qwer" style="float: left;width: 150px;height:55px;" usemap="#cyient">
-               <map name="cyient">
-                  <area shape="rect" coords="0,0,150,55" href="http://www.cyient.com/" alt="CYIENT" target="_blank" style="outline: none;">
-               </map>
-        </div>
-        <div class="left">
-                        <a class="scroll" href="../about">About</a>
-                        <a class="scroll" href="../events">Events</a>
-                        
-        </div>
-        
-        <div class="center1">
-        <a href="../">
-            <img src="../images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo">
-        </a>
-        </div>
-        
-        <div class="right">
-                        <a class="scroll" href="../team">Team</a>
-                        <a class="scroll" href="../sponsors">Sponsors</a>
-                        <?php
-                        session_start();
-                             if(isset($_SESSION["id"]))
-                             echo "
-                                <div class=\"dropdown\">
-                                    <a class=\"dropbtn\" href=\"#\"><span class=\"glyphicon glyphicon-user\"></span></a>
-                                    <div class=\"dropdown-content\">
-                                        <a class=\"scroll\" href=\"../dashboard.php\">Dashboard</a>
-                                        <a class=\"scroll\" href=\"../signout.php\">Sign Out</a>
-                                    </div>
-                                </div>";
-                        ?>
-        </div>
-
-        </nav>
-    </div>
-    
 <div id="check" style="margin-top: 4%;">&nbsp;</div>
 <div id="canvas" >
 <div class="magazine-viewport" style="z-index: 1;">
@@ -203,125 +167,7 @@ if ($detect->isMobile()) {
 </div>
 
 <br><br><br><br>
-
-
-
-<div class="footer">
-<div class="container"  style="float: left;">
-    <div class="row" >
-  
-    <div class="bottomLinkDiv">
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text1">
-                           <a href="../literanza" class="linkBT"><span class="spot"></span>LITERANZA</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv">
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text2">
-                           <a href="../events/#emblazon" class="linkBT"><span class="spot"></span>EMBLAZON</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv" >
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text3">
-                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-               <div class="bottomLinkDiv" >
-                  <div class="svg-wrapper1" >
-                     <svg height="40" width="150">
-                        <rect id="shape1" height="40" width="150" />
-                        <div id="text4">
-                           <a href="../hospitality"  class="linkBT"><span class="spot"></span>HOSPITALITY</a>
-                        </div>
-                     </svg>
-                  </div>
-               </div>
-
-    <div class="bottomLinkDiv">
-  <div class="svg-wrapper1" >
-  <svg height="40" width="150">
-  <rect id="shape1" height="40" width="150" />
-  <div id="text5">
-    <a href="../workshops" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;WORKSHOPS</a>
-  </div>
-  </svg>
-  </div>
-    </div>
-
-
-
-
-
-  <div class="bottomLinkDiv">
-  <div class="svg-wrapper1" >
-  <svg height="40" width="150">
-  <rect id="shape1" height="40" width="150" />
-  <div id="text6">
-    <a href="http://blog.elan.org.in" target="_blank" class="linkBT"><span class="spot"></span>BLOG</a>
-  </div>
-  </svg>
-  </div>
-    </div>
-
-        <?php
-                        session_start();
-                             if(!isset($_SESSION["id"]))
-                             echo "
-<div class=\"bottomLinkDiv\">
-  <div class=\"svg-wrapper1\"  style=\"background-color:white;\">
-  <svg height=\"40\" width=\"150\">
-  <rect id=\"shape1\" height=\"40\" width=\"150\" />
-  <div id=\"text7\">
-    <a href=\"https://id.nvision.org.in/signin?url=http://elan.org.in/token.php\" class=\"linkBT\" style=\"color:black;\"><span class=\"spot\"></span>REGISTER</a>
-  </div>
-  </svg>
-  </div>
-    </div>";
-                        ?>
-
-
-    </div>
-</div>
-<main>
-  <ul id='services'>
-    <li>
-  <a href="https://www.facebook.com/elan.iithyderabad/?fref=ts" target="_blank" style="text-decoration: none;">
-       <div class='fa fa-facebook'></div>
-  </a>
-    </li>
-    <li>
-  <a href="https://twitter.com/ELAN_IITH" target="_blank" style="text-decoration: none;">
-      <div class='fa fa-twitter'></div>
-  </a>
-    </li>
-    <li>
-  <a href="https://www.youtube.com/user/ElanIITHyderabad" target="_blank" style="text-decoration: none;">
-      <div class='fa fa-youtube'></div>
-  </a>
-    </li>
-    <li>
-  <a href="https://www.instagram.com/elan_iith/" target="_blank" style="text-decoration: none;">
-      <div class='fa fa-instagram'></div>
-  </a>
-    </li>
-  </ul>
-</main>
-</div>
-
+<?php $sponsorPage = 0; include '../footer.php'; ?>
 
  </body>
 

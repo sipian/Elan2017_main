@@ -8,15 +8,15 @@ function getBiggiesContent(argument) {
       background-image: url('images/event_details.png');  
       background-repeat:  no-repeat;
       background-attachment: scroll;
-      background-size: cover;
+      background-size: contain;
+
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+      max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -91,12 +91,6 @@ function getBiggiesContent(argument) {
                                    Prizes worth Rs 45000
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   A chance to record their music in <strong>Soundkraft Recording Studio
-                                   <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    </strong>(Hyderabad)
-                                   <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    A chance to perform at any <strong>Hard Rock Cafe</strong> across india for one
                                    <br>
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time
@@ -143,7 +137,7 @@ function getBiggiesContent(argument) {
 
 
 
-                    <li>Deadline to upload videos is <strong>13th January 2017 , 11:59PM</strong>
+                    <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM (extended)</strong>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -342,12 +336,11 @@ function getBiggiesContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:scroll;
         overflow-x:hidden;
         ">
@@ -426,11 +419,6 @@ src="images/biggies/manthan_small.jpg">
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 35000
                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   A chance to record their music video in <strong>Soundkraft Recording Studio</strong>
-                                   <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                   (Hyderabad)
 
                 </div>
                 <div>
@@ -465,7 +453,7 @@ src="images/biggies/manthan_small.jpg">
                     <li style="list-style-type: none;"><br></li>
 
 
-                    <li>Deadline to upload videos is <strong>13th January 2017 , 11:59PM</strong>
+                    <li>Deadline to upload videos is <strong>15th January 2017 , 11:59PM (extended)</strong>
                         <br>
                     </li>
                     <li style="list-style-type: none;"><br></li>
@@ -671,12 +659,11 @@ src="images/biggies/manthan_small.jpg">
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">

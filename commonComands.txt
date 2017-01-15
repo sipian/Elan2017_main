@@ -18,6 +18,7 @@ drop table nailart;
 drop table mehendi;
 drop table claymodelling;
 drop table artexhibition;
+drop table walk_the_ramp;
 drop table djwars;
 drop table rjhunt;
 drop table lendmeurvoice;
@@ -62,7 +63,14 @@ create table elanejung(
     email varchar(100) NOT NULL
 );
 
+
 create table manthan(
+    ID varchar(100) PRIMARY KEY,
+    elanId varchar(10),
+    email varchar(100) NOT NULL
+);
+
+create table walk_the_ramp(
     ID varchar(100) PRIMARY KEY,
     elanId varchar(10),
     email varchar(100) NOT NULL

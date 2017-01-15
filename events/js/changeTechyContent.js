@@ -1009,7 +1009,32 @@ function changeTechyContent() {
 
                     <!-- New Events Update -->
                     
-                   
+                   <td class="col-lg-4 " style="padding-left: 0%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                            <div class="flip-container hvr-float-shadow" ontouchstart="this.classList.toggle('hover');" style="margin-left: 40px;">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img class="img-responsive" alt="REALITY HACK" src="images/techy/hackathon.jpg" style="width: 250px;height: 300px;">
+                                    </div>
+                                    <div class="back">
+                                        <div id="text">
+                                            <br>
+                                            <h3 class="short_description">
+                                     <!-- ENter some Text Here -->
+                                     ELAN & Nvision Brings You A Hackathon On Augmented Reality & Virtual Reality.
+                                     <br>
+                                    </h3>
+                                    <br>
+                                             <!-- Button -->
+                                          <a href="https://nvision.org.in/hackathon/" target="_blank"> <button type="button" class="btn btn-info" style="margin-top:-5px;">
+                                                More Details
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
 
                     <!-- New Events Updates End1 -->
                    
@@ -1039,6 +1064,20 @@ function changeTechyContent() {
                                 </span>
                                 <br>
                                 <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Automobile&nbsp;Quiz</span>
+                                <br>
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">
+                                </span>
+                        </div>
+                    </td>
+
+                    <td class="col-lg-4" style="padding-left:4%;">
+                        <div class="animated bounceInUp col-sm-8 text-center techyDiv">
+                                <span style="margin-left: 0px;">
+                                        <img src="images/borderImg1.png" class="borderImg" style="margin-bottom: -5px;">
+                                </span>
+                                <br>
+                                <span class="contestName" style="margin-left: 8px; margin-right: -60px;">Reality&nbsp;Hack</span>
                                 <br>
                                 <span style="margin-left: 0px;">
                                         <img src="images/borderImg2.png" class="borderImg" style="margin-bottom: -3px; ">

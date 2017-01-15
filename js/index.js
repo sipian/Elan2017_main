@@ -4,5 +4,7 @@ var progress = setInterval(function() {
 }, 800);
 $(window).load(function() {
     $("#bar").width(600), $(".loader").fadeOut(1500);
-
+    console.log(window.location.href);
+    if (window.location.href.search("events")==-1)
+        $("body").css("overflow-y","auto");
 });

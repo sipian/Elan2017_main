@@ -54,58 +54,69 @@
         </script>
     </head>
 
-    <body>
-        <?php include 'analyticstracking.php'; ?>
+<body>
+<?php include 'analyticstracking.php'; ?>
+<?php include 'updates.php'; ?>
+
             <!-- banner -->
-            <div class="banner-1 wthree-1">
-                <div class="container">
-                    <div class="banner_top">
-                        <div class="logo">
-                            <h1><a href="index.php"><img src="images/logo5.png"></a></h1>
-                        </div>
-                        <div class="banner_top_right">
-                            <nav class="navbar navbar-default">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav cl-effect-14">
-                                        <li><a href="index.php">Home</a></li>
-                                        <li><a href="events.php" class="active">Events</a></li>
-                                        <li><a href="sponsors.php">Sponsors</a></li>
-                                        <li>
-                                            <?php 
-                      if(isset($_SESSION["id"]))
-                            echo "<a href=\"dashboard.php\">Dashboard</a>";
-                      else
-                            echo "<a href=\"https://id.nvision.org.in/signin?url=http://mobile.elan.org.in/token.php\">Register</a>";
-                       ?>
-                                        </li>
-                                        <li><a href="hospitality.php">Hospitality</a></li>
-                                        <li><a href="workshops.php">Workshops</a></li>
-                                        <li><a href="http://blog.elan.org.in/">Blog</a></li>
-                                        <li><a href="team.php">Team</a></li>
-                                        <li><a href="literanza">Literanza</a></li>
-                                        <?php 
-                    if(isset($_SESSION["id"]))
-                          echo "<li><a href=\"signout.php\">Sign Out</a></li>";
-                     ?>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </nav>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                </div>
-            </div>
+  <div class="banner-1 wthree-1">
+    <div class="container">
+      <div class="banner_top">
+        <div class="logo">
+          <h1><a href="index.php"><img src="images/logo5.png"><br><br></a></h1>
+        </div>
+                <div class="banner_top_left">
+        <a href="#">
+        <button style="background-color: green; position: relative; top:18px; "  data-toggle="modal" data-target="#myModal">
+          <h3 style="color: white;">UPDATES</h3>
+        </button>
+        
+        </a>
+        </div>
+        <div class="banner_top_right">
+          <nav class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" id="zig" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav cl-effect-14">
+            <li><a href="index.php">Home<br><br></a></li>
+            <li><a href="events.php" class="active">Events<br><br></a></li>
+            <li><a href="sponsors.php">Sponsors<br><br></a></li>
+          <li>
+          <?php 
+          if(isset($_SESSION["id"]))
+                echo "<a href=\"dashboard.php\">Dashboard<br><br></a>";
+          else
+                echo "<a href=\"https://id.nvision.org.in/signin?url=http://mobile.elan.org.in/token.php\">Register<br><br></a>";
+           ?>
+            </li>
+            <li><a href="hospitality.php">Hospitality<br><br></a></li>
+            <li><a href="workshops.php">Workshops<br><br></a></li>
+            <li><a href="proshows.php">Proshows<br><br></a></li>
+            <li><a href="team.php">Team<br><br></a></li>
+            <li><a href="http://blog.elan.org.in/">Blog<br><br></a></li>
+            <?php 
+          if(isset($_SESSION["id"]))
+                echo "<li><a href=\"signout.php\">Sign Out<br><br></a></li>";
+           ?>
+          </ul>
+        </div><!-- /.navbar-collapse -->  
+        
+      </nav>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </div>
             <!-- //banner -->
             <!-- gallery -->
             <div class="gallery agile-1">
@@ -147,9 +158,7 @@
                   <br>
                   <br>
                   <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Prizes worth Rs 45000 
-                  <br>
-                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to record their music in Soundkraft Recording Studio 
-                  (Hyderabad) 
+                  <br>                  (Hyderabad) 
                   <br>
                   <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to perform at any Hard Rock Cafe across india for one 
                   time 
@@ -164,10 +173,10 @@
                   <br>
                   Consists of two rounds.<br>
                   <strong>PRELIMS</strong><br>
-                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;In first Round of Screening participants have to upload their music performance on <a href='#'>SongDew.com</a><br>
+                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;In first Round of Screening participants have to upload their music performance on <a href='https://songdew.com/opportunities/elan_metalband_competion/275' 1>SongDew.com</a><br>
                   <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;To avail the offer of performing at any hard rock cafe across India the band also needs to download <a href='https://play.google.com/store/apps/details?id=com.hungama.artistaloud&hl=en'>ArtistAloud</a> app and upload their video
                   using code "ELAA06". This is <strong>MANDATORY</strong> for all the participants. <br>                                          
-                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Deadline to upload videos is <strong>13th January 2017 , 11:59PM</strong>
+                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Deadline to upload videos is <strong>15th January 2017 , 11:59PM (extended)</strong>
                   <br>
                   <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;No videos will be considered after the deadline</strong>
                   <br>
@@ -252,17 +261,14 @@
                   <br>
                   <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Prizes worth Rs 35000 
                   <br>
-                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to record their music video in Soundkraft Recording Studio 
-                  (Hyderabad) 
-                  <br>
                   <strong>No. of Band members allowed :</strong> Maximum 7
                   <br><br>
                   <strong>EVENT FORMAT</strong>
                   <br>
                   Consists of two rounds.<br>
                   <strong>PRELIMS</strong><br>
-                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;In first Round of Screening participants have to upload their music performance on <a href='#'>SongDew.com</a><br>
-                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Deadline to upload videos is <strong>13th January 2017 , 11:59PM</strong>
+                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;In first Round of Screening participants have to upload their music performance on <a href='https://songdew.com/opportunities/bandcompetition_iithyderabad_manthan/274'>SongDew.com</a><br>
+                  <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Deadline to upload videos is <strong>15th January 2017 , 11:59PM (extended)</strong>
                   <br>
                   <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;No videos will be considered after the deadline</strong>
                   <br>
@@ -1594,25 +1600,145 @@
           <a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>  
           </div>
           </li>
-          <!--          <li class="grid">
-            <a href="#image-24">
-              <figure class="effect-apollo">
-                <img src="images/infi/walktheramp.png" alt="image24">
-                <figcaption>
-                </figcaption>     
-              </figure>
-            </a>
-                        <h3>Walk The Ramp</h3>
-              <div class="lb-overlay" id="image-24">
-                  <img src="images/infi/walktheramp.png" alt="image4" />
-                  <div class="gal-info">              
-                    <h3>Walk The Ramp</h3>
-                    <p>Coming Soon....</p>
-                  </div>
-                  <a href="events.php" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-              </div>
-            </li> -->
+
           <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="infi_events">Infi</h1>
+
+                    <li class="grid">
+          <a href="#poker">
+          <figure class="effect-apollo">
+          <img src="images/infi/poker.jpg" alt="image17">
+          <figcaption>
+          </figcaption>     
+          </figure>
+          </a>
+          <h3>Poker Freeroll</h3>
+          <div class="lb-overlay" id="poker">
+          <img src="images/infi/poker.jpg" alt="image17" />
+          <div class="gal-info">              
+          <h3>Poker Freeroll</h3>
+          <p>
+          <strong >Powered By</strong>
+
+          <img src="images/infi/adda52_LightBg.jpg" alt="image18" />
+
+
+          <br>
+          <strong>EVENT FORMAT</strong>
+          <br>
+          One Online round & one Offline round
+
+          <strong>DATE & TIME</strong>
+          <br>
+          <strong>Online Tournament </strong><br>
+          15th January 2017 , 6:00 PM IST
+          <br>
+          <strong>Offline Tournament</strong><br>
+          22th January 2017 , 4:00 PM IST at IITH Kandi campus
+          <br>
+          <a href="https://www.adda52.com/elan_iithyderabad" target="_blank">
+           <button type="button" class="btn btn-primary btn-sm">GAME LINK</button>
+          </a>
+          <br>
+          <strong>STEPS TO FOLLOW</strong>
+          <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Register using the above link <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Once registered, a free ticket will be auto assigned to the user ID<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;On the day of the tournament, you need to login with the same user id and password<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;After logging in, you need to go to My Account and then to Account Summary and to Tourney Tickets<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;You need to claim the ticket from there
+          <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;After that they need to click on Play Poker, the game lobby will open up now<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;You need to click on Tourney and search the tournament in the name of IIT Hyderabad<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;You need to click on Join and click on Register now, click on the check box<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;You are all set to play the tournament now.
+          <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Everyone who registers at the above link will receive 250rs adda52 voucher at ELAN 
+          <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;For existing users, mail their mobile no and adda52 id to srujan@elan.org.in with subject ELAN online tournament registration.
+                <br>
+          
+                
+                          <strong>PRIZES</strong>
+          <br>
+
+
+
+
+          <strong>Online Tournament</strong><br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;1st : Adda52 original Chipset + T-shirt + Cap + 3000 Real Cash Bonus on Adda52 account<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;2nd : T-shirt + Card Decks (2) + Cap + 2500 Real Cash Bonus on Adda52 account<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;3rd : T-shirt + Card Decks (2) + 2000 Real Cash Bonus on Adda52 account<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;4th : T-shirt + 1500 Real Cash Bonus on Adda52 account<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;5th : Cap + 1000 Real Cash Bonus on Adda52 account
+          <br>
+
+          <strong>Offline Tournament</strong><br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;1st : 7000 Real Cash Bonus on Adda52 account + 3000 Amazon Vouchers + T-shirt+ Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;2nd: 5000 Real Cash Bonus on Adda52 account + 2000 Amazon Vouchers + T-shirt+ Card <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;3rd : 4500 Real Cash Bonus on Adda52 account + 1000 Amazon Vouchers + T-shirt+ Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;4th : 4000 Real Cash Bonus on Adda52 account + 1000 Amazon Vouchers + T-shirt+ Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;5th : 3500 Real Cash Bonus on Adda52 account + 1000 Amazon Vouchers + T-shirt+ Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;6th : 3000 Real Cash Bonus on Adda52 account + Cap + Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;7th : 2500 Real Cash Bonus on Adda52 account + Cap + Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;8th : 2000 Real Cash Bonus on Adda52 account + Cap + Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;9th : 1500 Real Cash Bonus on Adda52 account + Cap + Card Deck + Certificate<br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;10th : 1000 Real Cash Bonus on Adda52 account + Cap + Card Deck + Certificate<br>
+
+          </p>
+          </div>
+          <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+          </div>
+          </li>
+                    <li class="grid">
+          <a href="#walk_the_ramp">
+          <figure class="effect-apollo">
+          <img src="images/infi/walktheramp.png" alt="image4">
+          <figcaption>
+          </figcaption>     
+          </figure>
+          </a>
+          <h3>Walk the Ramp</h3>
+          <div class="lb-overlay" id="walk_the_ramp">
+          <img src="images/infi/walktheramp.png" alt="image4" />
+          <div class="gal-info">              
+          <h3>Walk the Ramp</h3>
+          <p style="">
+          <strong >Powered By</strong>
+          <br>
+          <img src="images/infi/reliance.png" alt="image18" />
+          <br><br>
+          You got the confidence to set the ramp on fire? 
+          Think you have the presence of mind to impress the judges? 
+          Then walk the plank, i mean, the ramp. 
+          A ramp walk, followed by a Q&A session with the judges.
+          Winners take home the titles of Mr and Ms Elan. 
+          <br>
+           <button type="button" class="btn btn-primary btn-sm walk_the_rampButton" style="text-align:center;margin-left: 35%;">
+                    <script type="text/javascript">
+                      $(".walk_the_rampButton").html((events.indexOf('walk_the_ramp')>-1)?"UNREGISTER":"REGISTER");
+                    </script>
+                  </button>
+          <br>
+          <strong>DETAILS</strong>
+          <br>
+          <strong>Date : </strong>20th , 21st and 22nd of January 2017
+          <br>
+          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+          <br>
+          <strong>Prize :</strong> Coming Soon
+          <br>
+          <strong>RULES</strong>
+          <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;On-spot registraton. (3 hours before the event) 
+          <br>
+          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Judges decision is final. 
+          <br>
+          <br>
+          </p>
+          </div>
+          <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+          </div>
+          </li>
           <li class="grid">
           <a href="#minutetowinit">
           <figure class="effect-apollo">
@@ -1961,47 +2087,6 @@
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
           </div>
           </li>
-          </li>
-          <li class="grid">
-          <a href="#walktheramp">
-          <figure class="effect-apollo">
-          <img src="images/infi/walktheramp.png" alt="image4">
-          <figcaption>
-          </figcaption>     
-          </figure>
-          </a>
-          <h3>Walk the Ramp</h3>
-          <div class="lb-overlay" id="walktheramp">
-          <img src="images/infi/walktheramp.png" alt="image4" />
-          <div class="gal-info">              
-          <h3>Walk the Ramp</h3>
-          <p style="">
-          You got the confidence to set the ramp on fire? 
-          Think you have the presence of mind to impress the judges? 
-          Then walk the plank, i mean, the ramp. 
-          A ramp walk, followed by a Q&A session with the judges.
-          Winners take home the titles of Mr and Ms Elan. 
-          <br>
-          <br>
-          <strong>DETAILS</strong>
-          <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
-          <strong>RULES</strong>
-          <br>
-          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;On-spot registraton. (3 hours before the event) 
-          <br>
-          <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Judges decision is final. 
-          <br>
-          <br>
-          </p>
-          </div>
-          <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-          </div>
           </li>
           <!-- Online Events -->
           <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="online_events">Online</h1>
@@ -2670,7 +2755,18 @@
             
           </li>
 
-
+  
+      <li class="grid">
+            <a href="https://nvision.org.in/hackathon/">
+              <figure class="effect-apollo">
+                <img src="images/techy/hackathon.jpg" alt="image4">
+                <figcaption>
+                </figcaption>     
+              </figure>
+            </a>
+                        <h3>Reality Hack</h3>
+            
+          </li>
    
 
  <!-- Sci-Tech Quiz -->

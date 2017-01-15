@@ -17,7 +17,7 @@ if(!isset($_SESSION["verified"])){
 }
 $sql = "INSERT INTO $_POST[contest] VALUES ('$_POST[id]', '$_POST[elanId]' , '$_POST[email]' )";
 if(mysqli_query($conn, $sql)){
-    
+
     $temp = explode(",",$_SESSION["events"]);
     array_push($temp,$_POST[contest]);
     $registered_events = implode(",",$temp);

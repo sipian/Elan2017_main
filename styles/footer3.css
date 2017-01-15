@@ -1,36 +1,202 @@
-main #services{float:right;text-align:center;transform:translatez(0);margin-top:0px;}
-main #services li{width:25px;height:25px;display:inline-block;margin:10px;margin-top:8.5px;list-style:none;}
-main #services li a div{width:25px;height:25px;color:#74d4b3;font-size:1.2em;text-align:center;line-height:28px;background-color:#fff;transition:all 0.5s ease;border-radius:5px;}
-main #services li div:hover{transform:rotate(360deg);border-radius:100px;}
-main #services li a .fa.fa-youtube:hover{background-color:white;color:red;}
-main #services li a .fa.fa-twitter:hover{background-color:white;color:#1DA1F2;}
-main #services li a .fa.fa-facebook:hover{background-color:#3B5998;color:white;}
-main #services li a .fa.fa-instagram:hover{background-image:url('../images/instagram.png');background-size:cover;color:black;}
-.footer{position:fixed;bottom:0px;height:37px;z-index:12;width:100%;color:white;background-color:#1a1a1a;}
-.bottomLink{color:white;text-decoration:none;}
-.bottomLinkDiv{float:left;}
-.spot{position:absolute;width:100%;height:100%;top:0;left:0;}
-.svg-wrapper1{margin-top:1px;z-index:1;cursor:pointer;position:relative;width:150px;height:40px;display:inline-block;border-radius:3px;margin-left:3px;margin-right:-20px;}
-#shape1{stroke-width:6px;fill:transparent;stroke:#C0C0C0;stroke-dasharray:85 400;stroke-dashoffset:-220;transition:1s all ease;}
-#text1{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:5px;}
-#text2{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:-5px;}
-#text3{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:2px;}
-#text4{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:2px;}
-#text5{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:2px;}
-#text6{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:2px;}
-#text7{margin-top:-35px;text-align:center;cursor:pointer;padding-top:-12px;padding-left:2px;}
-.linkBT{font-family:chelsea;color:white;text-decoration:none;font-weight:100;font-size:1.1em;}
-.linkBT:hover{text-decoration:none;color:white;opacity:0.5;}
-.linkBT:active{text-decoration:none;color:white;}
-.linkBT:visited{text-decoration:none;color:white;}
-#tri{font-family:chelsea;color:white;text-decoration:none;font-weight:100;font-size:1.1em;}
-#tri:hover{text-decoration:none;color:white;opacity:0.5;}
-#tri:active{text-decoration:none;color:white;}
-#tri:visited{text-decoration:none;color:white;}
-.svg-wrapper1:hover #shape1{stroke-dasharray:50 0;stroke-width:3px;stroke-dashoffset:0;stroke:#06D6A0;}
-@media screen and (max-width:1300px){.svg-wrapper1{margin-left:-30px;margin-right:-10px;}
-main #services{margin-top:-41px;}
+main #services {
+    float: right;
+    text-align: center;
+    transform: translatez(0);
+    margin-top: 0px;
 }
-@media screen and (max-width:1000px){.svg-wrapper1{margin-left:-40px;margin-right:-12px;}
-main #services{margin-top:-42px;}
+main #services li {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 8.5px;
+    list-style: none;
+}
+main #services li a div {
+    width: 25px;
+    height: 25px;
+    color: #74d4b3;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 28px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+main #services li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+}
+main #services li a .fa.fa-youtube:hover {
+    background-color: white;
+    color: red;
+}
+main #services li a .fa.fa-twitter:hover {
+    background-color: white;
+    color: #1DA1F2;
+}
+main #services li a .fa.fa-facebook:hover {
+    background-color: #3B5998;
+    color: white;
+}
+main #services li a .fa.fa-instagram:hover {
+    background-image: url('../images/instagram.png');
+    background-size: cover;
+    color: black;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 37px;
+    z-index: 12;
+    width: 100%;
+    color: white;
+    background-color: #1a1a1a;
+}
+.bottomLink {
+    color: white;
+    text-decoration: none;
+}
+.bottomLinkDiv {
+    float: left;
+}
+.spot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.svg-wrapper1 {
+    margin-top: 1px;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-right: -20px;
+}
+#shape1 {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #C0C0C0;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+}
+#text1 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: 5px;
+}
+#text2 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: -5px;
+}
+#text3 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: 2px;
+}
+#text4 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: 2px;
+}
+#text5 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: 2px;
+}
+#text6 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: 2px;
+}
+#text7 {
+    margin-top: -35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: -12px;
+    padding-left: 2px;
+}
+.linkBT {
+    font-family: chelsea;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+.linkBT:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+.linkBT:active {
+    text-decoration: none;
+    color: white;
+}
+.linkBT:visited {
+    text-decoration: none;
+    color: white;
+}
+#tri {
+    font-family: chelsea;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+#tri:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+#tri:active {
+    text-decoration: none;
+    color: white;
+}
+#tri:visited {
+    text-decoration: none;
+    color: white;
+}
+.svg-wrapper1:hover #shape1 {
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06D6A0;
+}
+@media screen and (max-width: 1300px) {
+    .svg-wrapper1 {
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    main #services {
+        margin-top: -41px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .svg-wrapper1 {
+        margin-left: -40px;
+        margin-right: -12px;
+    }
+    main #services {
+        margin-top: -42px;
+    }
 }

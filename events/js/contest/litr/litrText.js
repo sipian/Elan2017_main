@@ -12,12 +12,11 @@ function getLitrContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -117,12 +116,11 @@ function getLitrContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -234,12 +232,11 @@ function getLitrContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -368,12 +365,11 @@ function getLitrContent(argument) {
       background-size: contain;
     ">
     <br><br><br><br><br><br><br>
-    <br><br><br><br>
     <div class="container" style="
         width:1040px;
         padding-left:35px;
         text-align:left;
-        max-height: 1280px;
+        max-height: 1450px;
         overflow-y:auto;
         overflow-x:hidden;
         ">
@@ -391,7 +387,7 @@ function getLitrContent(argument) {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:300px;margin-left:6.5%;" src="images/litr/quizzes.jpg">
+<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:6.5%;" src="images/litr/quizzes.jpg">
   </div>
                 <div class="col-lg-3"></div>
             </div>
