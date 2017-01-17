@@ -30,6 +30,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel='stylesheet prefetch' href='http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css'>
         <link rel="stylesheet" href="css/loader.css">
+        <script src="countdown_v5.3/countdown.js" type="text/javascript"></script>
     </head>
 
     <body class="site de" style="height: 100%;width: 100%;">
@@ -58,13 +59,52 @@
                             <img src="images/logo6.png" style="float: left;margin-top: 23px; margin-left: -105px;width: 300px;height: 120px;" id="logo">
                         </a>
                     </div>
+                    <div style="
+                    position: fixed;
+                    top: 0.2em;
+                    right: 1em;
+                    letter-spacing: 1px;
+                    height: 1px;
+                                        ">
+                                        <script type="application/javascript">
+
+function countdownComplete(){
+    alert("Finally the wait is over. ELAN 2017 has begun.");
+}
+
+var t1 = new Date("January 20, 2017 10:00:00");
+var t2 = new Date();
+var dif = t1.getTime() - t2.getTime();
+
+var Seconds_from_T1_to_T2 = dif / 1000;
+var Seconds_Between_Dates = Math.abs(Seconds_from_T1_to_T2);
+
+var myCountdown1 = new Countdown({
+                  time: Seconds_Between_Dates, // 86400 seconds = 1 day
+                  width:200, 
+                  height:40,  
+                  rangeHi:"day",
+                  style:"flip",
+
+                  onComplete  : countdownComplete, 
+                     labels : {
+                             font   : "Arial",
+                             color  : "#000000",
+                             offset : -1, // Number of pixels to push the labels down away from numbers. 
+                             weight : "normal"  // < - no comma on last item!
+                         }
+                  });
+
+</script>  
+                    </div>
+
             </div>
             </nav>
             </div>
-            <div id="element_to_pop_up_image" style="display: none;">
+          <!--   <div id="element_to_pop_up_image" style="display: none;">
                 <a class="b-close"><span class="glyphicon glyphicon-remove"  style="color:white;font-size: 30px;"></span></a>
             <img class="img-responsive" src="images/pronites.jpg"/>
-      </div>
+      </div> -->
       <div class="responsive" style="height: 90px;">&nbsp;</div>
       <div class="site__main-content scrollable" id="back">
 
@@ -75,6 +115,7 @@
       <ul>
       <br>      
       <li  style="list-style-type: none; text-align: left;"><h3>&nbsp;&nbsp;&nbsp;&nbsp;UPDATES</h3></li>
+      <li><a href="hospitality" target="_blank">Accomodation Details</a> Updated</li>
       </ul>
       </span>
       </div>

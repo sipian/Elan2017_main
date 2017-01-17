@@ -120,7 +120,7 @@ session_start();
 			<div class="col-md-6 history-left">	
 
           
-     <div style="text-align: center;font-weight: bold;font-family: monte;">
+     <div style="text-align: left;font-weight: bold;font-family: monte;">
      <div class="container">
        <div class="row">
          <div class="col-lg-2"></div>
@@ -143,10 +143,15 @@ Buses will be provided on the days of the festival. Specific bus details will be
 <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Accommodation would be provided only on first come first serve basis due to limited availability.
 <br>
 
-<span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;<a href="https://id.nvision.org.in/signin?url=/accommodation" target="_blank">Click here </a> to register for accommodation.
+
+<span class="glyphicon glyphicon-star"></span>&nbsp;
+<button class="btn btn-primary">
+<a href="https://id.nvision.org.in/signin?url=/accommodation" target="_blank" style="color: white">Click here</a> 
+</button> &nbsp;to register for accommodation.
+
 <br>
 
-<span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;You will get a confirmation mail from <a href="mailto:accommodation.iith@gmail.com">accommodation.iith@gmail.com</a> once your accommodation is confirmed. Kindly bring the e-copy/printout of the confirmation mail while coming to the fest. Accommodation will be provided solely on sharing basis.
+<span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;You will get a confirmation mail once your accommodation is confirmed. Kindly bring the e-copy/printout of the confirmation mail while coming to the fest. Accommodation will be provided solely on sharing basis.
 <br>
 
 <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;In case you don’t receive a confirmation mail regarding your accommodation due to unavailability, you can always make arrangements for your stay outside the IITH campus.

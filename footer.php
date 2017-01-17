@@ -5,13 +5,24 @@ $ans = '<div class="footer">
     <div ';
     if($sponsorPage == 0) $ans .= 'class="row"';
       $ans .= ' >
+          <div class="bottomLinkDiv">
+  <div class="svg-wrapper1"  data-toggle="modal" data-target="#myModal">
+  <svg height="40" width="150">
+  <rect id="shape1" height="40" width="150" />
+  <div id="text7">
+    <a href="#" class="linkBT" style="color:white;"><span class="spot"></span>UPDATES</a>
+  </div>
+  </svg>
+  </div>
+    </div>
+
                <div class="bottomLinkDiv">
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="../proshows" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;
-                           &nbsp;&nbsp;&nbsp;PROSHOWS</a>
+                           <a href="../proshows" class="linkBT"><span class="spot"></span>
+                           PROSHOWS</a>
                         </div>
                      </svg>
                   </div>
@@ -21,7 +32,7 @@ $ans = '<div class="footer">
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text3">
-                           <a href="../archives"  class="linkBT"><span class="spot"></span>&nbsp;&nbsp;&nbsp;ARCHIVES</a>
+                           <a href="../archives"  class="linkBT"><span class="spot"></span>ARCHIVES</a>
                         </div>
                      </svg>
                   </div>
@@ -56,12 +67,13 @@ $ans = '<div class="footer">
     </div>
     </svg>
     </div>
-    </div>';
+    </div>
 
+    ';
         if(!isset($_SESSION["id"]))
             $ans .= '
 <div class="bottomLinkDiv">
-  <div class="svg-wrapper1"  style="background-color:white;">
+  <div class="svg-wrapper1"  style="background-color:white;" >
   <svg height="40" width="150">
   <rect id="shape1" height="40" width="150" />
   <div id="text7">

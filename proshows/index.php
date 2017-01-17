@@ -110,11 +110,13 @@ body::-moz-scrollbar-thumb{
 <?php $sponsorPage = 0; include '../footer.php'; ?>
 </body>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <script type="text/javascript">
     $(document).ready(function () {
       $("#benny").click(function () {
         $("#benny").attr('class', 'btn btn-danger btn-block');
-        $("button").not("#benny").attr('class', 'btn btn-primary btn-block');
+        $(".col-lg-2 button").not("#benny").attr('class', 'btn btn-primary btn-block');
         
         $('.content').fadeOut("fast" ,function () {
             $('.content').html(`
@@ -132,7 +134,7 @@ body::-moz-scrollbar-thumb{
 
       $("#nikhil").click(function () {
         $("#nikhil").attr('class', 'btn btn-danger btn-block');
-        $("button").not("#nikhil").attr('class', 'btn btn-primary btn-block');
+        $(".col-lg-2 button").not("#nikhil").attr('class', 'btn btn-primary btn-block');
        
         $('.content').fadeOut("fast" ,function () {
             $('.content').html(`
@@ -149,7 +151,7 @@ body::-moz-scrollbar-thumb{
 
       $("#mind").click(function () {
         $("#mind").attr('class', 'btn btn-danger btn-block');
-        $("button").not("#mind").attr('class', 'btn btn-primary btn-block');
+        $(".col-lg-2 button").not("#mind").attr('class', 'btn btn-primary btn-block');
        
         $('.content').fadeOut("fast" ,function () {
             $('.content').html(`
@@ -167,7 +169,7 @@ The elite Swedish band MindShift is here at Cyient presents ELAN and ηvision, I
 
       $("#echo").click(function () {
         $("#echo").attr('class', 'btn btn-danger btn-block');
-        $("button").not("#echo").attr('class', 'btn btn-primary btn-block');
+        $(".col-lg-2 button").not("#echo").attr('class', 'btn btn-primary btn-block');
 
         $('.content').fadeOut("fast" ,function () {
             $('.content').html(`
@@ -186,7 +188,7 @@ Cyient presents ELAN & ηvision , IIT Hyderabad in association with Israel in In
 
       $("#flutes").click(function () {
         $("#flutes").attr('class', 'btn btn-danger btn-block');
-        $("button").not("#flutes").attr('class', 'btn btn-primary btn-block');
+        $(".col-lg-2 button").not("#flutes").attr('class', 'btn btn-primary btn-block');
 
         $('.content').fadeOut("fast" ,function () {
             $('.content').html(`

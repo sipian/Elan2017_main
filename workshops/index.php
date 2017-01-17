@@ -203,53 +203,8 @@ body::-moz-scrollbar-thumb{
             <!-- row starts here -->
 
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/andro_engine.html" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                
-                            </div>
-                        </div>
-                        <img src="images/android-app-workshop.jpg" class="img-fluid" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Andro Engine</h4>
-                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
-                    </div>
-                </div>
 
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/quadcopter.html" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                
-                            </div>
-                        </div>
-                        <img src="images/quadcopterSmall.jpg" class="img-fluid" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Quadcopter</h4>
-                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="Workshop_details/androApp.html" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                
-                            </div>
-                        </div>
-                        <img src="images/android-app-development.jpg" class="img-fluid" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Android App Development</h4>
-                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
-                    </div>
-                </div>
-
+            <div class="col-md-2 col-sm-6 portfolio-item"></div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="Workshop_details/autoMob.html" class="portfolio-link" >
@@ -297,6 +252,52 @@ body::-moz-scrollbar-thumb{
             </div>
 <!-- previous workshops row -->   
 <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="Workshop_details/andro_engine.html" class="portfolio-link" >
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                        </div>
+                        <img src="images/android-app-workshop.jpg" class="img-fluid" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Andro Engine</h4>
+                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="Workshop_details/quadcopter.html" class="portfolio-link" >
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                        </div>
+                        <img src="images/quadcopterSmall.jpg" class="img-fluid" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Quadcopter</h4>
+                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="Workshop_details/androApp.html" class="portfolio-link" >
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                        </div>
+                        <img src="images/android-app-development.jpg" class="img-fluid" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Android App Development</h4>
+                        <p class="text-muted">Workshop<br>14th and 15th Jan 2017</p>
+                    </div>
+                </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#" class="portfolio-link" >
                         <div class="portfolio-hover">

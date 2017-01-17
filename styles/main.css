@@ -96,7 +96,7 @@ body {
     left: 40%;
     width: 40%;
     height: 100%;
-    top: 5%
+    top: 5%;
 }
 .section__home .home__bg-container-center1 {
     position: absolute;
@@ -132,12 +132,12 @@ body {
     }
 }
 .home__bg-island-meyer {
-    z-index: 1;
+    z-index: 3;
     background-image: url(../images/about.png);
     background-size: 50% 50%;
     width: 258px;
     height: 264px;
-    top: calc(50% - 105px - 65px);
+    top: calc(55% - 105px - 65px);
     position: relative;
     margin: 0 auto;
     background-position: top center;
@@ -149,7 +149,7 @@ body {
     -o-transition: all 1s
 }
 .home__bg-island-meyer:hover {
-    background-size: 85% 85%
+    background-size: 85% 85%;
 }
 .section__home .home__bg-island-miller {
     z-index: 1;
@@ -239,8 +239,7 @@ body {
    position: fixed; 
    top: 25%;
    vertical-align: center;
-/*   margin-top: 2em;
-*/}
+    z-index: 1;}
 
 .text { 
    position: absolute; 

@@ -74,15 +74,13 @@ function getLitrContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
-                <br>
                 <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                    Prize :&nbsp;Coming&nbsp;Soon
-                    </div>
-                </div>
-            </div>
-            <br>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <br> Prizes :&nbsp;worth Rs 30000
+          </div>
+        </div>
+        <br>
                 <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
@@ -179,15 +177,13 @@ function getLitrContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                    Prize :&nbsp;Coming&nbsp;Soon
-                    </div>
-                </div>
-            </div>
-            <br>
+            <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <br> Prizes :&nbsp;worth Rs 30000
+          </div>
+        </div>
+        <br>
                 <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
@@ -212,138 +208,6 @@ function getLitrContent(argument) {
                 <br>
                 </div>
                 </div>
-                <br><br>
-            </div>
-        </div>
-    </div>
-  </div>\``;
-    return ret;
-    }
-
-  if(argument=='wheel_of_fortune'){
-    let ret = `\`
-        <p><br></p>
-    <div class='contest' 
-      style="padding-bottom: 150px;
-      padding-left:20px;
-      background-image: url('images/event_details.png');  
-      background-repeat:  no-repeat;
-      background-attachment: scroll;
-      background-size: contain;
-    ">
-    <br><br><br><br><br><br><br>
-    <div class="container" style="
-        width:1040px;
-        padding-left:35px;
-        text-align:left;
-        max-height: 1450px;
-        overflow-y:auto;
-        overflow-x:hidden;
-        ">
-        <div class="heading">
-            <div class="col-lg-1" id="backLitr">
-<img  class="img-circle img-responsive" style="width:40px;height:40px;position:fixed;cursor:pointer;" src="http://img.freepik.com/free-icon/back-button_318-108687.jpg?size=338&ext=jpg">
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-5">
-                <h3><strong style="font-weight: 900;margin-left:-20px;">WHEEL&nbsp;OF&nbsp;FORTUNE</strong> </h3>
-            </div>
-            <br><br><br>
-        </div>
-        <div class="photo">
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-9">
-<img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/litr/wheel_of_fortune.jpg">
-  </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-5">&nbsp;</div>
-            <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg wheel_of_fortuneButton" style="align:center;">`;
-            ret += (events.indexOf('wheel_of_fortune')>-1)?"DEREGISTER":"REGISTER";
-            ret +=`
-            </button></div>
-        </div>
-        <br>
-        <div class="text"  style="font-size:23.5px;">
-            <div class="row title">
-            </div>
-  
- 
-            <div class="row about">
-                <h3 style="text-align: center;">ABOUT</h3>
-                <div>
-                <br>
-                Like to quiz? Here’s a chance to put those grey cells to work.
-                <br>
-                But don’t forget to get your lucky charms because the stakes are high!
-                <br>
-                May the odds always be in your favour… 
-                <br>
-                </div>
-            </div>
-            <br>
-                        <div class="row details">
-                <h3 style="text-align: center;">DETAILS</h3>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                    Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    <br>
-                    </div>
-                </div>
-                <br>
-            </div>
-            <br>
-                                    <div class="row rules">
-                <h3 style="text-align: center;">RULES</h3>
-                <br>
-                <ul style="list-style-type: disc;margin-left:15px;">
-                    <li>Participation in teams of 2.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-                    <li>Organiser’s decision final and binding to all.
-                         <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-                    <li>Online and Onspot registration with limited number of entries.
-                        <br>
-                    </li>
-                    <li style="list-style-type: none;"><br></li>
-                </ul>
-            </div>
-            <br>
-            <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
-                <div class="col-lg-5"></div>
-                <div class="row">
-                <div class="col-lg-3">
-                &nbsp;Vedhamoorthy
-                <br>
-                +91-8903900986
-                </div>
-                </div>
-                <br><br>
-            </div>
                 <br><br>
             </div>
         </div>
@@ -419,16 +283,13 @@ function getLitrContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                    Prize :&nbsp;Coming&nbsp;Soon
-                    <br>
-                    </div>
-                </div>
-                <br>
-            </div>
+            <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <br> Prizes :&nbsp;worth Rs 30000
+          </div>
+        </div>
+        <br>
 
             <div class="row about">
                 <h3 style="text-align: center;">GENERAL&nbsp;QUIZ</h3>
@@ -440,12 +301,22 @@ function getLitrContent(argument) {
                 </div>
             </div>
             
+            
             <div class="row rules">
-                <h3 style="text-align: center;">QUIZMASTER</h3>
-                <div class="col-lg-5"></div>
+                <h3 style="text-align: center;">ORGANIZERS</h3>
                 <div class="row">
-                <div class="col-lg-4">
-                Rajiv&nbsp;Sanyal
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                Abhinau&nbsp;Kumar
+                ee15btech11001@iith.ac.in<br>
+                +91-9445329736
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                Arjun D'Cunha<br>
+                 cs14btech11039@iith.ac.in<br>
+                +91-9397373839
+                <br>
                 </div>
                 </div>
             </div>
@@ -495,18 +366,25 @@ function getLitrContent(argument) {
                 </div>
             </div>
             
-            <div class="row rules">
+            <div class="row rules" style="text-align: center;">
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <br>
                 
                 <div class="row">
-                <div class="col-lg-3"></div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-3">
                 Rama&nbsp;Krishna
                 <br>
+                es14btech11015@iith.ac.in
+                <br>
+                +91-8897475035
                 </div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-3">
                 Aisha&nbsp;Dantuluri
+                ep14btech11001@iith.ac.in
+                <br>
+                +91-8897556276
                 </div>
                 </div>
                 <br><br>
@@ -526,8 +404,12 @@ function getLitrContent(argument) {
                 <h3 style="text-align: center;">ORGANIZERS</h3>
                 <div class="col-lg-5"></div>
                 <div class="row">
-                <div class="col-lg-4" style="margin-left:-15px;">
+                <div class="col-lg-3" style="text-align:center;margin-left:-38px;">
                 Tanya&nbsp;Marwah
+                <br>
+                ee13b1044@iith.ac.in
+                <br>
+                +91-9676822328
                 </div>
                 </div>
                 <br><br>

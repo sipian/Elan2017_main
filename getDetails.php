@@ -13,13 +13,18 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-if($_POST[contest] == 'user')
+$answer="";
+if($_POST[contest] == 'campus_princess')
+    $answer ="<tr class='danger'><td>CAMPUS PRINCESS REGISTRATIONS NOT DISPLAYED HERE</td></tr>";
+else 
+    {
+        if($_POST[contest] == 'user')
     $sql = "SELECT * from users";
 else
     $sql = "SELECT * from users where registered_events LIKE '%$_POST[contest]%'";
 
 $result = mysqli_query($conn, $sql);
-$answer="";
+
 if($_POST[contest] == 'user') $count=0;
 else  $count=1;
 if (mysqli_num_rows($result) > 0){    
@@ -30,5 +35,6 @@ $answer.=
     }
 }
 else $answer.="<tr class='danger'><td>NO REGISTERED PARTICIPANTS</td></tr>";
+}
 echo $answer;
  ?>

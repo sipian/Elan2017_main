@@ -2756,7 +2756,8 @@ let ret = `\`
     </div>
     <div class="photo">
       <div class="row">
-        <div class="col-lg-3"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2"><a href="#talk">Talk&nbsp;With&nbsp;The&nbsp;Artists</a></div>
         <div class="col-lg-9">
           <img  class="img-thumbnail img-responsive" alt="event"  style="width:50%;height:50%;margin-left:10%;" src="images/culti/artexhibition.jpg">
         </div>
@@ -2913,11 +2914,28 @@ let ret = `\`
           <li> Organizers are not responsible for any delay or damage caused to the entries
             <br>
           </li>
-          <li style="list-style-type: none;"><br></li>
+          <li style="list-style-type: none;"  id="talk"><br></li>
 
            <li>If the participation is less than 5 (for particular event),organisers have the right to reduce the prize money
           </li>
         </ul>
+      </div>
+            <div class="row about" id="talk">
+        <h3 style="text-align: center;">TALK WITH THE ARTISTS</h3>
+        <div>
+          <br>
+          Nritya Dance Forum has planned to take an initiative for spreading as well as gathering perceptions of
+various art lovers. We would host a discussion session regarding ‘Contemporizing art forms and its
+impacts’. We consider this as an important issue to discuss with elite iitians as Hyderabad is deprived of
+contemporary arts so we are privileged to gather 'Rajiv Velicheti, Department of Theatre Arts, University
+of Hyderabad', 'Swathi, M.F.A Jawaharlal Nehru Fine Arts College, Artist', and 'Vijay, M.F.A Jawaharlal
+Nehru Fine Arts College, Artist' in the panel to enlighten people how different art forms have
+contemporized and how artists have accepted and coped with challenges to produce exciting pieces. To
+engage in this interesting discussion and to exchange your thoughts with the panel or to clarify any
+doubts or to question their vision, do solicit your presence at IIT Hyderabad's Cultural and Technical Fest
+on January 22 , 2017.
+          <br>
+        </div>
       </div>
                                 <div class="row rules">
                 <h3 style="text-align: center;">ORGANIZERS</h3>

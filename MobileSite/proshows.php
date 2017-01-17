@@ -6,7 +6,7 @@ session_start();
 <html lang="en-IN">
   <head>
       <meta charset="utf-8">
-        <title>Sponsors | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
+        <title>Proshows | ELAN 2017 | Techno cultural fest of IIT Hyderabad</title>
 
       <meta name="description" content="IIT Hyderabad Techno Cultural Fest">
 
@@ -254,5 +254,4 @@ So here at Cyient presents ELAN & ηvision , IIT Hyderabad in association with A
       $("#benny").click();
       })
   </script>
-    <script src="../js/index.js"></script>
 </html>

@@ -32,12 +32,13 @@ if ($detect->isMobile()) {
       <meta property=og:image content="https://i.ytimg.com/vi/66HbC68mk2o/hqdefault.jpg"/>
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-		<script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 		<script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+ -->         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../navbar/navbar2.css">
         <link rel="stylesheet" href="../styles/footer3.css">
         <!-- pre loader link sheets -->
-<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
 
       <link rel="stylesheet" href="../css/loader.css">
 <!-- pre loader link sheets ends  -->
@@ -55,6 +56,10 @@ if ($detect->isMobile()) {
   	  			width:100%;
    				height:100%;
   			}
+
+        #hapom{
+          display:inline;
+        }
             .scroll , .scroll:hover , .scroll:visited , .scroll:focus , .scroll:active{
                 display: block;
                 width: auto;
@@ -176,8 +181,9 @@ body::-moz-scrollbar-thumb{
 <script type="text/javascript" src="./extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="./js/flip.js"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-    <script src="../js/index.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+ <script src="../js/index.js"></script>
  <link rel="stylesheet" href="../navbar/navbar.js">
  <script type="text/javascript">
 

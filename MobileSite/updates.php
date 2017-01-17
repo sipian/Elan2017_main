@@ -12,6 +12,9 @@ echo "<div id='myModal' class='modal fade' role='dialog'>
       <div class='modal-body'>
         <p>
         <ul style='list-style-type: none;'>
+        <li>
+        <a href='hospitality.php'>Accomodation Details</a> Updated
+      </li>
     </ul>
       </p>
       </div>

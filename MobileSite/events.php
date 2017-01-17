@@ -635,7 +635,7 @@
             </div>
           </li>
           <li class="grid">
-            <a href="#just-duet">
+            <a href="#just_duet">
               <figure class="effect-apollo">
                 <img src="images/culti/just-duet.jpg" alt="image8">
                 <figcaption>
@@ -643,7 +643,7 @@
               </figure>
             </a>
             <h3>Just Duet</h3>
-            <div class="lb-overlay" id="just-duet">
+            <div class="lb-overlay" id="just_duet">
               <img src="images/culti/just-duet.jpg" alt="image8" />
               <div class="gal-info">
                 <h3>Just Duet</h3>
@@ -1313,7 +1313,7 @@
             <h3>Art Exhibition</h3>
             <div class="lb-overlay" id="artexhibition">
               <img src="images/culti/artexhibition.jpg" alt="image8" />
-              <div class="gal-info">
+              <div class="gal-info" id="artexhibition2" >
                 <h3>Art Exhibition</h3>
                 <p>
                   Ever visited an art gallery? Ever checked out those portraits costing so much? Which one of
@@ -1340,7 +1340,7 @@
                   <br>
                   <strong>Prizes :</strong> worth Rs 24000
                   <br>
-                  <br><br>
+                  <br>
                   <strong>EVENT FORMAT</strong>
                   <br>
                   <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp; Registrations can be done online or on the spot.<br>
@@ -1368,6 +1368,21 @@
                   <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp; If the participation is less than 5 (for particular event),organisers have the right to reduce the prize money.
                   <br>
                   <br>
+                  <span id="talk">
+                  <strong >TALK WITH THE ARTISTS</strong>
+                  <br>
+                            Nritya Dance Forum has planned to take an initiative for spreading as well as gathering perceptions of
+various art lovers. We would host a discussion session regarding ‘Contemporizing art forms and its
+impacts’. We consider this as an important issue to discuss with elite iitians as Hyderabad is deprived of
+contemporary arts so we are privileged to gather 'Rajiv Velicheti, Department of Theatre Arts, University
+of Hyderabad', 'Swathi, M.F.A Jawaharlal Nehru Fine Arts College, Artist', and 'Vijay, M.F.A Jawaharlal
+Nehru Fine Arts College, Artist' in the panel to enlighten people how different art forms have
+contemporized and how artists have accepted and coped with challenges to produce exciting pieces. To
+engage in this interesting discussion and to exchange your thoughts with the panel or to clarify any
+doubts or to question their vision, do solicit your presence at IIT Hyderabad's Cultural and Technical Fest
+on January 22 , 2017.
+<br>
+</span>
                   <strong>ORGANIZERS</strong><br>
                   Julakanti Sai Harika
                   <br>
@@ -1725,8 +1740,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;On-spot registraton. (3 hours before the event) 
@@ -1763,9 +1776,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
-          <br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp; The events can be performed single or in a group depending on the event. 
@@ -1777,7 +1787,7 @@
           Organizer : Akhil Ashref (+91-9177285214) , Akshita Ramya (+91-9100084766)
           </p>
           </div>
-          <a href="events.php#culti_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a> 
+          <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a> 
           </div>
           </li>
           <!--                     <li class="grid">
@@ -1822,9 +1832,6 @@
           <strong>Date : </strong>20th , 21st and 22nd of January 2017
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
           <br>
           <strong>GAMES</strong>
           <br>
@@ -1872,9 +1879,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
-          <br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Teams should consist of 4 members. 
@@ -1899,7 +1903,7 @@
           </div>
           </li>
           <li class="grid">
-          <a href="#casinoRoyale">
+          <a href="#casino_royale">
           <figure class="effect-apollo">
           <img src="images/infi/casino.jpg" alt="image31">
           <figcaption>
@@ -1907,7 +1911,7 @@
           </figure>
           </a>
           <h3>Casino Royale</h3>
-          <div class="lb-overlay" id="casinoRoyale">
+          <div class="lb-overlay" id="casino_royale">
           <img src="images/infi/casino.jpg" alt="image4" />
           <div class="gal-info">              
           <h3>Casino Royale</h3>
@@ -1920,8 +1924,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br><br>
           Organizer: Vidhan Jain , Mayank Hooda (+91-965892682) <br>
           </p>
           </div>
@@ -1929,7 +1931,7 @@
           </div>
           </li>
           <li class="grid">
-          <a href="#snakeLader">
+          <a href="#snake">
           <figure class="effect-apollo">
           <img src="images/infi/snakelad.jpeg" alt="image63">
           <figcaption>
@@ -1937,7 +1939,7 @@
           </figure>
           </a>
           <h3>Human Snake and Ladders</h3>
-          <div class="lb-overlay" id="snakeLader">
+          <div class="lb-overlay" id="snake">
           <img src="images/infi/snakelad.jpeg" alt="image63" />
           <div class="gal-info">              
           <h3>Human Snake and Ladders</h3>
@@ -1950,14 +1952,12 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br><br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Onspot registration
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all.
-          <br><br>
+          <br>
           Organizer: Jeel Bhavsar (+91-9100283774)<br>
           </p>
           </div>
@@ -1984,8 +1984,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br><br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Individual participation. 
@@ -1993,7 +1991,7 @@
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Onspot registration with limited number of entries. 
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all. 
-          <br><br>
+          <br>
           Organizer: Deepak Nathani (+91-9177289949)<br>
           </p>
           </div>
@@ -2024,8 +2022,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;This is a group event-group of 4-5. 
@@ -2042,14 +2038,14 @@
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all. 
           <br><br>
-          Organizer:Deepika Gonela (+91-9963079992) , Tejas Anand <br>
+          Organizer:Deepika Gonela (+91-9963079992) , Tejas Anand (+91-9618535148 ) <br>
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
           </div>
           </li>
           <li class="grid">
-          <a href="#Conversation">
+          <a href="#convcoffee">
           <figure class="effect-apollo">
           <img src="images/infi/convcoffee.png" alt="image17">
           <figcaption>
@@ -2057,7 +2053,7 @@
           </figure>
           </a>
           <h3>Conversation Coffee</h3>
-          <div class="lb-overlay" id="Conversation">
+          <div class="lb-overlay" id="convcoffee">
           <img src="images/infi/convcoffee.png" alt="image17" />
           <div class="gal-info">              
           <h3>Conversation Coffee</h3>
@@ -2072,8 +2068,6 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Partners will be assigned by random chits. 
@@ -2087,6 +2081,46 @@
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
           </div>
           </li>
+                    <li class="grid">
+          <a href="#wheel_of_fortune">
+          <figure class="effect-apollo">
+          <img src="images/litr/wheel-of-fortune.jpg" alt="image38">
+          <figcaption>
+          </figcaption>     
+          </figure>
+          </a>
+          <h3>Wheel Of Fortune</h3>
+          <div class="lb-overlay" id="wheel_of_fortune">
+          <img src="images/litr/wheel-of-fortune.jpg" alt="image38" />
+          <div class="gal-info">              
+          <h3>Wheel Of Fortune</h3>
+          <p><br>
+          Like to quiz? Here’s a chance to put those grey cells to work. 
+          But don’t forget to get your lucky charms because the stakes are high! 
+          May the odds always be in your favour...
+          <br><br>
+          <strong>DETAILS</strong>
+          <br>
+          <strong>Date : </strong>20th , 21st and 22nd of January 2017
+          <br>
+          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+          <br>
+          <br>
+          <strong>RULES</strong>
+          <br>
+          ○ Participation in teams of 2. <br>
+          ○ Organiser’s decision final and binding to all.  <br>
+          ○ Online and Onspot registration with limited number of entries. <br>
+          <br>
+          Organizer - Vedhamoorthy (+91-8903900986)
+          </p>
+          <br><br><br><br><br>
+
+          </div>
+          <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
+          </div>
+          </li>
+
           </li>
           <!-- Online Events -->
           <h1 style="text-align: center;background-color: brown;font-size: 35px;padding-top: 2px;padding-bottom: 4px" id="online_events">Online</h1>
@@ -2271,18 +2305,18 @@
           <h3>Mr Detective</h3>
           <p><br>
           Put your deerstalkers on and get ready to solve the mystery<br>
+          <br>
           <strong>DETAILS</strong>
           <br>
           <strong>Date : </strong>20th , 21st and 22nd of January 2017
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
+          <strong>Prizes :</strong> worth Rs 30,000 
           <br>
-          Organizer - Sahil Yerawar(+91-9822977832)
+            Organizer - Sahil Yerawar (+91-9822977832)
           </p>
-          <br><br><br><br><br>
-          <br><br><br>
+          <br><br>
           <button type="button" class="btn btn-primary btn-sm mrdetectiveButton" style="text-align:center;margin-left: 5%;">
           <script type="text/javascript">
             $(".mrdetectiveButton").html((events.indexOf('mrdetective')>-1)?"UNREGISTER":"REGISTER");
@@ -2294,54 +2328,7 @@
           <a href="events.php#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
           </div>
           </li>
-          <li class="grid">
-          <a href="#wheel_of_fortune">
-          <figure class="effect-apollo">
-          <img src="images/litr/wheel-of-fortune.jpg" alt="image38">
-          <figcaption>
-          </figcaption>     
-          </figure>
-          </a>
-          <h3>Wheel Of Fortune</h3>
-          <div class="lb-overlay" id="wheel_of_fortune">
-          <img src="images/litr/wheel-of-fortune.jpg" alt="image38" />
-          <div class="gal-info">              
-          <h3>Wheel Of Fortune</h3>
-          <p><br>
-          Like to quiz? Here’s a chance to put those grey cells to work. 
-          But don’t forget to get your lucky charms because the stakes are high! 
-          May the odds always be in your favour...
-          <br>
-          <strong>DETAILS</strong>
-          <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
-          <strong>Prize :</strong> Coming Soon
-          <br>
-          <strong>RULES</strong>
-          <br>
-          ○ Participation in teams of 2. <br>
-          ○ Organiser’s decision final and binding to all.  <br>
-          ○ Online and Onspot registration with limited number of entries. <br>
-          <br>
-          Organizer - Vedhamoorthy(+91-8903900986)
-          </p>
-          <br><br><br><br><br>
-          <br><br><br>
-          <br><br><br><br><br>
-          <br><br><br>
-          <br><br>
-          <button type="button" class="btn btn-primary btn-sm wheel_of_fortuneButton" style="text-align:center;margin-left: 5%;">
-          <script type="text/javascript">
-            $(".wheel_of_fortuneButton").html((events.indexOf('wheel_of_fortune')>-1)?"UNREGISTER":"REGISTER");
-          </script>
-          </button> 
-          </div>
-          <a href="events.php#litr_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
-          </div>
-          </li>
+
           <li class="grid">
           <a href="#quizConclave">
           <figure class="effect-apollo">
@@ -2359,21 +2346,21 @@
           Like to quiz? Here’s a chance to put those grey cells to work. 
           But don’t forget to get your lucky charms because the stakes are high! 
           May the odds always be in your favour.
-          <br><br><br>
+          <br><br>
           <strong>DETAILS</strong>
           <br>
           <strong>Date : </strong>20th , 21st and 22nd of January 2017
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
+          <strong>Prizes :</strong> worth Rs 30,000 
           <br>
           <strong>GENERAL QUIZ</strong>
           <br>
           We know you haven’t been living under a rock, 
           so this quiz should be an easy one for you. Or should it? 
           <br>
-          Quizmaster - Rajiv Sanyal <br>
+          Organizer - Abhinau Kumar (+91-9445329736, ee15btech11001@iith.ac.in), Arjun D'Cunha (+91-9397373839, cs14btech11039@iith.ac.in)<br>
           <strong>SCI TECH QUIZ</strong>
           <br>
           Come on, this is an IIT. 
@@ -2386,14 +2373,14 @@
           Enter the world of pop culture. 
           This quiz spans exactly five domains - Music, Entertainment, Literature, Art, Sports.  
           <br>
-          Organizer - Rama Krishna , Aisha Dantuluri 
+          Organizer - Rama Krishna (+91-8897475035, es14btech11015@iith.ac.in) , Aisha Dantuluri (+91-8897556276, ep14btech11001@iith.ac.in)
           <br>
           <strong>HARRY POTTER  QUIZ</strong>
           <br>
           Calling all potterheads. Can’t get enough of the world of the boy who lived? 
           Well, we couldn’t either, so we made a quiz about it. 
           <br>
-          Organizer - Tanya Marwah 
+          Organizer - Tanya Marwah (+91-9676822328, ee13b1044@iith.ac.in)
           <br>
           <strong>TOLLYWOOD QUIZ</strong>
           <br>
@@ -2402,7 +2389,7 @@
           <br>
           Organizer - Prasad Thota , Bhanu Prakash (+91-9989532541) , Aishwarya GM (+91-9603088406) 
           </p>
-          <br><br>
+          <br><br><br><br>
           <button type="button" class="btn btn-primary btn-sm quizzesButton" style="text-align:center;margin-left: -10%;">
           <script type="text/javascript">
             $(".quizzesButton").html((events.indexOf('quizzes')>-1)?"UNREGISTER":"REGISTER");
@@ -2432,13 +2419,14 @@
           <br>
           <strong>Venue :</strong> IIT Hyderabad Permanent Campus
           <br>
-          <strong>Prize :</strong> Coming Soon
+          <strong>Prizes :</strong> worth Rs 30,000 
           <br>
+          <br><br>
           Participants are given topics on the spot and they have to speak on them. Err and you will be buzzed and relinquished of the mic
           <br><br>
-          Organizers - Shashank Varanasi(+91-8179303345 ) , Gitanjali M (+91-9705512183) 
+          Organizers - Shashank Varanasi (+91-8179303345 ) , Gitanjali M (+91-9705512183) 
           </p>
-          <br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br>
           <button type="button" class="btn btn-primary btn-sm jamButton" style="text-align:center;margin-left: 0%;">
           <script type="text/javascript">
             $(".jamButton").html((events.indexOf('jam')>-1)?"UNREGISTER":"REGISTER");
