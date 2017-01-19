@@ -26,7 +26,7 @@ else{
     $sql = "SELECT * FROM users_special WHERE (ID = '$_SESSION[id]' AND email = '$_SESSION[email]')";
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) != 1) {
-        header("Location: error.php?err=Access Denied");
+         header("HTTP/1.0 403 Access Denied");
         exit();
     }
     else $_SESSION["access"]="yes";

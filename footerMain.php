@@ -3,13 +3,24 @@
 $ans = '<div class="footer">
 <div class="container"  style="float: left;">
     <div class="row">
+
+     <div class="bottomLinkDiv">
+                  <div class="svg-wrapper1" >
+                     <svg height="40" width="150">
+                        <rect id="shape1" height="40" width="150" />
+                        <div id="text2">
+                           <a href="http://www.meraevents.com/event/elan-and-nvision-2017-camping-night" class="linkBT" target="_blank"><span class="spot"></span>CAMPING</a>
+                        </div>
+                     </svg>
+                  </div>
+               </div>
+
                <div class="bottomLinkDiv">
                   <div class="svg-wrapper1" >
                      <svg height="40" width="150">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
-                           <a href="proshows" class="linkBT"><span class="spot"></span>&nbsp;&nbsp;
-                           &nbsp;&nbsp;&nbsp;PROSHOWS</a>
+                           <a href="proshows" class="linkBT"><span class="spot"></span>PROSHOWS</a>
                         </div>
                      </svg>
                   </div>

@@ -5,12 +5,13 @@ $ans = '<div class="footer">
     <div ';
     if($sponsorPage == 0) $ans .= 'class="row"';
       $ans .= ' >
+
           <div class="bottomLinkDiv">
-  <div class="svg-wrapper1"  data-toggle="modal" data-target="#myModal">
+  <div class="svg-wrapper1"  data-toggle="modal" data-target="#myModal" style="background-color:grey;text-align:center;" >
   <svg height="40" width="150">
   <rect id="shape1" height="40" width="150" />
   <div id="text7">
-    <a href="#" class="linkBT" style="color:white;"><span class="spot"></span>UPDATES</a>
+    <a href="#" class="linkBT" style="color:white;text-align:center;"><span class="spot"></span>UPDATES</a>
   </div>
   </svg>
   </div>
@@ -22,7 +23,7 @@ $ans = '<div class="footer">
                         <rect id="shape1" height="40" width="150" />
                         <div id="text2">
                            <a href="../proshows" class="linkBT"><span class="spot"></span>
-                           PROSHOWS</a>
+                           &nbsp;&nbsp;&nbsp;PROSHOWS</a>
                         </div>
                      </svg>
                   </div>

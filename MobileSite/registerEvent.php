@@ -1,5 +1,4 @@
 <?php 
-
 session_start();
 require 'connect.php';
 // Create connection
@@ -12,28 +11,25 @@ if(!isset($_SESSION["id"])){
     header("Location: index.php?t=f");
     exit();
 }
-
 if(!isset($_SESSION["verified"])){
     header("Location: index.php?t=r");
     exit();
 }
-$sql = "INSERT INTO $_POST[contest] VALUES ('$_POST[id]', '$_POST[elanId]' , '$_POST[email]' )";
+$sql = "INSERT INTO $_POST[contest] (ID , elanId , email , name , mobile) VALUES
+('$_POST[id]', '$_POST[elanId]' , '$_POST[email]' , '$_SESSION[name]' , '$_SESSION[mobile]' )";
 if(mysqli_query($conn, $sql)){
-    
+
     $temp = explode(",",$_SESSION["events"]);
     array_push($temp,$_POST[contest]);
     $registered_events = implode(",",$temp);
     $_SESSION["events"]= $registered_events;
-
     $sql = "UPDATE users SET registered_events='$registered_events' WHERE ID='$_POST[id]';";
     if(mysqli_query($conn, $sql)){
         echo $registered_events;
-    }
+     }
     else 
         echo "failure";
 }
 else
     echo "failure";
-
-
  ?>

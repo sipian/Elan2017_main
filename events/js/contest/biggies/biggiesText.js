@@ -76,6 +76,7 @@ function getBiggiesContent(argument) {
                     <div class="col-lg-10">Date : 22nd January 2017</div>
                 </div>
                 <br>
+                
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>

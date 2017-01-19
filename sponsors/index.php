@@ -187,6 +187,13 @@
                 </a>
             </div>
         </div>
+                <div class="row">
+            <h3>ASSOCIATE SPONSOR</h3>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                <a href="http://www.telanganatourism.gov.in/" target="_blank"><img src="images/tourism.png" alt="TELANGANA TOURISM" style="width: 80%;" />
+                </a>
+            </div>
+        </div>
         <div class="row">
             <h3>POWERED BY</h3>
             <div class="col-xs-12 col-sm-4 col-sm-offset-4">
@@ -222,11 +229,12 @@
 
         <div class="row">
 
-            <div class="col-xs-12 col-sm-4">
-                <h3>CAB SPONSOR</h3>
-                <a href="https://www.olacabs.com/" target="_blank"><img src="images/ola.png" alt="OLA CAB" />
+             <div class="col-xs-12 col-sm-4">
+                <h3>MEDIA COVERAGE PARTNER</h3>
+                <a href="http://telanganatoday.news/" target="_blank"><img src="images/telanganatoday.jpg" alt="TELANGANA TODAY" />
                 </a>
             </div>
+
 
 
             <div class="col-xs-12 col-sm-4">
@@ -239,20 +247,43 @@
             </div>
 
             <div class="col-xs-12 col-sm-4">
-                <h3>FURNITURE SPONSOR</h3>
-                <a href="https://www.godrejinterio.com/Godrejinterio/index.aspx" target="_blank"><img src="images/INTERIO.jpg" alt="GODREJ INTERIO">
+                <h3>CAB SPONSOR</h3>
+                <a href="https://www.olacabs.com/" target="_blank"><img src="images/ola.jpg" alt="OLA CAB" />
                 </a>
             </div>
+
+          
         </div>
 
     </div>
     <div class="row">
+
+      
+
+            <div class="col-xs-12 col-sm-4">
+                <h3>MEDIA PARTNER</h3>
+                <a href="http://www.eenadu.net/" target="_blank"><img src="images/eenadu.png" alt="EENADU" />
+                </a>
+            </div>
+
+      <div class="col-xs-12 col-sm-4">
+                <h3>FURNITURE SPONSOR</h3>
+                <a href="https://www.godrejinterio.com/Godrejinterio/index.aspx" target="_blank"><img src="images/INTERIO.jpg" alt="GODREJ INTERIO">
+                </a>
+            </div>
+
         <div class="col-xs-12 col-sm-4">
             <h3>EDUCATION PARTNER</h3>
             <a href="http://aceenggacademy.com/" target="_blank"><img src="images/ACE.jpg" alt="ACE ENGINERRING ">
             </a>
         </div>
-        <div class="col-xs-12 col-sm-4">
+      
+
+
+    </div>
+    <div class="row">
+
+  <div class="col-xs-12 col-sm-4">
             <h3>ONLINE GAMING PARTNER</h3>
             <a href="https://www.adda52.com/" target="_blank"><img src="images/adda50.jpg" alt="ADDA 52">
             </a>
@@ -264,10 +295,6 @@
             </a>
         </div>
 
-    </div>
-    <div class="row">
-
-
         <div class="col-xs-12 col-sm-4">
 
             <h3>STUDY ABROAD PARTNER</h3>
@@ -277,11 +304,17 @@
             </a>
         </div>
 
+
+    </div>
+    <div class="row">
+
         <div class="col-xs-12 col-sm-4">
             <h3>DIGITAL TALENT SPONSOR</h3>
             <a href="https://artistaloud.wordpress.com/" target="_blank"><img src="images/ArtistAloud.jpg" alt="ARTIST ALOUD" />
             </a>
         </div>
+
+
 
         <div class="col-xs-12 col-sm-4">
             <h3>GIFTING PARTNER</h3>
@@ -289,15 +322,17 @@
             </a>
         </div>
 
-
-    </div>
-    <div class="row">
-
         <div class="col-xs-12 col-sm-4">
             <h3>ONLINE TICKETING PARTNER</h3>
             <a href="http://www.meraevents.com/" target="_blank"><img src="images/meraenevts.jpg" alt="MERA EVENTS">
             </a>
         </div>
+
+
+
+
+    </div>
+    <div class="row">
 
         <div class="col-xs-12 col-sm-4">
             <h3>WEB HOSTING SPONSOR</h3>
@@ -305,39 +340,37 @@
             </a>
         </div>
 
-        <div class="col-xs-12 col-sm-4">
+       
+
+
+ <div class="col-xs-12 col-sm-4">
             <h3>DARE PARTNER</h3>
             <a href="http://www.stichio.co.in/" target="_blank"><img src="images/Stichio_Full_Logo_Red.png" alt="STICHIO">
             </a>
         </div>
-
-
-
-
-    </div>
-    <div class="row">
-
-
         <div class="col-xs-12 col-sm-4">
             <h3>OFFICIAL SUPPLY CHAIN PARTNER</h3>
             <a href="http://www.safexpress.com/" target="_blank"><img src="images/safeexpress.jpg" alt="safexpress" />
             </a>
         </div>
 
+
+
+    </div>
+    <div class="row">
+
         <div class="col-xs-12 col-sm-4">
             <h3>YOUTH MAGAZINE PARTNER</h3>
             <a href="http://www.youthincmag.com/" target="_blank"><img src="images/Youth-Incorporated.jpg" alt="YOUTH INCORPORATED" />
             </a>
         </div>
-        <div class="col-xs-12 col-sm-4">
+     
+
+       <div class="col-xs-12 col-sm-4">
             <h3>PHOTOGRAPHY PARTNER</h3>
             <a href="https://www.facebook.com/felectrikk/" target="_blank"><img src="images/felectrikk.jpg" alt="F-ELECTRIKK" />
             </a>
         </div>
-
-
-    </div>
-    <div class="row">
 
         <div class="col-xs-12 col-sm-4">
             <h3>AFTERMOVIE PARTNER</h3>
@@ -345,43 +378,47 @@
             </a>
         </div>
 
-        <div class="col-xs-12 col-sm-4">
-            <h3>CULTURAL PARTNER</h3>
-            <a href="http://embassies.gov.il/delhi/Pages/default.aspx" target="_blank"><img src="images/israel.jpg" alt="EMBASSY OF ISRAEL" />
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <h3>CULTURAL PARTNER</h3>
-            <a href="https://hyderabad.afindia.org/" target="_blank"><img src="images/alliance-francaise.jpg" alt="ALLIANCE FRANCAISE" />
-            </a>
-        </div>
-
-
 
 
     </div>
     <div class="row">
 
+
+        <div class="col-xs-12 col-sm-4">
+            <h3>CULTURAL PARTNER</h3>
+            <a href="http://embassies.gov.il/delhi/Pages/default.aspx" target="_blank"><img src="images/israel.jpg" alt="EMBASSY OF ISRAEL" />
+            </a>
+        </div>
+      
+
+
+
+  <div class="col-xs-12 col-sm-4">
+            <h3>CULTURAL PARTNER</h3>
+            <a href="https://hyderabad.afindia.org/" target="_blank"><img src="images/alliance-francaise.jpg" alt="ALLIANCE FRANCAISE" />
+            </a>
+        </div>
         <div class="col-xs-12 col-sm-4">
             <h3>OUTREACH WORKSHOP PARTNER</h3>
             <a href="http://www.techtrontechnologies.com/" target="_blank"><img src="images/techtron.jpg" alt="TECHTRON TECHNOLOGIES">
             </a>
         </div>
 
+    </div>
+    <div class="row">
+
         <div class="col-xs-12 col-sm-4">
             <h3>OUTREACH WORKSHOP PARTNER</h3>
             <a href="http://entrench.in/" target="_blank"><img src="images/entrench.jpg" alt="ENTRENCH ELECTRONICS">
             </a>
         </div>
-        <div class="col-xs-12 col-sm-4">
+     
+
+   <div class="col-xs-12 col-sm-4">
             <h3>OUTREACH WORKSHOP PARTNER</h3>
             <a href="http://azureskynet.com/" target="_blank"><img src="images/azure.jpg" alt="AZURE SKYNET">
             </a>
         </div>
-
-    </div>
-    <div class="row">
-
 
         <div class="col-xs-12 col-sm-4">
             <h3>SMS SPONSOR</h3>
@@ -390,19 +427,8 @@
         </div>
 
 
-        <div class="col-xs-12 col-sm-4">
-            <h3>ONLINE QUIZZING SPONSOR</h3>
-            <a href="http://dare2compete.com/" target="_blank"><img src="images/dare2compete.png" alt="DARE 2 COMPETE">
-            </a>
-        </div>
 
-
-        <div class="col-xs-12 col-sm-4">
-            <h3>MEDIA PARTNER</h3>
-            <a href="http://www.etv.co.in/channels/home;jsessionid=C00A882DA45B91F0448E91465A26DEC4?channelId=2" target="_blank"><img src="images/ETV-Telangana Logo.jpg" alt="ETV TELANGANA">
-            </a>
-        </div>
-
+      
 
 
 
@@ -410,10 +436,30 @@
     <div class="row">
 
         <div class="col-xs-12 col-sm-4">
+            <h3>ONLINE QUIZZING SPONSOR</h3>
+            <a href="http://dare2compete.com/" target="_blank"><img src="images/dare2compete.png" alt="DARE 2 COMPETE">
+            </a>
+        </div>
+
+
+  <div class="col-xs-12 col-sm-4">
+            <h3>MEDIA PARTNER</h3>
+            <a href="http://www.etv.co.in/channels/home;jsessionid=C00A882DA45B91F0448E91465A26DEC4?channelId=2" target="_blank"><img src="images/ETV-Telangana Logo.jpg" alt="ETV TELANGANA">
+            </a>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
             <h3>MUSIC MEDIA PARTNER</h3>
             <a href="https://songdew.com/" target="_blank"><img src="images/songdew.png" alt="SONG DEW">
             </a>
         </div>
+
+      
+
+
+    </div>
+
+    <div class="row">
 
 
         <div class="col-xs-12 col-sm-4">
@@ -422,17 +468,12 @@
             </a>
         </div>
 
-        <div class="col-xs-12 col-sm-4">
+
+  <div class="col-xs-12 col-sm-4">
             <h3>ONLINE MUSIC PARTNER</h3>
             <a href="http://www.musicmalt.com/" target="_blank"><img src="images/music_malt.png" alt="MUSICMALT" style="width: 80%;" />
             </a>
         </div>
-
-
-
-    </div>
-
-    <div class="row">
 
 
         <div class="col-xs-12 col-sm-4">
@@ -442,24 +483,26 @@
         </div>
 
 
-        <div class="col-xs-12 col-sm-4">
-            <h3>SPONSORSHIP PARTNER</h3>
-            <a href="http://www.onspon.com/index.php" target="_blank"><img src="images/onspon.png" alt="ONSPON" />
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <h3>MISS INDIA ORGANISATION</h3>
-            <a href="http://beautypageants.indiatimes.com/" target="_blank"><img src="images/femina.jpg" alt="FEMINA MISS INDIA" />
-            </a>
-        </div>
-
-
-
-
+    
 
     </div>
 
     <div class="row">
+
+    <div class="col-xs-12 col-sm-4">
+            <h3>SPONSORSHIP PARTNER</h3>
+            <a href="http://www.onspon.com/index.php" target="_blank"><img src="images/onspon.png" alt="ONSPON" />
+            </a>
+        </div>
+     
+
+
+
+   <div class="col-xs-12 col-sm-4">
+            <h3>MISS INDIA ORGANISATION</h3>
+            <a href="http://beautypageants.indiatimes.com/" target="_blank"><img src="images/femina.jpg" alt="FEMINA MISS INDIA" />
+            </a>
+        </div>
 
         <div class="col-xs-12 col-sm-4">
             <h3>ONLINE MEDIA PARTNER</h3>
@@ -467,30 +510,39 @@
             </a>
         </div>
 
-        <div class="col-xs-12 col-sm-4">
-            <h3>ONLINE MEDIA PARTNER</h3>
-            <a href="http://www.igniteengineers.com/" target="_blank"><img src="images/ignite.png" alt="IGNITE ENGINEERS" />
-            </a>
-        </div>
-
-        <div class="col-xs-12 col-sm-4">
-            <h3>ONLINE MEDIA PARTNER</h3>
-            <a href="http://beingstudent.com/" target="_blank"><img src="images/beingStudent.png" alt="BEING STUDENT" />
-            </a>
-        </div>
-
+ 
+   
 
 
 
 
     </div>
     <div class="row">
+           <div class="col-xs-12 col-sm-4">
+            <h3>ONLINE MEDIA PARTNER</h3>
+            <a href="http://www.igniteengineers.com/" target="_blank"><img src="images/ignite.png" alt="IGNITE ENGINEERS" />
+            </a>
+        </div>
+
+
+     <div class="col-xs-12 col-sm-4">
+            <h3>ONLINE MEDIA PARTNER</h3>
+            <a href="http://beingstudent.com/" target="_blank"><img src="images/beingStudent.png" alt="BEING STUDENT" />
+            </a>
+        </div>
 
         <div class="col-xs-12 col-sm-4">
             <h3>ONLINE MEDIA PARTNER</h3>
             <a href="https://www.brainbuxa.com/" target="_blank"><img src="images/brainBuxa.png" alt="BRAIN BUXA" />
             </a>
         </div>
+
+
+
+
+    </div>
+
+    <div class="row">
 
 
 
@@ -510,11 +562,6 @@
         </div>
 
 
-    </div>
-
-    <div class="row">
-
-
 
         <div class="col-xs-12 col-sm-4">
             <h3>FASHION PARTNER</h3>
@@ -523,28 +570,46 @@
         </div>
 
 
+      
+      
+
+    </div>
+    <div class="row">
+
+
         <div class="col-xs-12 col-sm-4">
+            <h3>SELF DRIVE PARTNER</h3>
+            <a href="https://www.mylescars.com/" target="_blank"><img src="images/myles.png" alt="FASHION LADY" />
+            </a>
+        </div>
+
+
+  <div class="col-xs-12 col-sm-4">
             <h3>ONLINE SHOPPING PARTNER</h3>
             <a href="http://www.shopclues.com/" target="_blank"><img src="images/shopclues.jpg" alt="SHOPCLUES" />
             </a>
         </div>
 
 
-        <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-sm-4">
             <h3>DRAMA EVENT PARTNER</h3>
             <a href="https://www.facebook.com/VidurActingInstituteOfficialPage/" target="_blank"><img src="images/vidur.png" alt="VIDUR ACTING INSTITUTE" />
             </a>
         </div>
 
 
+
     </div>
-    <div class="row">
+
+        <div class="row">
+
 
         <div class="col-xs-12 col-sm-4">
             <h3>ART EXHIBITION SPONSOR</h3>
             <a href="http://nrityadance.com/" target="_blank"><img src="images/nrithya.png" alt="NRITYA DANCE FORUM" />
             </a>
         </div>
+
     </div>
 
     </div>

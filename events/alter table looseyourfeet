@@ -1,0 +1,596 @@
+
+use elanop4y_fest_2017;
+
+alter table elanejung 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE elanejung table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+alter table manthan 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE manthan table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+alter table breakfree 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE breakfree table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table looseyourfeet 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE looseyourfeet table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table nrityanjali 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE nrityanjali table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table just_duet 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE just_duet table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table vibrazione 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE vibrazione table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table octaves 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE octaves table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table andaazapnapna 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE andaazapnapna table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table nukkadnatak 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE nukkadnatak table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table filmfarefiesta 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE filmfarefiesta table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table picelectic 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE picelectic table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table lightscamera 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE lightscamera table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+alter table facepainting 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE facepainting table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+alter table nailart 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE nailart table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+alter table mehendi 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE mehendi table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+alter table claymodelling 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE claymodelling table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+alter table artexhibition 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE artexhibition table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+alter table walk_the_ramp 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE walk_the_ramp table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+alter table djwars 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE djwars table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+alter table rjhunt 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE rjhunt table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+alter table lendmeurvoice 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE lendmeurvoice table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+alter table mrdetective 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE mrdetective table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+alter table wheel_of_fortune 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE wheel_of_fortune table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table quizzes 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE quizzes table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table jam 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
+
+UPDATE jam table1 SET 
+table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID),
+table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
+
+
+
+

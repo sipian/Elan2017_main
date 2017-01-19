@@ -120,7 +120,7 @@ session_start();
 			<div class="col-md-6 history-left">	
 
           
-     <div style="text-align: left;font-weight: bold;font-family: monte;">
+     <div style="text-align: center;font-weight: bold;font-family: monte;">
      <div class="container">
        <div class="row">
          <div class="col-lg-2"></div>
@@ -135,7 +135,10 @@ session_start();
 We will be there to help you throughout ELAN. Our team will address your queries at the Hospitality Desk available near the fest area. On-spot registrations along with team & event registrations would be done here where everyone will be provided with a unique fest ID. We also provide other informations regarding accommodation, event results, certificates, daily events schedule, updates etc., at the Hospitality Desk.
             <br><br>
             <h2>TRANSPORT</h2>
-Buses will be provided on the days of the festival. Specific bus details will be updated by 17th Jan 2017.
+            <a href="transport.pdf" target="_blank">
+              <button class="btn btn-primary">TRANSPORTATION DETAILS</button>
+
+            </a>
                   <br>
                   <br><h2>ACCOMMODATION DETAILS</h2>
       <div style="text-align: left;"  >

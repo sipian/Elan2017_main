@@ -15,7 +15,8 @@ if(!isset($_SESSION["verified"])){
     header("Location: index.php?t=r");
     exit();
 }
-$sql = "INSERT INTO $_POST[contest] VALUES ('$_POST[id]', '$_POST[elanId]' , '$_POST[email]' )";
+$sql = "INSERT INTO $_POST[contest] (ID , elanId , email , name , mobile) VALUES
+('$_POST[id]', '$_POST[elanId]' , '$_POST[email]' , '$_SESSION[name]' , '$_SESSION[mobile]' )";
 if(mysqli_query($conn, $sql)){
 
     $temp = explode(",",$_SESSION["events"]);

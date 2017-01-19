@@ -1,7 +1,5 @@
 <?php 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 
 require 'connect.php';
 // Create connection
@@ -38,4 +36,9 @@ if (mysqli_num_rows($result) > 0){
     }
 }
         echo json_encode($answer);
+
+
+        /*$fp = fopen('elan.json', 'w');
+        fwrite($fp, $js);
+        fclose($fp);*/
  ?>
