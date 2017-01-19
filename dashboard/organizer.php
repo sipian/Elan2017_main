@@ -9,10 +9,10 @@ if(!isset($_SESSION["id"])){
 }
 
 
-/*if(  (!isset($_SESSION["canAccessKeystone"])) || $_SESSION["canAccessKeystone"] != 2){
+if(  (!isset($_SESSION["canAccessKeystone"])) || $_SESSION["canAccessKeystone"] != 2){
      header("HTTP/1.0 403 Access Denied");
     exit();
-}*/
+}
 
 require '../connect.php';
 // Create connection

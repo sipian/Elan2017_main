@@ -576,6 +576,11 @@
     </div>
     <div class="row">
 
+        <div class="col-xs-12 col-sm-4">
+            <h3>EXCLUSIVE ONLINE COUPONS PARTNER</h3>
+            <a href="http://www.grabon.in/" target="_blank"><img src="images/grabon.png" alt="GRAB ON" />
+            </a>
+        </div>
 
         <div class="col-xs-12 col-sm-4">
             <h3>SELF DRIVE PARTNER</h3>
@@ -591,18 +596,18 @@
         </div>
 
 
-      <div class="col-xs-12 col-sm-4">
-            <h3>DRAMA EVENT PARTNER</h3>
-            <a href="https://www.facebook.com/VidurActingInstituteOfficialPage/" target="_blank"><img src="images/vidur.png" alt="VIDUR ACTING INSTITUTE" />
-            </a>
-        </div>
-
-
 
     </div>
 
         <div class="row">
 
+
+
+      <div class="col-xs-12 col-sm-4">
+            <h3>DRAMA EVENT PARTNER</h3>
+            <a href="https://www.facebook.com/VidurActingInstituteOfficialPage/" target="_blank"><img src="images/vidur.png" alt="VIDUR ACTING INSTITUTE" />
+            </a>
+        </div>
 
         <div class="col-xs-12 col-sm-4">
             <h3>ART EXHIBITION SPONSOR</h3>

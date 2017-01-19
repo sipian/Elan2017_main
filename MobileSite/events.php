@@ -58,7 +58,8 @@
 <?php include 'analyticstracking.php'; ?>
 <?php include 'updates.php'; ?>
 
-            <!-- banner -->
+<span class='glyphicon glyphicon-star' style="display: none;"></span>
+<span class="glyphicon glyphicon-asterisk" style="display: none;"></span>
   <div class="banner-1 wthree-1">
     <div class="container">
       <div class="banner_top">
