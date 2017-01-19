@@ -152,7 +152,9 @@
                   <br>
                   <strong>Date : </strong>22nd January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong> 3:30 PM IST
+                  <br>    
+                  <strong>Venue :</strong> Stage Biggies, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prize :</strong>
                   <br>
@@ -255,7 +257,9 @@
                   <br>
                   <strong>Date : </strong>20th January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong>5:00 P.M. IST
+                  <br>
+                  <strong>Venue :</strong> Culti Stage, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prize :</strong>  
                   <br>
@@ -410,9 +414,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>22nd January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong> 11 A.M. IST (Prelims) <br> 5:30 P.M. IST (Finals)
+                  <br>
+                  <strong>Venue :</strong> Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 55000
                   <br>
@@ -494,9 +500,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                     <strong>Time : </strong>10:30 A.M. IST (Prelims) <br> 12:30 P.M. IST (Finals)
+                  <br>
+                  <strong>Venue :</strong>Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
@@ -584,9 +592,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>20th January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong>7:30 P.M. IST
+                  <br>        
+                  <strong>Venue :</strong>Culti Stage, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
@@ -660,9 +670,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong>11:30 A.M. IST
+                  <br>        
+                  <strong>Venue :</strong>Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
@@ -722,9 +734,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong>10:30 A.M. IST (Prelims) <br> 3:00 P.M. IST (Final)
+                  <br>        
+                  <strong>Venue :</strong>117, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Prelims)<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Finals)
                   <br>
                   <strong>Prizes :</strong> worth Rs 10000
                   <br>
@@ -794,9 +808,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                <strong>Time : </strong>10:30 A.M. IST
+                  <br>
+                  <strong>Venue :</strong> 112, Academic Block-A, <br> IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 1500
                   <br>
@@ -847,9 +863,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                <strong>Time : </strong>10:30 A.M. IST
+                  <br>
+                  <strong>Venue :</strong> 112, Academic Block-A, <br> IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 1500
                   <br>
@@ -903,9 +921,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                <strong>Time : </strong>10:30 A.M. IST
+                  <br>
+                  <strong>Venue :</strong> 112, Academic Block-A, <br> IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 1500
                   <br>
@@ -1013,9 +1033,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>22nd January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                <strong>Time : </strong>11:30 A.M. IST
+                  <br>
+                  <strong>Venue :</strong> Ground Area, <br> IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 10000
                   <br>
@@ -1073,9 +1095,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                 <strong>Date : </strong>21st January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong>1:00 P.M. IST (Prelims) <br> 3:00 P.M. IST (Final)
+                  <br>        
+                  <strong>Venue :</strong>117, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Prelims)<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Finals)
                   <br>
                   <strong>Prizes :</strong> worth Rs 8000
                   <br>
@@ -1147,9 +1171,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                   <strong>Date : </strong>22nd January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                  <strong>Time : </strong>10:30 A.M. IST
+                  <br>        
+                  <strong>Venue :</strong>519, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 10000
                   <br>
@@ -1208,10 +1234,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                   <strong>Date : </strong>22nd January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-                  <br>
+                  <strong>Time : </strong>11:30 A.M. IST
+                  <br>        
+                  <strong>Venue :</strong>101, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Prelims)<br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
                   <br><br><br>
@@ -1334,9 +1361,11 @@
                   <br>
                   <strong>DETAILS</strong>
                   <br>
-                  <strong>Date : </strong>20th , 21st and 22nd of January 2017
+                  <strong>Date : </strong>21st and 22nd of January 2017
                   <br>
-                  <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+                    <strong>Time : </strong>10:30 A.M. IST
+                  <br>
+                  <strong>Venue :</strong> LH-2, IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 24000
                   <br>
@@ -1420,10 +1449,12 @@ on January 22 , 2017.
           <br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
+           <strong>Date : </strong>22nd January 2017
+                  <br>
+                    <strong>Time : </strong>2:30 P.M. IST
+                  <br>
+                  <strong>Venue :</strong> Stage Culti, <br> IIT Hyderabad Permanent Campus
+                  <br>
           <strong>Prizes :</strong> worth Rs 25000
           <br><br>
           <strong>INFRASTRUCTURE SUPPLIED</strong>
@@ -1497,9 +1528,11 @@ on January 22 , 2017.
           <br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
+          <strong>Date : </strong>22nd of January 2017
           <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+              <strong>Time : </strong>1:00 P.M. IST
+          <br>
+          <strong>Venue :</strong> 519, Academic Block-A, <br> IIT Hyderabad Permanent Campus
           <br>
           <strong>Prizes :</strong> worth Rs 8000
           <br><br>
@@ -1577,10 +1610,12 @@ on January 22 , 2017.
           <br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
+          <strong>Date : </strong>22nd January 2017
+                  <br>
+                  <strong>Time : </strong> 2:00 PM IST
+                  <br>    
+                  <strong>Venue :</strong> 101, Academic Block-A, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <br>
           <strong>Prizes :</strong> worth Rs 2000
           <br><br><br>
           <strong>EVENT FORMAT</strong>
@@ -1734,12 +1769,12 @@ on January 22 , 2017.
                     </script>
                   </button>
           <br>
-          <strong>DETAILS</strong>
-          <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
+         <strong>Date : </strong>20th January 2017
+                  <br>
+                  <strong>Time : </strong> 8:30 PM IST
+                  <br>    
+                  <strong>Venue :</strong> Culti Stage, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <br>
           <strong>RULES</strong>
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;On-spot registraton. (3 hours before the event) 
@@ -1920,10 +1955,12 @@ on January 22 , 2017.
           <br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
+          <strong>Date : </strong>21st and 22nd of January 2017
+                  <br>
+                  <strong>Time : </strong> 10:30 AM IST
+                  <br>    
+                  <strong>Venue :</strong> 119, Academic Block-A, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <br>
           Organizer: Vidhan Jain , Mayank Hooda (+91-965892682) <br>
           </p>
           </div>
@@ -2101,9 +2138,11 @@ on January 22 , 2017.
           <br><br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
+          <strong>Date : </strong>21st January 2017
           <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+              <strong>Time : </strong>11:30 AM IST (Prelims) <br> 3:30 PM IST
+          <br>
+          <strong>Venue :</strong> Infi Stage, <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspIIT Hyderabad Permanent Campus
           <br>
           <br>
           <strong>RULES</strong>
@@ -2308,9 +2347,11 @@ on January 22 , 2017.
           <br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
+         <strong>Date : </strong>22nd January 2017
           <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+              <strong>Time : </strong>3:00 PM IST
+          <br>
+          <strong>Venue :</strong> Infi Stage, <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspIIT Hyderabad Permanent Campus
           <br>
           <strong>Prizes :</strong> worth Rs 30,000 
           <br>
@@ -2349,10 +2390,6 @@ on January 22 , 2017.
           <br><br>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
-          <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
-          <br>
           <strong>Prizes :</strong> worth Rs 30,000 
           <br>
           <strong>GENERAL QUIZ</strong>
@@ -2360,11 +2397,23 @@ on January 22 , 2017.
           We know you haven’t been living under a rock, 
           so this quiz should be an easy one for you. Or should it? 
           <br>
+          <strong>Date : </strong>21st January 2017
+          <br>
+          <strong>Time : </strong>10:30 AM IST
+          <br>
+          <strong>Venue :</strong>LH-1, Academic Block-A,<br> IIT Hyderabad Permanent Campus
+          <br>
           Organizer - Abhinau Kumar (+91-9445329736, ee15btech11001@iith.ac.in), Arjun D'Cunha (+91-9397373839, cs14btech11039@iith.ac.in)<br>
           <strong>SCI TECH QUIZ</strong>
           <br>
           Come on, this is an IIT. 
           We were bound to explore developments in the world of science and technology. 
+          <br>
+          <strong>Date : </strong>22nd January 2017
+          <br>
+          <strong>Time : </strong>10:30 AM IST
+          <br>
+          <strong>Venue :</strong>415, Academic Block-A,<br> IIT Hyderabad Permanent Campus
           <br>
           Organizer -  Jnapika (+91-9494354710),  Sreeja (+91-9397373839) , Durgakeerthi (+91-9603723130)
           <br>
@@ -2373,6 +2422,12 @@ on January 22 , 2017.
           Enter the world of pop culture. 
           This quiz spans exactly five domains - Music, Entertainment, Literature, Art, Sports.  
           <br>
+           <strong>Date : </strong>22nd January 2017
+          <br>
+          <strong>Time : </strong>3:30 PM IST
+          <br>
+          <strong>Venue :</strong>415, Academic Block-A,<br> IIT Hyderabad Permanent Campus
+          <br>
           Organizer - Rama Krishna (+91-8897475035, es14btech11015@iith.ac.in) , Aisha Dantuluri (+91-8897556276, ep14btech11001@iith.ac.in)
           <br>
           <strong>HARRY POTTER  QUIZ</strong>
@@ -2380,12 +2435,24 @@ on January 22 , 2017.
           Calling all potterheads. Can’t get enough of the world of the boy who lived? 
           Well, we couldn’t either, so we made a quiz about it. 
           <br>
+          <strong>Date : </strong>21st January 2017
+          <br>
+          <strong>Time : </strong>2:00 PM IST
+          <br>
+          <strong>Venue :</strong>415, Academic Block-A,<br> IIT Hyderabad Permanent Campus
+          <br>
           Organizer - Tanya Marwah (+91-9676822328, ee13b1044@iith.ac.in)
           <br>
           <strong>TOLLYWOOD QUIZ</strong>
           <br>
           Think you know everything about the world of South Indian cinema? 
           Think you’d like to win some prizes? Well then, this is the place to be! 
+          <br>
+          <strong>Date : </strong>22nd January 2017
+          <br>
+          <strong>Time : </strong>1:00 PM IST
+          <br>
+          <strong>Venue :</strong>415, Academic Block-A,<br> IIT Hyderabad Permanent Campus
           <br>
           Organizer - Prasad Thota , Bhanu Prakash (+91-9989532541) , Aishwarya GM (+91-9603088406) 
           </p>
@@ -2415,9 +2482,11 @@ on January 22 , 2017.
           <p>
           <strong>DETAILS</strong>
           <br>
-          <strong>Date : </strong>20th , 21st and 22nd of January 2017
+          <strong>Date : </strong>20th January 2017
           <br>
-          <strong>Venue :</strong> IIT Hyderabad Permanent Campus
+          <strong>Time : </strong>6:00 PM IST
+          <br>
+          <strong>Venue :</strong>117, Academic Block-A,<br> IIT Hyderabad Permanent Campus
           <br>
           <strong>Prizes :</strong> worth Rs 30,000 
           <br>

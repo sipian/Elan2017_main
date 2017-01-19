@@ -67,12 +67,17 @@ function getLitrContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                    <div class="col-lg-10">Date : 22nd January 2017</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Time : 3:00 PM IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : Infi Stage, IIT Hyderabad Permanent Campus</div>
                 </div>
                 <div class="row">
           <div class="col-lg-1"></div>
@@ -169,13 +174,19 @@ function getLitrContent(argument) {
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
                 <div class="row">
+                    <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                    <div class="col-lg-10">Date : 20th January 2017</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Time : 6:00 PM IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : 117, Academic Block-A, IIT Hyderabad Permanent Campus</div>
                 </div>
             <div class="row">
           <div class="col-lg-1"></div>
@@ -274,15 +285,7 @@ function getLitrContent(argument) {
              <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
                 <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
-                </div>
+                
             <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
@@ -298,6 +301,20 @@ function getLitrContent(argument) {
                 <br>
                 so this quiz should be an easy one for you. Or should it?
                 <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 21st January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 10:30 A.M. IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : LH-1, Academic Block-A, IIT Hyderabad Permanent Campus</div>
                 </div>
             </div>
             
@@ -329,6 +346,20 @@ function getLitrContent(argument) {
                 <br>
                 We were bound to explore developments in the world of science and technology. 
                 <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 22nd January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 10:30 AM IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : 415, Academic Block-A, IIT Hyderabad Permanent Campus</div>
                 </div>
             </div>
             
@@ -364,6 +395,20 @@ function getLitrContent(argument) {
                 This quiz spans exactly five domains - Music, Entertainment, Literature, Art, Sports. 
                 <br>
                 </div>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 22nd January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 3:30 PM IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : 415, Academic Block-A, IIT Hyderabad Permanent Campus</div>
+                </div>
             </div>
             
             <div class="row rules" style="text-align: center;">
@@ -398,6 +443,20 @@ function getLitrContent(argument) {
                  Well, we couldn’t either, so we made a quiz about it.
                 <br>
                 </div>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 21st January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 2:00 PM IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : 415, Academic Block-A, IIT Hyderabad Permanent Campus</div>
+                </div>
             </div>
             
             <div class="row rules">
@@ -423,6 +482,20 @@ function getLitrContent(argument) {
                 <br>
                   Think you’d like to win some prizes? Well then, this is the place to be! 
                 <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Date : 22nd January 2017</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 1:00 PM IST</div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Venue : 415, Academic Block-A, IIT Hyderabad Permanent Campus</div>
                 </div>
             </div>
             

@@ -76,9 +76,13 @@ function getBiggiesContent(argument) {
                     <div class="col-lg-10">Date : 22nd January 2017</div>
                 </div>
                 <br>
+                <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 3:30 P.M. IST</div>
+                </div>
+                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Venue : Stage Biggies, IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">
@@ -403,12 +407,18 @@ src="images/biggies/manthan_small.jpg">
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
+                    <div class="row">
+                    <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 20th January 2017</div>
+                </div>
+                <br>
+                <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 5:00 P.M. IST</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Venue : Stage Culti, IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
                 <div class="row">

@@ -185,12 +185,17 @@ function getInfiContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                    <div class="col-lg-10">Date : 21st January 2017</div>
+                </div>
+                <br>
+                 <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 11:30 AM IST (Prelims) <br> 3:30 PM IST</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Venue : Infi Stage, IIT Hyderabad Permanent Campus</div>
                 </div>
         </div>
         <br>
@@ -877,14 +882,18 @@ function getInfiContent(argument) {
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                    <div class="col-lg-10">Date : 21st and 22nd of January 2017</div>
+                </div>
+                <br>
+                 <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 10:30 AM IST</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Venue : 119, Academic Block-A,  IIT Hyderabad Permanent Campus</div>
                 </div>
-                <br>
             </div>
                
                  <div class="row rules">
@@ -1200,12 +1209,17 @@ function getInfiContent(argument) {
                 <h3 style="text-align: center;">DETAILS</h3>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+                    <div class="col-lg-10">Date : 20th January 2017</div>
+                </div>
+                <br>
+                 <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">Time : 8:30 PM IST</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+                    <div class="col-lg-10">Venue : Culti Stage, IIT Hyderabad Permanent Campus</div>
                 </div>
                 <br>
             </div>

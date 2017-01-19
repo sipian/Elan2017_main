@@ -84,12 +84,17 @@ if (argument == 'breakfree'){
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 11 A.M. IST (Prelims) <br> 5:30 P.M. IST (Finals)</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : Stage Culti, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -344,12 +349,17 @@ if (argument == 'looseyourfeet'){
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST (Prelims) <br> 12:30 P.M. IST (Finals)</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : Stage Culti, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -597,12 +607,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 20th January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 7:30 P.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : Stage Culti, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -826,12 +841,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 11:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : Stage Culti, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -975,14 +995,19 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <div class="row">
+       <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST (Prelims) <br> 3:00 P.M. IST (Final)</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 117, Academic Block-A, IIT Hyderabad Permanent Campus (Prelims)<br> Stage Culti, IIT Hyderabad Permanent Campus (Finals) </div>
         </div>
         <br>
         <div class="row">
@@ -1186,14 +1211,19 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <div class="row">
+       <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 1:00 P.M. IST (Prelims) <br> 3:00 P.M. IST (Final)</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 117, Academic Block-A, IIT Hyderabad Permanent Campus (Prelims)<br> Stage Culti, IIT Hyderabad Permanent Campus (Finals) </div>
         </div>
         <br>
         <div class="row">
@@ -1382,12 +1412,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 519, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -1546,12 +1581,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 11:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 101, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -1864,14 +1904,19 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <div class="row">
+         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 11:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : Ground Area, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -2180,12 +2225,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 112, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -2316,12 +2366,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 112, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -2474,12 +2529,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 112, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -2622,12 +2682,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 2:00 PM IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 101, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -2814,12 +2879,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 21st and 22nd of January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 10:30 A.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : LH-2, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -3036,14 +3106,19 @@ let ret = `\`
       <div class="row details">
         <h3 style="text-align: center;">DETAILS</h3>
         <br>
-        <div class="row">
+         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 2:30 P.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : Stage Culti, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
@@ -3253,12 +3328,17 @@ let ret = `\`
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Date : 20th , 21st and 22nd of January 2017</div>
+          <div class="col-lg-10">Date : 22nd January 2017</div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">Venue : IIT Hyderabad Permanent Campus</div>
+          <div class="col-lg-10">Time : 1:00 P.M. IST</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">Venue : 519, Academic Block-A, IIT Hyderabad Permanent Campus</div>
         </div>
         <br>
         <div class="row">
