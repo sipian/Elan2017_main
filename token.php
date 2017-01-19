@@ -19,6 +19,7 @@ if(!isset($_GET["token"])){
 
 print_r($_GET["token"]);
 print_r("<br><br><br><br>");
+print_r("<br><br><br><br@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@br><br><br><br><br>");
 
 print_r("<br><br><br><br>");
 
@@ -44,6 +45,12 @@ $decoded_array = (array) $decoded;
 $array = json_decode(json_encode($decoded_array["user"]), True);
 
 print_r($decoded); 
+
+print_r("<br><br><br><br++++++++++++++++++++++++++++br><br><br><br><br>");
+
+print_r($array);
+
+
 $id = $array["_id"];
 $userId = $array["userid"];
 $password = "none";
@@ -64,14 +71,18 @@ else
     $_SESSION["name"] = $name;    
     $_SESSION["mobile"] = $mobile;    
     $_SESSION["college"] = $college;
+    $_SESSION["canAccessKeystone"] = (isset($array["canAccessKeystone"]) && $array["canAccessKeystone"]==true)? 2:1;
+    
 
 if ($verifiedEmail == 1)
     $_SESSION["verified"] = 1;
 else
      $_SESSION["verified"] = 2;
 
-print_r("<br><br><br><br>HELLO<br><br><br><br><br>");
+print_r("<br><br><br><br>********************<br><br><br><br><br>");
 print_r($_SESSION);
+
+
 
 $sql = "SELECT * FROM users WHERE ID='$id'";
 $result = mysqli_query($conn, $sql);

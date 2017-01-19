@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if (!(isset($_SESSION["access"]) && $_SESSION["access"]=="yes")) {
-    header("HTTP/1.0 404 Not Found");
+     header("HTTP/1.0 403 Access Denied");
     exit();
 }
 

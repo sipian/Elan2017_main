@@ -51,9 +51,6 @@ CREATE TABLE users_special(
 );
 
 
-use elanop4y_fest_2017;
-insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in','');
-
 
 
 
@@ -61,14 +58,28 @@ create table elanejung(
     ID varchar(100) PRIMARY KEY,
     elanId varchar(10),
     email varchar(100) NOT NULL
+
 );
 
 
 create table manthan(
     ID varchar(100) PRIMARY KEY,
     elanId varchar(10),
-    email varchar(100) NOT NULL
+    email varchar(100) NOT NULL,
+    name text NOT NULL,
+    mobile varchar(13) NOT NULL,
+    attendance varchar(3) DEFAULT 'NO',
+    winner varchar(3)  DEFAULT 'NO',
+    comment text 
 );
+
+alter table looseyourfeet 
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text; 
+
 
 create table walk_the_ramp(
     ID varchar(100) PRIMARY KEY,
@@ -231,117 +242,3 @@ create table quizzes(
     elanId varchar(10),
     email varchar(100) NOT NULL
 );
-
-
-
-
-update users set email='cs15btech11019@iith.ac.in';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan');
-
-
-insert into users values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','');
-
-
-insert into users values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan');
-
-
-insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera');
-
-
-insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree');
-
-
-
-
-
-insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan');
-
-
-insert into users values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','');
-
-
-insert into users values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan');
-
-
-insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera');
-
-
-insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree');
-
-
-
-
-
-insert into users values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan');
-
-
-insert into users values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','');
-
-
-insert into users values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan');
-
-
-insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera');
-
-
-insert into users values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree');
-
-
-
-CREATE TABLE users_temp(
-    ID varchar(100) PRIMARY KEY,
-    elanId varchar(10),
-    name text NOT NULL,
-    password text NOT NULL,
-    college text NOT NULL,
-    mobile varchar(13) NOT NULL,
-    email varchar(100) NOT NULL,
-    registered_events text,
-    sent varchar(3) DEFAULT 'NO'
-);
-
-
-
-insert into users_temp values('5864195760d96d2fe331d7e5','4','harsh','none','iith','mobile','harsh@elan.org.in',',elanejung,manthan','NO');
-
-
-insert into users_temp values('5864195760d96d2fe331d7e6','4','harsh','none','iith','mobile','cs15btech11019@iith.ac.in','','NO');
-
-
-insert into users_temp values('5864195760d96d2fe331d7e7','4','harsh','none','iith','mobile','harshaga97@gmail.com',',elanejung,manthan','NO');
-
-
-insert into users_temp values('5864195760d96d2fe331d7e8','4','harsh','none','iith','mobile','agarwal.h1997@gmail.com',',elanejung,manthan,nailart,lightscamera','NO');
-
-
-insert into users_temp values('5864195760d96d2fe331d7e9','4','harsh','none','iith','mobile','harsh.mufc.786@gmail.com',',elanejung,manthan,breakfree','NO');
-
-
-select * from users_temp;
-select COUNT(*) from users_temp;
-
-
-
-
-
-ALTER TABLE users
-ADD sent varchar(3) DEFAULT 'NO';
-
-
-
-
-http://localhost/Elan2017_main/token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7Il9pZCI6IjU4NjQxOTU3NjBkOTZkMmZlMzMxZDdlNyIsInVzZXJpZCI6MywiZW1haWwiOiJjczE1YnRlY2gxMTAzMUBpaXRoLmFjLmluIiwicGFzc3dvcmQiOiIkMmEkMTAkQlwvSFhHYlpEQmpPMEN1UElhNTNlV3VrS1wvQ0RweXZSOVFqU2FxSUxEeDdrSUo1SHBcLzdvRTIiLCJjb2xsZWdlIjoiaWl0aCIsInBob25lIjo5ODc2NTQzMjEwLCJ2ZXJpZmljYXRpb25Ub2tlbiI6IkdKRlJSTGVLdW5LQmxRU0tXblMzdEUwaVpreGcxV0tvbGVNNlFTVEJ3UlBheWJ0Q0c1TmdWNDYySjRhMklMS2EiLCJfX3YiOjAsImVtYWlsVmVyaWZpZWQiOnRydWUsImNhbkFjY2Vzc0tleXN0b25lIjpmYWxzZSwibmFtZSI6eyJmaXJzdCI6InByYXRlZWsiLCJsYXN0IjoiIn19LCJpYXQiOjE0ODI5NTUwOTYsImV4cCI6MTk4Mjk1NTk5Nn0.hu2EFV1J3eyvqtiBWDmrKO6gO0ZJr7miabxhrBC9a9c

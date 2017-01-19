@@ -58,7 +58,8 @@
 <?php include 'analyticstracking.php'; ?>
 <?php include 'updates.php'; ?>
 
-            <!-- banner -->
+<span class='glyphicon glyphicon-star' style="display: none;"></span>
+<span class="glyphicon glyphicon-asterisk" style="display: none;"></span>
   <div class="banner-1 wthree-1">
     <div class="container">
       <div class="banner_top">
@@ -2767,7 +2768,7 @@ on January 22 , 2017.
         
           <!-- Electri circuit -->
             <li class="grid">
-            <a href="https://nvision.org.in/events/bringitback" target="_blank">
+            <a href="https://nvision.org.in/events/circuithunt" target="_blank">
               <figure class="effect-apollo">
                 <img src="images/techy/circuit.jpg" alt="image4">
                 <figcaption>

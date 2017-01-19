@@ -49,7 +49,7 @@ session_start();
 <body>
 <?php include 'analyticstracking.php'; ?>
 <?php include 'updates.php'; ?>
-
+<span class='glyphicon glyphicon-star' style="display: none;"></span>
   <div class="banner-1 wthree-1">
     <div class="container">
       <div class="banner_top">

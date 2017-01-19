@@ -57,10 +57,12 @@ $ans = '
       </div>
       <div class='modal-body'>
         <p>
-        <ul style='list-style-type: none;'>
-        <li>
-        <a href='hospitality.php' id='hapom'>Accomodation Details</a> Updated
-      </li>
+        <ul  style='list-style-type: disc;'>
+        <li><a href='../Schedule Elan & Nvision 2017.xlsx' target='_blank'>Events Schedule</a> Updated</li>
+      <li>Camping & Bonfire Night Details Can Be Found <a href='../camping.pdf' target='_blank'>Here</a></li>
+      <li><a href='http://www.meraevents.com/event/elan-and-nvision-2017-camping-night' target='_blank'>Click Here </a> To Book For Camping & Bonfire Night</li>
+      <li><a href='../hospitality' target='_blank'>Accomodation Details</a> Updated</li>
+      <li><a href='../transport.pdf' target='_blank'>Transportation Details</a> Updated</li>
     </ul>
       </p>
       </div>
