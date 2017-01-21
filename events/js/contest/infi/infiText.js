@@ -103,14 +103,26 @@ function getInfiContent(argument) {
                 <br><br>
             </div>
             <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <h3 style="text-align: center;margin-left:-20px;">&nbsp;&nbsp;ORGANIZERS</h3>
                 <br>
+
+                <div class="col-lg-2"></div>
+
                 <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-4" style="font-size:23.5px;margin-left:-20px;">
-                Deepak&nbsp;Nathani
+                    <div class="col-lg-3">
+                Snehith
                 <br>
-                &nbsp;+91-9177289949
+                +91-8121618121
+                <br>
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Gitanjali Mannepalli
+                <br>
+                +91-9705512183
                 <br>
                 </div>
                 </div>
@@ -219,18 +231,29 @@ function getInfiContent(argument) {
             </div>
             <br>
             <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
+                <h3 style="text-align: center;margin-left:-20px;">&nbsp;&nbsp;ORGANIZERS</h3>
                 <br>
-                <div class="col-lg-5"></div>
+
+                <div class="col-lg-2"></div>
+
                 <div class="row">
-                <div class="col-lg-3">
-                &nbsp;Vedhamoorthy
+                    <div class="col-lg-3">
+                Deepak Nathani
                 <br>
-                +91-8903900986
+                +91-9177289949
+                <br>
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Anand Swain
+                <br>
+                +91-9490189175
+                <br>
                 </div>
                 </div>
-                <br><br>
-            </div>
                 <br><br>
             </div>
         </div>
@@ -343,9 +366,9 @@ function getInfiContent(argument) {
 
                 <div class="row">
                     <div class="col-lg-3">
-                Akhil&nbsp;Ashref
+                Akshita Ramya
                 <br>
-                +91-9177285214
+                +91-9100084766
                 <br>
                 </div>
 
@@ -353,9 +376,9 @@ function getInfiContent(argument) {
                 </div>
 
                 <div class="col-lg-3">
-                Akshita&nbsp;Ramya
+                Sri Laxmi Ganna
                 <br>
-                +91-9100084766
+                +91-8790523845
                 <br>
                 </div>
                 </div>
@@ -487,23 +510,13 @@ function getInfiContent(argument) {
                 <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
                 <br>
 
-                <div class="col-lg-2"></div>
+                <div class="col-lg-3"></div>
 
                 <div class="row">
                     <div class="col-lg-3">
                 Ayush&nbsp;Negi
                 <br>
                 +91-8280032282 
-                </div>
-
-                <div class="col-lg-2">
-                </div>
-
-                <div class="col-lg-3">
-                Supreet&nbsp;Singh
-                <br>
-                +91-9652889870
-                <br>
                 </div>
                 </div>
                 <br><br>
@@ -635,14 +648,21 @@ function getInfiContent(argument) {
                     <li style="list-style-type: none;"><br></li>
                 </ul>
             </div>
-                           <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
-                <br>
                 <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-4" style="font-size:23.5px;">
-                Aswin&nbsp;Kumar
+                    <div class="col-lg-3">
+                Gitanjali Mannepalli
                 <br>
+                +91-9705512183
+                <br>
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Sankalp Sreekar
+                <br>
+                +91-9063823456
                 <br>
                 </div>
                 </div>
@@ -779,16 +799,16 @@ function getInfiContent(argument) {
 
                 <div class="row">
                     <div class="col-lg-3">
-                Deepika&nbsp;Gonela
+                Akshay Raghavan
                 <br>
-                +91-9963079992
+                +91-9100273758
                 </div>
 
                 <div class="col-lg-2">
                 </div>
 
                 <div class="col-lg-3">
-                Tejas&nbsp;Anand
+                Tejas&nbsp;Ananda
                 <br>
                 +91-9618535148
                 <br>
@@ -904,8 +924,9 @@ function getInfiContent(argument) {
 
                 <div class="row">
                     <div class="col-lg-3">
-                Vidhan&nbsp;Jain
+                Aravind Ganesh
                 <br>
+                +91-9490329561
                 </div>
 
                 <div class="col-lg-2">
@@ -1014,15 +1035,27 @@ function getInfiContent(argument) {
                 </ul>
             </div>
             </div>
-            <div class="row rules">
-                <h3 style="text-align: center;">ORGANIZERS</h3>
+               
+                 <div class="row rules">
+                <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
                 <br>
+
+                <div class="col-lg-2"></div>
+
                 <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-4" style="font-size:23.5px;">
-                &nbsp;Jeel&nbsp;Bhavsar
+                    <div class="col-lg-3">
+                Jeel Bhavsar
                 <br>
                 +91-9100283774
+                </div>
+
+                <div class="col-lg-2">
+                </div>
+
+                <div class="col-lg-3">
+                Roshni Pande
+                <br>
+                +91-9000515191
                 <br>
                 </div>
                 </div>

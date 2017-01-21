@@ -30,6 +30,17 @@ drop table wheel_of_fortune;
 drop table quizzes;
 drop table jam;
 
+alter table campus_princess  
+    ADD COLUMN name text,
+    ADD COLUMN mobile varchar(13),
+    ADD COLUMN  attendance varchar(3) DEFAULT 'NO',
+    ADD COLUMN winner varchar(3)  DEFAULT 'NO',
+    ADD COLUMN comment text;
+
+
+UPDATE campus_princess table1 SET  table1.name = (SELECT table2.name FROM users table2 WHERE table1.ID = table2.ID), table1.mobile = (SELECT table2.mobile FROM users table2 WHERE table1.ID = table2.ID);
+
+
 
 
 

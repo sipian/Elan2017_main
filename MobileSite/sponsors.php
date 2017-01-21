@@ -163,7 +163,7 @@ session_start();
         <div class="row">
 
              <div class="col-xs-12 col-sm-4">
-                <h3><br>MEDIA COVERAGE PARTNER</h3>
+                <h3><br>MEDIA PARTNER</h3>
                 <a href="http://telanganatoday.news/" target="_blank"><img class="img-responsive img-thumbnail" src="images/telanganatoday.jpg" alt="TELANGANA TODAY" />
                 </a>
             </div>
@@ -173,7 +173,6 @@ session_start();
             <div class="col-xs-12 col-sm-4">
                 <h3><br>FASHION PARTNER</h3>
                 <div style="   vertical-align: middle;">
-                    <br>
                     <a href="https://www.facebook.com/RelianceTrends/?__mref=message_bubble" target="_blank"><img class="img-responsive img-thumbnail" src="images/reliance.jpg" alt="RELIANCE RETAIL" style="width:65%;height: 65%;" />
                     </a>
                 </div>
@@ -231,8 +230,6 @@ session_start();
         <div class="col-xs-12 col-sm-4">
 
             <h3><br>STUDY ABROAD PARTNER</h3>
-            <br>
-            <br>
             <a href="http://www.manyagroup.com/" target="_blank"><img class="img-responsive img-thumbnail" src="images/manaya-logo-new.png" alt="MANYA GROUP" />
             </a>
         </div>
@@ -497,8 +494,8 @@ session_start();
 
 
         <div class="col-xs-12 col-sm-4">
-            <h3><br>FASHION PARTNER</h3>
-            <a href="http://www.fashionlady.in/" target="_blank"><img class="img-responsive img-thumbnail" src="images/fashionlady.jpg" alt="FASHION LADY" />
+            <h3><br>GLAMOUR PARTNER</h3>
+            <a href="http://www.fashionlady.in/" target="_blank"><img class="img-responsive img-thumbnail" src="images/Fashionlady Logo.jpg" alt="FASHION LADY" />
             </a>
         </div>
 

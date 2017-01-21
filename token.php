@@ -71,7 +71,7 @@ else
     $_SESSION["name"] = $name;    
     $_SESSION["mobile"] = $mobile;    
     $_SESSION["college"] = $college;
-    $_SESSION["canAccessKeystone"] = (isset($array["canAccessKeystone"]) && $array["canAccessKeystone"]==true)? 2:1;
+    $_SESSION["canAccessKeystone"] = (isset($array["canAccessKeystone"]) && $array["canAccessKeystone"]==true)? 2:2;
     
 
 if ($verifiedEmail == 1)

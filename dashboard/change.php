@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   else $sql = "UPDATE $_POST[contest] SET attendance='NO' , winner='NO' , comment='$_POST[comment]'  WHERE elanId='$_POST[id]'";
 
   if(mysqli_query($conn, $sql)){
-        header("Location: organizer.php?contest=$_POST[contest]&id=$_POST[id]");
+    header("Location: organizer.php?contest=$_POST[contest]&id=$_POST[id]");
      }
   else header("Location: err.php?err=Error Occured While Registering for $_POST[contest] for ELAN ID  : $_POST[id]");
 }

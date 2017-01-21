@@ -141,33 +141,43 @@
               <div class="gal-info">
                 <h3>Elan-E-Jung</h3>
                 <p>
+                                  <strong>Shortlisted Bands For Elan-E-Jung Finals</strong>
+                                  <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Hostilian
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Inreclamation
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Spithope
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Unbound
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;We Will Decide On Wednesday
+          <br><br>
+
                   Distorted guitars, emphatic rhythms, dense bass and drums, vigorous vocals, epic riffs and wild headbanging. Elan is back with its signature event, the metal battle. Get ready to turn up your amps and set the stage on fire at Elan-e-Jung! 
                   <br>
-                  <button type="button" class="btn btn-primary btn-sm elanejungButton" style="text-align:center;margin-left: 35%;">
-                    <script type="text/javascript">
-                      $(".elanejungButton").html((events.indexOf('elanejung')>-1)?"UNREGISTER":"REGISTER");
-                    </script>
-                  </button>
                   <br>
+
+
                   <strong>DETAILS</strong>
                   <br>
                   <strong>Date : </strong>22nd January 2017
                   <br>
                   <strong>Time : </strong> 3:30 PM IST
                   <br>    
-                  <strong>Venue :</strong> Stage Biggies, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong> Stage Biggies, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prize :</strong>
                   <br>
+                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Prizes worth Rs 45000  (Hyderabad) 
                   <br>
-                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Prizes worth Rs 45000 
-                  <br>                  (Hyderabad) 
-                  <br>
-                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to perform at any Hard Rock Cafe across india for one 
+                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Winner gets a chance to record their music in <strong>Unlimit Studios</strong>
                   time 
                   <br>
-                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to get featured in the main event of Mtv Xtreme or on 
-                  MTV Indies Channel 
+                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to perform at any <strong>Hard Rock Cafe</strong> across india for one 
+                  time 
+                  <br>
+                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;A chance to get featured in the main event of <strong>Mtv Xtreme or on MTV Indies Channel </strong>
                   <br>
                   <br>
                   <strong>No. of Band members allowed :</strong> Maximum 7
@@ -245,6 +255,19 @@
               <div class="gal-info">
                 <h3>Manthan</h3>
                 <p>
+
+                                                  <strong>Shortlisted Bands For Manthan Finals</strong>
+                                  <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;The Lost Cassette
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Project Mishram
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Crescendo
+          <br>
+          <span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;The Parking Lot
+          <br><br>
+
+
                   Every band has a dream. A dream of performing live, on a global scale, in front of fans screaming for more. But the journey of a mile begins with the first step. ELAN 2017 presents Manthan, the ultimate Fusion band contest.
                   (Are you not into Heavy Metal Music? ELAN 2017 brings to you the ultimate Fusion Band Contest, Manthan. This is where you perform live competing with other bands trying to live the dream. 
                   <br><br>
@@ -260,11 +283,14 @@
                   <br>
                   <strong>Time : </strong>5:00 P.M. IST
                   <br>
-                  <strong>Venue :</strong> Culti Stage, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong> Culti Stage, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prize :</strong>  
                   <br>
                   <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;Prizes worth Rs 35000 
+                  <br>
+                  <span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp; Winner gets a chance to record their music video in <strong>Unlimit Studios</strong>
+
                   <br>
                   <strong>No. of Band members allowed :</strong> Maximum 7
                   <br><br>
@@ -419,7 +445,7 @@
                   <br>
                   <strong>Time : </strong> 11 A.M. IST (Prelims) <br> 5:30 P.M. IST (Finals)
                   <br>
-                  <strong>Venue :</strong> Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong> Stage Culti, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 55000
                   <br>
@@ -505,7 +531,7 @@
                   <br>
                      <strong>Time : </strong>10:30 A.M. IST (Prelims) <br> 12:30 P.M. IST (Finals)
                   <br>
-                  <strong>Venue :</strong>Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong>Stage Culti, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
@@ -597,7 +623,7 @@
                   <br>
                   <strong>Time : </strong>7:30 P.M. IST
                   <br>        
-                  <strong>Venue :</strong>Culti Stage, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong>Culti Stage, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
@@ -675,7 +701,7 @@
                   <br>
                   <strong>Time : </strong>11:30 A.M. IST
                   <br>        
-                  <strong>Venue :</strong>Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong>Stage Culti, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
@@ -739,7 +765,7 @@
                   <br>
                   <strong>Time : </strong>10:30 A.M. IST (Prelims) <br> 3:00 P.M. IST (Final)
                   <br>        
-                  <strong>Venue :</strong>117, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Prelims)<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Finals)
+                  <strong>Venue :</strong>117, Academic Block-A,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus (Prelims)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stage Culti, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus (Finals)
                   <br>
                   <strong>Prizes :</strong> worth Rs 10000
                   <br>
@@ -1100,7 +1126,7 @@
                   <br>
                   <strong>Time : </strong>1:00 P.M. IST (Prelims) <br> 3:00 P.M. IST (Final)
                   <br>        
-                  <strong>Venue :</strong>117, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Prelims)<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Stage Culti, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Finals)
+                  <strong>Venue :</strong>117, Academic Block-A,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus (Prelims)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stage Culti, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus (Finals)
                   <br>
                   <strong>Prizes :</strong> worth Rs 8000
                   <br>
@@ -1176,7 +1202,7 @@
                   <br>
                   <strong>Time : </strong>10:30 A.M. IST
                   <br>        
-                  <strong>Venue :</strong>519, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong>519, Academic Block-A,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
                   <strong>Prizes :</strong> worth Rs 10000
                   <br>
@@ -1239,7 +1265,7 @@
                   <br>
                   <strong>Time : </strong>11:30 A.M. IST
                   <br>        
-                  <strong>Venue :</strong>101, Academic Block-A,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus (Prelims)<br>
+                  <strong>Venue :</strong>101, Academic Block-A,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus (Prelims)<br>
                   <strong>Prizes :</strong> worth Rs 15000
                   <br>
                   <br><br><br>
@@ -1615,7 +1641,7 @@ on January 22 , 2017.
                   <br>
                   <strong>Time : </strong> 2:00 PM IST
                   <br>    
-                  <strong>Venue :</strong> 101, Academic Block-A, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong> 101, Academic Block-A, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
           <strong>Prizes :</strong> worth Rs 2000
           <br><br><br>
@@ -1774,7 +1800,7 @@ on January 22 , 2017.
                   <br>
                   <strong>Time : </strong> 8:30 PM IST
                   <br>    
-                  <strong>Venue :</strong> Culti Stage, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong> Culti Stage, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
           <strong>RULES</strong>
           <br>
@@ -1820,7 +1846,7 @@ on January 22 , 2017.
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;The decision of the organizers is final. 
           <br>
           <br>
-          Organizer : Akhil Ashref (+91-9177285214) , Akshita Ramya (+91-9100084766)
+          Organizer : Sri Laxmi Ganna (+91-8790523845)  , Akshita Ramya (+91-9100084766)
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a> 
@@ -1885,7 +1911,7 @@ on January 22 , 2017.
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all 
           <br>
           <br>
-          Organizer : Ayush Negi  (+91-8280032282) , Supreet Singh (+91-9652889870)
+          Organizer : Ayush Negi  (+91-8280032282)
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
@@ -1932,7 +1958,7 @@ on January 22 , 2017.
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Malpractice will lead to disqualification. 
           <br>
           <br>
-          Organizer : Aswin Kumar 
+          Organizer : Gitanjali Mannepalli (+91-9705512183) , Sankalp Sreekar (+91-9063823456)
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
@@ -1960,9 +1986,9 @@ on January 22 , 2017.
                   <br>
                   <strong>Time : </strong> 10:30 AM IST
                   <br>    
-                  <strong>Venue :</strong> 119, Academic Block-A, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp IIT Hyderabad Permanent Campus
+                  <strong>Venue :</strong> 119, Academic Block-A, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad Permanent Campus
                   <br>
-          Organizer: Vidhan Jain , Mayank Hooda (+91-965892682) <br>
+          Organizer: Aravind Ganesh (+91-9490329561) , Mayank Hooda (+91-965892682) <br>
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
@@ -1996,7 +2022,7 @@ on January 22 , 2017.
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all.
           <br>
-          Organizer: Jeel Bhavsar (+91-9100283774)<br>
+          Organizer: Jeel Bhavsar (+91-9100283774) , Roshni Pande (+91-9000515191)  <br>
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
@@ -2030,7 +2056,7 @@ on January 22 , 2017.
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all. 
           <br>
-          Organizer: Deepak Nathani (+91-9177289949)<br>
+          Organizer: Snehith (+91-8121618121) , Gitanjali Mannepalli (+91-9705512183)<br>
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
@@ -2076,7 +2102,7 @@ on January 22 , 2017.
           <br>
           <span class="glyphicon glyphicon-asterisk"></span>&nbsp;&nbsp;&nbsp;Organiser’s decision final and binding to all. 
           <br><br>
-          Organizer:Deepika Gonela (+91-9963079992) , Tejas Anand (+91-9618535148 ) <br>
+          Organizer:Akshay Raghavan (+91-9100273758) , Tejas Anand (+91-9618535148 ) <br>
           </p>
           </div>
           <a href="events.php#infi_events" class="lb-close"><img style="width: 50px; height: 50px ;top:-10%; " src="images/close.jpg" ></a>
@@ -2143,7 +2169,7 @@ on January 22 , 2017.
           <br>
               <strong>Time : </strong>11:30 AM IST (Prelims) <br> 3:30 PM IST
           <br>
-          <strong>Venue :</strong> Infi Stage, <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspIIT Hyderabad Permanent Campus
+          <strong>Venue :</strong> Infi Stage, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspIIT Hyderabad Permanent Campus
           <br>
           <br>
           <strong>RULES</strong>
@@ -2152,7 +2178,7 @@ on January 22 , 2017.
           ○ Organiser’s decision final and binding to all.  <br>
           ○ Online and Onspot registration with limited number of entries. <br>
           <br>
-          Organizer - Vedhamoorthy (+91-8903900986)
+          Organizer - Deepak Nathani (+91-9177289949) , Anand Swain (+91-9490189175)
           </p>
           <br><br><br><br><br>
 
@@ -2352,7 +2378,7 @@ on January 22 , 2017.
           <br>
               <strong>Time : </strong>3:00 PM IST
           <br>
-          <strong>Venue :</strong> Infi Stage, <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspIIT Hyderabad Permanent Campus
+          <strong>Venue :</strong> Infi Stage, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspIIT Hyderabad Permanent Campus
           <br>
           <strong>Prizes :</strong> worth Rs 30,000 
           <br>

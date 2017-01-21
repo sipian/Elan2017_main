@@ -39,25 +39,27 @@ function getBiggiesContent(argument) {
                 <div class="col-lg-3"></div>
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-4">&nbsp;</div>
-            <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg elan-e-jungButton" style=" align:center; margin-left:70px; ">`;
-            ret += (events.indexOf('elanejung')>-1)?"DEREGISTER":"REGISTER";
-            ret += `
-            </button></div>
-        </div>
+
         <br>
         <div class="text"  style="font-size:23.5px;">
             <div class="row title">
                 <h3 style="text-align: center;font-weight: 900;">METAL BAND COMPETITION</h3>
-                <br><br>
             </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-6">Shortlisted Bands For Elan-E-Jung Finals
+            <br>
+            <ul>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Hostilian</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Inreclamation</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Spithope</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Unbound</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;We Will Decide On Wednesday</li>
+            </ul></div>
+        </div>
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
-                <br>
                 Distorted guitars, emphatic rhythms, dense bass and drums, vigorous vocals, epic
                 <br> riffs and wild headbanging. 
                 <br>
@@ -66,49 +68,43 @@ function getBiggiesContent(argument) {
                 Get ready to turn up your amps and set the stage on fire at Elan-e-Jung! 
                 </div>
             </div>
-            <br>
                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
-                <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Date : 22nd January 2017</div>
                 </div>
                 <br>
-<<<<<<< HEAD
                 <div class="col-lg-1"></div>
                     <div class="col-lg-10">Time : 3:30 P.M. IST</div>
                 </div>
                 <br>
-=======
-                
->>>>>>> 98d312cedd7b95c50a506e3f0ab4947cf801a8af
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">Venue : Stage Biggies, IIT Hyderabad Permanent Campus</div>
                 </div>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
                             Prizes :
    
                                     <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 45000
                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   Winner gets a chance to record their music in <strong>Unlimit Studios</strong>
+                                   <br>
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    A chance to perform at any <strong>Hard Rock Cafe</strong> across india for one
                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time
                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    A chance to get featured in the main event of <strong>Mtv Xtreme</strong> or on
                                    <br>
-                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    <strong>MTV Indies Channel</strong>
-
           </div>
                 </div>
                 <br>
@@ -116,14 +112,10 @@ function getBiggiesContent(argument) {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">No. of Band members allowed : Maximum 7</div>
                 </div>
-                <br>
             </div>
-            <br>
                                     <div class="row rules">
                 <h3 style="text-align: center;">EVENT FORMAT</h3>
-                <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>In first Round of Screening participants have to upload their music 
                     <br>
@@ -163,12 +155,10 @@ function getBiggiesContent(argument) {
                     <li>Shortlisted bands get to perform at Elan-e-Jung finals, Elan 2017.
                          <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
 
                 </ul>
 
                 <h3 style="text-align: center;">FINALS</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>5 bands will be shortlisted after the preliminary round to perform at the Biggies Stage.
                         <br>
@@ -177,7 +167,6 @@ function getBiggiesContent(argument) {
                     <li>Each band will be given <strong>20</strong> mins to perform on stage including sound check (subjected to changes).
                          <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
                 </ul>
 
             </div>
@@ -185,7 +174,6 @@ function getBiggiesContent(argument) {
 
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:15px;font-size:23.5px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
@@ -255,14 +243,12 @@ function getBiggiesContent(argument) {
                     <li>The ELAN 2017 team holds the right to change the rules at any moment of time.
                         <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
                     </ul>
             </div>
 
 
-                        <div class="row rules">
+                        <div class="row rules" style='font-size:23.5px;'>
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:15px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
@@ -295,14 +281,11 @@ function getBiggiesContent(argument) {
                             <li>Attitude</li>
                         </ul>    
                     </li>
-                    <li style="list-style-type: none;"><br></li>
                     </ul>
             </div>
 
-            <div class="row rules">
+            <div class="row rules" style='font-size:23.5px;'>
                 <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
-                <br>
-
                 <div class="col-lg-2"></div>
 
                 <div class="row">
@@ -372,27 +355,26 @@ src="images/biggies/manthan_small.jpg">
                 <div class="col-lg-3"></div>
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-4">&nbsp;</div>
-            <div class="col-lg-6">
-            <button type="button" class="btn btn-primary btn-lg manthanButton" style=" align:center; margin-left:90px; ">`;
-            ret += (events.indexOf('manthan')>-1)?"DEREGISTER":"REGISTER";
-            ret += `
-            </button></div>
-        </div>
-        <br>
-        <div class="text"  style="font-size:23.5px;">
-            <div class="row title">
+                   <div class="row title">
                 <h3 style="text-align: center;font-weight: 900;">FUSION BAND COMPETITION</h3>
-                <br><br>
             </div>
 
 
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-6">Shortlisted Bands For Manthan Finals
+            <br>
+            <ul>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;The Lost Cassette</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Project Mishram</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;Crescendo</li>
+                <li><span  class='glyphicon glyphicon-star'></span>&nbsp;&nbsp;The Parking Lot</li>
+            </ul></div>
+        </div>
+        <div class="text"  style="font-size:23.5px;">
             <div class="row about">
                 <h3 style="text-align: center;">ABOUT</h3>
                 <div>
-                <br>
                 Every band has a dream.
                 <br>
                  A dream of performing live, on a global scale, in front of fans screaming for more.
@@ -407,8 +389,6 @@ src="images/biggies/manthan_small.jpg">
             <br>
                                         <div class="row details">
                 <h3 style="text-align: center;">DETAILS</h3>
-                <br>
-                <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="row">
@@ -433,6 +413,9 @@ src="images/biggies/manthan_small.jpg">
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                    Prizes worth Rs 35000
                                    <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Winner gets a chance to record their music video in <strong>Unlimit Studios</strong>
+
 
                 </div>
                 <div>
@@ -440,7 +423,6 @@ src="images/biggies/manthan_small.jpg">
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
-                    <br>
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
@@ -453,9 +435,7 @@ src="images/biggies/manthan_small.jpg">
             <br>
                                     <div class="row rules">
                 <h3 style="text-align: center;">EVENT FORMAT</h3>
-                <br>
                 <h3 style="text-align: center;">PRELIMS</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>In first Round of Screening participants have to upload their music 
                     <br>
@@ -485,12 +465,10 @@ src="images/biggies/manthan_small.jpg">
                     <li>Shortlisted bands get to perform at Manthan finals, Elan 2017.
                          <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
 
                 </ul>
 
                 <h3 style="text-align: center;">FINALS</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>5 bands will be shortlisted after the preliminary round to perform
                     <br>
@@ -502,7 +480,6 @@ src="images/biggies/manthan_small.jpg">
                     <br>(subjected to changes).
                          <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
                 </ul>
 
             </div>
@@ -510,7 +487,6 @@ src="images/biggies/manthan_small.jpg">
 
             <div class="row rules">
                 <h3 style="text-align: center;">RULES</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>Any non-professional band is allowed to register. 
                         <br>
@@ -580,14 +556,12 @@ src="images/biggies/manthan_small.jpg">
                     <li>The Elan 2017 team holds the right to change the rules at any moment of     time.
                         <br>
                     </li>
-                    <li style="list-style-type: none;"><br></li>
                     </ul>
             </div>
 
 
                         <div class="row rules">
                 <h3 style="text-align: center;">JUDGING CRITERIA</h3>
-                <br>
                 <ul style="list-style-type: disc;margin-left:45px;font-size:23.5px;">
                     <li>The winners will be announced by the judges immediately after the event.
                         <br>
@@ -622,12 +596,10 @@ src="images/biggies/manthan_small.jpg">
                             <li>Attitude</li>
                         </ul>    
                     </li>
-                    <li style="list-style-type: none;"><br></li>
                     </ul>
             </div>
             <div class="row rules">
                 <h3 style="text-align: center;">&nbsp;&nbsp;ORGANIZERS</h3>
-                <br>
 
                 <div class="col-lg-2"></div>
 

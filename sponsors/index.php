@@ -230,8 +230,9 @@
         <div class="row">
 
              <div class="col-xs-12 col-sm-4">
-                <h3>MEDIA COVERAGE PARTNER</h3>
-                <a href="http://telanganatoday.news/" target="_blank"><img src="images/telanganatoday.jpg" alt="TELANGANA TODAY" />
+                <h3>MEDIA PARTNER</h3>
+                <a href="http://telanganatoday.news/" target="_blank"><img src="images/telanganatoday.jpg"
+                 style="height: 150%;width: 100%;" alt="TELANGANA TODAY" />
                 </a>
             </div>
 
@@ -564,8 +565,8 @@
 
 
         <div class="col-xs-12 col-sm-4">
-            <h3>FASHION PARTNER</h3>
-            <a href="http://www.fashionlady.in/" target="_blank"><img src="images/fashionlady.jpg" alt="FASHION LADY" />
+            <h3>GLAMOUR PARTNER</h3>
+            <a href="http://www.fashionlady.in/" target="_blank"><img src="images/Fashionlady Logo.jpg" alt="FASHION LADY" />
             </a>
         </div>
 

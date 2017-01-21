@@ -123,7 +123,9 @@ body::-moz-scrollbar-thumb{
 <div >
     <div class="col-lg-3"></div>
     <div class="col-lg-6" style="text-align: center;">
-        <p>Cyient presents ELAN and ηvision, IIT Hyderabad in association with F Productions brings to you one of the most upcoming Indian playback singer Benny Dayal. Get ready to experience an evening full of entertainment and fun. 
+        <p>
+        <h1>21th Jan, 19:30 to 21:30</h1>
+        Cyient presents ELAN and ηvision, IIT Hyderabad in association with F Productions brings to you one of the most upcoming Indian playback singer Benny Dayal. Get ready to experience an evening full of entertainment and fun. 
         The best part, you get to experience all this for free. All you need to do is get yourself here.</p>
         <img class="img-responsive img-thumbnail" src="images/benny.jpg" style="width:50%;height: 50%;" />
     </div>
@@ -141,7 +143,9 @@ body::-moz-scrollbar-thumb{
 <div >
     <div class="col-lg-3"></div>
     <div class="col-lg-6" style="text-align: center;">
-        <p>Presenting to you Nikhil Chinapa, one of the best Disco and Video Jockey and a popular presenter on MTV India. With a massive fan following among EDM enthusiasts, he is indeed the best best. Don't miss your chance to see him live at IIT Hyderabad on 21st January. And as always there is no entry fee !</p>
+        <p>
+        <h1>21th Jan, 22:00 to 23:30</h1>
+        Presenting to you Nikhil Chinapa, one of the best Disco and Video Jockey and a popular presenter on MTV India. With a massive fan following among EDM enthusiasts, he is indeed the best best. Don't miss your chance to see him live at IIT Hyderabad on 21st January. And as always there is no entry fee !</p>
         <img class="img-responsive img-thumbnail" src="images/nikhil.jpg" style="width:50%;height: 50%;" />
     </div>
 </div>`);
@@ -158,7 +162,9 @@ body::-moz-scrollbar-thumb{
 <div >
     <div class="col-lg-3"></div>
     <div class="col-lg-6" style="text-align: center;">
-        <p>Embracing the "Stokholm-Sound" with heavy riffs and powerful melodies! Kicks you in the face and leaves you wanting more!
+        <p>
+        <h1>22nd Jan, 20:30 to 22:00</h1>
+        Embracing the "Stokholm-Sound" with heavy riffs and powerful melodies! Kicks you in the face and leaves you wanting more!
 The elite Swedish band MindShift is here at Cyient presents ELAN and ηvision, IIT Hyderabad in association with MetamorphiK Productions to enthrall the crowd with their remarkable performance!</p>
         <img class="img-responsive img-thumbnail" src="images/mind.jpg" style="width:100%;height: 100%;" />
     </div>
@@ -176,7 +182,9 @@ The elite Swedish band MindShift is here at Cyient presents ELAN and ηvision, I
 <div>
     <div class="col-lg-3"></div>
     <div class="col-lg-6" style="text-align: center;">
-        <p>Want to rock and roll your head?
+        <p>
+        <h1>22nd Jan, 19:30 to 20:30</h1>
+        Want to rock and roll your head?
 Want to experience a really fun night?
 Cyient presents ELAN & ηvision , IIT Hyderabad in association with Israel in India gives you the chance to experience the pinnacle of electronic bass music, dub, and hip-hop. We are delighted to announce that we are inviting ECHO & TITO, one of the premier bass music producers in Israel to mesmerize the crowd with their outstanding performances.</p>
         <img class="img-responsive img-thumbnail" src="images/echo.jpg" style="width:60%;height: 60%;" />
@@ -195,7 +203,9 @@ Cyient presents ELAN & ηvision , IIT Hyderabad in association with Israel in In
 <div >
     <div class="col-lg-3"></div>
     <div class="col-lg-6" style="text-align: center;">
-        <p>Life is like a flute, it may have many holes and emptiness but if you work on it carefully it can play magical melodies.
+        <p>
+                <h1>21th Jan, 16:30 to 18:00</h1>
+Life is like a flute, it may have many holes and emptiness but if you work on it carefully it can play magical melodies.
 So here at Cyient presents ELAN & ηvision , IIT Hyderabad in association with Af Hyderabad we are inviting one of the top french flutes band MAGIC FLUTES to startle the crowd at our fest with their splendid performance.</p>
         <img class="img-responsive img-thumbnail" src="images/flutes.jpg" style="width:100%;height: 100%;" />
     </div>
